@@ -1,8 +1,6 @@
 const app = require("express")();
 const prisma = require("../client");
 
-app.use(express.json());
-
 app.get("/api", async (req, res) => {
   res.json("Hello World");
 });
