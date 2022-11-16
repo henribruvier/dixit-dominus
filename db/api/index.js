@@ -7,7 +7,11 @@ app.get("/api", async (req, res) => {
 
 app.get("/api/books", async (req, res) => {
   try {
-    const books = await prisma.book.findMany();
+    const books = await prisma.book.findMany({
+      include: {
+        sections: true,
+      },
+    });
     res.json(books);
   } catch (error) {
     res.status(500).json({
