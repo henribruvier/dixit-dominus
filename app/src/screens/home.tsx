@@ -2,50 +2,20 @@ import {View, Text} from 'react-native';
 import React, {useEffect, useState} from 'react';
 import {RootStackParamList} from '../routes/stack';
 import {StackScreenProps} from '@react-navigation/stack';
-import {Book, Section} from '../../../db/prisma';
-import {Button} from '@rneui/base';
-import {schedulePushNotification} from '../../App';
+import {Button, Icon} from '@rneui/base';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {LocalData} from '../types/local-storage';
+import {FullBook} from '../types/api';
+import {useLocalStorage} from '../hooks/use-local-storage';
+import {localDataAtom} from '../atom';
+import {useAtom} from 'jotai';
 
 type Props = StackScreenProps<RootStackParamList, 'Home'>;
 
-type FullBook = Book & {sections: Section[]};
-
-type LocalData = {
-	book: FullBook;
-	currentSection: number;
-};
-
 export const HomeScreen = ({navigation}: Props) => {
 	const [books, setBooks] = useState([]);
-	const [currentData, setCurrentData] = useState<LocalData>();
-
-	const storeData = async (value: LocalData) => {
-		try {
-			const jsonValue = JSON.stringify(value);
-			await AsyncStorage.setItem('@local_data', jsonValue);
-			setCurrentData(value);
-		} catch (e) {
-			// saving error
-		}
-	};
-
-	const getData = async () => {
-		try {
-			const jsonValue = await AsyncStorage.getItem('@local_data');
-			return jsonValue != null ? JSON.parse(jsonValue) : null;
-		} catch (e) {
-			// error reading value
-		}
-	};
-
-	useEffect(() => {
-		const setData = async () => {
-			const data = await getData();
-			setCurrentData(() => data);
-		};
-		setData();
-	}, []);
+	//const {storeData, currentData, refresh} = useLocalStorage();
+	const [localData, setLocalData] = useAtom(localDataAtom);
 
 	useEffect(() => {
 		const getBooks = async () =>
@@ -56,7 +26,7 @@ export const HomeScreen = ({navigation}: Props) => {
 	}, []);
 
 	const onClickRead = (book: FullBook) => {
-		storeData({book, currentSection: 0});
+		setLocalData({book, currentSection: 0});
 	};
 
 	return (
@@ -76,8 +46,9 @@ export const HomeScreen = ({navigation}: Props) => {
 						</Text>
 					</View>
 					<View className='flex items-center justify-center'>
-						<Button onPress={() => onClickRead(book)}>Lire</Button>
+						<Button onPress={() => onClickRead(book)}> Lire</Button>
 					</View>
+					<Icon name='sc-telegram' type='evilicon' color='#517fa4' size={24} />
 				</View>
 			))}
 			{/* <Button
@@ -96,13 +67,11 @@ export const HomeScreen = ({navigation}: Props) => {
 				Store Data
 			</Button> */}
 			<Text className='text-3xl pt-4 font-bold mx-auto pb-10 '>
-				Livres <Text className='text-indigo-500 '>en cour</Text>
+				Livres <Text className='text-indigo-500 '>en cours</Text>
 			</Text>
+			<Text className='text-indigo-500 text-xl'>{localData?.book?.title}</Text>
 			<Text className='text-indigo-500 text-xl'>
-				{currentData?.book?.title}
-			</Text>
-			<Text className='text-indigo-500 text-xl'>
-				chapitre actuel : {currentData?.currentSection}
+				chapitre actuel : {localData?.currentSection}
 			</Text>
 		</View>
 	);
