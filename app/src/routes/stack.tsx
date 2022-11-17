@@ -1,55 +1,31 @@
 import React from 'react';
-import {HomeScreen} from '../screens/home';
 import {
 	BottomTabBarProps,
 	createBottomTabNavigator,
 } from '@react-navigation/bottom-tabs';
-import {ReadScreen} from '../screens/read';
 import {TouchableOpacity, View, Text} from 'react-native';
 import {Icon} from '@rneui/base';
+import {HomeScreen} from '../screens/home';
+import {ReadScreen} from '../screens/read';
+import {SettingsSection} from '../screens/settings';
 
 export type RootStackParamList = {
 	Home: undefined;
 	Read: undefined;
+	Settings: undefined;
 	tabBar?: ((props: BottomTabBarProps) => React.ReactNode) | undefined;
 };
 const Tab = createBottomTabNavigator<RootStackParamList>();
-
-const screenOptions = (
-	route: BottomTabBarProps['state']['routes'][0],
-	color: string,
-) => {
-	let iconName;
-	console.log(route.name);
-
-	switch (route.name) {
-		case 'Home':
-			iconName = 'home';
-			break;
-		case 'Read':
-			iconName = 'appstore-o';
-			break;
-		case 'Library':
-			iconName = 'folder1';
-			break;
-		default:
-			break;
-	}
-
-	return <Icon name='sc-telegram' type='evilicon' color='#517fa4' size={24} />;
-};
 
 const MyStack = () => {
 	return (
 		<Tab.Navigator
 			tabBar={props => <MyTabBar {...props} />}
 			initialRouteName='Home'
-			screenOptions={({route}) => ({
-				tabBarIcon: ({color}) => screenOptions(route, color),
-			})}
 		>
 			<Tab.Screen name='Home' component={HomeScreen} />
 			<Tab.Screen name='Read' component={ReadScreen} />
+			<Tab.Screen name='Settings' component={SettingsSection} />
 		</Tab.Navigator>
 	);
 };
@@ -80,8 +56,8 @@ function MyTabBar({state, descriptors, navigation}: TabBarProps) {
 						case 'Read':
 							iconName = 'book';
 							break;
-						case 'Library':
-							iconName = 'folder1';
+						case 'Settings':
+							iconName = 'settings';
 							break;
 						default:
 							break;
@@ -138,7 +114,9 @@ function MyTabBar({state, descriptors, navigation}: TabBarProps) {
 						className='flex items-center justify-center'
 					>
 						{screenOptions(route, isFocused ? '#673ab7' : '#222')}
-						<Text style={{color: isFocused ? '#673ab7' : '#222'}}>{label}</Text>
+						<Text style={{color: isFocused ? '#673ab7' : '#222'}}>
+							{label as string}
+						</Text>
 					</TouchableOpacity>
 				);
 			})}
