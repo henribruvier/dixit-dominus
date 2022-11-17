@@ -1,20 +1,16 @@
-import {View, Text} from 'react-native';
-import React, {useEffect, useState} from 'react';
-import {RootStackParamList} from '../routes/stack';
 import {StackScreenProps} from '@react-navigation/stack';
 import {Button, Icon} from '@rneui/base';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import {LocalData} from '../types/local-storage';
-import {FullBook} from '../types/api';
-import {useLocalStorage} from '../hooks/use-local-storage';
-import {localDataAtom} from '../atom';
 import {useAtom} from 'jotai';
+import React, {useEffect, useState} from 'react';
+import {Text, View} from 'react-native';
+import {localDataAtom} from '../atom';
+import {RootStackParamList} from '../routes/stack';
+import {FullBook} from '../types/api';
 
 type Props = StackScreenProps<RootStackParamList, 'Home'>;
 
 export const HomeScreen = ({navigation}: Props) => {
 	const [books, setBooks] = useState([]);
-	//const {storeData, currentData, refresh} = useLocalStorage();
 	const [localData, setLocalData] = useAtom(localDataAtom);
 
 	useEffect(() => {
@@ -31,11 +27,11 @@ export const HomeScreen = ({navigation}: Props) => {
 
 	return (
 		<View className='h-full w-full px-2'>
-			<Text className='text-3xl pt-4 font-bold mx-auto pb-10 '>
-				Livres <Text className='text-indigo-500 '>disponibles</Text>
+			<Text className='text-3xl pt-4 font-bold mx-auto pb-10'>
+				Livres <Text className='text-indigo-500'>disponibles</Text>
 			</Text>
 			{books.map((book: FullBook) => (
-				<View className='flex flex-row gap-2 justify-between'>
+				<View className='flex flex-row gap-2 justify-between' key={book.title}>
 					<View className='flex gap-1'>
 						<Text className='text-gray-700 text-xl'>📚 {book.title}</Text>
 						<Text className='text-gray-400 text-lg'>
@@ -67,7 +63,7 @@ export const HomeScreen = ({navigation}: Props) => {
 				Store Data
 			</Button> */}
 			<Text className='text-3xl pt-4 font-bold mx-auto pb-10 '>
-				Livres <Text className='text-indigo-500 '>en cours</Text>
+				Livres <Text className='text-indigo-500'>en cours</Text>
 			</Text>
 			<Text className='text-indigo-500 text-xl'>{localData?.book?.title}</Text>
 			<Text className='text-indigo-500 text-xl'>

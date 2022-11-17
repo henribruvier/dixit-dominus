@@ -1,12 +1,12 @@
-import {SafeAreaProvider} from 'react-native-safe-area-context';
-import {ThemeProvider, createTheme, Button} from '@rneui/themed';
 import {NavigationContainer} from '@react-navigation/native';
-import MyStack from './src/routes/stack';
+import {createTheme, ThemeProvider} from '@rneui/themed';
 import * as Device from 'expo-device';
-import * as Notifications from 'expo-notifications';
 import {Subscription} from 'expo-modules-core';
+import * as Notifications from 'expo-notifications';
 import {useEffect, useRef, useState} from 'react';
 import {Platform} from 'react-native';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
+import MyStack from './src/routes/stack';
 
 Notifications.setNotificationHandler({
 	handleNotification: async () => ({
@@ -72,16 +72,19 @@ export default function App() {
 	);
 }
 
-export const schedulePushNotification = async (title: string, body: string) => {
-	await Notifications.scheduleNotificationAsync({
+export const schedulePushNotification = async (
+	title: string,
+	body: string,
+	delay?: number,
+) =>
+	Notifications.scheduleNotificationAsync({
 		content: {
 			title,
 			body,
 			data: {data: 'goes here'},
 		},
-		trigger: {seconds: 1},
+		trigger: {seconds: delay ?? 60 * 20},
 	});
-};
 
 async function registerForPushNotificationsAsync() {
 	let token;
