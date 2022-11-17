@@ -3,7 +3,10 @@ import {Button, Icon} from '@rneui/themed';
 import {useAtom, useAtomValue} from 'jotai';
 import React from 'react';
 import {Text, View} from 'react-native';
-import {schedulePushNotification} from '../../App';
+import {
+	removeAllPreviousNotifications,
+	schedulePushNotification,
+} from '../../App';
 import {delayAtom, localDataAtom} from '../atom';
 import {RootStackParamList} from '../routes/stack';
 
@@ -15,6 +18,7 @@ export const ReadScreen = ({navigation}: Props) => {
 
 	const onClickRead = () => {
 		if (!localData) return;
+		removeAllPreviousNotifications();
 		schedulePushNotification(
 			"It's time to read",
 			'You have a new chapter to read',

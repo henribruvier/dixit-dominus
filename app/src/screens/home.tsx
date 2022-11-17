@@ -1,9 +1,13 @@
 import {StackScreenProps} from '@react-navigation/stack';
 import {Button, Icon} from '@rneui/base';
-import {useAtom} from 'jotai';
+import {useAtom, useAtomValue} from 'jotai';
 import React, {useEffect, useState} from 'react';
 import {Text, View} from 'react-native';
-import {localDataAtom} from '../atom';
+import {
+	removeAllPreviousNotifications,
+	schedulePushNotification,
+} from '../../App';
+import {delayAtom, localDataAtom} from '../atom';
 import {RootStackParamList} from '../routes/stack';
 import {FullBook} from '../types/api';
 
@@ -12,6 +16,7 @@ type Props = StackScreenProps<RootStackParamList, 'Home'>;
 export const HomeScreen = ({navigation}: Props) => {
 	const [books, setBooks] = useState([]);
 	const [localData, setLocalData] = useAtom(localDataAtom);
+	const delay = useAtomValue(delayAtom);
 
 	useEffect(() => {
 		const getBooks = async () =>
@@ -22,7 +27,13 @@ export const HomeScreen = ({navigation}: Props) => {
 	}, []);
 
 	const onClickRead = (book: FullBook) => {
+		removeAllPreviousNotifications();
 		setLocalData({book, currentSection: 0});
+		schedulePushNotification(
+			'Il est temps de lire',
+			'Votre chapitre vous attend',
+			delay,
+		);
 	};
 
 	return (

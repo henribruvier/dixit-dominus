@@ -4,7 +4,7 @@ import * as Device from 'expo-device';
 import {Subscription} from 'expo-modules-core';
 import * as Notifications from 'expo-notifications';
 import {useEffect, useRef, useState} from 'react';
-import {Platform} from 'react-native';
+import {Linking, Platform} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import MyStack from './src/routes/stack';
 
@@ -43,6 +43,7 @@ export default function App() {
 		notificationListener.current =
 			Notifications.addNotificationReceivedListener(notification => {
 				notification && setNotification(notification);
+				Linking.openURL('app://dixit-dominus/read');
 			});
 
 		responseListener.current =
@@ -64,7 +65,65 @@ export default function App() {
 	return (
 		<SafeAreaProvider>
 			<ThemeProvider theme={theme}>
-				<NavigationContainer>
+				<NavigationContainer
+					linking={{
+						prefixes: ['app://dixit-dominus'],
+						config: {
+							screens: {Read: 'read', Settings: 'settings', Home: 'home'},
+							// Configuration for linking
+						},
+						async getInitialURL() {
+							// First, you may want to do the default deep link handling
+							// Check if app was opened from a deep link
+							let url = await Linking.getInitialURL();
+
+							if (url != null) {
+								return url;
+							}
+
+							// Handle URL from expo push notifications
+							const response =
+								await Notifications.getLastNotificationResponseAsync();
+							url = response?.notification.request.content.data.url as
+								| string
+								| null;
+
+							return url;
+						},
+						subscribe(listener) {
+							const onReceiveURL = ({url}: {url: string}) => listener(url);
+
+							// Listen to incoming links from deep linking
+							Linking.addEventListener('url', onReceiveURL);
+
+							// Listen to expo push notifications
+							const subscription =
+								Notifications.addNotificationResponseReceivedListener(
+									response => {
+										const url: string | null = response.notification.request
+											.content.data.url as string | null;
+										if (url) Linking.openURL(url);
+										schedulePushNotification(
+											'Oh oh ',
+											"Vous n'avez pas lu votre chapitre",
+											3600,
+										);
+										// Any custom logic to see whether the URL needs to be handled
+										//...
+
+										// Let React Navigation handle the URL
+										if (url) listener(url);
+									},
+								);
+
+							return () => {
+								// Clean up the event listeners
+								Linking.removeAllListeners('url');
+								subscription.remove();
+							};
+						},
+					}}
+				>
 					<MyStack />
 				</NavigationContainer>
 			</ThemeProvider>
@@ -81,10 +140,14 @@ export const schedulePushNotification = async (
 		content: {
 			title,
 			body,
-			data: {data: 'goes here'},
+			data: {url: 'app://dixit-dominus/read'},
 		},
 		trigger: {seconds: delay ?? 60 * 20},
 	});
+
+export const removeAllPreviousNotifications = async () => {
+	Notifications.cancelAllScheduledNotificationsAsync();
+};
 
 async function registerForPushNotificationsAsync() {
 	let token;
