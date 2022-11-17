@@ -11,24 +11,23 @@ datasource db {
 }
 
 model User {
-  id        Int      @default(autoincrement()) @id
-  email     String   @unique
-  name      String? 
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  name  String?
 }
 
 model Section {
-  id        Int      @default(autoincrement()) @id
-  order      Int @unique
-  title     String
-  content   String
-  book      Book     @relation(fields: [bookId], references: [id])
-  bookId    Int
- 
+  id      Int    @id @default(autoincrement())
+  order   Int
+  title   String
+  content String
+  book    Book   @relation(fields: [bookId], references: [id])
+  bookId  Int
 }
 
 model Book {
-  id        Int      @default(autoincrement()) @id
-  title     String
-  author    String
-  sections  Section[]
+  id       Int       @id @default(autoincrement())
+  title    String
+  author   String
+  sections Section[]
 }

@@ -7,6 +7,7 @@ import {useEffect, useRef, useState} from 'react';
 import {Linking, Platform} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import MyStack from './src/routes/stack';
+import {schedulePushNotification} from './src/utils/notifications';
 
 Notifications.setNotificationHandler({
 	handleNotification: async () => ({
@@ -43,7 +44,7 @@ export default function App() {
 		notificationListener.current =
 			Notifications.addNotificationReceivedListener(notification => {
 				notification && setNotification(notification);
-				Linking.openURL('app://dixit-dominus/read');
+				Linking.openURL('app://dixit-dominus/read').catch(console.error);
 			});
 
 		responseListener.current =
@@ -102,9 +103,9 @@ export default function App() {
 									response => {
 										const url: string | null = response.notification.request
 											.content.data.url as string | null;
-										if (url) Linking.openURL(url);
+										if (url) Linking.openURL(url).catch(console.error);
 										schedulePushNotification(
-											'Oh oh ',
+											'Oh oh',
 											"Vous n'avez pas lu votre chapitre",
 											3600,
 										);
@@ -130,24 +131,6 @@ export default function App() {
 		</SafeAreaProvider>
 	);
 }
-
-export const schedulePushNotification = async (
-	title: string,
-	body: string,
-	delay?: number,
-) =>
-	Notifications.scheduleNotificationAsync({
-		content: {
-			title,
-			body,
-			data: {url: 'app://dixit-dominus/read'},
-		},
-		trigger: {seconds: delay ?? 60 * 20},
-	});
-
-export const removeAllPreviousNotifications = async () => {
-	Notifications.cancelAllScheduledNotificationsAsync();
-};
 
 async function registerForPushNotificationsAsync() {
 	let token;
