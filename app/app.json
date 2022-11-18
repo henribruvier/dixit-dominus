@@ -16,7 +16,8 @@
 		},
 		"assetBundlePatterns": ["**/*"],
 		"ios": {
-			"supportsTablet": true
+			"supportsTablet": true,
+			"icon": "./assets/icon.png"
 		},
 		"android": {
 			"adaptiveIcon": {
@@ -31,7 +32,7 @@
 			[
 				"expo-notifications",
 				{
-					"icon": "./local/assets/notification-icon.png",
+					"icon": "./local/assets/adaptive-icon.png",
 					"color": "#ffffff",
 					"sounds": [
 						"./local/assets/notification-sound.wav",
@@ -39,6 +40,13 @@
 					]
 				}
 			]
-		]
+		],
+		"notification": {
+			"icon": "./assets/adaptive-icon.png",
+			"color": "#311b92",
+			"iosDisplayInForeground": true,
+			"androidMode": "default",
+			"androidCollapsedTitle": "Updates from Colab.notes"
+		}
 	}
 }
