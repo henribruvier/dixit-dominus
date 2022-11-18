@@ -1107,6 +1107,248 @@ const sections = [
 		Ne souhaitez jamais d'obtenir aucune préférence dans l'estime ou l'amour des hommes; car cela n'appartient qu'à Dieu, qui n'a point d'égal.
 		Ne désirez point que quelqu'un s'occupe de vous dans son coeur, et ne soyez vous-même préoccupé de l'amour de personne; mais que Jésus soit en vous et en tout homme de bien.`,
 	},
+	{
+		title: "De la familiarité que l'amour établit entre Jésus et l'âme fidèle",
+		content: `Soyez pur et libre au-dedans, sans aucune attache à la créature.
+		Il vous faut être dépouillé de tout, et offrir à Dieu un coeur pur, si vous voulez être libre et goûter comme le Seigneur est doux.
+		Et certes, jamais vous n'y parviendrez si sa grâce ne vous prévient et ne vous attire: de sorte qu'ayant exclu et banni tout le reste, vous soyez seul uni à lui seul.
+		Car lorsque la grâce de Dieu visite l'homme, alors il peut tout; et quand elle se retire, alors il est pauvre et infirme, et ne semble réservé qu'aux châtiments.
+		En cet état même, il ne doit ni se laisser abattre ni désespérer, mais il doit se soumettre avec calme à la volonté de Dieu et souffrir pour l'amour de Jésus-Christ tout ce qui lui arrive: car l'été succède à l'hiver, après la nuit revient le jour, et après la tempête une grande sérénité.`,
+	},
+	{
+		title: 'De la privation de toute consolation',
+		content: `Il n'est pas difficile de mépriser les consolations humaines quand on jouit des consolations divines.
+		Mais il est grand et très grand de consentir à être privé tout à la fois des consolations des hommes et de celles de Dieu, de supporter volontairement pour sa gloire cet exil du coeur, de ne se rechercher en rien, et de ne faire aucun retour sur ses propres mérites.
+		Qu'y a-t'il d'étonnant si vous êtes rempli d'allégresse et de ferveur lorsque la grâce descend en vous ? C'est pour tous l'heure désirable.
+		Il avance aisément et avec joie, celui que la grâce soulève.
+		Comment sentirait-il son fardeau, quand il est porté par le Tout-Puissant et conduit par le guide suprême ?`,
+	},
+	{
+		title: 'De la privation de toute consolation',
+		content: `Toujours nous cherchons quelque soulagement, et difficilement l'homme se dépouille de lui-même.
+		Fidèle à son évêque, le saint martyr Laurent vainquit le siècle parce qu'il méprisa tout ce que le monde offre de séduisant, et qu'il souffrit en paix, pour l'amour de Jésus-Christ, d'être séparé du souverain prêtre de Dieu, de Sixte, qu'il aimait avec une vive tendresse.
+		Pour l'amour du Créateur surmontant l'amour de l'homme, aux consolations humaines il préféra le bon plaisir divin.
+		Et vous aussi, apprenez donc à quitter, pour l'amour de Dieu, l'ami le plus cher et le plus intime.
+		Et ne murmurez point s'il arrive que votre ami vous abandonne, sachant qu'après tout il faudra bien un jour se séparer tous.`,
+	},
+	{
+		title: 'De la privation de toute consolation',
+		content: `Ce n'est pas sans combattre beaucoup et longtemps en lui-même, que l'homme apprend à se vaincre pleinement et à reporter en Dieu toutes ses affections. Lorsqu'il s'appuie sur lui-même, il se laisse aisément aller aux consolations humaines.
+		Mais celui qui a vraiment l'amour de Jésus-Christ et le zèle de la vertu ne cède point à l'attrait des consolations, et ne cherche point les douceurs sensibles; il désire plutôt de fortes épreuves, et de souffrir de durs travaux pour Jésus-Christ.`,
+	},
+	{
+		title: 'De la privation de toute consolation',
+		content: `Quand donc Dieu vous accorde quelque consolation spirituelle, recevez-la avec actions de grâces; mais reconnaissez-y le don de Dieu et non votre propre mérite. Ne vous en élevez pas, n'en ayez point trop de joie, n'en concevez pas une vaine présomption. Que cette grâce, au contraire, vous rende plus humble, plus vigilant, plus timide dans toutes vos actions; car ce moment passera et sera suivi de la tentation.
+		Quand la consolation vous est ôtée, ne vous découragez pas aussitôt; mais attendez avec humilité et avec patience que Dieu vous visite de nouveau: car il est tout- puissant pour vous consoler encore plus.
+		Cela n'est ni nouveau ni étrange pour ceux qui ont l'expérience des voies de Dieu: les grands saints et les anciens prophètes ont souvent éprouvé ces vicissitudes.`,
+	},
+	{
+		title: 'De la privation de toute consolation',
+		content: `Un d'eux, sentant la présence de la grâce, s'écriait: J'ai dit dans mon abondance: Je ne serai jamais ébranlé ! Mais la grâce s'étant retirée, il ajoutait: Vous avez détourné de moi votre face, et j'ai été rempli de trouble.
+		Dans ce trouble cependant, il ne désespère point; mais il prie le Seigneur avec plus d'insistance, disant: Seigneur, je crierai vers vous, et j'implorerai mon Dieu.
+		Enfin il recueille le fruit de sa prière et il témoigne qu'il a été exaucé: Le Seigneur m'a écouté, il a eu pitié de moi, le Seigneur s'est fait mon appui.
+		Mais comment ? Vous avez, dit-il, changé mes gémissements en chants d'allégresse, et vous m'avez environné de joie.
+		Or, puisque Dieu en use ainsi avec les plus grands saints, nous ne devons pas perdre courage, pauvres infirmes que nous sommes, si quelquefois nous éprouvons de la ferveur et quelquefois du refroidissement: car l'esprit de Dieu vient et se retire comme il lui plaît. Ce qui faisait dire au bienheureux Job: Vous visitez l'homme dès le matin, et aussitôt vous l'éprouvez.`,
+	},
+	{
+		title: 'De la privation de toute consolation',
+		content: `En quoi donc espérer, et en quoi mettre ma confiance, si ce n'est uniquement dans la grande miséricorde de mon Dieu et dans l'attente de la grâce céleste ?
+		Car, soit que j'aie près de moi des hommes vertueux, des religieux fervents, des amis fidèles; soit que je lise de saints livres et d'éloquents traités, soit que j'entende le doux chant des hymnes, tout cela aide peu et ne touche guère quand la grâce se retire, et que je suis délaissé dans ma propre indigence.
+		Alors il n'est point de meilleur remède qu'une humble patience et l'abandon de soi- même à la volonté de Dieu.`,
+	},
+	{
+		title: 'De la privation de toute consolation',
+		content: `Je n'ai jamais rencontré d'homme si pieux et si parfait qui n'ait éprouvé quelquefois cette privation de la grâce et une diminution de ferveur.
+		Nul saint n'a été ravi si haut ni si rempli de lumière qu'il n'ait été tenté avant ou après.
+		Car il n'est pas digne d'être élevé jusqu'à la contemplation de Dieu, celui qui n'a pas souffert pour Dieu quelque tribulation.
+		La tentation annonce d'ordinaire la consolation qui doit suivre.
+		Car la consolation céleste est promise à ceux qu'a éprouvés la tentation. Celui qui vaincra, dit le Seigneur, je lui donnerai à manger du fruit de l'arbre de vie.`,
+	},
+	{
+		title: 'De la privation de toute consolation',
+		content: `La consolation divine est donnée afin que l'homme ait plus de force pour soutenir l'adversité.
+		La tentation vient après, afin qu'il ne s'enorgueillisse pas du bien.
+		Car Satan ne dort point, et la chair n'est pas encore morte: c'est pourquoi ne cessez de vous préparer au combat, parce qu'à droite et à gauche sont des ennemis qui ne se reposent jamais.`,
+	},
+	{
+		title: 'De la reconnaissance pour la grâce de Dieu',
+		content: `Pourquoi cherchez-vous le repos lorsque vous êtes né pour le travail ?
+		Disposez-vous à la patience plutôt qu'aux consolations, et à porter la croix plutôt qu'à goûter la joie.
+		Quel est l'homme du siècle qui ne reçut volontiers les joies et les consolations spirituelles, s'il pouvait en jouir toujours ?
+		Car les consolations spirituelles surpassent toutes les délices du monde et toutes les voluptés de la chair.
+		Toutes les délices du monde sont ou honteuses ou vaines; les délices spirituelles sont seules douces et chastes, nées des vertus et répandues par Dieu dans les coeurs purs. Mais nul ne peut jouir toujours à son gré des consolations divines, parce que la tentation ne cesse jamais longtemps.`,
+	},
+	{
+		title: 'De la reconnaissance pour la grâce de Dieu',
+		content: `Une fausse liberté d'esprit et une grande confiance en soi-même forment un grand obstacle aux visites d'en-haut.
+		Dieu accorde à l'homme un grand bien en lui donnant la grâce de la consolation; mais l'homme fait un grand mal quand il ne remercie pas Dieu de ce don et ne le lui rapporte pas tout entier.
+		Si la grâce ne coule point abondamment sur nous, c'est que nous sommes ingrats envers son auteur, et que nous ne remontons point à sa source première.
+		Car la grâce n'est jamais refusée à celui qui la reçoit avec gratitude, et Dieu ordinairement donne à l'humble ce qu'il ôte au superbe.`,
+	},
+	{
+		title: 'De la reconnaissance pour la grâce de Dieu',
+		content: `Je ne veux point de la consolation qui m'ôte la componction; je n'aspire point à la contemplation qui conduit à l'orgueil.
+		Car tout ce qui est élevé n'est pas saint; tout ce qui est doux n'est pas bon; tout désir n'est pas pur; tout ce qui est cher à l'homme n'est pas agréable à Dieu.
+		J'aime une grâce qui me rend plus humble, plus vigilant, plus prêt à me renoncer moi-même.
+		L'homme instruit par le don de la grâce et par sa privation n'osera s'attribuer aucun bien, mais plutôt il confessera son indigence et sa nudité.
+		Donnez à Dieu ce qui est à Dieu; et ce qui est de vous, ne l'imputez qu'à vous. Rendez gloire à Dieu de ses grâces; et reconnaissez que n'ayant rien à vous que le péché, rien ne vous est dû que la peine du péché.`,
+	},
+	{
+		title: 'De la reconnaissance pour la grâce de Dieu',
+		content: `Mettez-vous toujours à la dernière place et la première vous sera donnée; car ce qui est le plus élevé s'appuie sur ce qui est le plus bas.
+		Les plus grands saints aux yeux de Dieu sont les plus petits à leurs propres yeux; et plus leur vocation est sublime, plus ils sont humbles dans leur coeur.
+		Pleins de la vérité et de la gloire céleste, ils ne sont pas avides d'une gloire vaine. Fondés et affermis en Dieu, ils ne sauraient s'élever en eux-mêmes.
+		Rapportant à Dieu tout ce qu'ils ont reçu de bien, ils ne recherchent point la gloire que donnent les hommes et ne veulent que celle qui vient de Dieu seul; leur unique but, leur unique désir, est qu'il soit glorifié en lui-même et dans tous les saints, par- dessus toutes choses.`,
+	},
+	{
+		title: 'De la reconnaissance pour la grâce de Dieu',
+		content: `Soyez donc reconnaissants des moindres grâces et vous mériterez d'en recevoir de plus grandes.
+		Que le plus léger don, la plus petite faveur aient pour vous autant de prix que le don le plus excellent et la faveur la plus singulière.
+		Si vous considérez la grandeur de celui qui donne, rien de ce qu'il donne ne vous paraîtra petit ni méprisable; car peut-il être quelque chose de tel dans ce qui vient d'un Dieu infini ?
+		Vous envoie-t'il des peines et des châtiments, recevez-les encore avec joie, car c'est toujours pour notre salut qu'il fait ou qu'il permet tout ce qui nous arrive. Voulez-vous conserver la grâce de Dieu, soyez reconnaissant lorsqu'il vous la donne, patient lorsqu'il vous l'ôte. Priez pour qu'elle vous soit rendue, et soyez humble et vigilant pour ne pas la perdre.`,
+	},
+	{
+		title: 'Du petit nombre de ceux qui aiment la Croix de Jésus-Christ',
+		content: `Il y en a beaucoup qui désirent le céleste royaume de Jésus, mais peu consentent à porter sa Croix.
+		Beaucoup souhaitent ses consolations, mais peu aiment ses souffrances.
+		Il trouve beaucoup de compagnons de sa table, mais peu de son abstinence.
+		Tous veulent partager sa joie; mais peu veulent souffrir quelque chose pour lui. Plusieurs suivent Jésus jusqu'à la fraction du pain, mais peu jusqu'à boire le calice de sa passion.
+		Plusieurs admirent ses miracles; mais peu goûtent l'ignominie de sa Croix.
+		Plusieurs aiment Jésus pendant qu'il ne leur arrive aucune adversité.
+		Plusieurs le louent et le bénissent, tandis qu'ils reçoivent ses consolations.
+		Mais si Jésus se cache et les délaisse un moment, ils tombent dans le murmure ou dans un excessif abattement.`,
+	},
+	{
+		title: 'Du petit nombre de ceux qui aiment la Croix de Jésus-Christ',
+		content: `Mais ceux qui aiment Jésus pour Jésus et non pour eux-mêmes, le bénissent dans toutes les tribulations et dans l'angoisse du coeur comme dans les consolations les plus douces.
+		Et quand il ne voudrait jamais les consoler, toujours cependant ils le loueraient, toujours ils lui rendraient grâces.`,
+	},
+	{
+		title: 'Du petit nombre de ceux qui aiment la Croix de Jésus-Christ',
+		content: `Oh ! que ne peut l'amour de Jésus, quand il est pur et sans mélange d'amour ni d'intérêt propre !
+		Ne sont-ce pas des mercenaires ceux qui cherchent toujours des consolations ? Ne prouvent-ils pas qu'ils s'aiment eux-mêmes plus que Jésus-Christ, ceux qui pensent toujours à leurs gains et à leurs avantages ?
+		Où trouvera-t'on quelqu'un qui veuille servir Dieu pour Dieu seul ?`,
+	},
+	{
+		title: 'Du petit nombre de ceux qui aiment la Croix de Jésus-Christ',
+		content: `Rarement on rencontre un homme assez avancé dans les voies spirituelles pour être dépouillé de tout.
+		Car le véritable pauvre d'esprit, détaché de toute créature, qui le trouvera ? Il faut le chercher bien loin, et jusqu'aux extrémités de la terre.
+		Si l'homme donne tout ce qu'il possède, ce n'est encore rien.
+		S'il fait une grande pénitence, c'est peu encore.
+		Et s'il embrasse toutes les sciences, il est encore loin.
+		Et s'il a une grande vertu et une piété fervente, il lui manque encore beaucoup, il lui manque une chose souverainement nécessaire.
+		Qu'est-ce encore ? C'est qu'après avoir tout quitté, il se quitte aussi lui-même et se dépouille entièrement de l'amour de soi.
+		C'est enfin qu'après avoir fait tout ce qu'il sait devoir faire, il pense encore n'avoir rien fait.`,
+	},
+	{
+		title: 'Du petit nombre de ceux qui aiment la Croix de Jésus-Christ',
+		content: `Qu'il estime peu ce qu'on pourrait regarder comme quelque chose de grand, et qu'en toute sincérité il confesse qu'il est un serviteur inutile, selon la parole de la Vérité:
+		Quand vous aurez fait tout ce qui vous est commandé, dites: Nous sommes des serviteurs inutiles.
+		Alors il sera vraiment pauvre et séparé de tout en esprit, et il pourra dire avec le prophète: Oui, je suis pauvre et seul dans le monde.
+		Nul cependant n'est plus riche, plus puissant, plus libre, que celui qui sait quitter tout et soi-même, et se mettre au dernier rang.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Cette parole semble dure à plusieurs: Renoncez à vous-mêmes, prenez votre Croix, et suivez Jésus.
+		Mais il sera bien plus dur, au dernier jour, d'entendre cette parole: Retirez-vous de moi, maudits, allez au feu éternel !
+		Ceux qui écoutent maintenant volontiers la parole qui commande de porter la Croix, et qui y obéissent, ne craindront point alors d'entendre l'arrêt d'une éternelle condamnation.
+		Ce signe de la Croix sera dans le Ciel lorsque le Seigneur viendra pour juger.
+		Alors tous les disciples de la Croix, qui auront imité pendant leur vie Jésus crucifié, s'approcheront avec une grande confiance de Jésus-Christ juge.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Pourquoi donc craignez-vous de porter la Croix, par laquelle on arrive au royaume du ciel ?
+		Dans la Croix est le salut, dans la Croix la vie, dans la Croix la protection contre nos ennemis.
+		C'est de la Croix que découlent les suavités célestes.
+		Dans la Croix est la force de l'âme; dans la Croix la joie de l'esprit, la consommation de la vertu, la perfection de la sainteté.
+		Il n'y a de salut pour l'âme et d'espérance de vie éternelle, que dans la Croix. Prenez donc votre Croix et suivez Jésus, et vous parviendrez à l'éternelle félicité.
+		Il vous a précédé portant sa Croix et il est mort pour vous sur la Croix afin que vous aussi vous portiez votre Croix, et que vous aspiriez à mourir sur la Croix.
+		Car si vous mourez avec lui, vous vivrez aussi avec lui; et si vous partagez ses souffrances, vous partagerez sa gloire.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Ainsi tout est dans la Croix, et tout consiste à mourir. Il n'est point d'autre voie qui conduise à la vie et à la véritable paix du coeur que la voie de la Croix et d'une mortification continuelle.
+		Allez où vous voudrez, cherchez tout ce que vous voudrez, vous ne trouverez pas au- dessus une voie plus élevée, au-dessous une voie plus sûre que la voie de la sainte Croix.
+		Disposez de tout selon vos vues, réglez tout selon vos désirs, et toujours vous trouverez qu'il vous faut souffrir quelque chose, que vous le vouliez ou non; et ainsi vous trouverez toujours la Croix.
+		Car, ou vous sentirez de la douleur dans le corps, ou vous éprouverez de l'amertume dans l'âme.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Tantôt vous serez délaissé de Dieu, tantôt exercé par le prochain, et, ce qui est plus encore, vous serez souvent à charge à vous-même.
+		Vous ne trouverez à vos peines aucun remède, aucun soulagement; mais il vous faudra souffrir aussi longtemps que Dieu le voudra.
+			 Car Dieu veut que vous appreniez à souffrir sans consolations et que vous vous soumettiez à lui sans réserve, et que vous deveniez plus humble par la tribulation. Nul n'a si avant dans son coeur la passion de Jésus-Christ que celui qui a souffert quelque chose de semblable.
+		La Croix est donc toujours préparée; elle vous attend partout.
+		Vous ne pouvez la fuir, quelque part que vous alliez; puisque partout où vous irez, vous vous porterez et vous trouverez toujours vous-même.
+		Elevez-vous, abaissez-vous, sortez de vous-même, rentrez-y; toujours vous trouverez la Croix; et il faut que partout vous preniez patience, si vous voulez la paix intérieure et mériter la couronne immortelle.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Si vous portez de bon coeur la Croix, elle-même vous portera et vous conduira au terme désiré, où vous cesserez de souffrir; mais ce ne sera pas en ce monde.
+		Si vous la portez à regret, vous en augmentez le poids, vous rendez votre fardeau plus dur, et cependant il vous faut la porter.
+		Si vous rejetez une Croix, vous en trouverez certainement une autre, et peut-être plus pesante.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Croyez-vous échapper à ce que nul homme n'a pu éviter ? Quel saint a été dans ce monde sans croix et sans tribulation ?
+		Jésus-Christ lui-même, Notre-Seigneur, n'a pas été une seule heure dans toute sa vie sans éprouver quelque souffrance: Il fallait, dit-il, que le Christ souffrît, et qu'il ressuscitât d'entre les morts, et qu'il entrât ainsi dans sa gloire.
+		Comment donc cherchez-vous une autre voie que la voie royale de la sainte Croix ?`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Toute la vie de Jésus-Christ n'a été qu'une croix et un long martyre, et vous cherchez le repos et la joie !
+		Vous vous trompez, n'en doutez pas; vous vous trompez lamentablement si vous cherchez autre chose que les afflictions à souffrir; car toute cette vie mortelle est pleine de misères et environnée de croix.
+		Et plus un homme aura fait de progrès dans les voies spirituelles, plus ses croix souvent seront pesantes, parce que l'amour lui rend son exil plus douloureux.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Cependant celui que Dieu éprouve par tant de peines n'est pas sans consolations qui les adoucissent, parce qu'il sent s'accroître les fruits de sa patience à porter sa Croix. Car, lorsqu'il s'incline volontairement sous elle, l'affliction qui l'accablait se change toute entière en une douce confiance qui le console.
+		Et plus la chair est affligée, brisée, plus l'esprit est fortifié intérieurement par la grâce.
+		Quelquefois même le désir de souffrir pour être conforme à Jésus crucifié lui inspire tant de force, qu'il ne voudrait pas être exempt de tribulations et de douleur, parce qu'il se croit d'autant plus agréable à Dieu, qu'il souffre pour lui davantage.
+		Ce n'est point là la vertu de l'homme, mais la grâce de Jésus-Christ, qui opère puissamment dans une chair infirme, que tout ce qu'elle abhorre et fuit naturellement, elle l'embrasse et l'aime par la ferveur de l'esprit.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Il n'est pas selon l'homme de porter la Croix, d'aimer la Croix, de châtier le corps, de le réduire en servitude, de fuir les honneurs, de souffrir volontiers les outrages, de se mépriser soi-même et de souhaiter d'être méprisé, de supporter les afflictions et les pertes, et de ne désirer aucune prospérité dans ce monde.
+		Si vous ne regardez que vous, vous ne pouvez rien de tout cela.
+		Mais si vous vous confiez dans le Seigneur, la force vous sera donnée d'en haut et vous aurez pouvoir sur la chair et le monde.
+		Vous ne craindrez pas même le démon, votre ennemi, si vous êtes armé de la foi et marqué de la Croix de Jésus-Christ.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Disposez-vous donc, comme un bon et fidèle serviteur de Jésus-Christ, à porter courageusement la Croix de votre Maître, crucifié par amour pour vous. Préparez-vous à souffrir mille adversités, mille traverses dans cette misérable vie; car voilà partout ce qui vous attend, ce que vous trouverez partout, en quelque lieu que vous vous cachiez.
+		Il faut qu'il en soit ainsi, et à cette foule de maux et de douleurs il n'y a d'autre remède que de vous supporter vous-même.
+		Buvez avec joie le calice du Sauveur, si son amour vous est cher et si vous désirez avoir part à sa gloire.
+		Laissez Dieu disposer de ses consolations; qu'il les répande comme il lui plaira. Pour vous, choisissez les souffrances et regardez-les comme des consolations d'un grand prix, car toutes les souffrances du temps n'ont aucune proportion avec la gloire future, et ne sauraient vous la mériter, quand seul vous les supporteriez toutes.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Lorsque vous en serez venu à trouver la souffrance douce et à l'aimer pour Jésus- Christ, alors estimez-vous heureux, parce que vous avez trouvé le paradis sur la terre. Mais, tandis que la souffrance vous sera amère et que vous la fuirez, vous vivrez dans le trouble, et la tribulation que vous fuirez vous suivra partout.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Si vous vous appliquez à être ce que vous devez être, à souffrir et à mourir, bientôt vos peines s'évanouiront et vous aurez la paix.
+		Quand vous auriez été ravi, avec Paul, jusqu'au troisième ciel, vous ne seriez pas pour cela assuré de ne rien souffrir. Je lui montrerai, dit Jésus, combien il faut qu'il souffre pour mon nom.
+		Il ne vous reste donc qu'à souffrir, si vous voulez aimer Jésus et le servir constamment.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Plût à Dieu que vous fussiez digne de souffrir quelque chose pour le nom de Jésus ! Quelle gloire vous serait réservée ! Quelle joie parmi tous les saints ! Quelle édification pour le prochain !
+		Car tous recommandent la patience, quoique peu cependant veuillent souffrir.
+		Avec quelle joie vous devriez souffrir quelque chose pour Jésus, lorsque tant d'autres souffrent beaucoup plus pour le monde !`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `Sachez et croyez fermement que votre vie doit être une mort continuelle, et que plus on meurt à soi-même, plus on commence à vivre pour Dieu.
+		Nul n'est propre à comprendre les choses du ciel, s'il ne se soumet à supporter les adversités pour Jésus-Christ.
+		Rien n'est plus agréable à Dieu, rien ne vous est plus salutaire en ce monde, que de souffrir avec joie pour Jésus-Christ; et si vous aviez à choisir, vous devriez plutôt souhaiter d'être affligé pour lui que d'être comblé de consolations, parce que vous seriez alors plus semblable à Jésus-Christ et plus conforme à tous les saints.
+		Car notre mérite et notre progrès dans la perfection ne consistent point dans la douceur et l'abondance des consolations, mais plutôt dans la force de supporter de grandes tribulations et de pesantes épreuves.`,
+	},
+	{
+		title: 'De la sainte voie de la Croix',
+		content: `S'il y avait eu pour l'homme quelque chose de meilleur et de plus utile que de souffrir, Jésus-Christ nous l'aurait appris par ses paroles et par son exemple.
+		Or, manifestement, il exhorte à porter sa Croix, et les disciples qui le suivaient, et tous ceux qui voudraient le suivre, disant: Si quelqu'un veut marcher sur mes pas, qu'il renonce à soi-même, qu'il porte sa Croix, et qu'il me suive.
+		Après donc avoir tout lu, tout examiné, concluons enfin qu'il nous faut passer par beaucoup de tribulations pour entrer dans le royaume de Dieu.`,
+	},
 ];
 
 const book = {
