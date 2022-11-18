@@ -4,6 +4,7 @@ import {useAtom, useAtomValue} from 'jotai';
 import React from 'react';
 import {ScrollView, Text, View} from 'react-native';
 import {delayAtom, localDataAtom} from '../atom';
+import {ButtonApp} from '../components/button';
 import {RootStackParamList} from '../routes/stack';
 import {
 	removeAllPreviousNotifications,
@@ -55,21 +56,12 @@ export const ReadScreen = ({navigation}: Props) => {
 					</ScrollView>
 
 					<View className='w-full flex items-center absolute bottom-4 left-0'>
-						<Button
-							onPress={() => onClickRead()}
-							buttonStyle={{
-								backgroundColor: 'rgba(78, 116, 289, 1)',
-								borderRadius: 3,
-							}}
-							containerStyle={{
-								width: 150,
-							}}
-						>
+						<ButtonApp onPress={() => onClickRead()}>
 							<View className='flex flex-row gap-4 items-center justify-center'>
 								<Text className='font-bold text-white text-lg'>Lu</Text>
 								<Icon name='check' type='feather' color={'white'} />
 							</View>
-						</Button>
+						</ButtonApp>
 					</View>
 				</>
 			) : (
