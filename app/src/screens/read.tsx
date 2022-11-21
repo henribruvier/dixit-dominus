@@ -1,5 +1,5 @@
 import {StackScreenProps} from '@react-navigation/stack';
-import {Button, Icon} from '@rneui/themed';
+import {Icon} from '@rneui/themed';
 import {useAtom, useAtomValue} from 'jotai';
 import React from 'react';
 import {ScrollView, Text, View} from 'react-native';
@@ -36,7 +36,7 @@ export const ReadScreen = ({navigation}: Props) => {
 	};
 
 	return (
-		<View className='h-full w-full px-2 relative'>
+		<View className='h-full w-full px-2 relative pt-8'>
 			{localData ? (
 				<>
 					<Text className='text-3xl pt-4 font-bold pb-4 px-12 text-center'>

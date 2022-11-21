@@ -1357,6 +1357,37 @@ const book = {
 	sections,
 };
 
-const books = [book];
+const book2 = {
+	title: 'Another book',
+	author: 'Another author',
+	sections: [
+		{
+			title: 'De la sainte voie de la Croix',
+			content: `S'il y avait eu pour l'homme quelque chose de meilleur et de plus utile que de souffrir, Jésus-Christ nous l'aurait appris par ses paroles et par son exemple.`,
+		},
+		{
+			title: 'De la sainte voie de la Croix',
 
+			content: `S'il y avait eu pour l'homme quelque chose de meilleur et de plus utile que de souffrir, Jésus-Christ nous l'aurait appris par ses paroles et par son exemple.`,
+		},
+	],
+};
+
+const book3 = {
+	title: 'Blabla',
+	author: 'JJ Goldman',
+	sections: [
+		{
+			title: 'De la sainte voie de la Croix',
+			content: `S'il y avait eu pour l'homme quelque chose de meilleur et de plus utile que de souffrir, Jésus-Christ nous l'aurait appris par ses paroles et par son exemple.`,
+		},
+		{
+			title: 'De la sainte voie de la Croix',
+
+			content: `S'il y avait eu pour l'homme quelque chose de meilleur et de plus utile que de souffrir, Jésus-Christ nous l'aurait appris par ses paroles et par son exemple.`,
+		},
+	],
+};
+
+const books = [book, book2, book3];
 module.exports = {books};

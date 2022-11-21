@@ -86,7 +86,11 @@ export const SettingsSection = ({navigation}: Props) => {
 
 	return (
 		<View className='h-full w-full px-2'>
-			<Text className='text-3xl pt-4 font-bold pb-10'>Paramètres</Text>
+			<View className='border-b border-gray-300'>
+				<Text className='text-3xl pt-12 font-bold text-primary pb-4'>
+					Paramètres
+				</Text>
+			</View>
 			<Divider />
 			<View className='flex flex-row pt-5  items-center gap-2'>
 				<Text className='text-lg  border-t border border-gray-700 font-bold'>

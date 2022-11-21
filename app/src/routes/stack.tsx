@@ -1,10 +1,10 @@
-import React from 'react';
 import {
 	BottomTabBarProps,
 	createBottomTabNavigator,
 } from '@react-navigation/bottom-tabs';
-import {TouchableOpacity, View, Text} from 'react-native';
 import {Icon} from '@rneui/base';
+import React from 'react';
+import {Text, TouchableOpacity, View} from 'react-native';
 import {HomeScreen} from '../screens/home';
 import {ReadScreen} from '../screens/read';
 import {SettingsSection} from '../screens/settings';
@@ -15,6 +15,7 @@ export type RootStackParamList = {
 	Settings: undefined;
 	tabBar?: ((props: BottomTabBarProps) => React.ReactNode) | undefined;
 };
+
 const Tab = createBottomTabNavigator<RootStackParamList>();
 
 const MyStack = () => {
@@ -22,6 +23,9 @@ const MyStack = () => {
 		<Tab.Navigator
 			tabBar={props => <MyTabBar {...props} />}
 			initialRouteName='Home'
+			screenOptions={{
+				headerShown: false,
+			}}
 		>
 			<Tab.Screen name='Home' component={HomeScreen} />
 			<Tab.Screen name='Read' component={ReadScreen} />
@@ -113,8 +117,11 @@ function MyTabBar({state, descriptors, navigation}: TabBarProps) {
 						onLongPress={onLongPress}
 						className='flex items-center justify-center'
 					>
-						{screenOptions(route, isFocused ? '#673ab7' : '#222')}
-						<Text style={{color: isFocused ? '#673ab7' : '#222'}}>
+						{screenOptions(route, isFocused ? '#80A6DB' : '#173052')}
+						<Text
+							style={{color: isFocused ? '#80A6DB' : '#173052'}}
+							className='font-medium'
+						>
 							{label as string}
 						</Text>
 					</TouchableOpacity>

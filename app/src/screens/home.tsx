@@ -1,9 +1,8 @@
 import {StackScreenProps} from '@react-navigation/stack';
-import {Button} from '@rneui/themed';
 
 import {useAtom, useAtomValue} from 'jotai';
 import React, {useEffect, useState} from 'react';
-import {Text, View} from 'react-native';
+import {ScrollView, Text, View} from 'react-native';
 import {delayAtom, localDataAtom} from '../atom';
 import {ButtonApp} from '../components/button';
 import {RootStackParamList} from '../routes/stack';
@@ -41,7 +40,10 @@ export const HomeScreen = ({navigation}: Props) => {
 
 	return (
 		<View className='h-full w-full px-2 text-primary'>
-			<Text className='text-3xl pt-8 font-bold  text-primary pb-10'>
+			<View className='border-b border-gray-300'>
+				<Text className='text-3xl pt-12 font-bold text-primary pb-4'>Home</Text>
+			</View>
+			<Text className='text-3xl pt-6 font-bold text-primary pb-10'>
 				Mes lectures <Text className='text-secondary'>en cours</Text>
 			</Text>
 			<View className='justify-center items-center flex align-middle px-4'>
@@ -61,28 +63,32 @@ export const HomeScreen = ({navigation}: Props) => {
 					</Text>
 				)}
 			</View>
-			<Text className='text-3xl pt-8 font-bold  text-primary pb-10'>
+			<Text className='text-3xl pt-12 font-bold text-primary pb-10'>
 				Livres <Text className='text-secondary'>disponibles</Text>
 			</Text>
-			{books.map((book: FullBook) => (
-				<View
-					className='flex flex-row gap-2 justify-between pb-4'
-					key={book.title}
-				>
-					<View className='flex gap-1'>
-						<Text className=' text-xl font-bold'>{book.title}</Text>
-						<Text className='text-gray-400 text-lg'>
-							Chapitres : {book.sections.length}
-						</Text>
-						<Text className='text-gray-400 text-lg'>
-							Auteur : {book.author}
-						</Text>
+			<ScrollView horizontal>
+				{books.map((book: FullBook) => (
+					<View
+						key={book.title}
+						className='flex flex-col w-1/3 px-2 gap-2 items-center'
+					>
+						<View className='w-28 h-44 bg-pink-300 rounded-md'></View>
+						{!localData?.book || localData?.book?.title !== book.title ? (
+							<View className='flex items-center justify-center px-4'>
+								<ButtonApp onPress={() => onClickRead(book)}>Lire</ButtonApp>
+							</View>
+						) : null}
+						<View className='flex flex-row gap-2 justify-between pb-4 text-left'>
+							<View className='flex gap-1'>
+								<Text className='text-lg font-bold text-primary'>
+									{book.title}
+								</Text>
+								<Text className='text-gray-500 text-md'>{book.author}</Text>
+							</View>
+						</View>
 					</View>
-					<View className='flex items-center justify-center px-4'>
-						<ButtonApp onPress={() => onClickRead(book)}>Lire</ButtonApp>
-					</View>
-				</View>
-			))}
+				))}
+			</ScrollView>
 		</View>
 	);
 };
