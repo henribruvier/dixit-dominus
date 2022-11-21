@@ -34,6 +34,16 @@ export const ReadScreen = ({navigation}: Props) => {
 			currentSection: localData.currentSection + 1,
 		});
 	};
+	const ordderedSections = localData?.book?.sections.sort(
+		(a, b) => a.order - b.order,
+	);
+
+	const replacedText =
+		localData?.currentSection !== undefined
+			? ordderedSections?.[localData?.currentSection].content
+					.replace(/\t/g, '')
+					.replace(/\n/g, '\n\n')
+			: '';
 
 	return (
 		<View className='h-full w-full px-2 relative pt-8'>
@@ -46,12 +56,13 @@ export const ReadScreen = ({navigation}: Props) => {
 						Chapitre {localData?.currentSection + 1}
 					</Text>
 					<Text className='text-gray-400 text-xl text-center pb-4'>
-						{localData?.book.sections[localData?.currentSection].title}
+						{ordderedSections &&
+							ordderedSections[localData?.currentSection].title}
 					</Text>
 
 					<ScrollView>
-						<Text className='text-xl scroll-y-auto'>
-							{localData?.book?.sections[localData.currentSection].content}
+						<Text className='text-xl pb-24 scroll-y-auto whitespace-pre '>
+							{replacedText}
 						</Text>
 					</ScrollView>
 
