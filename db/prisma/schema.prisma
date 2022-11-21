@@ -28,6 +28,7 @@ model Section {
 model Book {
   id       Int       @id @default(autoincrement())
   title    String
+  image    String?
   author   String
   sections Section[]
 }

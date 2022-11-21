@@ -11,6 +11,7 @@ import {
 	removeAllPreviousNotifications,
 	schedulePushNotification,
 } from '../utils/notifications';
+import {Image} from '@rneui/themed';
 
 type Props = StackScreenProps<RootStackParamList, 'Home'>;
 
@@ -72,7 +73,19 @@ export const HomeScreen = ({navigation}: Props) => {
 						key={book.title}
 						className='flex flex-col w-1/3 px-2 gap-2 items-center'
 					>
-						<View className='w-28 h-44 bg-pink-300 rounded-md'></View>
+						<View className='w-28 h-44 bg-pink-300 rounded-md'>
+							{book.image && (
+								<Image
+									containerStyle={{
+										width: '100%',
+										height: '100%',
+										flex: 1,
+										aspectRatio: 1,
+									}}
+									source={{uri: book.image}}
+								/>
+							)}
+						</View>
 						{!localData?.book || localData?.book?.title !== book.title ? (
 							<View className='flex items-center justify-center px-4'>
 								<ButtonApp onPress={() => onClickRead(book)}>Lire</ButtonApp>
