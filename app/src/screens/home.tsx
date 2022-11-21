@@ -2,7 +2,7 @@ import {StackScreenProps} from '@react-navigation/stack';
 
 import {useAtom, useAtomValue} from 'jotai';
 import React, {useEffect, useState} from 'react';
-import {ScrollView, Text, View, Image} from 'react-native';
+import {Image, ScrollView, Text, View} from 'react-native';
 import {delayAtom, localDataAtom} from '../atom';
 import {ButtonApp} from '../components/button';
 import {RootStackParamList} from '../routes/stack';
@@ -30,7 +30,12 @@ export const HomeScreen = ({navigation}: Props) => {
 
 	const onClickRead = (book: FullBook) => {
 		removeAllPreviousNotifications();
-		setLocalData({book, currentSection: 0});
+		setLocalData(prev => ({
+			book,
+			currentSection: prev.currentSection.get(book.id)
+				? prev.currentSection
+				: prev.currentSection.set(book.id, 0),
+		}));
 		schedulePushNotification(
 			'Il est temps de lire',
 			'Votre chapitre vous attend',
@@ -38,32 +43,34 @@ export const HomeScreen = ({navigation}: Props) => {
 		);
 	};
 
+	const {book, currentSection} = localData;
+
 	return (
 		<View className='h-full w-full px-2 text-primary'>
 			<View className='border-b border-gray-300'>
 				<Text className='text-3xl pt-12 font-bold text-primary pb-4'>Home</Text>
 			</View>
 			<Text className='text-3xl pt-6 font-bold text-primary pb-10'>
-				Mes lectures <Text className='text-secondary'>en cours</Text>
+				Mon livre <Text className='text-secondary'>en cours</Text>
 			</Text>
 			<View className='justify-center items-center flex align-middle px-4'>
-				{localData?.book ? (
+				{book ? (
 					<View className='flex flex-row gap-4'>
 						<View className=' h-20 w-16 overflow-hidden bg-pink-300 rounded-md'>
-							{localData.book.image && (
+							{book.image && (
 								<Image
 									className='w-full h-full object-contain'
-									source={{uri: localData.book.image}}
+									source={{uri: book.image}}
 								/>
 							)}
 						</View>
 						<View className='flex flex-col'>
 							<Text className='text-gray-700 font-bold text-xl '>
-								{localData?.book?.title}
+								{book?.title}
 							</Text>
 							<Text className='text-primary text-xl '>
-								Chapitre actuel : {localData?.currentSection} /{' '}
-								{localData?.book.sections.length}
+								Chapitre actuel : {currentSection.get(book.id)} /{' '}
+								{book.sections.length}
 							</Text>
 						</View>
 					</View>
