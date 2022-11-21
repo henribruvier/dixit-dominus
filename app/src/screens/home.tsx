@@ -48,15 +48,25 @@ export const HomeScreen = ({navigation}: Props) => {
 			</Text>
 			<View className='justify-center items-center flex align-middle px-4'>
 				{localData?.book ? (
-					<>
-						<Text className='text-gray-700 text-xl text-center'>
-							{localData?.book?.title}
-						</Text>
-						<Text className='text-primary text-xl text-center'>
-							Chapitre actuel : {localData?.currentSection} /{' '}
-							{localData?.book.sections.length}
-						</Text>
-					</>
+					<View className='flex flex-row gap-4'>
+						<View className=' h-20 w-16 overflow-hidden bg-pink-300 rounded-md'>
+							{localData.book.image && (
+								<Image
+									className='w-full h-full object-contain'
+									source={{uri: localData.book.image}}
+								/>
+							)}
+						</View>
+						<View className='flex flex-col'>
+							<Text className='text-gray-700 font-bold text-xl '>
+								{localData?.book?.title}
+							</Text>
+							<Text className='text-primary text-xl '>
+								Chapitre actuel : {localData?.currentSection} /{' '}
+								{localData?.book.sections.length}
+							</Text>
+						</View>
+					</View>
 				) : (
 					<Text className='text-xl text-center'>
 						Aucun livre en cours pour le moment
