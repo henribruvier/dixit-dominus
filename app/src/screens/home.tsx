@@ -2,7 +2,7 @@ import {StackScreenProps} from '@react-navigation/stack';
 
 import {useAtom, useAtomValue} from 'jotai';
 import React, {useEffect, useState} from 'react';
-import {ScrollView, Text, View} from 'react-native';
+import {ScrollView, Text, View, Image} from 'react-native';
 import {delayAtom, localDataAtom} from '../atom';
 import {ButtonApp} from '../components/button';
 import {RootStackParamList} from '../routes/stack';
@@ -11,7 +11,6 @@ import {
 	removeAllPreviousNotifications,
 	schedulePushNotification,
 } from '../utils/notifications';
-import {Image} from '@rneui/themed';
 
 type Props = StackScreenProps<RootStackParamList, 'Home'>;
 
@@ -73,15 +72,10 @@ export const HomeScreen = ({navigation}: Props) => {
 						key={book.title}
 						className='flex flex-col w-1/3 px-2 gap-2 items-center'
 					>
-						<View className='w-28 h-44 bg-pink-300 rounded-md'>
+						<View className='w-28 h-44 overflow-hidden bg-pink-300 rounded-md'>
 							{book.image && (
 								<Image
-									containerStyle={{
-										width: '100%',
-										height: '100%',
-										flex: 1,
-										aspectRatio: 1,
-									}}
+									className='w-full h-full object-contain'
 									source={{uri: book.image}}
 								/>
 							)}
