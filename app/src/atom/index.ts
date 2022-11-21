@@ -3,7 +3,7 @@ import {Delay, LocalData} from '../types/local-storage';
 
 export const localDataAtom = atomWithStorage<LocalData>('localData', {
 	book: undefined,
-	currentSection: new Map(),
+	sectionsMap: new Map(),
 });
 
 export const delayAtom = atomWithStorage<Delay | undefined>('delay', 20 * 60);

@@ -16,7 +16,7 @@ type Props = StackScreenProps<RootStackParamList, 'Read'>;
 export const ReadScreen = ({navigation}: Props) => {
 	const [localData, setLocalData] = useAtom(localDataAtom);
 	const delay = useAtomValue(delayAtom);
-	const {book, currentSection} = localData;
+	const {book, sectionsMap} = localData;
 
 	const onClickRead = () => {
 		if (!book) return;
@@ -26,18 +26,18 @@ export const ReadScreen = ({navigation}: Props) => {
 			'Votre chapitre vous attend',
 			delay,
 		);
-		if (currentSection.get(book.id) === book.sections.length - 1) {
+		if (sectionsMap.get(book.id) === book.sections.length - 1) {
 			setLocalData(prev => ({
 				...localData,
-				currentSection: prev.currentSection.set(book.id, 0),
+				sectionsMap: prev.sectionsMap.set(book.id, 0),
 			}));
 			return;
 		}
 		setLocalData(prev => ({
 			...localData,
-			currentSection: prev.currentSection.set(
+			sectionsMap: prev.sectionsMap.set(
 				book.id,
-				prev.currentSection.get(book.id)! + 1,
+				prev.sectionsMap.get(book.id)! + 1,
 			),
 		}));
 	};
@@ -57,14 +57,11 @@ export const ReadScreen = ({navigation}: Props) => {
 		);
 	}
 
-	const section = currentSection.get(book.id) ?? 0;
+	const section = sectionsMap.get(book.id) ?? 0;
 
-	const replacedText =
-		currentSection !== undefined
-			? orderedSections?.[section].content
-					.replace(/\t/g, '')
-					.replace(/\n/g, '\n\n')
-			: '';
+	const replacedText = orderedSections?.[section].content
+		.replace(/\t/g, '')
+		.replace(/\n/g, '\n\n');
 
 	return (
 		<View className='h-full w-full px-2 relative pt-8'>

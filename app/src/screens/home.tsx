@@ -32,9 +32,9 @@ export const HomeScreen = ({navigation}: Props) => {
 		removeAllPreviousNotifications();
 		setLocalData(prev => ({
 			book,
-			currentSection: prev.currentSection.get(book.id)
-				? prev.currentSection
-				: prev.currentSection.set(book.id, 0),
+			sectionsMap: prev.sectionsMap.get(book.id)
+				? prev.sectionsMap
+				: prev.sectionsMap.set(book.id, 0),
 		}));
 		schedulePushNotification(
 			'Il est temps de lire',
@@ -43,7 +43,7 @@ export const HomeScreen = ({navigation}: Props) => {
 		);
 	};
 
-	const {book, currentSection} = localData;
+	const {book, sectionsMap} = localData;
 
 	return (
 		<View className='h-full w-full px-2 text-primary'>
@@ -69,7 +69,7 @@ export const HomeScreen = ({navigation}: Props) => {
 								{book?.title}
 							</Text>
 							<Text className='text-primary text-xl '>
-								Chapitre actuel : {currentSection.get(book.id)} /{' '}
+								Chapitre actuel : {sectionsMap.get(book.id)} /{' '}
 								{book.sections.length}
 							</Text>
 						</View>
