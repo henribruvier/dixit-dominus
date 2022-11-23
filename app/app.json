@@ -37,7 +37,7 @@
 				{
 					"icon": "./assets/adaptive-icon.png",
 					"color": "#ffffff",
-					"sounds": ["/assets/bells.wav"]
+					"sounds": ["./assets/bells.wav"]
 				}
 			]
 		],
