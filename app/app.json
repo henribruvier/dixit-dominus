@@ -36,7 +36,8 @@
 				"expo-notifications",
 				{
 					"icon": "./assets/adaptive-icon.png",
-					"color": "#ffffff"
+					"color": "#ffffff",
+					"sounds": ["/assets/bells.wav"]
 				}
 			]
 		],

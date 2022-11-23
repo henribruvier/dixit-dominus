@@ -10,6 +10,7 @@ export const schedulePushNotification = async (
 			title,
 			body,
 			data: {url: 'app://dixit-dominus/read'},
+			sound: 'bells.wave',
 		},
 		trigger: {seconds: delay ?? 60 * 20},
 	});
