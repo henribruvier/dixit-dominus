@@ -8,6 +8,13 @@ import {Linking, Platform} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import MyStack from './src/routes/stack';
 import {schedulePushNotification} from './src/utils/notifications';
+import * as Sentry from 'sentry-expo';
+
+Sentry.init({
+	dsn: 'https://8ab175fa7d01426c881b6251f6dff517@o4504214289186816.ingest.sentry.io/4504214292987904',
+	enableInExpoDevelopment: true,
+	debug: true, // If `true`, Sentry will try to print out useful debugging information if something goes wrong with sending the event. Set it to `false` in production
+});
 
 Notifications.setNotificationHandler({
 	handleNotification: async () => ({
@@ -37,14 +44,17 @@ export default function App() {
 	console.log('notification', notification, expoPushToken);
 
 	useEffect(() => {
-		registerForPushNotificationsAsync().then(
-			token => token && setExpoPushToken(token),
-		);
+		registerForPushNotificationsAsync()
+			.then(token => token && setExpoPushToken(token))
+			.catch(err => Sentry.Native.captureException(err));
 
 		notificationListener.current =
 			Notifications.addNotificationReceivedListener(notification => {
 				notification && setNotification(notification);
-				Linking.openURL('app://dixit-dominus/read').catch(console.error);
+				Linking.openURL('app://dixit-dominus/read').catch(error => {
+					console.log('error', error);
+					Sentry.Native.captureException(error);
+				});
 			});
 
 		responseListener.current =
@@ -76,7 +86,10 @@ export default function App() {
 						async getInitialURL() {
 							// First, you may want to do the default deep link handling
 							// Check if app was opened from a deep link
-							let url = await Linking.getInitialURL();
+							let url = await Linking.getInitialURL().catch(error => {
+								console.log('error', error);
+								Sentry.Native.captureException(error);
+							});
 
 							if (url != null) {
 								return url;
@@ -84,7 +97,12 @@ export default function App() {
 
 							// Handle URL from expo push notifications
 							const response =
-								await Notifications.getLastNotificationResponseAsync();
+								await Notifications.getLastNotificationResponseAsync().catch(
+									error => {
+										console.log('error', error);
+										Sentry.Native.captureException(error);
+									},
+								);
 							url = response?.notification.request.content.data.url as
 								| string
 								| null;
@@ -141,6 +159,9 @@ async function registerForPushNotificationsAsync() {
 			importance: Notifications.AndroidImportance.MAX,
 			vibrationPattern: [0, 250, 250, 250],
 			lightColor: '#FF231F7C',
+		}).catch(error => {
+			console.log('error', error);
+			Sentry.Native.captureException(error);
 		});
 	}
 
@@ -148,8 +169,14 @@ async function registerForPushNotificationsAsync() {
 		const {status: existingStatus} = await Notifications.getPermissionsAsync();
 		let finalStatus = existingStatus;
 		if (existingStatus !== 'granted') {
-			const {status} = await Notifications.requestPermissionsAsync();
-			finalStatus = status;
+			try {
+				const {status} = await Notifications.requestPermissionsAsync();
+				finalStatus = status;
+				// your code
+			} catch (error) {
+				console.log('error', error);
+				Sentry.Native.captureException(error);
+			}
 		}
 		if (finalStatus !== 'granted') {
 			alert('Failed to get push token for push notification!');

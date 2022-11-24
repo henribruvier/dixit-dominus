@@ -11,6 +11,7 @@ import {
 	removeAllPreviousNotifications,
 	schedulePushNotification,
 } from '../utils/notifications';
+import * as Sentry from 'sentry-expo';
 
 type Props = StackScreenProps<RootStackParamList, 'Home'>;
 
@@ -20,12 +21,17 @@ export const HomeScreen = ({navigation}: Props) => {
 	const delay = useAtomValue(delayAtom);
 
 	useEffect(() => {
-		const getBooks = async () =>
-			fetch('https://dixit-dominus.vercel.app/api/books');
+		try {
+			const getBooks = async () =>
+				fetch('https://dixit-dominus.vercel.app/api/books');
 
-		getBooks()
-			.then(res => res.json())
-			.then(res => setBooks(res));
+			getBooks()
+				.then(res => res.json())
+				.then(res => setBooks(res));
+		} catch (error) {
+			console.log('error', error);
+			Sentry.Native.captureException(error);
+		}
 	}, []);
 
 	const onClickRead = (book: FullBook) => {

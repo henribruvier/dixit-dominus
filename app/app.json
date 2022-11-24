@@ -1,57 +1,62 @@
 {
-	"expo": {
-		"name": "dixit-dominus",
-		"slug": "dixit-dominus",
-		"version": "1.0.1",
-		"owner": "bruvios",
-		"orientation": "portrait",
-		"icon": "./assets/icon.png",
-		"userInterfaceStyle": "light",
-		"splash": {
-			"image": "./assets/splash.png",
-			"resizeMode": "contain",
-			"backgroundColor": "#ffffff"
-		},
-		"updates": {
-			"fallbackToCacheTimeout": 0
-		},
-		"assetBundlePatterns": ["**/*"],
-		"ios": {
-			"supportsTablet": true,
-			"icon": "./assets/icon.png",
-			"bundleIdentifier": "com.bruvios.dixitdominus"
-		},
-		"android": {
-			"adaptiveIcon": {
-				"foregroundImage": "./assets/adaptive-icon.png",
-				"backgroundColor": "#FFFFFF"
-			},
-			"package": "com.bruvios.dixitdominus"
-		},
-		"web": {
-			"favicon": "./assets/favicon.png"
-		},
-		"plugins": [
-			[
-				"expo-notifications",
-				{
-					"icon": "./assets/adaptive-icon.png",
-					"color": "#ffffff",
-					"sounds": ["./assets/bells.wav"]
-				}
-			]
-		],
-		"notification": {
-			"icon": "./assets/adaptive-icon.png",
-			"color": "#311b92",
-			"iosDisplayInForeground": true,
-			"androidMode": "default",
-			"androidCollapsedTitle": "Updates from Colab.notes"
-		},
-		"extra": {
-			"eas": {
-				"projectId": "b4da74dc-7ae6-4f61-a0ec-7f0831e1a1d6"
-			}
-		}
-	}
+  "expo": {
+    "name": "dixit-dominus",
+    "slug": "dixit-dominus",
+    "version": "1.0.2",
+    "owner": "bruvios",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/icon.png",
+      "bundleIdentifier": "com.bruvios.dixitdominus"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.bruvios.dixitdominus"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/adaptive-icon.png",
+          "color": "#ffffff",
+          "sounds": [
+            "./assets/bells.wav"
+          ]
+        }
+      ],
+      "sentry-expo"
+    ],
+    "notification": {
+      "icon": "./assets/adaptive-icon.png",
+      "color": "#311b92",
+      "iosDisplayInForeground": true,
+      "androidMode": "default",
+      "androidCollapsedTitle": "Updates from Colab.notes"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b4da74dc-7ae6-4f61-a0ec-7f0831e1a1d6"
+      }
+    }
+  }
 }
