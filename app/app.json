@@ -53,6 +53,18 @@
 			"eas": {
 				"projectId": "b4da74dc-7ae6-4f61-a0ec-7f0831e1a1d6"
 			}
+		},
+		"hooks": {
+			"postPublish": [
+				{
+					"file": "sentry-expo/upload-sourcemaps",
+					"config": {
+						"organization": "dixit-dominus",
+						"project": "react-native",
+						"authToken": "716dd5e6762c4d8e81a50101768546b67794c2aac7d24ebfa2450b38a6f42516"
+					}
+				}
+			]
 		}
 	}
 }
