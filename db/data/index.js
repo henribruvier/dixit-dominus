@@ -1771,6 +1771,244 @@ const sections = [
 	Il faut la châtier et l'asservir jusqu'à ce que, prête à tout, elle ait appris à se contenter de peu, à aimer les choses simples et à ne jamais se plaindre de rien.
 	`,
   },
+  {
+    title: "Qu'il faut s'exercer à la patience, et lutter contre ses passions",
+    content: `Le fidèle: Seigneur mon Dieu, je vois combien la patience m'est nécessaire; car cette vie est pleine de contradictions.
+    Elle ne peut jamais être exempte de douleur et de guerre, quoi que je fasse pour avoir la paix.
+    `,
+  },
+  {
+    title: "Qu'il faut s'exercer à la patience, et lutter contre ses passions",
+    content: `Jésus-Christ: Oui, mon fils; mais je ne veux pas que vous cherchiez une paix telle que vous n'ayez ni tentations à vaincre, ni contrariétés à souffrir.
+    Croyez au contraire avoir trouvé la paix lorsque vous serez exercé par beaucoup de tribulations et éprouvé par beaucoup de traverses.
+    Si vous dites que vous ne pouvez supporter tant de souffrances, comment supporterez-vous le feu du purgatoire ?
+    De deux maux il faut choisir le moindre; afin donc d'éviter des supplices éternels, efforcez-vous d'endurer pour Dieu, avec patience, les maux présents.
+    Pensez-vous que les hommes du siècle n'aient rien ou que peu de choses à souffrir ? C'est ce que vous ne trouverez pas, même en ceux qui semblent environnés de plus de délices.
+    `,
+  },
+  {
+    title: "Qu'il faut s'exercer à la patience, et lutter contre ses passions",
+    content: ` Mais ils ont, dites-vous, des plaisirs en abondance; ils suivent toutes leurs volontés et ainsi ils sentent peu le poids de leurs maux.
+    Soit, je veux qu'ils aient tout ce qu'ils désirent; combien cela durera-t'il ?
+    Voilà que les riches du siècle s'évanouiront comme la fumée, et il ne restera pas même un souvenir de leurs joies passées.
+    Et durant leur vie même, ils ne s'y reposent pas sans amertume, sans ennui et sans crainte.
+    Car souvent, là même où ils se promettaient la joie, ils rencontrent le châtiment et la douleur, et avec justice, puisqu'il est juste que l'amertume et l'ignominie accompagnent les plaisirs qu'ils cherchent dans le désordre.
+    `,
+  },
+  {
+    title: "Qu'il faut s'exercer à la patience, et lutter contre ses passions",
+    content: `Oh ! que tous ces plaisirs sont courts, qu'ils sont faux, criminels, honteux !
+    Et cependant des malheureux, enivrés et aveuglés, ne le comprennent point; mais semblables à des animaux sans raison, ils exposent leur âme à la mort pour quelques jouissances misérables dans une vie qui va finir.
+    Pour vous, mon fils, ne suivez pas vos convoitises, et détachez-vous de votre volonté. Mettez vos délices dans le Seigneur, et il vous accordera ce que votre coeur demande.
+    `,
+  },
+  {
+    title: "Qu'il faut s'exercer à la patience, et lutter contre ses passions",
+    content: `Si vous voulez goûter une véritable joie et des consolations plus abondantes, méprisez toutes les choses du monde, repoussez toutes les joies terrestres; et je vous bénirai, je verserai sur vous mes inépuisables consolations.
+    Plus vous renoncerez à celles que donnent les créatures, plus les miennes seront douces et puissantes.
+    Mais vous ne les goûterez point sans avoir auparavant ressenti quelque tristesse, sans avoir travaillé, combattu.
+    Une mauvaise habitude vous arrêtera; mais vous la vaincrez par une meilleure.
+    La chair murmurera; mais elle sera contenue par la ferveur de l'esprit.
+    L'antique serpent vous sollicitera, vous exercera; mais vous le mettrez en fuite par la prière; et en vous occupant surtout d'un travail utile, vous lui fermerez l'entrée de votre âme.
+    `,
+  },
+  {
+    title: "Qu'il faut obéir humblement, à l'exemple de Jésus-Christ",
+    content: `Jésus-Christ: Mon fils, celui qui cherche à se soustraire à l'obéissance se soustrait à la grâce; et celui qui veut posséder seul quelque chose perd ce qui est à tous. Quand on ne se soumet pas volontairement et de bon coeur à son supérieur, c'est une marque que la chair n'est pas encore pleinement assujettie, mais que souvent elle murmure et se révolte.
+    Apprenez donc à obéir avec promptitude à vos supérieurs si vous désirez dompter votre chair.
+    Car l'ennemi du dehors est bien plus vite vaincu quand l'homme n'a pas la guerre au- dedans de soi.
+    L'ennemi le plus terrible et le plus dangereux pour votre âme, c'est vous, lorsque vous êtes divisé en vous-même.
+    Il faut que vous appreniez à vous mépriser sincèrement si vous voulez triompher de la chair et du sang.
+    L'amour désordonné que vous avez encore pour vous-même, voilà ce qui vous fait craindre de vous abandonner sans réserve à la volonté des autres.
+    `,
+  },
+  {
+    title: "Qu'il faut obéir humblement, à l'exemple de Jésus-Christ",
+    content: `Est-ce donc cependant un si grand effort que toi, poussière et néant, tu te soumettes à cause de Dieu, lorsque moi le Tout-Puissant, moi le Très-Haut, qui ai tout fait de rien, je me suis soumis humblement à l'homme à cause de toi ?
+    Je me suis fait le plus humble et le dernier de tous afin que mon humilité t'apprît à vaincre ton orgueil.
+    Poussière, apprends à obéir, apprends à t'humilier, terre et limon, à t'abaisser sous les pieds de tout le monde.
+    Apprends à briser ta volonté et à ne refuser aucune dépendance.
+    `,
+  },
+  {
+    title: "Qu'il faut obéir humblement, à l'exemple de Jésus-Christ",
+    content: `Enflamme-toi de zèle contre toi-même et ne souffre pas que le moindre orgueil vive en toi; mais fais-toi si petit et mets-toi si bas que tout le monde puisse marcher sur toi et te fouler aux pieds comme la boue des places publiques.
+    Fils du néant, qu'as-tu à te plaindre ? Pécheur couvert d'ignominie, qu'as-tu à répondre, quelque reproche qu'on t'adresse, toi qui as tant de fois offensé Dieu, tant de fois mérité l'enfer ?
+    Mais ma bonté t'a épargné parce que ton âme a été précieuse devant moi; mais je ne t'ai point délaissé afin que tu connusses mon amour et que mes bienfaits ne cessassent jamais d'être présents à ton coeur, que tu fusses toujours prêt à te soumettre, à t'humilier et à souffrir les mépris et la patience.
+    `,
+  },
+  {
+    title:
+      "Qu'il faut considérer les secrets jugements de Dieu pour ne pas s'enorgueillir du bien qu'on fait",
+    content: `Le fidèle: Vous faites tomber sur moi vos jugements, Seigneur, et tous mes os ont tremblé d'épouvante, et mon âme est dans une profonde terreur.
+    Interdit, effrayé, je considère que les cieux ne sont pas purs à vos yeux.
+    Si vous avez trouvé le mal dans vos anges, et si vous ne les avez pas épargnés, que sera-ce de moi ?
+    Les étoiles sont tombées du ciel; moi, poussière, que dois-je attendre ?
+    Des hommes dont les oeuvres paraissent louables sont tombés aussi bas qu'on puisse tomber, et j'ai vu ceux qui se nourrissaient du pain des anges faire leurs délices de la pâture des pourceaux.
+    `,
+  },
+  {
+    title:
+      "Qu'il faut considérer les secrets jugements de Dieu pour ne pas s'enorgueillir du bien qu'on fait",
+    content: `Il n'est donc point de sainteté, Seigneur, si vous retirez votre main. Point de sagesse qui soit utile, si vous ne la dirigez plus.
+    Point de force qui soit de secours, si vous cessez de la soutenir. Point de chasteté assurée, si vous n'en prenez la défense.
+    Point de vigilance qui nous serve, si vous ne veillez vous-même pour nous.
+    Laissés à nous-mêmes, nous enfonçons dans les flots et nous périssons; venez-vous à nous, nous nous relevons et nous vivons.
+    Car nous sommes chancelants, mais vous nous affermissez; nous sommes tièdes, mais vous nous enflammez.
+    `,
+  },
+  {
+    title:
+      "Qu'il faut considérer les secrets jugements de Dieu pour ne pas s'enorgueillir du bien qu'on fait",
+    content: ` Oh ! que je dois avoir d'humbles et basses pensées de moi-même ! que je dois estimer peu ce qui paraît de bien en moi !
+    Oh ! que je dois m'abaisser profondément, Seigneur, devant vos jugements impénétrables où je me perds comme dans un abîme, et vois que je ne suis rien que néant et un pur néant !
+    Ô poids immense ! ô mer sans rivages, où je ne retrouve rien de moi, où je disparais comme le rien au milieu du tout !
+    Où donc l'orgueil se cachera-t'il ? où la confiance en sa propre vertu ?
+    Toute vanité s'éteint dans la profondeur de vos jugements sur moi.
+    `,
+  },
+  {
+    title:
+      "Qu'il faut considérer les secrets jugements de Dieu pour ne pas s'enorgueillir du bien qu'on fait",
+    content: `Qu'est-ce que toute chair devant vous ? L'argile s'élèvera-t'elle contre celui qui l'a formée ?
+    Comment celui dont le coeur est vraiment soumis à Dieu pourrait-il s'enfler d'une louange vaine ?
+    Le monde entier ne saurait inspirer d'orgueil à celui que la vérité a soumis à son empire, et jamais il ne sera ému des applaudissements des hommes, celui dont toute l'espérance est affermie en Dieu.
+    Car ceux qui parlent ne sont rien; ils s'évanouiront avec le bruit de leurs paroles: mais la vérité du Seigneur demeure éternellement.
+    `,
+  },
+  {
+    title:
+      "De ce que nous devons être et faire quand il s'élève quelque désir en nous",
+    content: `Jésus-Christ: Mon fils, dites en toutes choses: Seigneur, qu'il soit ainsi, si c'est votre volonté; Seigneur, que cela se fasse en votre nom, si vous devez en être honoré.
+    Si vous voyez que cela me soit bon, si vous jugez que cela me soit utile, alors donnez- le-moi, afin que j'en use pour votre gloire.
+    Mais si vous savez que cela me nuira ou ne servira point au salut de mon âme, éloignez de moi ce désir.
+    Car tout désir n'est pas de l'Esprit-Saint, même lorsqu'il paraît bon et juste à l'homme.
+    Il est difficile de discerner avec certitude si c'est l'esprit bon ou mauvais qui vous porte à désirer ceci ou cela, ou même votre esprit propre.
+    Il s'est trouvé à la fin que plusieurs étaient dans l'illusion, qui semblaient d'abord être conduits par le bon esprit.
+    `,
+  },
+  {
+    title:
+      "De ce que nous devons être et faire quand il s'élève quelque désir en nous",
+    content: `Ainsi, tout ce qui se présente de désirable à votre esprit, vous devez le désirer toujours et le demander avec une grande humilité de coeur, et surtout avec une pleine résignation, vous abandonnant à moi sans réserve et disant:
+    Seigneur, vous savez ce qui est le mieux; que ceci ou cela se fasse comme vous le voulez.
+    Donnez ce que vous voulez, autant que vous le voulez et quand vous le voulez.
+    Faites de moi ce qu'il vous plaira, selon ce que vous savez être bon, et pour votre plus grande gloire.
+    Placez-moi où vous voudrez et disposez absolument de moi en toutes choses.
+    Je suis dans votre main, tournez-moi et retournez-moi en tout sens à votre gré.
+    Voilà que je suis prêt à vous servir en tout. Car je ne désire point vivre pour moi, mais pour vous seul: heureux si je le pouvais dignement et parfaitement.
+    `,
+  },
+  {
+    title:
+      "De ce que nous devons être et faire quand il s'élève quelque désir en nous",
+    content: `Prière pour demander à Dieu la grâce d'accomplir sa volonté
+    Le fidèle: Accordez-moi, ô bon Jésus ! votre grâce; qu'elle soit en moi, qu'elle agisse avec moi, et qu'elle demeure avec moi jusqu'à la fin.
+    Faites que je désire et veuille toujours ce qui vous est le plus agréable et ce que vous aimez le plus.
+    Que votre volonté soit la mienne; et que ma volonté suive toujours la vôtre et jamais ne s'en écarte en rien.
+    Qu'uni à vous, je ne veuille ni ne puisse vouloir que ce que vous voulez; et qu'il en soit ainsi de ce que vous ne voulez pas.
+    `,
+  },
+  {
+    title:
+      "De ce que nous devons être et faire quand il s'élève quelque désir en nous",
+    content: `Donnez-moi de mourir à tout ce qui est du monde, et d'aimer être oublié et méprisé du siècle à cause de vous.
+    Faites que je me repose en vous par-dessus tout ce qu'on peut désirer, et que mon coeur ne recherche sa paix qu'en vous.
+    Vous êtes la véritable paix du coeur, son unique repos; hors de vous, tout pèse et inquiète. Dans cette paix, c'est-à-dire en vous seul, éternel et souverain bien, je dormirai et je me reposerai ! Ainsi soit-il.
+    `,
+  },
+  {
+    title: "Qu'il faut remettre à Dieu le soin de ce qui nous regarde",
+    content: `Jésus-Christ: Mon fils, laissez-moi agir avec vous comme il me plaît; car je sais ce qui vous est bon.
+    Vos pensées sont celles de l'homme et vos sentiments sont, en beaucoup de choses, conformes aux penchants de son coeur.
+    `,
+  },
+  {
+    title: "Qu'il faut remettre à Dieu le soin de ce qui nous regarde",
+    content: `Le fidèle: Il est vrai, Seigneur; vous prenez de moi beaucoup plus de soin que je n'en puis prendre moi-même.
+    Il est menacé d'une prompte chute, celui qui ne s'appuie pas uniquement sur vous. Pourvu, Seigneur, que ma volonté demeure droite et qu'elle soit affermie en vous, faites de moi tout ce qu'il vous plaira, car tout ce que vous ferez de moi ne peut être que bon.
+    Si vous voulez que je sois dans les ténèbres, soyez béni; et si vous voulez que je sois dans la lumière, soyez encore béni.
+    Si vous daignez me consoler, soyez béni; et si vous voulez que j'éprouve des tribulations, soyez également toujours béni.
+    `,
+  },
+  {
+    title: "Qu'il faut remettre à Dieu le soin de ce qui nous regarde",
+    content: `Jésus-Christ: Mon fils, c'est ainsi que vous devez être, si vous ne voulez pas vous séparer de moi.
+    Il faut que vous soyez préparé à la souffrance autant qu'à la joie, au dénuement et à la pauvreté autant qu'aux richesses et à l'abondance.
+    `,
+  },
+  {
+    title: "Qu'il faut remettre à Dieu le soin de ce qui nous regarde",
+    content: `Le fidèle: Seigneur, je souffrirai volontiers pour vous tout ce que vous voudrez qui vienne sur moi.
+    Je veux recevoir indifféremment de votre main, le bien et le mal, les douceurs et les amertumes, la joie et la tristesse, et vous rendre grâce de tout ce qui m'arrivera. Préservez-moi à jamais de tout péché et je ne craindrai ni la mort, ni l'enfer. Pourvu que vous ne me rejetiez pas, et que vous ne m'effaciez pas du livre de vie, aucune tribulation ne peut me nuire.
+    `,
+  },
+  {
+    title:
+      " Qu'il faut souffrir avec constance les misères de cette vie à l'exemple de Jésus-Christ",
+    content: `Jésus-Christ: Mon fils, je suis descendu du ciel pour votre salut; je me suis chargé de vos misères, afin de vous former par mon exemple à la patience, et de vous apprendre à supporter les maux de cette vie sans murmurer.
+    Car depuis l'heure de ma naissance jusqu'à ma mort sur la croix, je n'ai jamais été sans douleur.
+    J'ai vécu dans une extrême indigence des choses de ce monde; j'ai entendu souvent bien des plaintes de moi; j'ai souffert avec douceur les affronts et les outrages; je n'ai recueilli sur la terre, pour mes bienfaits, que de l'ingratitude; pour mes miracles, que des blasphèmes; pour ma doctrine, que des censures.
+    `,
+  },
+  {
+    title:
+      " Qu'il faut souffrir avec constance les misères de cette vie à l'exemple de Jésus-Christ",
+    content: `Le fidèle: Puisque vous avez montré, Seigneur, tant de patience durant votre vie, accomplissant par là, d'une manière parfaite, ce que votre Père demandait de vous, il est bien juste que moi, pauvre pécheur, je souffre patiemment ma misère selon votre volonté, et que je porte pour mon salut, aussi longtemps que vous le voudrez, le poids de cette vie corruptible.
+    Car, bien que la vie présente soit pleine de douleurs, elle devient cependant, par votre grâce, une source abondante de mérites, et votre exemple suivi par vos saints la rend plus supportable et précieuse, même aux faibles.
+    Elle est aussi beaucoup plus remplie de consolations que dans l'ancienne loi, quand les portes du ciel étaient encore fermées, que la voie du ciel semblait plus obscure, et que si peu s'occupaient de chercher le royaume de Dieu.
+    Les justes mêmes, à qui le salut était réservé, ne pouvaient entrer dans le royaume céleste qu'après la consommation de vos souffrances et le tribut sacré de votre mort.
+    `,
+  },
+  {
+    title:
+      " Qu'il faut souffrir avec constance les misères de cette vie à l'exemple de Jésus-Christ",
+    content: ` Oh ! quelles grâces ne dois-je pas vous rendre, de ce que vous avez daigné me montrer, et à tous les fidèles, la voie droite et sûre qui conduit à votre royaume éternel !
+    Car votre vie est notre voie et par une sainte patience, nous marchons vers vous, qui êtes notre couronne.
+    Si vous ne nous aviez précédés et instruits, qui songerait à vous suivre ?
+    Hélas ! combien resteraient en arrière, et bien loin, s'ils n'avaient sous les yeux vos exemples sacrés !
+    Après tant de miracles et d'instructions, nous sommes encore tièdes; que serait-ce si tant de lumières ne nous guidait sur vos traces !
+    `,
+  },
+  {
+    title: "De la souffrance des injures, et de la véritable patience",
+    content: `Jésus-Christ: Pourquoi ces paroles, mon fils ? Cessez de vous plaindre, en considérant mes souffrances et celles des saints.
+    Vous n'avez pas encore résisté jusqu'au sang.
+    Ce que vous souffrez est peu en comparaison de ce qu'on souffert tant d'autres, qui ont été éprouvés et exercés par de si fortes tentations, par des tribulations si pesantes.
+    Rappelez donc à votre esprit les peines extrêmes des autres, afin d'en supporter paisiblement de plus légères.
+    Que si elles ne vous paraissent pas légères, prenez garde que cela ne vienne de votre impatience.
+    Cependant, grandes ou petites, efforcez-vous de les souffrir patiemment.
+    `,
+  },
+  {
+    title: "De la souffrance des injures, et de la véritable patience",
+    content: ` Plus vous vous disposez à souffrir, plus vous montrez de sagesse et acquérez de mérites. La ferme résolution et l'habitude de souffrir vous rendront même la souffrance moins dure.
+    Ne dites pas: Je ne puis supporter cela d'un tel homme; ce sont des offenses qu'on n'endure point. Il m'a fait un très grand tort, et il me reproche des choses auxquelles je n'ai jamais pensé; mais d'un autre je le souffrirais avec moins de peine, et comme je croirais devoir le souffrir.
+    Ce discours est insensé; car au lieu de considérer la vertu de patience et ce qui doit la couronner, c'est regarder seulement à l'injure et à la personne de qui on l'a reçue.
+    `,
+  },
+  {
+    title: "De la souffrance des injures, et de la véritable patience",
+    content: `Celui-là n'a pas la vraie patience qui ne veut souffrir qu'autant qu'il lui plaît et de qui il lui plaît.
+    L'homme vraiment patient n'examine point qui l'éprouve, si c'est son supérieur, son égal ou son inférieur, un homme de bien ou un méchant.
+    Mais, indifférent sur les créatures, il reçoit de la main de Dieu, avec reconnaissance et aussi souvent qu'il le veut, tout ce qui lui arrive de contraire, et l'estime un grand gain.
+    Car Dieu ne laissera sans récompense aucune peine, même la plus légère, qu'on aura soufferte pour lui.
+    `,
+  },
+  {
+    title: "De la souffrance des injures, et de la véritable patience",
+    content: ` Soyez donc prêt au combat si vous voulez remporter la victoire.
+    On ne peut obtenir sans combat la couronne de la patience; et refuser de combattre, c'est refusé d'être couronné.
+    Si vous désirez la couronne, combattez courageusement, souffrez avec patience.
+    On ne parvient pas au repos sans travail, ni sans combat à la victoire.
+    `,
+  },
+  {
+    title: "De la souffrance des injures, et de la véritable patience",
+    content: ` Le fidèle: Seigneur, que ce qui paraît impossible à la nature me devienne possible par votre grâce.
+    J'ai, vous le savez, peu de force pour souffrir; la moindre adversité m'abat aussitôt. Faites que j'aime, que je désire d'être exercé, affligé pour votre nom, car subir l'injure et souffrir pour vous est très salutaire à mon âme.
+    `,
+  },
 ];
 
 const book = {
