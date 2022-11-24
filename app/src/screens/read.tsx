@@ -6,6 +6,7 @@ import {ScrollView, Text, View} from 'react-native';
 import {delayAtom, localDataAtom} from '../atom';
 import {ButtonApp} from '../components/button';
 import {RootStackParamList} from '../routes/stack';
+import {getData, storeData} from '../utils/local-storage';
 import {
 	removeAllPreviousNotifications,
 	schedulePushNotification,
@@ -31,6 +32,8 @@ export const ReadScreen = ({navigation}: Props) => {
 				...localData,
 				sectionsMap: prev.sectionsMap.set(book.id, 0),
 			}));
+			getData().then(res => console.log(res.sectionMap));
+			//storeData(JSON.stringify(localData));
 			return;
 		}
 		setLocalData(prev => ({
@@ -40,6 +43,9 @@ export const ReadScreen = ({navigation}: Props) => {
 				prev.sectionsMap.get(book.id)! + 1,
 			),
 		}));
+		getData().then(res => console.log(res.sectionMap));
+		console.log(localData.sectionsMap.get(book.id));
+		//storeData(JSON.stringify(localData));
 	};
 	const orderedSections = localData?.book?.sections.sort(
 		(a, b) => a.order - b.order,

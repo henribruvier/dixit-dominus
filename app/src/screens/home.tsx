@@ -12,6 +12,8 @@ import {
 	schedulePushNotification,
 } from '../utils/notifications';
 import * as Sentry from 'sentry-expo';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import {getData, storeData} from '../utils/local-storage';
 
 type Props = StackScreenProps<RootStackParamList, 'Home'>;
 
@@ -19,6 +21,16 @@ export const HomeScreen = ({navigation}: Props) => {
 	const [books, setBooks] = useState([]);
 	const [localData, setLocalData] = useAtom(localDataAtom);
 	const delay = useAtomValue(delayAtom);
+
+	const clearData = async () => {
+		try {
+			await AsyncStorage.setItem('localData', '');
+		} catch (e) {
+			// saving error
+		}
+	};
+
+	//clearData();
 
 	useEffect(() => {
 		try {
@@ -44,11 +56,15 @@ export const HomeScreen = ({navigation}: Props) => {
 					: prev?.sectionsMap?.set(book.id, 0)
 				: (prev.sectionsMap = new Map([[book.id, 0]])),
 		}));
+		//storeData(JSON.stringify(localData));
+
 		schedulePushNotification(
 			'Il est temps de lire',
 			'Votre chapitre vous attend',
 			delay,
 		);
+		console.log(localData.sectionsMap);
+		getData().then(res => console.log(res.sectionMap));
 	};
 
 	const {book, sectionsMap} = localData;

@@ -9,6 +9,9 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 import MyStack from './src/routes/stack';
 import {schedulePushNotification} from './src/utils/notifications';
 import * as Sentry from 'sentry-expo';
+import {useAtom} from 'jotai';
+import {localDataAtom} from './src/atom';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 Sentry.init({
 	dsn: 'https://8ab175fa7d01426c881b6251f6dff517@o4504214289186816.ingest.sentry.io/4504214292987904',
@@ -40,6 +43,34 @@ export default function App() {
 		useState<Notifications.Notification>();
 	const notificationListener = useRef<Subscription>();
 	const responseListener = useRef<Subscription>();
+	const [localData, setLocalData] = useAtom(localDataAtom);
+
+	useEffect(() => {
+		const getData = async () => {
+			try {
+				const value = await AsyncStorage.getItem('localData');
+				if (value !== null) {
+					// value previously stored
+
+					const parsed = JSON.parse(value);
+					console.log('fist title', parsed.book.sections[0].title);
+					console.log('sectionMap', parsed.sectionsMap);
+
+					if (parsed.book) {
+						setLocalData(prev => ({
+							...prev,
+							book: parsed.book,
+							sectionsMap: new Map([[parsed.book.id, 0]]),
+						}));
+					}
+					//setLocalData(JSON.parse(value));
+				}
+			} catch (e) {
+				// error reading value
+			}
+		};
+		getData();
+	}, []);
 
 	console.log('notification', notification, expoPushToken);
 
