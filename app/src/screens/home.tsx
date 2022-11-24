@@ -38,9 +38,11 @@ export const HomeScreen = ({navigation}: Props) => {
 		removeAllPreviousNotifications();
 		setLocalData(prev => ({
 			book,
-			sectionsMap: prev.sectionsMap.get(book.id)
-				? prev.sectionsMap
-				: prev.sectionsMap.set(book.id, 0),
+			sectionsMap: prev.sectionsMap
+				? prev?.sectionsMap?.get(book.id)
+					? prev.sectionsMap
+					: prev?.sectionsMap?.set(book.id, 0)
+				: (prev.sectionsMap = new Map([[book.id, 0]])),
 		}));
 		schedulePushNotification(
 			'Il est temps de lire',
