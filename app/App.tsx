@@ -103,7 +103,7 @@ export default function App() {
 									response => {
 										const url: string | null = response.notification.request
 											.content.data.url as string | null;
-										if (url) Linking.openURL(url).catch(console.error);
+										//if (url) Linking.openURL(url).catch(console.error);
 										schedulePushNotification(
 											'Oh oh',
 											"Vous n'avez pas lu votre chapitre",
