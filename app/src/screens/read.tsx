@@ -6,7 +6,7 @@ import {ScrollView, Text, View} from 'react-native';
 import {delayAtom, localDataAtom} from '../atom';
 import {ButtonApp} from '../components/button';
 import {RootStackParamList} from '../routes/stack';
-import {getData, storeData} from '../utils/local-storage';
+import {getData} from '../utils/local-storage';
 import {
 	removeAllPreviousNotifications,
 	schedulePushNotification,
@@ -27,10 +27,10 @@ export const ReadScreen = ({navigation}: Props) => {
 			'Votre chapitre vous attend',
 			delay,
 		);
-		if (sectionsMap.get(book.id) === book.sections.length - 1) {
+		if (sectionsMap[book.id] === book.sections.length - 1) {
 			setLocalData(prev => ({
 				...localData,
-				sectionsMap: prev.sectionsMap.set(book.id, 0),
+				sectionsMap: {...prev.sectionsMap, [book.id]: 0},
 			}));
 			getData().then(res => console.log(res.sectionMap));
 			//storeData(JSON.stringify(localData));
@@ -38,13 +38,13 @@ export const ReadScreen = ({navigation}: Props) => {
 		}
 		setLocalData(prev => ({
 			...localData,
-			sectionsMap: prev.sectionsMap.set(
-				book.id,
-				prev.sectionsMap.get(book.id)! + 1,
-			),
+			sectionsMap: {
+				...prev.sectionsMap,
+				[book.id]: prev.sectionsMap[book.id] + 1,
+			},
 		}));
 		getData().then(res => console.log(res.sectionMap));
-		console.log(localData.sectionsMap.get(book.id));
+		console.log(localData.sectionsMap[book.id]);
 		//storeData(JSON.stringify(localData));
 	};
 	const orderedSections = localData?.book?.sections.sort(
@@ -63,7 +63,7 @@ export const ReadScreen = ({navigation}: Props) => {
 		);
 	}
 
-	const section = sectionsMap.get(book.id) ?? 0;
+	const section = sectionsMap[book.id] ?? 0;
 
 	const replacedText = orderedSections?.[section].content
 		.replace(/\t/g, '')

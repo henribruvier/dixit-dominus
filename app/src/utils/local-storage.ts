@@ -16,3 +16,6 @@ export const getData = async () => {
 		return JSON.parse(value);
 	}
 };
+
+export const jsonToMap = (jsonStr: string) => new Map(JSON.parse(jsonStr));
+export const mapToJson = (map: Map<string, any>) => JSON.stringify([...map]);

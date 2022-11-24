@@ -1,19 +1,19 @@
 import {StackScreenProps} from '@react-navigation/stack';
 
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {useAtom, useAtomValue} from 'jotai';
 import React, {useEffect, useState} from 'react';
 import {Image, ScrollView, Text, View} from 'react-native';
+import * as Sentry from 'sentry-expo';
 import {delayAtom, localDataAtom} from '../atom';
 import {ButtonApp} from '../components/button';
 import {RootStackParamList} from '../routes/stack';
 import {FullBook} from '../types/api';
+import {getData} from '../utils/local-storage';
 import {
 	removeAllPreviousNotifications,
 	schedulePushNotification,
 } from '../utils/notifications';
-import * as Sentry from 'sentry-expo';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import {getData, storeData} from '../utils/local-storage';
 
 type Props = StackScreenProps<RootStackParamList, 'Home'>;
 
@@ -50,11 +50,12 @@ export const HomeScreen = ({navigation}: Props) => {
 		removeAllPreviousNotifications();
 		setLocalData(prev => ({
 			book,
-			sectionsMap: prev.sectionsMap
-				? prev?.sectionsMap?.get(book.id)
-					? prev.sectionsMap
-					: prev?.sectionsMap?.set(book.id, 0)
-				: (prev.sectionsMap = new Map([[book.id, 0]])),
+			sectionsMap: {
+				...prev.sectionsMap,
+				...(prev.sectionsMap[book.id]
+					? {[book.id]: prev.sectionsMap[book.id]}
+					: {[book.id]: 0}),
+			},
 		}));
 		//storeData(JSON.stringify(localData));
 
@@ -93,7 +94,7 @@ export const HomeScreen = ({navigation}: Props) => {
 								{book?.title}
 							</Text>
 							<Text className='text-primary text-xl '>
-								Chapitre actuel : {sectionsMap.get(book.id)} /{' '}
+								Chapitre actuel : {sectionsMap[book.id]} /{' '}
 								{book.sections.length}
 							</Text>
 						</View>

@@ -1,17 +1,17 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {NavigationContainer} from '@react-navigation/native';
 import {createTheme, ThemeProvider} from '@rneui/themed';
 import * as Device from 'expo-device';
 import {Subscription} from 'expo-modules-core';
 import * as Notifications from 'expo-notifications';
+import {useAtom} from 'jotai';
 import {useEffect, useRef, useState} from 'react';
 import {Linking, Platform} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
+import * as Sentry from 'sentry-expo';
+import {localDataAtom} from './src/atom';
 import MyStack from './src/routes/stack';
 import {schedulePushNotification} from './src/utils/notifications';
-import * as Sentry from 'sentry-expo';
-import {useAtom} from 'jotai';
-import {localDataAtom} from './src/atom';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 Sentry.init({
 	dsn: 'https://8ab175fa7d01426c881b6251f6dff517@o4504214289186816.ingest.sentry.io/4504214292987904',
@@ -60,7 +60,7 @@ export default function App() {
 						setLocalData(prev => ({
 							...prev,
 							book: parsed.book,
-							sectionsMap: new Map([[parsed.book.id, 0]]),
+							sectionsMap: {...parsed.sectionsMap},
 						}));
 					}
 					//setLocalData(JSON.parse(value));
