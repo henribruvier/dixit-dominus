@@ -3,7 +3,7 @@ import {Icon} from '@rneui/base';
 import {Dialog, Divider, Input} from '@rneui/themed';
 import {useAtom} from 'jotai';
 import React, {useState} from 'react';
-import {Text, TouchableOpacity, View} from 'react-native';
+import {Linking, Text, TouchableOpacity, View} from 'react-native';
 import {SelectList} from 'react-native-dropdown-select-list';
 import {localDataAtom} from '../atom';
 import {ButtonApp} from '../components/button';
@@ -86,6 +86,11 @@ export const SettingsSection = ({navigation}: Props) => {
 		setIsDialogDelayVisible(false);
 	};
 
+	const onPressDiscord = () =>
+		Linking.canOpenURL('https://discord.gg/qp7yrpdz').then(() => {
+			Linking.openURL('https://discord.gg/qp7yrpdz');
+		});
+
 	return (
 		<View className='h-full w-full px-2'>
 			<View className='border-b border-gray-300'>
@@ -94,19 +99,41 @@ export const SettingsSection = ({navigation}: Props) => {
 				</Text>
 			</View>
 			<Divider />
-			<View className='flex flex-row pt-5  items-center gap-2'>
-				<Text className='text-lg  border-t border border-gray-700 font-bold'>
-					Fréquence des notifications :
-				</Text>
-				<Text className='text-lg border-t border border-gray-700 font-bold'>
-					{secondsToData(localData.delay)}
-				</Text>
-				<TouchableOpacity
-					className='flex items-center justify-center'
-					onPress={() => setIsDialogDelayVisible(() => true)}
-				>
-					<Icon name={'edit'} type='feather' color={'#517fa4'} size={24} />
-				</TouchableOpacity>
+			<View className='flex  pt-5 px-2 justify-between pb-28 h-full  items-center gap-2'>
+				<View className='flex w-full flex-row'>
+					<Text className='text-lg  border-t border border-gray-700 '>
+						Fréquence des notifications :
+					</Text>
+					<Text className='text-lg border-t border border-gray-700 font-bold'>
+						{secondsToData(localData.delay)}
+					</Text>
+					<TouchableOpacity
+						className='flex pl-2 items-center justify-center'
+						onPress={() => setIsDialogDelayVisible(() => true)}
+					>
+						<Icon name={'edit'} type='feather' color={'#517fa4'} size={24} />
+					</TouchableOpacity>
+				</View>
+				<View className='flex w-full'>
+					<Text className='text-lg border-t w-full border border-gray-700 '>
+						Nous rejoindre
+					</Text>
+					<TouchableOpacity
+						onPress={() => onPressDiscord()}
+						className='flex flex-row items-center gap-2 justify-start'
+					>
+						<Icon name='discord' type='material-community' color={'black'} />
+						<Text className='text-lg border-t underline  border border-gray-700 '>
+							Channel Discord
+						</Text>
+					</TouchableOpacity>
+					<View className='flex flex-row items-center gap-2 justify-start'>
+						<Icon name='email' type='material-community' color={'black'} />
+						<Text className='text-lg border-t underline  border border-gray-700 '>
+							dixit.dominus.app@gmail.com
+						</Text>
+					</View>
+				</View>
 			</View>
 			<Dialog
 				onBackdropPress={() => setIsDialogDelayVisible(value => !value)}
