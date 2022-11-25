@@ -31,8 +31,7 @@ export const ReadScreen = ({navigation}: Props) => {
 				...localData,
 				sectionsMap: {...prev.sectionsMap, [book.id]: 0},
 			}));
-			getData().then(res => console.log(res.sectionMap));
-			//storeData(JSON.stringify(localData));
+
 			return;
 		}
 		setLocalData(prev => ({
@@ -42,9 +41,6 @@ export const ReadScreen = ({navigation}: Props) => {
 				[book.id]: prev.sectionsMap[book.id] + 1,
 			},
 		}));
-		getData().then(res => console.log(res.sectionMap));
-		console.log(localData.sectionsMap[book.id]);
-		//storeData(JSON.stringify(localData));
 	};
 	const orderedSections = localData?.book?.sections.sort(
 		(a, b) => a.order - b.order,
@@ -68,6 +64,19 @@ export const ReadScreen = ({navigation}: Props) => {
 		.replace(/\t/g, '')
 		.replace(/\n/g, '\n\n');
 
+	const onClickBack = () => {
+		setLocalData(prev => ({
+			...localData,
+			sectionsMap: {
+				...prev.sectionsMap,
+				[book.id]:
+					prev.sectionsMap[book.id] === 0
+						? prev.sectionsMap[book.id]
+						: prev.sectionsMap[book.id] - 1,
+			},
+		}));
+	};
+
 	return (
 		<View className='h-full w-full px-2 relative pt-8'>
 			<Text className='text-3xl pt-4 font-bold pb-4 px-12 text-center'>
@@ -86,7 +95,12 @@ export const ReadScreen = ({navigation}: Props) => {
 				</Text>
 			</ScrollView>
 
-			<View className='w-full flex items-center absolute bottom-4 left-0'>
+			<View className='w-full flex-row justify-center flex items-center absolute bottom-4 left-0'>
+				<ButtonApp disabled={section === 0} onPress={() => onClickBack()}>
+					<View className='flex flex-row gap-4 items-center justify-center'>
+						<Icon name='arrow-left' type='feather' color={'white'} />
+					</View>
+				</ButtonApp>
 				<ButtonApp onPress={() => onClickRead()}>
 					<View className='flex flex-row gap-4 items-center justify-center'>
 						<Text className='font-bold text-white text-lg'>Lu</Text>

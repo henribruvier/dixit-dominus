@@ -4,11 +4,17 @@ import {Button} from '@rneui/themed';
 type ButtonProps = {
 	onPress: () => void;
 	children: React.ReactNode;
+	disabled?: boolean;
 };
 
-export const ButtonApp = ({children, onPress}: ButtonProps) => {
+export const ButtonApp = ({
+	children,
+	onPress,
+	disabled = false,
+}: ButtonProps) => {
 	return (
 		<Button
+			disabled={disabled}
 			onPress={() => onPress()}
 			buttonStyle={{
 				backgroundColor: '#80A6DB',

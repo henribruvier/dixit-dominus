@@ -1,8 +1,8 @@
 {
 	"expo": {
-		"name": "dixit-dominus",
+		"name": "Dixit Dominus",
 		"slug": "dixit-dominus",
-		"version": "1.0.9",
+		"version": "1.1.0",
 		"owner": "bruvios",
 		"orientation": "portrait",
 		"icon": "./assets/icon.png",
@@ -21,11 +21,26 @@
 			"icon": "./assets/icon.png",
 			"bundleIdentifier": "com.bruvios.dixitdominus"
 		},
+		"build": {
+			"development": {
+				"developmentClient": true,
+				"distribution": "internal"
+			},
+			"preview": {
+				"distribution": "internal"
+			},
+			"production": {
+				"android": {
+					"buildType": "apk"
+				}
+			}
+		},
 		"android": {
 			"adaptiveIcon": {
 				"foregroundImage": "./assets/adaptive-icon.png",
 				"backgroundColor": "#FFFFFF"
 			},
+
 			"package": "com.bruvios.dixitdominus"
 		},
 		"web": {

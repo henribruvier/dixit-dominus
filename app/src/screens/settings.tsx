@@ -113,7 +113,6 @@ export const SettingsSection = ({navigation}: Props) => {
 				isVisible={isDialogDelayVisible}
 			>
 				<Dialog.Title title='Choisir le délai entre les notifications' />
-				<Input className='text-lg border-t border border-gray-700 font-bold' />
 				<SelectList
 					setSelected={(val: SelectDelay['value']) => setSelected(val)}
 					data={data}
