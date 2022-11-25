@@ -51,7 +51,7 @@ export const HomeScreen = ({navigation}: Props) => {
 			book,
 			sectionsMap: {
 				...prev.sectionsMap,
-				...(prev.sectionsMap[book.id]
+				...(prev?.sectionsMap?.[book.id]
 					? {[book.id]: prev.sectionsMap[book.id]}
 					: {[book.id]: 0}),
 			},
