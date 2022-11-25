@@ -1,11 +1,12 @@
 import {StackScreenProps} from '@react-navigation/stack';
-import {Button, Icon} from '@rneui/base';
+import {Icon} from '@rneui/base';
 import {Dialog, Divider, Input} from '@rneui/themed';
 import {useAtom} from 'jotai';
 import React, {useState} from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
 import {SelectList} from 'react-native-dropdown-select-list';
 import {localDataAtom} from '../atom';
+import {ButtonApp} from '../components/button';
 import {RootStackParamList} from '../routes/stack';
 import {
 	removeAllPreviousNotifications,
@@ -120,7 +121,7 @@ export const SettingsSection = ({navigation}: Props) => {
 					defaultOption={{key: '1', value: selected}}
 				/>
 				<View className='py-4'>
-					<Button onPress={() => onChangeDelay()}>Valider</Button>
+					<ButtonApp onPress={() => onChangeDelay()}>Valider</ButtonApp>
 				</View>
 			</Dialog>
 		</View>
