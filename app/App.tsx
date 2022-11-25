@@ -50,20 +50,15 @@ export default function App() {
 			try {
 				const value = await AsyncStorage.getItem('localData');
 				if (value !== null) {
-					// value previously stored
-
 					const parsed = JSON.parse(value);
-					console.log('fist title', parsed.book.sections[0].title);
-					console.log('sectionMap', parsed.sectionsMap);
-
 					if (parsed.book) {
 						setLocalData(prev => ({
 							...prev,
+							delay: parsed.delay,
 							book: parsed.book,
 							sectionsMap: {...parsed.sectionsMap},
 						}));
 					}
-					//setLocalData(JSON.parse(value));
 				}
 			} catch (e) {
 				// error reading value
@@ -71,8 +66,6 @@ export default function App() {
 		};
 		getData();
 	}, []);
-
-	console.log('notification', notification, expoPushToken);
 
 	useEffect(() => {
 		registerForPushNotificationsAsync()

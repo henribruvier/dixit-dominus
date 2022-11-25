@@ -1,11 +1,11 @@
 import {StackScreenProps} from '@react-navigation/stack';
 import {Button, Icon} from '@rneui/base';
 import {Dialog, Divider, Input} from '@rneui/themed';
-import {useAtom, useAtomValue} from 'jotai';
+import {useAtom} from 'jotai';
 import React, {useState} from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
 import {SelectList} from 'react-native-dropdown-select-list';
-import {delayAtom, localDataAtom} from '../atom';
+import {localDataAtom} from '../atom';
 import {RootStackParamList} from '../routes/stack';
 import {
 	removeAllPreviousNotifications,
@@ -57,10 +57,11 @@ const secondsToData = (delay: number | undefined) => {
 };
 
 export const SettingsSection = ({navigation}: Props) => {
-	const localData = useAtomValue(localDataAtom);
-	const [delay, setDelay] = useAtom(delayAtom);
+	const [localData, setLocalData] = useAtom(localDataAtom);
 	const [isDialogDelayVisible, setIsDialogDelayVisible] = useState(false);
-	const [selected, setSelected] = useState<string>(secondsToData(delay));
+	const [selected, setSelected] = useState<string>(
+		secondsToData(localData.delay),
+	);
 
 	const data = [
 		{key: '1', value: '20 min'},
@@ -80,7 +81,7 @@ export const SettingsSection = ({navigation}: Props) => {
 				'Votre chapitre vous attend',
 				newDelay,
 			);
-		setDelay(newDelay);
+		setLocalData(prev => ({...prev, delay: newDelay}));
 		setIsDialogDelayVisible(false);
 	};
 
@@ -97,7 +98,7 @@ export const SettingsSection = ({navigation}: Props) => {
 					Fréquence des notifications :
 				</Text>
 				<Text className='text-lg border-t border border-gray-700 font-bold'>
-					{secondsToData(delay)}
+					{secondsToData(localData.delay)}
 				</Text>
 				<TouchableOpacity
 					className='flex items-center justify-center'

@@ -1,11 +1,10 @@
-import {StackScreenProps} from '@react-navigation/stack';
-
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {useAtom, useAtomValue} from 'jotai';
+import {StackScreenProps} from '@react-navigation/stack';
+import {useAtom} from 'jotai';
 import React, {useEffect, useState} from 'react';
 import {Image, ScrollView, Text, View} from 'react-native';
 import * as Sentry from 'sentry-expo';
-import {delayAtom, localDataAtom} from '../atom';
+import {localDataAtom} from '../atom';
 import {ButtonApp} from '../components/button';
 import {RootStackParamList} from '../routes/stack';
 import {FullBook} from '../types/api';
@@ -20,7 +19,6 @@ type Props = StackScreenProps<RootStackParamList, 'Home'>;
 export const HomeScreen = ({navigation}: Props) => {
 	const [books, setBooks] = useState([]);
 	const [localData, setLocalData] = useAtom(localDataAtom);
-	const delay = useAtomValue(delayAtom);
 
 	const clearData = async () => {
 		try {
@@ -49,6 +47,7 @@ export const HomeScreen = ({navigation}: Props) => {
 	const onClickRead = (book: FullBook) => {
 		removeAllPreviousNotifications();
 		setLocalData(prev => ({
+			...prev,
 			book,
 			sectionsMap: {
 				...prev.sectionsMap,
@@ -62,7 +61,7 @@ export const HomeScreen = ({navigation}: Props) => {
 		schedulePushNotification(
 			'Il est temps de lire',
 			'Votre chapitre vous attend',
-			delay,
+			localData.delay,
 		);
 		console.log(localData.sectionsMap);
 		getData().then(res => console.log(res.sectionMap));

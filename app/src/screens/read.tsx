@@ -1,9 +1,9 @@
 import {StackScreenProps} from '@react-navigation/stack';
 import {Icon} from '@rneui/themed';
-import {useAtom, useAtomValue} from 'jotai';
+import {useAtom} from 'jotai';
 import React from 'react';
 import {ScrollView, Text, View} from 'react-native';
-import {delayAtom, localDataAtom} from '../atom';
+import {localDataAtom} from '../atom';
 import {ButtonApp} from '../components/button';
 import {RootStackParamList} from '../routes/stack';
 import {getData} from '../utils/local-storage';
@@ -16,7 +16,6 @@ type Props = StackScreenProps<RootStackParamList, 'Read'>;
 
 export const ReadScreen = ({navigation}: Props) => {
 	const [localData, setLocalData] = useAtom(localDataAtom);
-	const delay = useAtomValue(delayAtom);
 	const {book, sectionsMap} = localData;
 
 	const onClickRead = () => {
@@ -25,7 +24,7 @@ export const ReadScreen = ({navigation}: Props) => {
 		schedulePushNotification(
 			'Il est temps de lire',
 			'Votre chapitre vous attend',
-			delay,
+			localData.delay,
 		);
 		if (sectionsMap[book.id] === book.sections.length - 1) {
 			setLocalData(prev => ({
