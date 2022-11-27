@@ -6,7 +6,6 @@ import {ScrollView, Text, View} from 'react-native';
 import {localDataAtom} from '../atom';
 import {ButtonApp} from '../components/button';
 import {RootStackParamList} from '../routes/stack';
-import {getData} from '../utils/local-storage';
 import {
 	removeAllPreviousNotifications,
 	schedulePushNotification,
@@ -79,7 +78,7 @@ export const ReadScreen = ({navigation}: Props) => {
 
 	return (
 		<View className='h-full w-full px-2 relative pt-8'>
-			<Text className='text-3xl pt-4 font-bold pb-4 px-12 text-center'>
+			<Text className='text-3xl pt-4 font-bold pb-4 px-12 text-center text-primary'>
 				{book.title}
 			</Text>
 			<Text className='text-gray-400 text-xl text-center pb-2'>
@@ -104,7 +103,7 @@ export const ReadScreen = ({navigation}: Props) => {
 				<ButtonApp onPress={() => onClickRead()}>
 					<View className='flex flex-row gap-4 items-center justify-center'>
 						<Text className='font-bold text-white text-lg'>Lu</Text>
-						<Icon name='check' type='feather' color={'white'} />
+						<Icon name='check' type='feather' color='white' />
 					</View>
 				</ButtonApp>
 			</View>

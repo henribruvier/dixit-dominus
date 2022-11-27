@@ -1,4 +1,3 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import {StackScreenProps} from '@react-navigation/stack';
 import {useAtom} from 'jotai';
 import React, {useEffect, useState} from 'react';
@@ -19,16 +18,6 @@ type Props = StackScreenProps<RootStackParamList, 'Home'>;
 export const HomeScreen = ({navigation}: Props) => {
 	const [books, setBooks] = useState([]);
 	const [localData, setLocalData] = useAtom(localDataAtom);
-
-	const clearData = async () => {
-		try {
-			await AsyncStorage.setItem('localData', '');
-		} catch (e) {
-			// saving error
-		}
-	};
-
-	//clearData();
 
 	useEffect(() => {
 		try {
@@ -56,14 +45,13 @@ export const HomeScreen = ({navigation}: Props) => {
 					: {[book.id]: 0}),
 			},
 		}));
-		//storeData(JSON.stringify(localData));
 
 		schedulePushNotification(
 			'Il est temps de lire',
 			'Votre chapitre vous attend',
 			localData.delay,
 		);
-		console.log(localData.sectionsMap);
+
 		getData().then(res => console.log(res.sectionMap));
 	};
 
@@ -80,7 +68,7 @@ export const HomeScreen = ({navigation}: Props) => {
 			<View className='justify-center items-center flex align-middle px-4'>
 				{book ? (
 					<View className='flex flex-row gap-4'>
-						<View className=' h-20 w-16 overflow-hidden bg-pink-300 rounded-md'>
+						<View className='h-20 w-16 overflow-hidden bg-pink-300 rounded-md'>
 							{book.image && (
 								<Image
 									className='w-full h-full object-contain'
@@ -88,11 +76,11 @@ export const HomeScreen = ({navigation}: Props) => {
 								/>
 							)}
 						</View>
-						<View className='flex flex-col'>
+						<View className='flex flex-col w-4/5'>
 							<Text className='text-gray-700 font-bold text-xl '>
 								{book?.title}
 							</Text>
-							<Text className='text-primary text-xl '>
+							<Text className='text-primary text-xl'>
 								Chapitre actuel : {sectionsMap[book.id]} /{' '}
 								{book.sections.length}
 							</Text>
@@ -113,7 +101,7 @@ export const HomeScreen = ({navigation}: Props) => {
 						key={book.title}
 						className='flex flex-col w-1/3 px-2 gap-2 items-center'
 					>
-						<View className='w-28 h-44 overflow-hidden bg-pink-300 rounded-md'>
+						<View className='w-28 h-44 overflow-hidden rounded-md'>
 							{book.image && (
 								<Image
 									className='w-full h-full object-contain'
@@ -122,17 +110,15 @@ export const HomeScreen = ({navigation}: Props) => {
 							)}
 						</View>
 						{!localData?.book || localData?.book?.title !== book.title ? (
-							<View className='flex items-center justify-center px-4'>
+							<View className='flex items-center justify-center px-4 w-full'>
 								<ButtonApp onPress={() => onClickRead(book)}>Lire</ButtonApp>
 							</View>
 						) : null}
-						<View className='flex flex-row gap-2 justify-between pb-4 text-left'>
-							<View className='flex gap-1'>
-								<Text className='text-lg font-bold text-primary'>
-									{book.title}
-								</Text>
-								<Text className='text-gray-500 text-md'>{book.author}</Text>
-							</View>
+						<View className='flex flex-col text-left w-full h-full justify-start items-start p-0'>
+							<Text className='text-lg font-bold text-primary pb-1'>
+								{book.title}
+							</Text>
+							<Text className='text-gray-500 text-md'>{book.author}</Text>
 						</View>
 					</View>
 				))}

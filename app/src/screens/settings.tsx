@@ -1,79 +1,35 @@
 import {StackScreenProps} from '@react-navigation/stack';
 import {Icon} from '@rneui/base';
-import {Dialog, Divider, Input} from '@rneui/themed';
+import {Dialog, Divider} from '@rneui/themed';
 import {useAtom} from 'jotai';
 import React, {useState} from 'react';
 import {Linking, Text, TouchableOpacity, View} from 'react-native';
 import {SelectList} from 'react-native-dropdown-select-list';
 import {localDataAtom} from '../atom';
 import {ButtonApp} from '../components/button';
+import {delayParser, settingsData} from '../data/settings';
 import {RootStackParamList} from '../routes/stack';
 import {
 	removeAllPreviousNotifications,
 	schedulePushNotification,
 } from '../utils/notifications';
+import {getKeyByValue} from '../utils/index';
 
 type Props = StackScreenProps<RootStackParamList, 'Settings'>;
-type SelectDelay = {
-	key: string;
-	value: string;
-};
 
-const dataToSeconds = (selected: string) => {
-	switch (selected) {
-		case '20 min':
-			return 1200;
-		case '40 min':
-			return 2400;
-		case '1h':
-			return 3600;
-		case '1h30':
-			return 5400;
-		case '2h':
-			return 7200;
-		case '10 sec':
-			return 10;
-		default:
-			return 1200;
-	}
-};
+const dataToSeconds = (selected: keyof typeof delayParser) =>
+	delayParser[selected];
 
-const secondsToData = (delay: number | undefined) => {
-	switch (delay) {
-		case 1200:
-			return '20 min';
-		case 2400:
-			return '40 min';
-		case 3600:
-			return '1h';
-		case 5400:
-			return '1h30';
-		case 7200:
-			return '2h';
-		case 10:
-			return '10 sec';
-		default:
-			return '20 min';
-	}
-};
+const secondsToData = (delay: number | undefined) =>
+	getKeyByValue(delayParser, delay);
 
 export const SettingsSection = ({navigation}: Props) => {
 	const [localData, setLocalData] = useAtom(localDataAtom);
 	const [isDialogDelayVisible, setIsDialogDelayVisible] = useState(false);
-	const [selected, setSelected] = useState<string>(
-		secondsToData(localData.delay),
-	);
-
-	const data = [
-		{key: '1', value: '20 min'},
-		{key: '2', value: '40 min'},
-		{key: '3', value: '1h'},
-		{key: '4', value: '1h30'},
-		{key: '5', value: '2h'},
-		{key: '6', value: '10 sec'},
-	];
+	const [selected, setSelected] = useState(secondsToData(localData.delay));
 
 	const onChangeDelay = () => {
+		if (!selected) return;
 		removeAllPreviousNotifications();
 		const newDelay = dataToSeconds(selected);
 		if (localData?.book)
@@ -111,25 +67,25 @@ export const SettingsSection = ({navigation}: Props) => {
 						className='flex pl-2 items-center justify-center'
 						onPress={() => setIsDialogDelayVisible(() => true)}
 					>
-						<Icon name={'edit'} type='feather' color={'#517fa4'} size={24} />
+						<Icon name='edit' type='feather' color='#517fa4' size={24} />
 					</TouchableOpacity>
 				</View>
-				<View className='flex w-full'>
-					<Text className='text-lg border-t w-full border border-gray-700 '>
+				<View className='flex w-full flex-col gap-1 justify-start items-start'>
+					<Text className='text-lg border-t w-full border border-gray-700 text-gray-600'>
 						Nous rejoindre
 					</Text>
 					<TouchableOpacity
 						onPress={() => onPressDiscord()}
 						className='flex flex-row items-center gap-2 justify-start'
 					>
-						<Icon name='discord' type='material-community' color={'black'} />
-						<Text className='text-lg border-t underline  border border-gray-700 '>
+						<Icon name='discord' type='material-community' color='#4b5563' />
+						<Text className='text-lg border-t underline  border border-gray-700 text-gray-600'>
 							Channel Discord
 						</Text>
 					</TouchableOpacity>
 					<View className='flex flex-row items-center gap-2 justify-start'>
-						<Icon name='email' type='material-community' color={'black'} />
-						<Text className='text-lg border-t underline  border border-gray-700 '>
+						<Icon name='email' type='material-community' color='#4b5563' />
+						<Text className='text-lg border-t underline border border-gray-700 text-gray-600'>
 							dixit.dominus.app@gmail.com
 						</Text>
 					</View>
@@ -141,9 +97,10 @@ export const SettingsSection = ({navigation}: Props) => {
 			>
 				<Dialog.Title title='Choisir le délai entre les notifications' />
 				<SelectList
-					setSelected={(val: SelectDelay['value']) => setSelected(val)}
-					data={data}
+					setSelected={(val: keyof typeof delayParser) => setSelected(val)}
+					data={settingsData}
 					save='value'
+					search={false}
 					defaultOption={{key: '1', value: selected}}
 				/>
 				<View className='py-4'>
