@@ -12,6 +12,7 @@ import * as Sentry from 'sentry-expo';
 import {localDataAtom} from './src/atom';
 import MyStack from './src/routes/stack';
 import {schedulePushNotification} from './src/utils/notifications';
+import {StatusBar} from 'expo-status-bar';
 
 Sentry.init({
 	dsn: 'https://8ab175fa7d01426c881b6251f6dff517@o4504214289186816.ingest.sentry.io/4504214292987904',
@@ -167,6 +168,7 @@ export default function App() {
 						},
 					}}
 				>
+					<StatusBar style='auto' />
 					<MyStack />
 				</NavigationContainer>
 			</ThemeProvider>

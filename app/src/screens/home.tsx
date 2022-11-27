@@ -58,7 +58,7 @@ export const HomeScreen = ({navigation}: Props) => {
 	const {book, sectionsMap} = localData;
 
 	return (
-		<View className='h-full w-full px-2 text-primary'>
+		<ScrollView className='h-full w-full px-2 text-primary'>
 			<View className='border-b border-gray-300'>
 				<Text className='text-3xl pt-12 font-bold text-primary pb-4'>Home</Text>
 			</View>
@@ -95,7 +95,7 @@ export const HomeScreen = ({navigation}: Props) => {
 			<Text className='text-3xl pt-12 font-bold text-primary pb-10'>
 				Livres <Text className='text-secondary'>disponibles</Text>
 			</Text>
-			<ScrollView horizontal>
+			<ScrollView className='gap-2' horizontal>
 				{books.map((book: FullBook) => (
 					<View
 						key={book.title}
@@ -109,20 +109,21 @@ export const HomeScreen = ({navigation}: Props) => {
 								/>
 							)}
 						</View>
-						{!localData?.book || localData?.book?.title !== book.title ? (
-							<View className='flex items-center justify-center px-4 w-full'>
-								<ButtonApp onPress={() => onClickRead(book)}>Lire</ButtonApp>
-							</View>
-						) : null}
+
 						<View className='flex flex-col text-left w-full h-full justify-start items-start p-0'>
 							<Text className='text-lg font-bold text-primary pb-1'>
 								{book.title}
 							</Text>
 							<Text className='text-gray-500 text-md'>{book.author}</Text>
+							{!localData?.book || localData?.book?.title !== book.title ? (
+								<View className='flex pt-2 items-center justify-center px-4 w-full'>
+									<ButtonApp onPress={() => onClickRead(book)}>Lire</ButtonApp>
+								</View>
+							) : null}
 						</View>
 					</View>
 				))}
 			</ScrollView>
-		</View>
+		</ScrollView>
 	);
 };
