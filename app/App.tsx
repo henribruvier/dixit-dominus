@@ -52,7 +52,14 @@ const ColorScheme = ({children}: PropsWithChildren) => {
 		if (localData) setMode(localData.colorMode);
 	}, [localData]);
 
-	return <View style={{backgroundColor: theme.colors.black}}>{children}</View>;
+	return (
+		<View
+			className='h-full w-full flex'
+			style={{backgroundColor: theme.colors.background}}
+		>
+			{children}
+		</View>
+	);
 };
 
 export default function App() {
@@ -62,8 +69,6 @@ export default function App() {
 	const notificationListener = useRef<Subscription>();
 	const responseListener = useRef<Subscription>();
 	const [localData, setLocalData] = useAtom(localDataAtom);
-	const {setMode} = useThemeMode();
-	const {theme} = useTheme();
 
 	useEffect(() => {
 		const getData = async () => {
@@ -174,8 +179,10 @@ export default function App() {
 						},
 					}}
 				>
-					<StatusBar style='auto' />
-					<MyStack />
+					<ColorScheme>
+						<StatusBar style='auto' />
+						<MyStack />
+					</ColorScheme>
 				</NavigationContainer>
 			</ThemeProvider>
 		</SafeAreaProvider>

@@ -1,4 +1,5 @@
 import {StackScreenProps} from '@react-navigation/stack';
+import {useTheme} from '@rneui/themed';
 import {useAtom} from 'jotai';
 import React, {useEffect, useState} from 'react';
 import {Image, ScrollView, Text, View} from 'react-native';
@@ -18,6 +19,8 @@ type Props = StackScreenProps<RootStackParamList, 'Home'>;
 export const HomeScreen = ({navigation}: Props) => {
 	const [books, setBooks] = useState([]);
 	const [localData, setLocalData] = useAtom(localDataAtom);
+	const {theme} = useTheme();
+	const {book, sectionsMap} = localData;
 
 	useEffect(() => {
 		try {
@@ -55,10 +58,11 @@ export const HomeScreen = ({navigation}: Props) => {
 		getData().then(res => console.log(res.sectionMap));
 	};
 
-	const {book, sectionsMap} = localData;
-
 	return (
-		<ScrollView className='h-full w-full px-2 text-primary'>
+		<ScrollView
+			className='h-full w-full px-2 text-primary'
+			style={{backgroundColor: theme.colors.background}}
+		>
 			<View className='border-b border-gray-300'>
 				<Text className='text-3xl pt-12 font-bold text-primary pb-4'>Home</Text>
 			</View>

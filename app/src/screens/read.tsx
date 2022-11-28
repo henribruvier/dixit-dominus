@@ -1,5 +1,5 @@
 import {StackScreenProps} from '@react-navigation/stack';
-import {Icon} from '@rneui/themed';
+import {Icon, useTheme} from '@rneui/themed';
 import {useAtom} from 'jotai';
 import React from 'react';
 import {ScrollView, Text, View} from 'react-native';
@@ -14,6 +14,7 @@ import {
 type Props = StackScreenProps<RootStackParamList, 'Read'>;
 
 export const ReadScreen = ({navigation}: Props) => {
+	const {theme} = useTheme();
 	const [localData, setLocalData] = useAtom(localDataAtom);
 	const {book, sectionsMap} = localData;
 
@@ -77,7 +78,10 @@ export const ReadScreen = ({navigation}: Props) => {
 	};
 
 	return (
-		<View className='h-full w-full px-2 relative pt-8'>
+		<View
+			className='h-full w-full px-2 relative pt-8'
+			style={{backgroundColor: theme.colors.background}}
+		>
 			<Text className='text-3xl pt-4 font-bold pb-4 px-12 text-center text-primary'>
 				{book.title}
 			</Text>
@@ -89,7 +93,10 @@ export const ReadScreen = ({navigation}: Props) => {
 			</Text>
 
 			<ScrollView>
-				<Text className='text-xl pb-24 scroll-y-auto whitespace-pre '>
+				<Text
+					className='text-xl pb-24 scroll-y-auto whitespace-pre'
+					style={{color: theme.colors.black}}
+				>
 					{replacedText}
 				</Text>
 			</ScrollView>

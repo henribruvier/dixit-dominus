@@ -1,19 +1,19 @@
 import {StackScreenProps} from '@react-navigation/stack';
 import {Icon} from '@rneui/base';
-import {Dialog, Divider} from '@rneui/themed';
+import {Dialog, Divider, useTheme, useThemeMode} from '@rneui/themed';
 import {useAtom} from 'jotai';
 import React, {useState} from 'react';
-import {Linking, Text, TouchableOpacity, View} from 'react-native';
+import {Linking, Switch, Text, TouchableOpacity, View} from 'react-native';
 import {SelectList} from 'react-native-dropdown-select-list';
 import {localDataAtom} from '../atom';
 import {ButtonApp} from '../components/button';
 import {delayParser, settingsData} from '../data/settings';
 import {RootStackParamList} from '../routes/stack';
+import {getKeyByValue} from '../utils/index';
 import {
 	removeAllPreviousNotifications,
 	schedulePushNotification,
 } from '../utils/notifications';
-import {getKeyByValue} from '../utils/index';
 
 type Props = StackScreenProps<RootStackParamList, 'Settings'>;
 
@@ -27,6 +27,20 @@ export const SettingsSection = ({navigation}: Props) => {
 	const [localData, setLocalData] = useAtom(localDataAtom);
 	const [isDialogDelayVisible, setIsDialogDelayVisible] = useState(false);
 	const [selected, setSelected] = useState(secondsToData(localData.delay));
+	const [isDarkMode, setIsDarkMode] = useState(false);
+	const {setMode} = useThemeMode();
+	const {theme} = useTheme();
+
+	const toggleSwitch = () => {
+		const newValue = !isDarkMode;
+		const newMode = newValue ? 'dark' : 'light';
+		setIsDarkMode(() => newValue);
+		setMode(newMode);
+		setLocalData(prev => ({
+			...prev,
+			colorMode: newMode,
+		}));
+	};
 
 	const onChangeDelay = () => {
 		if (!selected) return;
@@ -48,19 +62,28 @@ export const SettingsSection = ({navigation}: Props) => {
 		});
 
 	return (
-		<View className='h-full w-full px-2'>
+		<View
+			className='h-full w-full px-2'
+			style={{backgroundColor: theme.colors.background}}
+		>
 			<View className='border-b border-gray-300'>
 				<Text className='text-3xl pt-12 font-bold text-primary pb-4'>
 					Paramètres
 				</Text>
 			</View>
 			<Divider />
-			<View className='flex  pt-5 px-2 justify-between pb-28 h-full  items-center gap-2'>
+			<View className='flex  pt-5 px-2 justify-between pb-28 h-full items-center gap-2'>
 				<View className='flex w-full flex-row'>
-					<Text className='text-lg  border-t border border-gray-700 '>
+					<Text
+						className='text-lg  border-t border border-gray-700'
+						style={{color: theme.colors.black}}
+					>
 						Fréquence des notifications :
 					</Text>
-					<Text className='text-lg border-t border border-gray-700 font-bold'>
+					<Text
+						className='text-lg border-t border border-gray-700 font-bold'
+						style={{color: theme.colors.black}}
+					>
 						{secondsToData(localData.delay)}
 					</Text>
 					<TouchableOpacity
@@ -69,6 +92,21 @@ export const SettingsSection = ({navigation}: Props) => {
 					>
 						<Icon name='edit' type='feather' color='#517fa4' size={24} />
 					</TouchableOpacity>
+				</View>
+				<View className='flex w-full flex-row justify-between'>
+					<Text
+						className='text-lg  border-t border border-gray-700'
+						style={{color: theme.colors.black}}
+					>
+						Mode sombre :
+					</Text>
+					<Switch
+						trackColor={{false: '#767577', true: '#81b0ff'}}
+						thumbColor={isDarkMode ? '#f5dd4b' : '#f4f3f4'}
+						ios_backgroundColor='#3e3e3e'
+						onValueChange={toggleSwitch}
+						value={isDarkMode}
+					/>
 				</View>
 				<View className='flex w-full flex-col gap-1 justify-start items-start'>
 					<Text className='text-lg border-t w-full border border-gray-700 text-gray-600'>
