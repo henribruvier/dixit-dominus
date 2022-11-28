@@ -23,7 +23,7 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 import * as Sentry from 'sentry-expo';
 import {localDataAtom} from './src/atom';
 import MyStack from './src/routes/stack';
-import {schedulePushNotification} from './src/utils/notifications';
+import {resetBadge, schedulePushNotification} from './src/utils/notifications';
 
 Sentry.init({
 	dsn: 'https://8ab175fa7d01426c881b6251f6dff517@o4504214289186816.ingest.sentry.io/4504214292987904',
@@ -113,13 +113,18 @@ export default function App() {
 	}, []);
 
 	useEffect(() => {
+		resetBadge();
+	}, []);
+
+	useEffect(() => {
 		registerForPushNotificationsAsync()
 			.then(token => token && setExpoPushToken(token))
 			.catch(err => Sentry.Native.captureException(err));
 
 		notificationListener.current =
-			Notifications.addNotificationReceivedListener(notification => {
+			Notifications.addNotificationReceivedListener(async notification => {
 				notification && setNotification(notification);
+
 				Linking.openURL('app://dixit-dominus/read').catch(error => {
 					console.log('error', error);
 					Sentry.Native.captureException(error);

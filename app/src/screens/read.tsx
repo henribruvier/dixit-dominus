@@ -8,6 +8,7 @@ import {ButtonApp} from '../components/button';
 import {RootStackParamList} from '../routes/stack';
 import {
 	removeAllPreviousNotifications,
+	resetBadge,
 	schedulePushNotification,
 } from '../utils/notifications';
 
@@ -21,6 +22,7 @@ export const ReadScreen = ({navigation}: Props) => {
 	const onClickRead = () => {
 		if (!book) return;
 		removeAllPreviousNotifications();
+		resetBadge();
 		schedulePushNotification(
 			'Il est temps de lire',
 			'Votre chapitre vous attend',
