@@ -10,6 +10,7 @@ export const localDataAtom = atomWithStorage<LocalData>(
 		delay: 20 * 60,
 		book: undefined,
 		sectionsMap: {},
+		colorMode: 'light',
 	},
 	storage,
 );

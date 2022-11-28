@@ -1,18 +1,23 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {NavigationContainer} from '@react-navigation/native';
-import {createTheme, ThemeProvider} from '@rneui/themed';
+import {
+	createTheme,
+	ThemeProvider,
+	useTheme,
+	useThemeMode,
+} from '@rneui/themed';
 import * as Device from 'expo-device';
 import {Subscription} from 'expo-modules-core';
 import * as Notifications from 'expo-notifications';
-import {useAtom} from 'jotai';
-import {useEffect, useRef, useState} from 'react';
-import {Linking, Platform} from 'react-native';
+import {StatusBar} from 'expo-status-bar';
+import {useAtom, useAtomValue} from 'jotai';
+import React, {PropsWithChildren, useEffect, useRef, useState} from 'react';
+import {Linking, Platform, View} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import * as Sentry from 'sentry-expo';
 import {localDataAtom} from './src/atom';
 import MyStack from './src/routes/stack';
 import {schedulePushNotification} from './src/utils/notifications';
-import {StatusBar} from 'expo-status-bar';
 
 Sentry.init({
 	dsn: 'https://8ab175fa7d01426c881b6251f6dff517@o4504214289186816.ingest.sentry.io/4504214292987904',
@@ -28,7 +33,7 @@ Notifications.setNotificationHandler({
 	}),
 });
 
-const theme = createTheme({
+const theme_ = createTheme({
 	lightColors: {
 		primary: '#e7e7e8',
 	},
@@ -38,6 +43,18 @@ const theme = createTheme({
 	mode: 'light',
 });
 
+const ColorScheme = ({children}: PropsWithChildren) => {
+	const {theme} = useTheme();
+	const {setMode} = useThemeMode();
+	const localData = useAtomValue(localDataAtom);
+
+	useEffect(() => {
+		if (localData) setMode(localData.colorMode);
+	}, [localData]);
+
+	return <View style={{backgroundColor: theme.colors.black}}>{children}</View>;
+};
+
 export default function App() {
 	const [expoPushToken, setExpoPushToken] = useState('');
 	const [notification, setNotification] =
@@ -45,6 +62,8 @@ export default function App() {
 	const notificationListener = useRef<Subscription>();
 	const responseListener = useRef<Subscription>();
 	const [localData, setLocalData] = useAtom(localDataAtom);
+	const {setMode} = useThemeMode();
+	const {theme} = useTheme();
 
 	useEffect(() => {
 		const getData = async () => {
@@ -58,6 +77,7 @@ export default function App() {
 							delay: parsed.delay,
 							book: parsed.book,
 							sectionsMap: {...parsed.sectionsMap},
+							isDarkMode: parsed.isDarkMode,
 						}));
 					}
 				}
@@ -100,27 +120,21 @@ export default function App() {
 
 	return (
 		<SafeAreaProvider>
-			<ThemeProvider theme={theme}>
+			<ThemeProvider theme={theme_}>
 				<NavigationContainer
 					linking={{
 						prefixes: ['app://dixit-dominus'],
 						config: {
 							screens: {Read: 'read', Settings: 'settings', Home: 'home'},
-							// Configuration for linking
 						},
 						async getInitialURL() {
-							// First, you may want to do the default deep link handling
-							// Check if app was opened from a deep link
 							let url = await Linking.getInitialURL().catch(error => {
 								console.log('error', error);
 								Sentry.Native.captureException(error);
 							});
 
-							if (url != null) {
-								return url;
-							}
+							if (url != null) return url;
 
-							// Handle URL from expo push notifications
 							const response =
 								await Notifications.getLastNotificationResponseAsync().catch(
 									error => {
@@ -136,11 +150,8 @@ export default function App() {
 						},
 						subscribe(listener) {
 							const onReceiveURL = ({url}: {url: string}) => listener(url);
-
-							// Listen to incoming links from deep linking
 							Linking.addEventListener('url', onReceiveURL);
 
-							// Listen to expo push notifications
 							const subscription =
 								Notifications.addNotificationResponseReceivedListener(
 									response => {
@@ -152,16 +163,11 @@ export default function App() {
 											"Vous n'avez pas lu votre chapitre",
 											3600,
 										);
-										// Any custom logic to see whether the URL needs to be handled
-										//...
-
-										// Let React Navigation handle the URL
 										if (url) listener(url);
 									},
 								);
 
 							return () => {
-								// Clean up the event listeners
 								Linking.removeAllListeners('url');
 								subscription.remove();
 							};
@@ -196,7 +202,18 @@ async function registerForPushNotificationsAsync() {
 		let finalStatus = existingStatus;
 		if (existingStatus !== 'granted') {
 			try {
-				const {status} = await Notifications.requestPermissionsAsync();
+				const {status} = await Notifications.requestPermissionsAsync({
+					ios: {
+						allowAlert: true,
+						allowBadge: true,
+						allowSound: true,
+						allowDisplayInCarPlay: true,
+						allowCriticalAlerts: true,
+						provideAppNotificationSettings: true,
+						allowProvisional: true,
+						allowAnnouncements: true,
+					},
+				});
 				finalStatus = status;
 				// your code
 			} catch (error) {

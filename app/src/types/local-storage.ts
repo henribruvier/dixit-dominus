@@ -4,4 +4,5 @@ export type LocalData = {
 	delay: number;
 	book: FullBook | undefined;
 	sectionsMap: Record<FullBook['id'], number>;
+	colorMode: 'light' | 'dark';
 };
