@@ -1,5 +1,5 @@
+import {Button, useTheme} from '@rneui/themed';
 import * as React from 'react';
-import {Button} from '@rneui/themed';
 
 type ButtonProps = {
 	onPress: () => void;
@@ -12,14 +12,18 @@ export const ButtonApp = ({
 	onPress,
 	disabled = false,
 }: ButtonProps) => {
+	const {theme} = useTheme();
 	return (
 		<Button
 			disabled={disabled}
 			onPress={() => onPress()}
+			disabledStyle={{
+				backgroundColor: theme.colors.grey4,
+			}}
 			buttonStyle={{
-				backgroundColor: '#80A6DB',
+				backgroundColor: theme.colors.secondary,
+				borderColor: theme.colors.white,
 				borderWidth: 2,
-				borderColor: 'white',
 				borderRadius: 30,
 				paddingHorizontal: 20,
 			}}

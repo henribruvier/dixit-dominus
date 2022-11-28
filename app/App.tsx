@@ -12,7 +12,13 @@ import * as Notifications from 'expo-notifications';
 import {StatusBar} from 'expo-status-bar';
 import {useAtom, useAtomValue} from 'jotai';
 import React, {PropsWithChildren, useEffect, useRef, useState} from 'react';
-import {Linking, Platform, View} from 'react-native';
+import {
+	Appearance,
+	Linking,
+	Platform,
+	useColorScheme,
+	View,
+} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import * as Sentry from 'sentry-expo';
 import {localDataAtom} from './src/atom';
@@ -35,10 +41,12 @@ Notifications.setNotificationHandler({
 
 const theme_ = createTheme({
 	lightColors: {
-		primary: '#e7e7e8',
+		primary: '#173052',
+		secondary: '#80A6DB',
 	},
 	darkColors: {
-		primary: '#000',
+		primary: '#567197',
+		secondary: '#a9c9f5',
 	},
 	mode: 'light',
 });
@@ -47,10 +55,21 @@ const ColorScheme = ({children}: PropsWithChildren) => {
 	const {theme} = useTheme();
 	const {setMode} = useThemeMode();
 	const localData = useAtomValue(localDataAtom);
+	const colorScheme = useColorScheme();
 
 	useEffect(() => {
-		if (localData) setMode(localData.colorMode);
-	}, [localData]);
+		if (!localData?.colorMode && !colorScheme) {
+			setMode('light');
+			return;
+		}
+
+		if (localData?.colorMode) {
+			setMode(localData.colorMode);
+			return;
+		}
+
+		if (colorScheme) setMode(colorScheme);
+	}, [localData.colorMode]);
 
 	return (
 		<View
@@ -121,6 +140,17 @@ export default function App() {
 			responseListener.current &&
 				Notifications.removeNotificationSubscription(responseListener.current);
 		};
+	}, []);
+
+	useEffect(() => {
+		const updateColorScheme: Appearance.AppearanceListener = ({
+			colorScheme,
+		}) => {
+			if (colorScheme)
+				setLocalData(prev => ({...prev, colorMode: colorScheme}));
+		};
+
+		Appearance.addChangeListener(updateColorScheme);
 	}, []);
 
 	return (

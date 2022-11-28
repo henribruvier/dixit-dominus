@@ -67,63 +67,98 @@ export const SettingsSection = ({navigation}: Props) => {
 			style={{backgroundColor: theme.colors.background}}
 		>
 			<View className='border-b border-gray-300'>
-				<Text className='text-3xl pt-12 font-bold text-primary pb-4'>
+				<Text
+					className='text-3xl pt-12 font-bold pb-4'
+					style={{color: theme.colors.primary}}
+				>
 					Paramètres
 				</Text>
 			</View>
 			<Divider />
-			<View className='flex  pt-5 px-2 justify-between pb-28 h-full items-center gap-2'>
-				<View className='flex w-full flex-row'>
-					<Text
-						className='text-lg  border-t border border-gray-700'
-						style={{color: theme.colors.black}}
-					>
-						Fréquence des notifications :
-					</Text>
-					<Text
-						className='text-lg border-t border border-gray-700 font-bold'
-						style={{color: theme.colors.black}}
-					>
-						{secondsToData(localData.delay)}
-					</Text>
-					<TouchableOpacity
-						className='flex pl-2 items-center justify-center'
-						onPress={() => setIsDialogDelayVisible(() => true)}
-					>
-						<Icon name='edit' type='feather' color='#517fa4' size={24} />
-					</TouchableOpacity>
+			<View className='flex pt-5 px-2 justify-between pb-28 h-full items-center gap-2'>
+				<View className='w-full flex flex-col gap-4 justify-center items-center'>
+					<View className='flex w-full flex-row justify-between mx-2'>
+						<Text
+							className='text-lg'
+							style={{
+								color: theme.colors.black,
+							}}
+						>
+							Fréquence des notifications :
+						</Text>
+						<Text
+							className='text-lg font-bold'
+							style={{
+								color: theme.colors.black,
+							}}
+						>
+							{secondsToData(localData.delay)}
+						</Text>
+						<TouchableOpacity
+							className='flex pl-2 items-center justify-center'
+							onPress={() => setIsDialogDelayVisible(() => true)}
+						>
+							<Icon name='edit' type='feather' color='#517fa4' size={24} />
+						</TouchableOpacity>
+					</View>
+					<View className='flex w-full flex-row justify-between mx-2'>
+						<Text
+							className='text-lg'
+							style={{
+								color: theme.colors.black,
+							}}
+						>
+							Mode sombre :
+						</Text>
+						<Switch
+							trackColor={{false: '#767577', true: '#81b0ff'}}
+							thumbColor={isDarkMode ? '#f5dd4b' : '#f4f3f4'}
+							ios_backgroundColor='#3e3e3e'
+							onValueChange={toggleSwitch}
+							value={isDarkMode}
+						/>
+					</View>
 				</View>
-				<View className='flex w-full flex-row justify-between'>
-					<Text
-						className='text-lg  border-t border border-gray-700'
-						style={{color: theme.colors.black}}
-					>
-						Mode sombre :
-					</Text>
-					<Switch
-						trackColor={{false: '#767577', true: '#81b0ff'}}
-						thumbColor={isDarkMode ? '#f5dd4b' : '#f4f3f4'}
-						ios_backgroundColor='#3e3e3e'
-						onValueChange={toggleSwitch}
-						value={isDarkMode}
-					/>
-				</View>
+
 				<View className='flex w-full flex-col gap-1 justify-start items-start'>
-					<Text className='text-lg border-t w-full border border-gray-700 text-gray-600'>
+					<Text
+						className='text-lg w-full'
+						style={{
+							color: theme.colors.grey2,
+						}}
+					>
 						Nous rejoindre
 					</Text>
 					<TouchableOpacity
 						onPress={() => onPressDiscord()}
 						className='flex flex-row items-center gap-2 justify-start'
 					>
-						<Icon name='discord' type='material-community' color='#4b5563' />
-						<Text className='text-lg border-t underline  border border-gray-700 text-gray-600'>
+						<Icon
+							name='discord'
+							type='material-community'
+							color={theme.colors.grey2}
+						/>
+						<Text
+							className='text-lg underline'
+							style={{
+								color: theme.colors.grey2,
+							}}
+						>
 							Channel Discord
 						</Text>
 					</TouchableOpacity>
 					<View className='flex flex-row items-center gap-2 justify-start'>
-						<Icon name='email' type='material-community' color='#4b5563' />
-						<Text className='text-lg border-t underline border border-gray-700 text-gray-600'>
+						<Icon
+							name='email'
+							type='material-community'
+							color={theme.colors.grey2}
+						/>
+						<Text
+							className='text-lg underline'
+							style={{
+								color: theme.colors.grey2,
+							}}
+						>
 							dixit.dominus.app@gmail.com
 						</Text>
 					</View>

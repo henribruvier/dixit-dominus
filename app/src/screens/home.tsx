@@ -60,19 +60,27 @@ export const HomeScreen = ({navigation}: Props) => {
 
 	return (
 		<ScrollView
-			className='h-full w-full px-2 text-primary'
+			className='h-full w-full px-2'
 			style={{backgroundColor: theme.colors.background}}
 		>
 			<View className='border-b border-gray-300'>
-				<Text className='text-3xl pt-12 font-bold text-primary pb-4'>Home</Text>
+				<Text
+					className='text-3xl pt-12 font-bold pb-4'
+					style={{color: theme.colors.primary}}
+				>
+					Home
+				</Text>
 			</View>
-			<Text className='text-3xl pt-6 font-bold text-primary pb-10'>
-				Mon livre <Text className='text-secondary'>en cours</Text>
+			<Text
+				className='text-3xl pt-6 font-bold pb-10'
+				style={{color: theme.colors.primary}}
+			>
+				Mon livre <Text style={{color: theme.colors.secondary}}>en cours</Text>
 			</Text>
 			<View className='justify-center items-center flex align-middle px-4'>
 				{book ? (
 					<View className='flex flex-row gap-4'>
-						<View className='h-20 w-16 overflow-hidden bg-pink-300 rounded-md'>
+						<View className='h-20 w-16 overflow-hidden rounded-md'>
 							{book.image && (
 								<Image
 									className='w-full h-full object-contain'
@@ -81,10 +89,13 @@ export const HomeScreen = ({navigation}: Props) => {
 							)}
 						</View>
 						<View className='flex flex-col w-4/5'>
-							<Text className='text-gray-700 font-bold text-xl '>
+							<Text
+								className='font-bold text-xl'
+								style={{color: theme.colors.grey0}}
+							>
 								{book?.title}
 							</Text>
-							<Text className='text-primary text-xl'>
+							<Text className='text-xl' style={{color: theme.colors.primary}}>
 								Chapitre actuel : {sectionsMap[book.id]} /{' '}
 								{book.sections.length}
 							</Text>
@@ -96,8 +107,11 @@ export const HomeScreen = ({navigation}: Props) => {
 					</Text>
 				)}
 			</View>
-			<Text className='text-3xl pt-12 font-bold text-primary pb-10'>
-				Livres <Text className='text-secondary'>disponibles</Text>
+			<Text
+				className='text-3xl pt-12 font-bold  pb-10'
+				style={{color: theme.colors.primary}}
+			>
+				Livres <Text style={{color: theme.colors.secondary}}>disponibles</Text>
 			</Text>
 			<ScrollView className='gap-2' horizontal>
 				{books.map((book: FullBook) => (
@@ -115,13 +129,23 @@ export const HomeScreen = ({navigation}: Props) => {
 						</View>
 
 						<View className='flex flex-col text-left w-full h-full justify-start items-start p-0'>
-							<Text className='text-lg font-bold text-primary pb-1'>
+							<Text
+								className='text-lg font-bold pb-1'
+								style={{color: theme.colors.primary}}
+							>
 								{book.title}
 							</Text>
 							<Text className='text-gray-500 text-md'>{book.author}</Text>
 							{!localData?.book || localData?.book?.title !== book.title ? (
 								<View className='flex pt-2 items-center justify-center px-4 w-full'>
-									<ButtonApp onPress={() => onClickRead(book)}>Lire</ButtonApp>
+									<ButtonApp onPress={() => onClickRead(book)}>
+										<Text
+											className='font-bold text-lg'
+											style={{color: theme.colors.white}}
+										>
+											Lire
+										</Text>
+									</ButtonApp>
 								</View>
 							) : null}
 						</View>

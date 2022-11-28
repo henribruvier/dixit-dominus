@@ -3,6 +3,7 @@ import {
 	createBottomTabNavigator,
 } from '@react-navigation/bottom-tabs';
 import {Icon} from '@rneui/base';
+import {useTheme} from '@rneui/themed';
 import React from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
 import {HomeScreen} from '../screens/home';
@@ -106,6 +107,8 @@ function MyTabBar({state, descriptors, navigation}: TabBarProps) {
 					});
 				};
 
+				const {theme} = useTheme();
+
 				return (
 					<TouchableOpacity
 						key={route.key}
@@ -117,9 +120,16 @@ function MyTabBar({state, descriptors, navigation}: TabBarProps) {
 						onLongPress={onLongPress}
 						className='flex items-center justify-center'
 					>
-						{screenOptions(route, isFocused ? '#80A6DB' : '#173052')}
+						{screenOptions(
+							route,
+							isFocused ? theme.colors.secondary : theme.colors.primary,
+						)}
 						<Text
-							style={{color: isFocused ? '#80A6DB' : '#173052'}}
+							style={{
+								color: isFocused
+									? theme.colors.secondary
+									: theme.colors.primary,
+							}}
 							className='font-medium'
 						>
 							{label as string}

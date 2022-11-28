@@ -82,13 +82,22 @@ export const ReadScreen = ({navigation}: Props) => {
 			className='h-full w-full px-2 relative pt-8'
 			style={{backgroundColor: theme.colors.background}}
 		>
-			<Text className='text-3xl pt-4 font-bold pb-4 px-12 text-center text-primary'>
+			<Text
+				className='text-3xl pt-4 font-bold pb-4 px-12 text-center'
+				style={{color: theme.colors.primary}}
+			>
 				{book.title}
 			</Text>
-			<Text className='text-gray-400 text-xl text-center pb-2'>
+			<Text
+				className='text-xl text-center pb-2'
+				style={{color: theme.colors.grey2}}
+			>
 				Chapitre {section + 1}
 			</Text>
-			<Text className='text-gray-400 text-xl text-center pb-4'>
+			<Text
+				className='text-xl text-center pb-4'
+				style={{color: theme.colors.grey2}}
+			>
 				{orderedSections && orderedSections[section].title}
 			</Text>
 
@@ -101,16 +110,21 @@ export const ReadScreen = ({navigation}: Props) => {
 				</Text>
 			</ScrollView>
 
-			<View className='w-full flex-row justify-center flex items-center absolute bottom-4 left-0'>
+			<View className='w-full flex-row justify-between flex items-center absolute bottom-4 left-0 mx-2'>
 				<ButtonApp disabled={section === 0} onPress={() => onClickBack()}>
 					<View className='flex flex-row gap-4 items-center justify-center'>
-						<Icon name='arrow-left' type='feather' color={'white'} />
+						<Icon name='arrow-left' type='feather' color={theme.colors.white} />
 					</View>
 				</ButtonApp>
 				<ButtonApp onPress={() => onClickRead()}>
 					<View className='flex flex-row gap-4 items-center justify-center'>
-						<Text className='font-bold text-white text-lg'>Lu</Text>
-						<Icon name='check' type='feather' color='white' />
+						<Text
+							className='font-bold text-lg'
+							style={{color: theme.colors.white}}
+						>
+							Lu
+						</Text>
+						<Icon name='check' type='feather' color={theme.colors.white} />
 					</View>
 				</ButtonApp>
 			</View>
