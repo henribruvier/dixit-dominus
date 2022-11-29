@@ -12,17 +12,12 @@ import * as Notifications from 'expo-notifications';
 import {StatusBar} from 'expo-status-bar';
 import {useAtom, useAtomValue} from 'jotai';
 import React, {PropsWithChildren, useEffect, useRef, useState} from 'react';
-import {
-	Appearance,
-	Linking,
-	Platform,
-	useColorScheme,
-	View,
-} from 'react-native';
+import {Appearance, Linking, Platform, View} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import * as Sentry from 'sentry-expo';
 import {localDataAtom} from './src/atom';
 import MyStack from './src/routes/stack';
+import {LocalData} from './src/types/local-storage';
 import {resetBadge, schedulePushNotification} from './src/utils/notifications';
 
 Sentry.init({
@@ -55,20 +50,9 @@ const ColorScheme = ({children}: PropsWithChildren) => {
 	const {theme} = useTheme();
 	const {setMode} = useThemeMode();
 	const localData = useAtomValue(localDataAtom);
-	const colorScheme = useColorScheme();
 
 	useEffect(() => {
-		if (!localData?.colorMode && !colorScheme) {
-			setMode('light');
-			return;
-		}
-
-		if (localData?.colorMode) {
-			setMode(localData.colorMode);
-			return;
-		}
-
-		if (colorScheme) setMode(colorScheme);
+		setMode(localData.colorMode ?? 'light');
 	}, [localData.colorMode]);
 
 	return (
@@ -94,14 +78,14 @@ export default function App() {
 			try {
 				const value = await AsyncStorage.getItem('localData');
 				if (value !== null) {
-					const parsed = JSON.parse(value);
+					const parsed = JSON.parse(value) as LocalData;
 					if (parsed.book) {
 						setLocalData(prev => ({
 							...prev,
 							delay: parsed.delay,
 							book: parsed.book,
 							sectionsMap: {...parsed.sectionsMap},
-							isDarkMode: parsed.isDarkMode,
+							colorMode: parsed.colorMode ?? 'light',
 						}));
 					}
 				}
