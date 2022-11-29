@@ -1,5 +1,4 @@
-export const book = `
-Psaume 1, 1 Heureux l'homme qui ne suit pas le conseil des impies, ni dans la voie des égarés ne s'arrête, ni au siège des rieurs ne s'assied,
+export const book = `Psaume 1, 1 Heureux l'homme qui ne suit pas le conseil des impies, ni dans la voie des égarés ne s'arrête, ni au siège des rieurs ne s'assied,
 Psaume 1, 2 mais se plaît dans la loi de Yahvé, mais murmure sa loi jour et nuit!
 Psaume 1, 3 Il est comme un arbre planté auprès des cours d'eau; celui-là portera fruit en son temps et jamais son feuillage ne sèche; tout ce qu'il fait réussit:
 Psaume 1, 4 rien de tel pour les impies, rien de tel! Mais ils sont comme la bale qu'emporte le vent. Psaume 1, 5 Ainsi, les impies ne tiendront pas au Jugement, ni les égarés, à l'assemblée des justes. Psaume 1, 6 Car Yahvé connaît la voie des justes, mais la voie des impies se perd.

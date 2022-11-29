@@ -49,6 +49,8 @@ for (let line of split) {
 const result = {
   title: "L'imitation de Jésus-Christ",
   author: "Thomas à Kempis",
+  image:
+    "https://res.cloudinary.com/dklaggsnl/image/upload/v1669027352/imitation-de-jesus-christ_av4deq.jpg",
   sections: bookArray,
 };
 

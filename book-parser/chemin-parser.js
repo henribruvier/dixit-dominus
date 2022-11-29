@@ -73,6 +73,8 @@ for (let line of split) {
 const result = {
   title: "Chemin",
   author: "JoseMaria Escriva",
+  image:
+    "https://res.cloudinary.com/dklaggsnl/image/upload/v1669371836/chemin_i3porf.jpg",
   sections: bookArray,
 };
 
