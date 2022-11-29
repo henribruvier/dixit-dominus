@@ -27,14 +27,19 @@ export const SettingsSection = ({navigation}: Props) => {
 	const [localData, setLocalData] = useAtom(localDataAtom);
 	const [isDialogDelayVisible, setIsDialogDelayVisible] = useState(false);
 	const [selected, setSelected] = useState(secondsToData(localData.delay));
-	const [isDarkMode, setIsDarkMode] = useState(false);
+	const [isLightMode, setIsLightMode] = useState(
+		localData.colorMode === 'dark',
+	);
 	const {setMode} = useThemeMode();
 	const {theme} = useTheme();
 
+	console.log('localData', localData.colorMode);
+
 	const toggleSwitch = () => {
-		const newValue = !isDarkMode;
+		const newValue = !isLightMode;
 		const newMode = newValue ? 'dark' : 'light';
-		setIsDarkMode(() => newValue);
+		console.log('newMode', newMode);
+		setIsLightMode(() => newValue);
 		setMode(newMode);
 		setLocalData(prev => ({
 			...prev,
@@ -112,10 +117,10 @@ export const SettingsSection = ({navigation}: Props) => {
 						</Text>
 						<Switch
 							trackColor={{false: '#767577', true: '#81b0ff'}}
-							thumbColor={isDarkMode ? '#f5dd4b' : '#f4f3f4'}
+							thumbColor={isLightMode ? '#f5dd4b' : '#f4f3f4'}
 							ios_backgroundColor='#3e3e3e'
 							onValueChange={toggleSwitch}
-							value={isDarkMode}
+							value={isLightMode}
 						/>
 					</View>
 				</View>
