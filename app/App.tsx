@@ -199,7 +199,9 @@ export default function App() {
 					}}
 				>
 					<ColorScheme>
-						<StatusBar style='auto' />
+						<StatusBar
+							style={localData.colorMode === 'light' ? 'auto' : 'light'}
+						/>
 						<MyStack />
 					</ColorScheme>
 				</NavigationContainer>
