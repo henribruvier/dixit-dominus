@@ -11,7 +11,7 @@ Efface, par ta vie d’apôtre, la trace visqueuse et sale qu’ont laissée les
  Chemin, Caractère, 4
 4 Ne dis pas : C’est mon tempérament..., ce sont des manifestations de mon caractère. Ce sont des manifestations de ton manque de caractère : sois homme, esto vir.
  Chemin, Caractère, 5
- 5 Habitue−toi à dire non.
+5 Habitue−toi à dire non.
  Chemin, Caractère, 6
 6 Tourne le dos à l’infâme s’il murmure à tes oreilles : Pourquoi te compliquer la vie ?
  Chemin, Caractère, 7
@@ -107,7 +107,6 @@ N’esquive pas ton devoir. Remplis−le sans atermoiement, même si d’autres 
 Mais toute ta faconde ne parviendra pas à justifier c’était providentiel, oses−tu dire ce qui n’a aucune justification.
  Chemin, Caractère, 38
 38 Serait−il vrai je ne le crois pas, je ne veux pas le croire que, sur terre, il n’y ait pas d’hommes, il n’y ait que des ventres ?
- 39
 Priez Dieu que jamais je ne m’arrête à ce qui est facile. Voilà qui est fait. À toi maintenant de t’attacher à accomplir cette belle résolution.
 Chemin, Caractère, 39
  Chemin, Caractère, 40
@@ -184,8 +183,6 @@ Tu auras gagné une grande bataille, si tu surmontes la crainte de te donner à 
  Chemin, Direction, 67
 67 Si connu que ce soit, je ne veux cesser de te rappeler que le prêtre est un autre Christ . Et que l’Esprit Saint a dit : Nolite tangere Christos meos, ne touchez pas à
 mes Christs .
-14
-
  Chemin, Direction, 68
 68 Prêtre, étymologiquement, veut dire ancien.
 Si l’âge avancé mérite la vénération, pense combien plus tu dois vénérer le prêtre.
@@ -200,8 +197,6 @@ Si l’âge avancé mérite la vénération, pense combien plus tu dois vénére
 posséder, sans raideur.
 Comme il la demandait ce jeune prêtre de nos amis : Seigneur, donne moi quatre−vingts ans de gravité !
 Demande−la, toi aussi, pour tous les prêtres, et tu auras fait une bonne chose.
-15
-
  Chemin, Direction, 73
 73 Tu as ressenti comme un coup de poignard au cœur qu’on dise de toi que tu avais médit de ces prêtres. Et je me réjouis de ta peine : maintenant je suis vraiment sûr de ton bon esprit !
  Chemin, Direction, 74
@@ -214,8 +209,6 @@ Demande−la, toi aussi, pour tous les prêtres, et tu auras fait une bonne chos
 77 Mais s’assujettir à un plan de vie, à un horaire, est si monotone, m’as−tu dit ! Et je t’ai répondu : il y a monotonie là où manque l’amour.
  Chemin, Direction, 78
 78 Si tu ne te lèves pas à heure fixe, jamais tu n’accompliras ton plan de vie.
-16
-
   Chemin, Direction, 79
 79 Vertu sans ordre ? Drôle de vertu !
  Chemin, Direction, 80
@@ -226,8 +219,6 @@ Demande−la, toi aussi, pour tous les prêtres, et tu auras fait une bonne chos
 82 D’abord, prière ; ensuite, expiation ; en troisième lieu, et loin en troisième lieu , action.
  Chemin, Prière, 83
 83 La prière est le fondement de l’édifice spirituel. La prière est toute−puissante.
-17
-
  Chemin, Prière, 84
 84 Domine, doce nos orare : Seigneur apprends−nous à prier ! Et le Seigneur répondit : Lorsque vous priez, dites : Pater noster, qui est in cœlis... Notre Père, qui es aux cieux...
 Comment ne pas faire grand cas de la prière vocale ?
@@ -243,8 +234,6 @@ Dieu , a dit le Seigneur. Pain et parole ! Hostie et prière. Sinon, tu ne vivra
  Chemin, Prière, 88
 88 Tu cherches la compagnie d’amis qui, par leur conversation et leur affection, par leur amitié, te rendent plus supportable l’exil en ce monde..., bien que les amis trahissent parfois. Cela ne me paraît pas mal.
 Mais... que ne recherches−tu, chaque jour plus intensément, la compagnie, la conversation du grand Ami qui ne trahit jamais ?
-18
-
  Chemin, Prière, 89
 89 Marie a choisi la meilleur part , lit−on dans le saint Évangile. Elle est là, buvant les paroles du Maître. Inactive en apparence, elle prie et elle aime. Puis elle accompagne Jésus dans sa prédication par les villes et les villages.
 Sans prier, qu’il est difficile de l’accompagner !
@@ -258,8 +247,6 @@ En deux mots, le connaître et te connaître : se fréquenter !
 C’est pourquoi, au moment où tu ne sauras plus avancer, lorsque tu sentiras que tu t’éteins, si tu ne peux alimenter le feu de troncs odorants, jettes−y les brindilles et les feuilles de petites prières vocales, d’oraisons jaculatoires qui l’entretiendront. Et tu n’auras pas perdu ton temps.
  Chemin, Prière, 93
 93 Tu te vois si misérable que tu te reconnais indigne d’être écouté de Dieu... Mais que fais−tu des mérites de Marie ? Et des plaies de ton Seigneur ? Et... n’es−tu pas fils de Dieu ?
-19
-
  Et puis, il t’écoute quoniam bonus..., quoniam in sæculum misericordia eius : parce qu’il est bon, parce que sa miséricorde demeure à jamais.
  Chemin, Prière, 94
 94 Il s’est fait si petit tu le vois : un Enfant ! pour que tu t’approches de lui avec confiance.
@@ -273,8 +260,6 @@ Prie. Quelle affaire humaine pourrait t’offrir plus de garanties de succès ?
 97 Tu ne sais que dire au Seigneur quand tu pries. Tu ne te souviens de rien et tu voudrais pourtant le consulter sur tant de choses. Écoute−moi bien : note dans la journée les questions que tu veux examiner en présence de Dieu. Puis, prends ces notes et va prier.
  Chemin, Prière, 98
 98 Après celle du prêtre et des vierges consacrées, la prière la plus agréable à Dieu est celle des enfants et des malades.
-20
-
  Chemin, Prière, 99
 99 Lorsque tu vas faire ton oraison, que ce soit avec cette ferme résolution : ni trop longue par goût des consolations, ni trop courte par aridité.
  Chemin, Prière, 100
@@ -287,8 +272,6 @@ tes idées en présence du Seigneur : une véritable hébétude!
 Ne t’efforce pas, ne t’inquiète pas. Écoute−moi bien : c’est l’heure du cœur.
  Chemin, Prière, 103
 103 Ces mots qui t’ont frappé dans ta prière, grave−les dans ta mémoire et récite−les lentement, souvent, pendant la journée.
-21
-
  Chemin, Prière, 104
 104 Pernoctans in oratione Dei. Il passa la nuit à prier. C’est ce que saint Luc nous dit
 du Seigneur.
@@ -301,8 +284,6 @@ Toi, combien de fois as−tu persévéré de la sorte ? Alors...
 107 Un saint qui ne prierait pas ?... Je ne crois pas à cette sainteté−là.
  Chemin, Prière, 108
 108 Je te dirai, en plagiant un auteur étranger, que ta vie d’apôtre vaut ce que vaut ta prière.
-22
-
  Chemin, Prière, 109
 109 Si tu n’es pas homme de prière, je ne crois pas à la rectitude de tes intentions, quand tu dis travailler pour le Christ.
  Chemin, Prière, 110
@@ -313,14 +294,11 @@ Toi, combien de fois as−tu persévéré de la sorte ? Alors...
 112 Il me plaît que tu fasses cette ambitieuse réparation : pour le monde ! m’as−tu dit. Bien, mais avant tout pense à ceux de ta famille surnaturelle, à ceux de ton sang, et à ceux du pays qui est notre patrie...
  Chemin, Prière, 113
 113 Tu lui disais : Ne te fie pas à moi... Moi, si, je me fie à toi, Jésus... Je m’abandonne dans tes bras ; j’y laisse ce que j’ai : mes misères ! Et cela me semble une bonne prière.
-23
-
  Chemin, Prière, 114
 114 La prière du chrétien n’est jamais monologue.
- 115
+Chemin, Prière, 115
 Minutes de silence. Laissez cela à ceux qui ont le cœur sec.
 Nous, les catholiques, enfants de Dieu, nous parlons à notre Père qui est aux cieux.
-Chemin, Prière, 115
  Chemin, Prière, 116
 116 Ne néglige pas la lecture spirituelle. La lecture a fait beaucoup de saints.
  Chemin, Prière, 117
@@ -329,8 +307,6 @@ Chemin, Prière, 115
 118 La sainte pureté, Dieu la donne quand on la lui demande humblement.
  Chemin, Sainte pureté, 119
 119 Qu’elle est belle, la sainte pureté ! Mais séparée de la charité, elle n’est ni sainte, ni agréable à Dieu.
-24
-
  La charité est la semence qui germera et donnera des fruits très savoureux, grâce à l’eau limpide de la pureté.
 Sans charité, la pureté reste inféconde, et ses eaux stériles transforment les âmes en un bourbier, en un marécage immonde qui exhale des miasmes d’orgueil.
  Chemin, Sainte pureté, 120
@@ -346,8 +322,6 @@ le travail destructeur de ceux qui tiennent l’homme pour une bête. Et cette c
 123 Quand tu te décideras fermement à mener une vie limpide, la chasteté ne te sera plus un fardeau, mais une couronne triomphale.
  Chemin, Sainte pureté, 124
 124 Tu m’écrivais, médecin apôtre : Nous savons tous, par expérience, que nous pouvons être chastes, en restant sur nos gardes, en fréquentant les sacrements et en
-25
-
  étouffant les premières étincelles de la passion, sans permettre à l’incendie de se déclarer. Et c’est précisément parmi les chastes que l’on compte les hommes les plus intègres, à tous égards. Et c’est parmi les luxurieux que l’on trouve, le plus souvent, les timides, les égoïstes, les sournois et les cruels, qui se caractérisent par leur peu de virilité.
  Chemin, Sainte pureté, 125
 125 Je rêve, m’as−tu dit, d’une conversation à cœur ouvert, avec Jean, l’adolescent, qui
@@ -361,8 +335,6 @@ Si tu le veux vraiment, dis−le lui ; tu trouveras du courage et tu obtiendras 
 128 La pudeur et la modestie sont les sœurs cadettes de la pureté.
  Chemin, Sainte pureté, 129
 129 Sans la sainte pureté, on ne peut persévérer dans l’apostolat.
-26
-
  Chemin, Sainte pureté, 130
 130 Ôte−moi, Jésus, cette gangue repoussante de pourriture sensuelle qui recouvre mon cœur, pour que j’entende et suive facilement les appels du Paraclet dans mon âme.
  Chemin, Sainte pureté, 131
@@ -377,8 +349,6 @@ Ils furent, ils sont normaux : de chair et d’os comme toi. Et ils ont triomph�
 134 La chair a beau se vêtir de soie... Je te dirai, quand je te verrai chanceler devant la
 tentation qui cache son impureté sous des prétextes d’art, de science..., de charité !
 Je te dirai, en m’inspirant d’un vieux dicton espagnol : Même vêtue de soie, la chair reste toujours la chair.
-27
-
  Chemin, Sainte pureté, 135
 135 Si tu savais ce que tu vaux !... C’est saint Paul qui te le dit : tu as été acheté pretio
 magno, à grand prix.
@@ -391,8 +361,6 @@ Il te dit encore : Glorificate et portate Deum in corpore vestro : glorifie Dieu
 138 Infelix ego homo ! Quis me liberabit de corpore mortis huius ? Malheureux homme que je suis ! Qui me délivrera de ce corps de mort ? Tel est le cri de saint Paul. Courage : il luttait, lui aussi.
  Chemin, Sainte pureté, 139
 139 À l’heure de la tentation, pense à l’Amour qui t’attend au ciel : ranime en toi la vertu d’espérance. Ce n’est pas manquer de générosité.
-28
-
  Chemin, Sainte pureté, 140
 140 Ne t’inquiète pas, quoi qu’il advienne, aussi longtemps que tu ne consens pas. Car la volonté seule peut ouvrir la porte du cœur et y introduire ces choses exécrables.
  Chemin, Sainte pureté, 141
@@ -406,8 +374,6 @@ Quelle belle prière à répéter souvent, avec la foi du pauvre lépreux, lorsq
  Chemin, Sainte pureté, 144
 144 La pureté sans faille de toute sa vie rend Jean fort devant la Croix.
 Les autres apôtres fuient le Golgotha : lui, il reste, avec la Mère du Christ. N’oublie pas que la pureté rend plus vigoureux, virilise le caractère.
-29
-
  Chemin, Sainte pureté, 145
 145 Sur le front de Madrid. Une vingtaine d’officiers, fiers et joyeux camarades. Une
 chanson s’élève, puis une autre, et une autre encore.
@@ -424,8 +390,6 @@ Si personne n’en veut, tu iras l’offrir à Dieu. Crois−tu que les saints a
 147 Pour toi, les créatures ? Non : pour Dieu. Pour toi, peut−être, mais pour l’amour de Dieu.
  Chemin, Le cœur, 148
 148 Pourquoi t’approcher de la mare des consolations mondaines, pour t’y désaltérer, lorsque tu peux étancher ta soif à des eaux qui jaillissent vers la vie éternelle ?
-30
-
  Chemin, Le cœur, 149
 149 Détache−toi des créatures jusqu’au dépouillement. Car, dit le pape saint Grégoire, le démon n’a rien à lui dans ce monde : il va nu à la bataille. Si tu luttes tout habillé contre lui, il te tombera vite, parce qu’il aura par où te saisir.
  Chemin, Le cœur, 150

@@ -1,7 +1,9 @@
 import { book } from "./books/book-chemin.js";
 import rightFile from "fs";
 
-const split = book.split(/(Chemin,[^,]+, \d*)/);
+const split = book
+  .split(/(Chemin,[^,]+, \d*)/g)
+  .filter((line) => line !== ("\n" || "\n\n" || "\n\n " || "" || " "));
 
 let parWithSpace = [];
 let bookArray = [];
@@ -10,19 +12,22 @@ let body = "";
 
 let currentChapter = "";
 
-for (let line of split) {
-  if (line.length > 0 && (body.length === 0 || currentChapter.length === 0)) {
-    if (line.includes("Chemin")) {
-      currentChapter = line.replace("Chemin,", "");
-    } else {
-      body = line.replace("\n", "").replace(/^\d*/, "").replace(/(\\n)/g, " ");
-    }
-  } else {
-    bookArray.push({ title: currentChapter, content: body });
-    body = "";
-    currentChapter = "";
+split.forEach((line) => {
+  if (line.length < 3) {
+    return;
   }
-}
+  if (currentChapter === "" && line.includes("Chemin")) {
+    currentChapter = line;
+    return;
+  }
+  body = line.replace("\n", "").replace(/^\d*/g, "").replace(/(\\n)/g, " ");
+
+  if (currentChapter.length > 0 && body.length > 0)
+    bookArray.push({ title: currentChapter, content: body });
+
+  body = "";
+  currentChapter = "";
+});
 
 /* rightFile.writeFileSync(
   "export.js",
@@ -78,4 +83,4 @@ const result = {
   sections: bookArray,
 };
 
-export default result;
+console.log(result);
