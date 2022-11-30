@@ -2,6 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {NavigationContainer} from '@react-navigation/native';
 import {
 	createTheme,
+	Dialog,
 	ThemeProvider,
 	useTheme,
 	useThemeMode,
@@ -12,10 +13,11 @@ import * as Notifications from 'expo-notifications';
 import {StatusBar} from 'expo-status-bar';
 import {useAtom, useAtomValue} from 'jotai';
 import React, {PropsWithChildren, useEffect, useRef, useState} from 'react';
-import {Appearance, Linking, Platform, View} from 'react-native';
+import {Appearance, AppState, Linking, Platform, View} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import * as Sentry from 'sentry-expo';
 import {localDataAtom} from './src/atom';
+import {ButtonApp} from './src/components/button';
 import MyStack from './src/routes/stack';
 import {LocalData} from './src/types/local-storage';
 import {resetBadge, schedulePushNotification} from './src/utils/notifications';
@@ -66,12 +68,59 @@ const ColorScheme = ({children}: PropsWithChildren) => {
 };
 
 export default function App() {
-	const [expoPushToken, setExpoPushToken] = useState('');
-	const [notification, setNotification] =
-		useState<Notifications.Notification>();
 	const notificationListener = useRef<Subscription>();
 	const responseListener = useRef<Subscription>();
 	const [localData, setLocalData] = useAtom(localDataAtom);
+	const [showModalAllowNotifications, setShowModalAllowNotifications] =
+		useState(false);
+
+	async function registerForPushNotificationsAsync() {
+		setShowModalAllowNotifications(() => false);
+		let token;
+
+		if (Platform.OS === 'android') {
+			await Notifications.setNotificationChannelAsync('default', {
+				name: 'default',
+				importance: Notifications.AndroidImportance.MAX,
+				vibrationPattern: [0, 250, 250, 250],
+				lightColor: '#FF231F7C',
+			}).catch(error => {
+				console.log('error', error);
+				Sentry.Native.captureException(error);
+			});
+		}
+		console.log(Device.isDevice);
+
+		if (Device.isDevice) {
+			const {status: existingStatus} =
+				await Notifications.getPermissionsAsync();
+			console.log('existing status', existingStatus);
+			let finalStatus = existingStatus;
+			if (existingStatus !== 'granted') {
+				try {
+					const {status} = await Notifications.requestPermissionsAsync();
+					console.log('request', status);
+					finalStatus = status;
+					// your code
+				} catch (error) {
+					console.log('error', error);
+					console.log('you have to allow notification to use this app');
+					Sentry.Native.captureException(error);
+				}
+			}
+			if (finalStatus !== 'granted') {
+				//	Linking.openURL('app-settings:');
+				setShowModalAllowNotifications(() => true);
+				return;
+			}
+			token = (await Notifications.getExpoPushTokenAsync()).data;
+			console.log(token);
+		} else {
+			alert('Must use physical device for Push Notifications');
+		}
+
+		return token;
+	}
 
 	useEffect(() => {
 		const getData = async () => {
@@ -101,14 +150,22 @@ export default function App() {
 	}, []);
 
 	useEffect(() => {
-		registerForPushNotificationsAsync()
-			.then(token => token && setExpoPushToken(token))
-			.catch(err => Sentry.Native.captureException(err));
+		const check = async () => {
+			console.log('change');
+			await registerForPushNotificationsAsync();
+		};
+		const listener = AppState.addEventListener('change', check);
+
+		return () => listener.remove();
+	}, []);
+
+	useEffect(() => {
+		registerForPushNotificationsAsync().catch(err =>
+			Sentry.Native.captureException(err),
+		);
 
 		notificationListener.current =
 			Notifications.addNotificationReceivedListener(async notification => {
-				notification && setNotification(notification);
-
 				Linking.openURL('app://dixit-dominus/read').catch(error => {
 					console.log('error', error);
 					Sentry.Native.captureException(error);
@@ -203,61 +260,25 @@ export default function App() {
 							style={localData.colorMode === 'light' ? 'auto' : 'light'}
 						/>
 						<MyStack />
+						<Dialog
+							isVisible={showModalAllowNotifications}
+							overlayStyle={{backgroundColor: 'white'}}
+						>
+							<Dialog.Title title='Pour utiliser cette application vous devez autoriser les notifications' />
+
+							<View className='py-4'>
+								<ButtonApp
+									onPress={() => {
+										Linking.openURL('app-settings:');
+									}}
+								>
+									Ouvir les paramètres
+								</ButtonApp>
+							</View>
+						</Dialog>
 					</ColorScheme>
 				</NavigationContainer>
 			</ThemeProvider>
 		</SafeAreaProvider>
 	);
-}
-
-async function registerForPushNotificationsAsync() {
-	let token;
-
-	if (Platform.OS === 'android') {
-		await Notifications.setNotificationChannelAsync('default', {
-			name: 'default',
-			importance: Notifications.AndroidImportance.MAX,
-			vibrationPattern: [0, 250, 250, 250],
-			lightColor: '#FF231F7C',
-		}).catch(error => {
-			console.log('error', error);
-			Sentry.Native.captureException(error);
-		});
-	}
-
-	if (Device.isDevice) {
-		const {status: existingStatus} = await Notifications.getPermissionsAsync();
-		let finalStatus = existingStatus;
-		if (existingStatus !== 'granted') {
-			try {
-				const {status} = await Notifications.requestPermissionsAsync({
-					ios: {
-						allowAlert: true,
-						allowBadge: true,
-						allowSound: true,
-						allowDisplayInCarPlay: true,
-						allowCriticalAlerts: true,
-						provideAppNotificationSettings: true,
-						allowProvisional: true,
-						allowAnnouncements: true,
-					},
-				});
-				finalStatus = status;
-				// your code
-			} catch (error) {
-				console.log('error', error);
-				Sentry.Native.captureException(error);
-			}
-		}
-		if (finalStatus !== 'granted') {
-			alert('Failed to get push token for push notification!');
-			return;
-		}
-		token = (await Notifications.getExpoPushTokenAsync()).data;
-		console.log(token);
-	} else {
-		alert('Must use physical device for Push Notifications');
-	}
-
-	return token;
 }
