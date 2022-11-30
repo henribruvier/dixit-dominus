@@ -117,7 +117,7 @@ export const HomeScreen = ({navigation}: Props) => {
 				{books.map((book: FullBook) => (
 					<View
 						key={book.title}
-						className='flex flex-col w-1/3 px-2 gap-2 items-center'
+						className='flex flex-col w-36 px-2 gap-2 items-center'
 					>
 						<View className='w-28 h-44 overflow-hidden rounded-md'>
 							{book.image && (
