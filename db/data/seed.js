@@ -1,17 +1,22 @@
-const {books} = require('./index.js');
 const {PrismaClient} = require('@prisma/client');
 
 const prisma = new PrismaClient();
 
-const main = async () => {
+const FORCE_PUSH = false;
+
+const main = async books => {
+	if (FORCE_PUSH) await prisma.section.deleteMany();
+	if (FORCE_PUSH) await prisma.book.deleteMany();
 	const booksInDb = await prisma.book.findMany();
 
 	books
-		.filter(
-			currentBook => !booksInDb.find(book => book.title === currentBook.title),
-		)
+		.filter(currentBook => {
+			const skip = booksInDb.find(book => book.title === currentBook.title);
+			if (skip) console.log(`Skipping ${currentBook.title}`);
+			return !skip;
+		})
 		.forEach(async book => {
-			console.log('Adding book:', book.title);
+			console.log(book.title, 'will be added...');
 			const Book = await prisma.book.create({
 				data: {
 					title: book.title,
@@ -28,8 +33,11 @@ const main = async () => {
 					},
 				},
 			});
-			console.log('Added book:', Book.title);
+			console.log(Book.title, 'added to db!');
 		});
 };
 
-main();
+(async () => {
+	const {books} = await import('./books.mjs');
+	main(books);
+})().catch(err => console.error(err));
