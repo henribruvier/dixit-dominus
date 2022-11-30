@@ -12,7 +12,7 @@ const main = async () => {
 		)
 		.forEach(async book => {
 			console.log('Adding book:', book.title);
-			prisma.book.create({
+			const Book = await prisma.book.create({
 				data: {
 					title: book.title,
 					author: book.author,
@@ -28,6 +28,7 @@ const main = async () => {
 					},
 				},
 			});
+			console.log('Added book:', Book.title);
 		});
 };
 

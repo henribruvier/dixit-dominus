@@ -6137,6 +6137,2942 @@ const book1 = {
 	],
 };
 
-const books = [book0, book1];
+const book2 = {
+	title: 'Livre des Psaumes',
+	author: 'Le Seigneur',
+	image: 'https://m.media-amazon.com/images/I/81tOut+i4CL.jpg',
+	sections: [
+		{
+			title: 'Psaume 1',
+			content: `01 Heureux est l'homme qui n'entre pas au conseil des méchants, + qui ne suit pas le chemin des pécheurs, * ne siège pas avec ceux qui ricanent,
+02 mais se plaît dans la loi du Seigneur et murmure sa loi jour et nuit !
+03 Il est comme un arbre planté près d'un ruisseau, + qui donne du fruit en son temps, * et jamais son feuillage ne meurt ; tout ce qu'il entreprend réussira,
+04 tel n'est pas le sort des méchants. Mais ils sont comme la paille balayée par le vent : +
+05 au jugement, les méchants ne se lèveront pas, * ni les pécheurs au rassemblement des justes.
+06 Le Seigneur connaît le chemin des justes, mais le chemin des méchants se perdra.`,
+		},
+		{
+			title: 'Psaume 2',
+			content: `01 Pourquoi ce tumulte des nations, ce vain murmure des peuples ?
+02 Les rois de la terre se dressent, les grands se liguent entre eux contre le Seigneur et son messie :
+03 « Faisons sauter nos chaînes, rejetons ces entraves ! »
+04 Celui qui règne dans les cieux s'en amuse, le Seigneur les tourne en dérision ;
+05 puis il leur parle avec fureur , et sa colère les épouvante :
+06 « Moi, j'ai sacré mon roi sur Sion, ma sainte montagne. »
+07 Je proclame le décret du Seigneur ! + Il m'a dit : « Tu es mon fils ; moi, aujourd'hui, je t'ai engendré.
+08 Demande, et je te donne en héritage les nations, pour domaine la terre tout entière.
+09 Tu les détruiras de ton sceptre de fer, tu les briseras comme un vase de potier. »
+10 Maintenant, rois, comprenez, reprenez-vous, juges de la terre.
+11 Servez le Seigneur avec crainte, rendez-lui votre hommage en tremblant.
+12 Qu'il s'irrite et vous êtes perdus : soudain sa colère éclatera. Heureux qui trouve en lui son refuge !`,
+		},
+		{
+			title: 'Psaume 3',
+			content: `02 Seigneur, qu'ils sont nombreux mes adversaires, nombreux à se lever contre moi,
+03 nombreux à déclarer à mon sujet : « Pour lui, pas de salut auprès de Dieu ! »
+04 Mais toi, Seigneur, mon bouclier, ma gloire, tu tiens haute ma tête.
+05 A pleine voix je crie vers le Seigneur ; il me répond de sa montagne sainte.
+06 Et moi, je me couche et je dors ; je m'éveille : le Seigneur est mon soutien.
+07 Je ne crains pas ce peuple nombreux qui me cerne et s'avance contre moi.
+08 Lève-toi, Seigneur ! Sauve-moi, mon Dieu ! Tous mes ennemis, tu les frappes à la mâchoire ; les méchants, tu leur brises les dents.
+09 Du Seigneur vient le salut ; vienne ta bénédiction sur ton peuple !`,
+		},
+		{
+			title: 'Psaume 4',
+			content: `02 Quand je crie, réponds-moi, Dieu, ma justice ! Toi qui me libères dans la détresse, pitié pour moi, écoute ma prière !
+03 Fils des hommes, jusqu'où irez-vous dans l'insulte à ma gloire, * l'amour du néant et la course au mensonge ?
+04 Sachez que le Seigneur a mis à part son fidèle, le Seigneur entend quand je crie vers lui.
+05 Mais vous, tremblez, ne péchez pas ; réfléchissez dans le secret, faites silence.
+06 Offrez les offrandes justes et faites confiance au Seigneur.
+07 Beaucoup demandent : « Qui nous fera voir le bonheur ? » Sur nous, Seigneur, que s'illumine ton visage !
+08 Tu mets dans mon coeur plus de joie que toutes leurs vendanges et leurs moissons.
+09 Dans la paix moi aussi, je me couche et je dors, car tu me donnes d'habiter, Seigneur, seul, dans la confiance.`,
+		},
+		{
+			title: 'Psaume 5',
+			content: `02 Écoute mes paroles, Seigneur, comprends ma plainte ; *
+03 entends ma voix qui t'appelle, ô mon Roi et mon Dieu !
+04 Je me tourne vers toi, Seigneur, au matin, tu écoutes ma voix ; * au matin, je me prépare pour toi et je reste en éveil.
+05 Tu n'es pas un Dieu ami du mal, chez toi, le méchant n'est pas reçu. *
+06 Non, l'insensé ne tient pas devant ton regard. Tu détestes tous les malfaisants,
+07 tu extermines les menteurs ; * l'homme de ruse et de sang, le Seigneur le hait.
+08 Pour moi, grâce à ton amour, j'accède à ta maison ; * vers ton temple saint, je me prosterne, saisi de crainte.
+09 Seigneur, que ta justice me conduise ; * des ennemis me guettent : aplanis devant moi ton chemin.
+10 Rien n'est vrai dans leur bouche, ils sont remplis de malveillance ; * leur gosier est un sépulcre béant, et leur langue, un piège.
+11 [Dieu, traite-les en coupables : qu'ils échouent dans leurs projets ! * Pour tant de méfaits, disperse-les, puisqu'ils te résistent.]
+12 Allégresse pour qui s'abrite en toi, joie éternelle ! * Tu les protèges, pour toi ils exultent, ceux qui aiment ton nom.
+13 Toi, Seigneur, tu bénis le juste ; du bouclier de ta faveur, tu le couvres.`,
+		},
+		{
+			title: 'Psaume 6',
+			content: `02 Seigneur, corrige-moi sans colère, et reprends-moi sans fureur.
+03 Pitié, Seigneur, je dépéris ! Seigneur, guéris-moi ! Car je tremble de tous mes os,
+04 de toute mon âme, je tremble. Et toi, Seigneur, que fais-tu ? +
+05 Reviens, Seigneur, délivre-moi, sauve-moi en raison de ton amour !
+06 Personne, dans la mort, n'invoque ton nom ; au séjour des morts, qui te rend grâce ?
+07 Je m'épuise à force de gémir ; + chaque nuit, je pleure sur mon lit : ma couche est trempée de mes larmes.
+08 Mes yeux sont rongés de chagrin ; j'ai vieilli parmi tant d'adversaires !
+09 Loin de moi, vous tous, malfaisants, car le Seigneur entend mes sanglots !
+10 Le Seigneur accueille ma demande, le Seigneur entend ma prière.
+11 Qu'ils aient honte et qu'ils tremblent, tous mes ennemis, qu'ils reculent, soudain, couverts de honte !`,
+		},
+		{
+			title: 'Psaume 7',
+			content: `02 Seigneur mon Dieu, tu es mon refuge ! On me poursuit : sauve-moi, délivre-moi !
+03 Sinon ils vont m'égorger, tous ces fauves, me déchirer, sans que personne me délivre.
+04 Seigneur mon Dieu, si j'ai fait cela, si j'ai vraiment un crime sur les mains,
+05 si j'ai causé du tort à mon allié en épargnant son adversaire,
+06 que l'ennemi me poursuive, qu'il m'atteigne * (qu'il foule au sol ma vie) et livre ma gloire à la poussière.
+07 Dans ta colère, Seigneur, lève-toi, + domine mes adversaires en furie, réveille-toi pour me défendre et prononcer ta sentence.
+08 Une assemblée de peuples t'environne : + reprends ta place au-dessus d'elle,
+09 Seigneur qui arbitres les nations. Juge-moi, Seigneur, sur ma justice : mon innocence parle pour moi.
+10 Mets fin à la rage des impies, affermis le juste, toi qui scrutes les coeurs et les reins, Dieu, le juste.
+11 J'aurai mon bouclier auprès de Dieu, le sauveur des coeurs droits.
+12 Dieu juge avec justice ; Dieu menace chaque jour l'homme qui ne se reprend pas.
+13 Le méchant affûte son épée, il tend son arc et le tient prêt.
+14 Il se prépare des engins de mort ; de ses flèches, il fait des brandons.
+15 Qui conçoit le mal et couve le crime enfantera le mensonge.
+16 Qui ouvre une fosse et la creuse tombera dans le trou qu'il a fait.
+17 Son mauvais coup lui revient sur la tête, sa violence retombe sur son crâne.
+18 Je rendrai grâce au Seigneur pour sa justice, je chanterai le nom du Seigneur, le Très-Haut.`,
+		},
+		{
+			title: 'Psaume 8',
+			content: `02 Ô Seigneur, notre Dieu,
+qu'il est grand ton nom
+par toute la terre !
+Jusqu'aux cieux, ta splendeur est chantée
+03 par la bouche des enfants, des tout-petits : rempart que tu opposes à l'adversaire, où l'ennemi se brise en sa révolte.
+04 A voir ton ciel, ouvrage de tes doigts, la lune et les étoiles que tu fixas,
+05 qu'est-ce que l'homme pour que tu penses à lui, le fils d'un homme, que tu en prennes souci ?
+06 Tu l'as voulu un peu moindre qu'un dieu, le couronnant de gloire et d'honneur ;
+07 tu l'établis sur les oeuvres de tes mains, tu mets toute chose à ses pieds :
+08 les troupeaux de boeufs et de brebis, et même les bêtes sauvages,
+09 les oiseaux du ciel et les poissons de la mer, tout ce qui va son chemin dans les eaux.
+10 R/ O Seigneur, notre Dieu, qu'il est grand ton nom par toute la terre !`,
+		},
+		{
+			title: 'Psaume 9A',
+			content: `01 Du maître de choeur. Sur hautbois et harpe. Psaume. De David
+02 De tout mon coeur, Seigneur, je rendrai grâce, je dirai tes innombrables merveilles ;
+03 pour toi, j'exulterai, je danserai, je fêterai ton nom, Dieu Très-Haut.
+04 Mes ennemis ont battu en retraite, devant ta face, ils s'écroulent et périssent.
+05 Tu as plaidé mon droit et ma cause, tu as siégé, tu as jugé avec justice.
+06 Tu menaces les nations, tu fais périr les méchants, à tout jamais tu effaces leur nom.
+07 L'ennemi est achevé, ruiné pour toujours, tu as rasé des villes, leur souvenir a péri.
+08 Mais il siège, le Seigneur, à jamais : pour juger, il affermit son trône ;
+09 il juge le monde avec justice et gouverne les peuples avec droiture.
+10 Qu'il soit la forteresse de l'opprimé, sa forteresse aux heures d'angoisse :
+11 ils s'appuieront sur toi, ceux qui connaissent ton nom ; jamais tu n'abandonnes, Seigneur, ceux qui te cherchent.
+12 Fêtez le Seigneur qui siège dans Sion, annoncez parmi les peuples ses exploits !
+13 Attentif au sang versé, il se rappelle, il n'oublie pas le cri des malheureux.
+14 Pitié pour moi, Seigneur, vois le mal que m'ont fait mes adversaires, * toi qui m'arraches aux portes de la mort ;
+15 et je dirai tes innombrables louanges aux portes de Sion, * je danserai de joie pour ta victoire.
+16 Ils sont tombés, les païens, dans la fosse qu'ils creusaient ; aux filets qu'ils ont tendus, leurs pieds se sont pris.
+17 Le Seigneur s'est fait connaître : il a rendu le jugement, il prend les méchants à leur piège.
+18 Que les méchants retournent chez les morts, toutes les nations qui oublient le vrai Dieu !
+19 Mais le pauvre n'est pas oublié pour toujours : jamais ne périt l'espoir des malheureux.
+20 Lève-toi, Seigneur : qu'un mortel ne soit pas le plus fort, que les nations soient jugées devant ta face !
+21 Frappe-les d'épouvante, Seigneur : que les nations se reconnaissent mortelles !`,
+		},
+		{
+			title: 'Psaume 9B',
+			content: `01 Pourquoi, Seigneur, es-tu si loin ? Pourquoi te cacher aux jours d'angoisse ?
+02 L'impie, dans son orgueil, poursuit les malheureux : ils se font prendre aux ruses qu'il invente.
+03 L'impie se glorifie du désir de son âme, l'arrogant blasphème, il brave le Seigneur ;
+04 plein de suffisance, l'impie ne cherche plus : « Dieu n'est rien », voilà toute sa ruse.
+05 A tout moment, ce qu'il fait réussit ; + tes sentences le dominent de très haut. * (Tous ses adversaires, il les méprise.)
+06 Il s'est dit : « Rien ne peut m'ébranler, je suis pour longtemps à l'abri du malheur. »
+07 Sa bouche qui maudit n'est que fraude et violence, sa langue, mensonge et blessure.
+08 Il se tient à l'affût près des villages, il se cache pour tuer l'innocent. Des yeux, il épie le faible,
+09 il se cache à l'affût, comme un lion dans son fourré ; il se tient à l'affût pour surprendre le pauvre, il attire le pauvre, il le prend dans son filet.
+10 Il se baisse, il se tapit ; de tout son poids, il tombe sur le faible.
+11 Il dit en lui-même : « Dieu oublie ! il couvre sa face, jamais il ne verra ! »
+12 Lève-toi, Seigneur ! Dieu, étends la main ! N'oublie pas le pauvre !
+13 Pourquoi l'impie brave-t-il le Seigneur en lui disant : « Viendras-tu me chercher ? »
+14 Mais tu as vu : tu regardes le mal et la souffrance, tu les prends dans ta main ; sur toi repose le faible, c'est toi qui viens en aide à l'orphelin.
+15 Brise le bras de l'impie, du méchant ; alors tu chercheras son impiété sans la trouver.
+16 A tout jamais, le Seigneur est roi : les païens ont péri sur sa terre.
+17 Tu entends, Seigneur, le désir des pauvres, tu rassures leur coeur, tu les écoutes.
+18 Que justice soit rendue à l'orphelin, qu'il n'y ait plus d'opprimé, * et que tremble le mortel, né de la terre !`,
+		},
+		{
+			title: 'Psaume 10',
+			content: `01 Auprès du Seigneur j'ai mon refuge. + Comment pouvez-vous me dire : Oiseaux, fuyez à la montagne !
+02 Voici que les méchants tendent l'arc : + ils ajustent leur flèche à la corde pour viser dans l'ombre l'homme au coeur droit.
+03 Quand sont ruinées les fondations, que peut faire le juste ?
+04 Mais le Seigneur, dans son temple saint, + le Seigneur, dans les cieux où il trône, garde les yeux ouverts sur le monde. Il voit, il scrute les hommes ; +
+05 le Seigneur a scruté le juste et le méchant : l'ami de la violence, il le hait.
+06 Il fera pleuvoir ses fléaux sur les méchants, + feu et soufre et vent de tempête ; c'est la coupe qu'ils auront en partage.
+07 Vraiment, le Seigneur est juste ; + il aime toute justice : les hommes droits le verront face à face.`,
+		},
+		{
+			title: 'Psaume 11',
+			content: `02 Seigneur, au secours ! Il n'y a plus de fidèle ! La loyauté a disparu chez les hommes.
+03 Entre eux la parole est mensonge, coeur double, lèvres menteuses.
+04 Que le Seigneur supprime ces lèvres menteuses, cette langue qui parle insolemment,
+05 ceux-là qui disent : « Armons notre langue ! A nous la parole ! Qui sera notre maître ? »
+06 - « Pour le pauvre qui gémit, le malheureux que l'on dépouille, + maintenant je me lève, dit le Seigneur ; * à celui qu'on méprise, je porte secours. »
+07 Les paroles du Seigneur sont des paroles pures, argent passé au feu, affiné sept fois.
+08 Toi, Seigneur, tu tiens parole, tu nous gardes pour toujours de cette engeance.
+09 De tous côtés, s'agitent les impies : la corruption gagne chez les hommes.`,
+		},
+		{
+			title: 'Psaume 12',
+			content: `02 Combien de temps, Seigneur, vas-tu m'oublier, combien de temps, me cacher ton visage ?
+03 Combien de temps aurai-je l'âme en peine et le coeur attristé chaque jour ? * Combien de temps mon ennemi sera-t-il le plus fort ?
+04 Regarde, réponds-moi, Seigneur mon Dieu ! * Donne la lumière à mes yeux, garde-moi du sommeil de la mort ;
+05 que l'adversaire ne crie pas : « Victoire ! » que l'ennemi n'ait pas la joie de ma défaite !
+06 Moi, je prends appui sur ton amour ; + que mon coeur ait la joie de ton salut ! Je chanterai le Seigneur pour le bien qu'il m'a fait.`,
+		},
+		{
+			title: 'Psaume 13',
+			content: `01 Dans son coeur le fou déclare : « Pas de Dieu ! » * Tout est corrompu, abominable, pas un homme de bien !
+02 Des cieux, le Seigneur se penche vers les fils d'Adam * pour voir s'il en est un de sensé,un qui cherche Dieu.
+03 Tous, ils sont dévoyés ; tous ensemble, pervertis : * pas un homme de bien, pas même un seul !
+04 N'ont-ils donc pas compris, ces gens qui font le mal ? + Quand ils mangent leur pain, ils mangent mon peuple. * Jamais ils n'invoquent le Seigneur.
+05 Et voilà qu'ils se sont mis à trembler, car Dieu accompagne les justes. *
+06 Vous riez des projets du malheureux, mais le Seigneur est son refuge.
+07 Qui fera venir de Sion la délivrance d'Israël ? + Quand le Seigneur ramènera les déportés de son peuple, * quelle fête en Jacob, en Israël, quelle joie !`,
+		},
+		{
+			title: 'Psaume 14',
+			content: `01 Seigneur, qui séjournera sous ta tente ? Qui habitera ta sainte montagne ?
+02 Celui qui se conduit parfaitement, + qui agit avec justice et dit la vérité selon son coeur.
+03 Il met un frein à sa langue, + ne fait pas de tort à son frère et n'outrage pas son prochain.
+04 A ses yeux, le réprouvé est méprisable mais il honore les fidèles du Seigneur. S'il a juré à ses dépens, il ne reprend pas sa parole.
+05 Il prête son argent sans intérêt, + n'accepte rien qui nuise à l'innocent. Qui fait ainsi demeure inébranlable.`,
+		},
+		{
+			title: 'Psaume 15',
+			content: `01 Garde-moi, mon Dieu : j'ai fait de toi mon refuge.
+02 J'ai dit au Seigneur : « Tu es mon Dieu ! Je n'ai pas d'autre bonheur que toi. »
+03 Toutes les idoles du pays, ces dieux que j'aimais, + ne cessent d'étendre leurs ravages, * et l'on se rue à leur suite.
+04 Je n'irai pas leur offrir le sang des sacrifices ; * leur nom ne viendra pas sur mes lèvres !
+05 Seigneur, mon partage et ma coupe : de toi dépend mon sort.
+06 La part qui me revient fait mes délices ; j'ai même le plus bel héritage !
+07 Je bénis le Seigneur qui me conseille : même la nuit mon coeur m'avertit.
+08 Je garde le Seigneur devant moi sans relâche ; il est à ma droite : je suis inébranlable.
+09 Mon coeur exulte, mon âme est en fête, ma chair elle-même repose en confiance :
+10 tu ne peux m'abandonner à la mort ni laisser ton ami voir la corruption.
+11 Tu m'apprends le chemin de la vie : + devant ta face, débordement de joie ! A ta droite, éternité de délices !`,
+		},
+		{
+			title: 'Psaume 16',
+			content: `01 Seigneur, écoute la justice ! + Entends ma plainte, accueille ma prière : mes lèvres ne mentent pas.
+02 De ta face, me viendra la sentence : tes yeux verront où est le droit.
+03 Tu sondes mon coeur, tu me visites la nuit, + tu m'éprouves, sans rien trouver ; mes pensées n'ont pas franchi mes lèvres.
+04 Pour me conduire selon ta parole, j'ai gardé le chemin prescrit ;
+05 j'ai tenu mes pas sur tes traces : jamais mon pied n'a trébuché.
+06 Je t'appelle, toi, le Dieu qui répond : écoute-moi, entends ce que je dis.
+07 Montre les merveilles de ta grâce, * toi qui libères de l'agresseur ceux qui se réfugient sous ta droite.
+08 Garde-moi comme la prunelle de l'oeil ; à l'ombre de tes ailes, cache-moi,
+09 loin des méchants qui m'ont ruiné, des ennemis mortels qui m'entourent.
+10 Ils s'enferment dans leur suffisance ; l'arrogance à la bouche, ils parlent.
+11 Ils sont sur mes pas : maintenant ils me cernent, l'oeil sur moi, pour me jeter à terre,
+12 comme des lions prêts au carnage, de jeunes fauves tapis en embuscade.
+13 Lève-toi, Seigneur, affronte-les, renverse-les ; par ton épée, libère-moi des méchants.
+14 Que ta main, Seigneur, les exclue d'entre les hommes, * hors de l'humanité, hors de ce monde : tel soit le sort de leur vie ! Réserve-leur de quoi les rassasier : + que leurs fils en soient saturés, qu'il en reste encore pour leurs enfants !
+15 Et moi, par ta justice, je verrai ta face : au réveil, je me rassasierai de ton visage.`,
+		},
+		{
+			title: 'Psaume 17',
+			content: `02 Je t'aime, Seigneur, ma force : Seigneur, mon roc, ma forteresse,
+03 Dieu mon libérateur, le rocher qui m'abrite, mon bouclier, mon fort, mon arme de victoire !
+04 Louange à Dieu ! + Quand je fais appel au Seigneur, je suis sauvé de tous mes ennemis.
+05 Les liens de la mort m'entouraient, le torrent fatal m'épouvantait ;
+06 des liens infernaux m'étreignaient : j'étais pris aux pièges de la mort.
+07 Dans mon angoisse, j'appelai le Seigneur ; vers mon Dieu, je lançai un cri ; de son temple il entend ma voix : mon cri parvient à ses oreilles.
+08 La terre titube et tremble, + les assises des montagnes frémissent, secouées par l'explosion de sa colère.
+09 Une fumée sort de ses narines, + de sa bouche, un feu qui dévore, une gerbe de charbons embrasés.
+10 Il incline les cieux et descend, une sombre nuée sous ses pieds :
+11 d'un kéroub, il fait sa monture, il vole sur les ailes du vent.
+12 Il se cache au sein des ténèbres + et dans leurs replis se dérobe : nuées sur nuées, ténèbres diluviennes.
+13 Une lueur le précède, + ses nuages déferlent : grêle et gerbes de feu.
+14 Tonnerre du Seigneur dans le ciel, * le Très-Haut fait entendre sa voix : grêle et gerbes de feu.
+15 De tous côtés, il tire des flèches, il décoche des éclairs, il répand la terreur.
+16 Alors le fond des mers se découvrit, les assises du monde apparurent, sous ta voix menaçante, Seigneur, au souffle qu'exhalait ta colère.
+17 Des hauteurs il tend la main pour me saisir, il me retire du gouffre des eaux ;
+18 il me délivre d'un puissant ennemi, d'adversaires plus forts que moi.
+19 Au jour de ma défaite ils m'attendaient, mais j'avais le Seigneur pour appui.
+20 Et lui m'a dégagé, mis au large, il m'a libéré, car il m'aime.
+21 Le Seigneur me traite selon ma justice, il me donne le salaire des mains pures,
+22 car j'ai gardé les chemins du Seigneur, jamais je n'ai trahi mon Dieu.
+23 Ses ordres sont tous devant moi, jamais je ne m'écarte de ses lois.
+24 Je suis sans reproche envers lui, je me garde loin du péché.
+25 Le Seigneur me donne selon ma justice, selon la pureté des mains que je lui tends.
+26 Tu es fidèle envers l'homme fidèle, sans reproche avec l'homme sans reproche ;
+27 envers qui est loyal, tu es loyal, tu ruses avec le pervers.
+28 Tu sauves le peuple des humbles ; les regards hautains, tu les rabaisses.
+29 Tu es la lumière de ma lampe, Seigneur mon Dieu, tu éclaires ma nuit.
+30 Grâce à toi, je saute le fossé, grâce à mon Dieu, je franchis la muraille.
+31 Ce Dieu a des chemins sans reproche, + la parole du Seigneur est sans alliage, il est un bouclier pour qui s'abrite en lui.
+32 Qui est Dieu, hormis le Seigneur ? le Rocher, sinon notre Dieu ?
+33 C'est le Dieu qui m'emplit de vaillance et m'indique un chemin sans reproche.
+34 Il me donne l'agilité du chamois, il me tient debout sur les hauteurs,
+35 il exerce mes mains à combattre et mon bras, à tendre l'arc.
+36 Par ton bouclier tu m'assures la victoire, ta droite me soutient, ta patience m'élève.
+37 C'est toi qui allonges ma foulée sans que faiblissent mes chevilles.
+38 Je poursuis mes ennemis, je les rejoins, je ne reviens qu'après leur défaite ;
+39 je les abats : ils ne pourront se relever ; ils tombent : les voilà sous mes pieds.
+40 Pour le combat tu m'emplis de vaillance ; devant moi tu fais plier mes agresseurs.
+41 Tu me livres des ennemis en déroute ; j'anéantis mes adversaires.
+42 Ils appellent ? pas de sauveur ! le Seigneur ? pas de réponse !
+43 J'en fais de la poussière pour le vent, de la boue qu'on enlève des rues.
+44 Tu me libères des querelles du peuple, tu me places à la tête des nations. Un peuple d'inconnus m'est asservi :
+45 au premier mot, ils m'obéissent. Ces fils d'étrangers se soumettent ; +
+46 ces fils d'étrangers capitulent : en tremblant ils quittent leurs bastions.
+47 Vive le Seigneur ! Béni soit mon Rocher ! Qu'il triomphe, le Dieu de ma victoire,
+48 ce Dieu qui m'accorde la revanche, qui soumet à mon pouvoir les nations !
+49 Tu me délivres de tous mes ennemis, + tu me fais triompher de l'agresseur, tu m'arraches à la violence de l'homme.
+50 Aussi, je te rendrai grâce parmi les peuples, Seigneur, je fêterai ton nom.
+51 Il donne à son roi de grandes victoires, * il se montre fidèle à son messie, à David et sa descendance, pour toujours.`,
+		},
+		{
+			title: 'Psaume 18',
+			content: `02 Les cieux proclament la gloire de Dieu, le firmament raconte l'ouvrage de ses mains.
+03 Le jour au jour en livre le récit et la nuit à la nuit en donne connaissance.
+04 Pas de paroles dans ce récit, pas de voix qui s'entende;
+05 mais sur toute la terre en paraît le message et la nouvelle, aux limites du monde. Là, se trouve la demeure du soleil : +
+06 tel un époux, il paraît hors de sa tente, il s'élance en conquérant joyeux.
+07 Il paraît où commence le ciel, + il s'en va jusqu'où le ciel s'achève : rien n'échappe à son ardeur.
+08 La loi du Seigneur est parfaite, qui redonne vie ; * la charte du Seigneur est sûre, qui rend sages les simples.
+09 Les préceptes du Seigneur sont droits, ils réjouissent le coeur ; * le commandement du Seigneur est limpide, il clarifie le regard.
+10 La crainte qu'il inspire est pure, elle est là pour toujours ; * les décisions du Seigneur sont justes et vraiment équitables :
+11 plus désirables que l'or, qu'une masse d'or fin, * plus savoureuses que le miel qui coule des rayons.
+12 Aussi ton serviteur en est illuminé ; + à les garder, il trouve son profit. *
+13 Qui peut discerner ses erreurs ? Purifie-moi de celles qui m'échappent.
+14 Préserve aussi ton serviteur de l'orgueil : qu'il n'ait sur moi aucune emprise. * Alors je serai sans reproche, pur d'un grand péché.
+15 Accueille les paroles de ma bouche, le murmure de mon coeur ; * qu'ils parviennent devant toi, Seigneur, mon rocher, mon défenseur !`,
+		},
+		{
+			title: 'Psaume 19',
+			content: `02 Que le Seigneur te réponde au jour de détresse, que le nom du Dieu de Jacob te défende.
+03 Du sanctuaire, qu'il t'envoie le secours, qu'il te soutienne des hauteurs de Sion.
+04 Qu'il se rappelle toutes tes offrandes ; ton holocauste, qu'il le trouve savoureux.
+05 Qu'il te donne à la mesure de ton coeur, qu'il accomplisse tous tes projets.
+06 Nous acclamerons ta victoire en arborant le nom de notre Dieu. * Le Seigneur accomplira toutes tes demandes.
+07 Maintenant, je le sais : le Seigneur donne la victoire à son messie ; * du sanctuaire des cieux, il lui répond par les exploits de sa main victorieuse.
+08 Aux uns, les chars ; aux autres, les chevaux ; à nous, le nom de notre Dieu : le Seigneur.
+09 Eux, ils plient et s'effondrent ; nous, debout, nous résistons.
+10 Seigneur, donne au roi la victoire ! Réponds-nous au jour de notre appel.`,
+		},
+		{
+			title: 'Psaume 20',
+			content: `02 Seigneur, le roi se réjouit de ta force ; quelle allégresse lui donne ta victoire !
+03 Tu as répondu au désir de son coeur, tu n'as pas rejeté le souhait de ses lèvres.
+04 Tu lui destines bénédictions et bienfaits, tu mets sur sa tête une couronne d'or.
+05 La vie qu'il t'a demandée, tu la lui donnes, de longs jours, des années sans fin.
+06 Par ta victoire, grandit son éclat : tu le revêts de splendeur et de gloire.
+07 Tu mets en lui ta bénédiction pour toujours : ta présence l'emplit de joie !
+08 Oui, le roi s'appuie sur le Seigneur : la grâce du Très-Haut le rend inébranlable.
+09 [Ta main trouvera tes ennemis, ta droite trouvera tes adversaires.
+10 Tu parais, tu en fais un brasier : la colère du Seigneur les consume, un feu les dévore.
+11 Tu aboliras leur lignée sur la terre et leur descendance parmi les hommes.
+12 S'ils trament le mal contre toi, s'ils préparent un complot, * ils iront à l'échec.
+13 Oui, tu les renverses et les terrasses ; ton arc les vise en plein coeur.]
+14 Dresse-toi, Seigneur, dans ta force : nous fêterons, nous chanterons ta vaillance.`,
+		},
+		{
+			title: 'Psaume 21',
+			content: `02 Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné ? * Le salut est loin de moi, loin des mots que je rugis.
+03 Mon Dieu, j'appelle tout le jour, et tu ne réponds pas ; * même la nuit, je n'ai pas de repos.
+04 Toi, pourtant, tu es saint, toi qui habites les hymnes d'Israël !
+05 C'est en toi que nos pères espéraient, ils espéraient et tu les délivrais.
+06 Quand ils criaient vers toi, ils échappaient ; en toi ils espéraient et n'étaient pas déçus.
+07 Et moi, je suis un ver, pas un homme, raillé par les gens, rejeté par le peuple.
+08 Tous ceux qui me voient me bafouent, ils ricanent et hochent la tête :
+09 « Il comptait sur le Seigneur : qu'il le délivre ! Qu'il le sauve, puisqu'il est son ami ! »
+10 C'est toi qui m'as tiré du ventre de ma mère, qui m'a mis en sûreté entre ses bras.
+11 A toi je fus confié dès ma naissance ; dès le ventre de ma mère, tu es mon Dieu.
+12 Ne sois pas loin : l'angoisse est proche, je n'ai personne pour m'aider.
+13 Des fauves nombreux me cernent, des taureaux de Basan m'encerclent.
+14 Des lions qui déchirent et rugissent ouvrent leur gueule contre moi.
+15 Je suis comme l'eau qui se répand, tous mes membres se disloquent. Mon coeur est comme la cire, il fond au milieu de mes entrailles.
+16 Ma vigueur a séché comme l'argile, ma langue colle à mon palais. Tu me mènes à la poussière de la mort. +
+17 Oui, des chiens me cernent, une bande de vauriens m'entoure. Ils me percent les mains et les pieds ;
+18 je peux compter tous mes os. Ces gens me voient, ils me regardent. +
+19 Ils partagent entre eux mes habits et tirent au sort mon vêtement.
+20 Mais toi, Seigneur, ne sois pas loin : ô ma force, viens vite à mon aide !
+21 Préserve ma vie de l'épée, arrache-moi aux griffes du chien ;
+22 sauve-moi de la gueule du lion et de la corne des buffles. Tu m'as répondu ! +
+23 Et je proclame ton nom devant mes frères, je te loue en pleine assemblée.
+24 Vous qui le craignez, louez le Seigneur, + glorifiez-le, vous tous, descendants de Jacob, vous tous, redoutez-le, descendants d'Israël.
+25 Car il n'a pas rejeté, il n'a pas réprouvé le malheureux dans sa misère ; il ne s'est pas voilé la face devant lui, mais il entend sa plainte.
+26 Tu seras ma louange dans la grande assemblée ; devant ceux qui te craignent, je tiendrai mes promesses.
+27 Les pauvres mangeront : ils seront rassasiés ; ils loueront le Seigneur, ceux qui le cherchent : « A vous, toujours, la vie et la joie ! »
+28 La terre entière se souviendra et reviendra vers le Seigneur, chaque famille de nations se prosternera devant lui :
+29 « Oui, au Seigneur la royauté, le pouvoir sur les nations ! »
+30 Tous ceux qui festoyaient s'inclinent ; promis à la mort, ils plient en sa présence.
+31 Et moi, je vis pour lui : ma descendance le servira ; on annoncera le Seigneur aux générations à venir.
+32 On proclamera sa justice au peuple qui va naître : Voilà son oeuvre !`,
+		},
+		{
+			title: 'Psaume 22',
+			content: `01 Le Seigneur est mon berger : je ne manque de rien. *
+02 Sur des prés d'herbe fraîche, il me fait reposer. Il me mène vers les eaux tranquilles
+03 et me fait revivre ; * il me conduit par le juste chemin pour l'honneur de son nom.
+04 Si je traverse les ravins de la mort, je ne crains aucun mal, * car tu es avec moi : ton bâton me guide et me rassure.
+05 Tu prépares la table pour moi devant mes ennemis ; * tu répands le parfum sur ma tête, ma coupe est débordante.
+06 Grâce et bonheur m'accompagnent tous les jours de ma vie ; * j'habiterai la maison du Seigneur pour la durée de mes jours.`,
+		},
+		{
+			title: 'Psaume 23',
+			content: `01 Au Seigneur, le monde et sa richesse, la terre et tous ses habitants !
+02 C'est lui qui l'a fondée sur les mers et la garde inébranlable sur les flots.
+03 Qui peut gravir la montagne du Seigneur et se tenir dans le lieu saint ?
+04 L'homme au coeur pur, aux mains innocentes, qui ne livre pas son âme aux idoles (et ne dit pas de faux serments).
+05 Il obtient, du Seigneur, la bénédiction, et de Dieu son Sauveur, la justice.
+06 Voici le peuple de ceux qui le cherchent ! Voici Jacob qui recherche ta face !
+07 Portes, levez vos frontons, + élevez-vous, portes éternelles : qu'il entre, le roi de gloire !
+08 Qui est ce roi de gloire ? + C'est le Seigneur, le fort, le vaillant, le Seigneur, le vaillant des combats.
+09 Portes, levez vos frontons, + levez-les, portes éternelles : qu'il entre, le roi de gloire !
+10 Qui donc est ce roi de gloire ? + C'est le Seigneur, Dieu de l'univers ; c'est lui, le roi de gloire.`,
+		},
+		{
+			title: 'Psaume 24',
+			content: `01 Vers toi, Seigneur, j'élève mon âme, *
+02 vers toi, mon Dieu. Je m'appuie sur toi : épargne-moi la honte ; ne laisse pas triompher mon ennemi.
+03 Pour qui espère en toi, pas de honte, mais honte et déception pour qui trahit.
+04 Seigneur, enseigne-moi tes voies, fais-moi connaître ta route.
+05 Dirige-moi par ta vérité, enseigne-moi, car tu es le Dieu qui me sauve. C'est toi que j'espère tout le jour en raison de ta bonté, Seigneur.
+06 Rappelle-toi, Seigneur, ta tendresse, ton amour qui est de toujours.
+07 Oublie les révoltes, les péchés de ma jeunesse ; dans ton amour, ne m'oublie pas.
+08 Il est droit, il est bon, le Seigneur, lui qui montre aux pécheurs le chemin.
+09 Sa justice dirige les humbles, il enseigne aux humbles son chemin.
+10 Les voies du Seigneur sont amour et vérité pour qui veille à son alliance et à ses lois.
+11 A cause de ton nom, Seigneur, pardonne ma faute : elle est grande.
+12 Est-il un homme qui craigne le Seigneur ? Dieu lui montre le chemin qu'il doit prendre.
+13 Son âme habitera le bonheur, ses descendants posséderont la terre.
+14 Le secret du Seigneur est pour ceux qui le craignent ; à ceux-là, il fait connaître son alliance.
+15 J'ai les yeux tournés vers le Seigneur : il tirera mes pieds du filet.
+16 Regarde, et prends pitié de moi, de moi qui suis seul et misérable.
+17 L'angoisse grandit dans mon coeur : tire-moi de ma détresse.
+18 Vois ma misère et ma peine, enlève tous mes péchés.
+19 Vois mes ennemis si nombreux, la haine violente qu'ils me portent.
+20 Garde mon âme, délivre-moi ; je m'abrite en toi : épargne-moi la honte.
+21 Droiture et perfection veillent sur moi, sur moi qui t'espère !
+22 Libère Israël, ô mon Dieu, de toutes ses angoisses !`,
+		},
+		{
+			title: 'Psaume 25',
+			content: `01 Seigneur, rends-moi justice : j'ai marché sans faillir. * Je m'appuie sur le Seigneur, et ne faiblirai pas.
+02 Éprouve-moi, Seigneur, scrute-moi, * passe au feu mes reins et mon coeur.
+03 J'ai devant les yeux ton amour, je marche selon ta vérité.
+04 Je ne m'assieds pas chez l'imposteur, je n'entre pas chez l'hypocrite.
+05 L'assemblée des méchants, je la hais, je ne m'assieds pas chez les impies.
+06 Je lave mes mains en signe d'innocence pour approcher de ton autel, Seigneur,
+07 pour dire à pleine voix l'action de grâce et rappeler toutes tes merveilles.
+08 Seigneur, j'aime la maison que tu habites, le lieu où demeure ta gloire.
+09 Ne m'inflige pas le sort des pécheurs, le destin de ceux qui versent le sang :
+10 ils ont dans les mains la corruption ; leur droite est pleine de profits.
+11 Oui, j'ai marché sans faillir : libère-moi ! prends pitié de moi !
+12 Sous mes pieds le terrain est sûr ; dans l'assemblée je bénirai le Seigneur.`,
+		},
+		{
+			title: 'Psaume 26',
+			content: `01 Le Seigneur est ma lumière et mon salut ; de qui aurais-je crainte ? * Le Seigneur est le rempart de ma vie ; devant qui tremblerais-je ?
+02 Si des méchants s'avancent contre moi pour me déchirer, + ce sont eux, mes ennemis, mes adversaires, * qui perdent pied et succombent.
+03 Qu'une armée se déploie devant moi, mon coeur est sans crainte ; * que la bataille s'engage contre moi, je garde confiance.
+04 J'ai demandé une chose au Seigneur, la seule que je cherche : + habiter la maison du Seigneur tous les jours de ma vie, * pour admirer le Seigneur dans sa beauté et m'attacher à son temple.
+05 Oui, il me réserve un lieu sûr au jour du malheur ; + il me cache au plus secret de sa tente, il m'élève sur le roc. *
+06 Maintenant je relève la tête devant mes ennemis. J'irai célébrer dans sa tente le sacrifice d'ovation ; * je chanterai, je fêterai le Seigneur.
+07 Écoute, Seigneur, je t'appelle ! * Pitié ! Réponds-moi !
+08 Mon coeur m'a redit ta parole : « Cherchez ma face. » *
+09 C'est ta face, Seigneur, que je cherche : ne me cache pas ta face. N'écarte pas ton serviteur avec colère : * tu restes mon secours. Ne me laisse pas, ne m'abandonne pas, Dieu, mon salut ! *
+10 Mon père et ma mère m'abandonnent ; le Seigneur me reçoit.
+11 Enseigne-moi ton chemin, Seigneur, * conduis-moi par des routes sûres, malgré ceux qui me guettent.
+12 Ne me livre pas à la merci de l'adversaire : * contre moi se sont levés de faux témoins qui soufflent la violence.
+13 Mais j'en suis sûr, je verrai les bontés du Seigneur sur la terre des vivants. *
+14 « Espère le Seigneur, sois fort et prends courage ; espère le Seigneur. »`,
+		},
+		{
+			title: 'Psaume 27',
+			content: `01 Seigneur, mon rocher, c'est toi que j'appelle : + ne reste pas sans me répondre, * car si tu gardais le silence, je m'en irais, moi aussi, vers la tombe.
+02 Entends la voix de ma prière quand je crie vers toi, * quand j'élève les mains vers le Saint des Saints !
+03 Ne me traîne pas chez les impies, chez les hommes criminels ; * à leurs voisins ils parlent de paix quand le mal est dans leur coeur.
+04 [Traite-les d'après leurs actes et selon leurs méfaits ; * traite-les d'après leurs oeuvres, rends-leur ce qu'ils méritent.
+05 Ils n'ont compris ni l'action du Seigneur ni l'oeuvre de ses mains ; * que Dieu les renverse et jamais ne les relève !]
+06 Béni soit le Seigneur qui entend la voix de ma prière !
+07 Le Seigneur est ma force et mon rempart ; à lui, mon coeur fait confiance : il m'a guéri, ma chair a refleuri, mes chants lui rendent grâce.
+08 Le Seigneur est la force de son peuple, le refuge et le salut de son messie.
+09 Sauve ton peuple, bénis ton héritage, veille sur lui, porte-le toujours.`,
+		},
+		{
+			title: 'Psaume 28',
+			content: `01 Rendez au Seigneur, vous, les dieux, rendez au Seigneur gloire et puissance.
+02 Rendez au Seigneur la gloire de son nom, adorez le Seigneur, éblouissant de sainteté.
+03 La voix du Seigneur domine les eaux, + le Dieu de la gloire déchaîne le tonnerre, le Seigneur domine la masse des eaux.
+04 Voix du Seigneur dans sa force, + voix du Seigneur qui éblouit,
+05 voix du Seigneur : elle casse les cèdres. Le Seigneur fracasse les cèdres du Liban ; +
+06 il fait bondir comme un poulain le Liban, le Sirion, comme un jeune taureau.
+07 Voix du Seigneur : elle taille des lames de feu ; +
+08 voix du Seigneur : elle épouvante le désert ; le Seigneur épouvante le désert de Cadès.
+09 Voix du Seigneur qui affole les biches en travail, qui ravage les forêts. * Et tous dans son temple s'écrient : « Gloire ! »
+10 Au déluge le Seigneur a siégé ; il siège, le Seigneur, il est roi pour toujours !
+11 Le Seigneur accorde à son peuple la puissance, le Seigneur bénit son peuple en lui donnant la paix.`,
+		},
+		{
+			title: 'Psaume 29',
+			content: `02 Je t'exalte, Seigneur : tu m'as relevé, tu m'épargnes les rires de l'ennemi.
+03 Quand j'ai crié vers toi, Seigneur, mon Dieu, tu m'as guéri ; *
+04 Seigneur, tu m'as fait remonter de l'abîme et revivre quand je descendais à la fosse.
+05 Fêtez le Seigneur, vous, ses fidèles, rendez grâce en rappelant son nom très saint.
+06 Sa colère ne dure qu'un instant, sa bonté, toute la vie ; * avec le soir, viennent les larmes, mais au matin, les cris de joie.
+07 Dans mon bonheur, je disais : Rien, jamais, ne m'ébranlera !
+08 Dans ta bonté, Seigneur, tu m'avais fortifié sur ma puissante montagne ; * pourtant, tu m'as caché ta face et je fus épouvanté.
+09 Et j'ai crié vers toi, Seigneur, j'ai supplié mon Dieu :
+10 « A quoi te servirait mon sang si je descendais dans la tombe ? * La poussière peut-elle te rendre grâce et proclamer ta fidélité ?
+11 « Écoute, Seigneur, pitié pour moi ! Seigneur, viens à mon aide ! »
+12 Tu as changé mon deuil en une danse, mes habits funèbres en parure de joie.
+13 Que mon coeur ne se taise pas, qu'il soit en fête pour toi, * et que sans fin, Seigneur, mon Dieu, je te rende grâce !`,
+		},
+		{
+			title: 'Psaume 30',
+			content: `02 En toi, Seigneur, j'ai mon refuge ; garde-moi d'être humilié pour toujours.Dans ta justice, libère-moi ;
+03 écoute, et viens me délivrer. Sois le rocher qui m'abrite, la maison fortifiée qui me sauve.
+04 Ma forteresse et mon roc, c'est toi : pour l'honneur de ton nom, tu me guides et me conduis.
+05 Tu m'arraches au filet qu'ils m'ont tendu ; oui, c'est toi mon abri.
+06 En tes mains je remets mon esprit ; tu me rachètes, Seigneur, Dieu de vérité.
+07 Je hais les adorateurs de faux dieux, et moi, je suis sûr du Seigneur.
+08 Ton amour me fait danser de joie : tu vois ma misère et tu sais ma détresse.
+09 Tu ne m'as pas livré aux mains de l'ennemi ; devant moi, tu as ouvert un passage.
+10 Prends pitié de moi, Seigneur, je suis en détresse. * La douleur me ronge les yeux, la gorge et les entrailles.
+11 Ma vie s'achève dans les larmes, et mes années, dans les souffrances. * Le péché m'a fait perdre mes forces, il me ronge les os.
+12 Je suis la risée de mes adversaires et même de mes voisins, + je fais peur à mes amis * (s'ils me voient dans la rue, ils me fuient).
+13 On m'ignore comme un mort oublié, * comme une chose qu'on jette.
+14 J'entends les calomnies de la foule : de tous côtés c'est l'épouvante. * Ils ont tenu conseil contre moi, ils s'accordent pour m'ôter la vie.
+15 Moi, je suis sûr de toi, Seigneur, + je dis : « Tu es mon Dieu ! » *
+16 Mes jours sont dans ta main : délivre-moi des mains hostiles qui s'acharnent.
+17 Sur ton serviteur, que s'illumine ta face ; + sauve-moi par ton amour. *
+18 Seigneur, garde-moi d'être humilié, moi qui t'appelle. [Mais qu'ils soient humiliés, les impies ; * qu'ils entrent dans le silence des morts !
+19 Qu'ils deviennent muets, ces menteurs, * car ils parlent contre le juste avec orgueil, insolence et mépris.]
+20 Qu'ils sont grands, tes bienfaits ! + Tu les réserves à ceux qui te craignent. * Tu combles, à la face du monde, ceux qui ont en toi leur refuge.
+21 Tu les caches au plus secret de ta face, loin des intrigues des hommes. * Tu leur réserves un lieu sûr, loin des langues méchantes.
+22 Béni soit le Seigneur : * son amour a fait pour moi des merveilles dans la ville retranchée !
+23 Et moi, dans mon trouble, je disais : « Je ne suis plus devant tes yeux. » * Pourtant, tu écoutais ma prière quand je criais vers toi.
+24 Aimez le Seigneur, vous, ses fidèles : + le Seigneur veille sur les siens ; * mais il rétribue avec rigueur qui se montre arrogant.
+25 Soyez forts, prenez courage, * vous tous qui espérez le Seigneur !`,
+		},
+		{
+			title: 'Psaume 31',
+			content: `01 Heureux l'homme dont la faute est enlevée, * et le péché remis !
+02 Heureux l'homme dont le Seigneur ne retient pas l'offense, * dont l'esprit est sans fraude !
+03 Je me taisais et mes forces s'épuisaient à gémir tout le jour : +
+04 ta main, le jour et la nuit, pesait sur moi ; * ma vigueur se desséchait comme l'herbe en été.
+05 Je t'ai fait connaître ma faute, je n'ai pas caché mes torts. + J'ai dit : « Je rendrai grâce au Seigneur en confessant mes péchés. » * Et toi, tu as enlevé l'offense de ma faute.
+06 Ainsi chacun des tiens te priera aux heures décisives ; * même les eaux qui débordent ne peuvent l'atteindre.
+07 Tu es un refuge pour moi, mon abri dans la détresse ; * de chants de délivrance, tu m'as entouré.
+08 « Je vais t'instruire, te montrer la route à suivre, * te conseiller, veiller sur toi.
+09 N'imite pas les mules et les chevaux qui ne comprennent pas, + qu'il faut mater par la bride et le mors, * et rien ne t'arrivera. »
+10 Pour le méchant, douleurs sans nombre ; * mais l'amour du Seigneur entourera ceux qui comptent sur lui.
+11 Que le Seigneur soit votre joie ! Exultez, hommes justes ! * Hommes droits, chantez votre allégresse !`,
+		},
+		{
+			title: 'Psaume 32',
+			content: `01 Criez de joie pour le Seigneur, hommes justes ! Hommes droits, à vous la louange !
+02 Rendez grâce au Seigneur sur la cithare, jouez pour lui sur la harpe à dix cordes.
+03 Chantez-lui le cantique nouveau, de tout votre art soutenez l'ovation.
+04 Oui, elle est droite, la parole du Seigneur ; il est fidèle en tout ce qu'il fait.
+05 Il aime le bon droit et la justice ; la terre est remplie de son amour.
+06 Le Seigneur a fait les cieux par sa parole, l'univers, par le souffle de sa bouche.
+07 Il amasse, il retient l'eau des mers ; les océans, il les garde en réserve.
+08 Que la crainte du Seigneur saisisse la terre, que tremblent devant lui les habitants du monde !
+09 Il parla, et ce qu'il dit exista ; il commanda, et ce qu'il dit survint.
+10 Le Seigneur a déjoué les plans des nations, anéanti les projets des peuples.
+11 Le plan du Seigneur demeure pour toujours, les projets de son coeur subsistent d'âge en âge.
+12 Heureux le peuple dont le Seigneur est le Dieu, heureuse la nation qu'il s'est choisie pour domaine !
+13 Du haut des cieux, le Seigneur regarde : il voit la race des hommes.
+14 Du lieu qu'il habite, il observe tous les habitants de la terre,
+15 lui qui forme le coeur de chacun, qui pénètre toutes leurs actions.
+16 Le salut d'un roi n'est pas dans son armée, ni la victoire d'un guerrier, dans sa force.
+17 Illusion que des chevaux pour la victoire : une armée ne donne pas le salut.
+18 Dieu veille sur ceux qui le craignent, qui mettent leur espoir en son amour,
+19 pour les délivrer de la mort, les garder en vie aux jours de famine.
+20 Nous attendons notre vie du Seigneur : il est pour nous un appui, un bouclier.
+21 La joie de notre coeur vient de lui, notre confiance est dans son nom très saint.
+22 Que ton amour, Seigneur, soit sur nous comme notre espoir est en toi !`,
+		},
+		{
+			title: 'Psaume 33',
+			content: `02 Je bénirai le Seigneur en tout temps, sa louange sans cesse à mes lèvres.
+03 Je me glorifierai dans le Seigneur : que les pauvres m'entendent et soient en fête !
+04 Magnifiez avec moi le Seigneur, exaltons tous ensemble son nom.
+05 Je cherche le Seigneur, il me répond : de toutes mes frayeurs, il me délivre.
+06 Qui regarde vers lui resplendira, sans ombre ni trouble au visage.
+07 Un pauvre crie ; le Seigneur entend : il le sauve de toutes ses angoisses.
+08 L'ange du Seigneur campe à l'entour pour libérer ceux qui le craignent.
+09 Goûtez et voyez : le Seigneur est bon ! Heureux qui trouve en lui son refuge !
+10 Saints du Seigneur, adorez-le : rien ne manque à ceux qui le craignent.
+11 Des riches ont tout perdu, ils ont faim ; qui cherche le Seigneur ne manquera d'aucun bien.
+12 Venez, mes fils, écoutez-moi, que je vous enseigne la crainte du Seigneur.
+13 Qui donc aime la vie et désire les jours où il verra le bonheur ?
+14 Garde ta langue du mal et tes lèvres des paroles perfides.
+15 Évite le mal, fais ce qui est bien, poursuis la paix, recherche-la.
+16 Le Seigneur regarde les justes, il écoute, attentif à leurs cris.
+17 Le Seigneur affronte les méchants pour effacer de la terre leur mémoire.
+18 Le Seigneur entend ceux qui l'appellent : de toutes leurs angoisses, il les délivre.
+19 Il est proche du coeur brisé, il sauve l'esprit abattu.
+20 Malheur sur malheur pour le juste, mais le Seigneur chaque fois le délivre.
+21 Il veille sur chacun de ses os : pas un ne sera brisé.
+22 Le mal tuera les méchants ; ils seront châtiés d'avoir haï le juste.
+23 Le Seigneur rachètera ses serviteurs : pas de châtiment pour qui trouve en lui son refuge.`,
+		},
+		{
+			title: 'Psaume 34',
+			content: `01 Accuse, Seigneur, ceux qui m'accusent, attaque ceux qui m'attaquent. *
+02 Prends une armure, un bouclier, lève-toi pour me défendre.
+03 [Brandis la lance et l'épée contre ceux qui me poursuivent. *] Parle et dis-moi : « Je suis ton salut. »
+04 [Qu'ils soient humiliés, déshonorés, ceux qui s'en prennent à ma vie ! * Qu'ils reculent, couverts de honte, ceux qui veulent mon malheur !
+05 Qu'ils soient comme la paille dans le vent lorsque l'ange du Seigneur les balaiera ! *
+06 Que leur chemin soit obscur et glissant lorsque l'ange du Seigneur les chassera !
+07 Sans raison ils ont tendu leur filet, * et sans raison creusé un trou pour me perdre.
+08 Qu'un désastre imprévu les surprenne, * qu'ils soient pris dans le filet qu'ils ont caché, et dans ce désastre, qu'ils succombent !]
+09 Pour moi, le Seigneur sera ma joie, * et son salut, mon allégresse !
+10 De tout mon être, je dirai : « Qui est comme toi, Seigneur, * pour arracher un pauvre à plus fort que lui, un pauvre, un malheureux, à qui le dépouille. »
+11 Des témoins injustes se lèvent, des inconnus m'interrogent. *
+12 On me rend le mal pour le bien : je suis un homme isolé.
+13 Quand ils étaient malades, je m'habillais d'un sac, + je m'épuisais à jeûner ; * sans cesse, revenait ma prière.
+14 Comme pour un frère, un ami, j'allais et venais ; * comme en deuil de ma mère, j'étais sombre et prostré.
+15 Si je faiblis, on rit, on s'attroupe, + des misérables s'attroupent contre moi : * des gens inconnus qui déchirent à grands cris.
+16 Ils blasphèment, ils me couvrent de sarcasmes, * grinçant des dents contre moi.
+17 Comment peux-tu voir cela, Seigneur ? * Tire ma vie de ce désastre, délivre-moi de ces fauves.
+18 Je te rendrai grâce dans la grande assemblée, * avec un peuple nombreux, je te louerai.
+19 Qu'ils n'aient plus à rire de moi, ceux qui me haïssent injustement ! * Et ceux qui me détestent sans raison, qu'ils cessent leurs clins d'oeil !
+20 [Ils n'ont jamais une parole de paix, ils calomnient les gens tranquilles du pays.
+21 La bouche large ouverte contre moi, ils disent : « Voilà, nos yeux l'ont vu ! »]
+22 Tu as vu, Seigneur, sors de ton silence ! Seigneur, ne sois pas loin de moi !
+23 Réveille-toi, lève-toi, Seigneur mon Dieu, pour défendre et juger ma cause !
+24 [Juge-moi, Seigneur mon Dieu, selon ta justice : qu'ils n'aient plus à rire de moi !
+25 Qu'ils ne pensent pas : « Voilà, c'en est fait ! » Qu'ils ne disent pas : « Nous l'avons englouti ! »
+26 Qu'ils soient tous humiliés, confondus, ceux qui riaient de mon malheur ! * Qu'ils soient déshonorés, couverts de honte, tous ceux qui triomphaient !]
+27 A ceux qui voulaient pour moi la justice, rires et cris de joie ! * Ils diront sans fin : « Le Seigneur triomphe, lui qui veut le bien de son serviteur. »
+28 Moi, je redirai ta justice * et chaque jour ta louange.`,
+		},
+		{
+			title: 'Psaume 35',
+			content: `02 C'est le péché qui parle au coeur de l'impie ; * ses yeux ne voient pas que Dieu est terrible.
+03 Il se voit d'un oeil trop flatteur pour trouver et haïr sa faute ; *
+04 il n'a que ruse et fraude à la bouche, il a perdu le sens du bien.
+05 Il prépare en secret ses mauvais coups. + La route qu'il suit n'est pas celle du bien ; * il ne renonce pas au mal.
+06 Dans les cieux, Seigneur, ton amour ; jusqu'aux nues, ta vérité ! *
+07 Ta justice, une haute montagne ; tes jugements, le grand abîme ! Tu sauves, Seigneur, l'homme et les bêtes :
+08 qu'il est précieux ton amour, ô mon Dieu ! A l'ombre de tes ailes, tu abrites les hommes : +
+09 ils savourent les festins de ta maison ; * aux torrents du paradis, tu les abreuves.
+10 En toi est la source de vie ; par ta lumière nous voyons la lumière.
+11 Garde ton amour à ceux qui t'ont connu, ta justice à tous les hommes droits.
+12 Que l'orgueilleux n'entre pas chez moi, que l'impie ne me jette pas dehors !
+13 Voyez : ils sont tombés, les malfaisants ; abattus, ils ne pourront se relever.`,
+		},
+		{
+			title: 'Psaume 36',
+			content: `01 Ne t'indigne pas à la vue des méchants, n'envie pas les gens malhonnêtes ;
+02 aussi vite que l'herbe, ils se fanent ; comme la verdure, ils se flétrissent.
+03 Fais confiance au Seigneur, agis bien, habite la terre et reste fidèle ;
+04 mets ta joie dans le Seigneur : il comblera les désirs de ton coeur.
+05 Dirige ton chemin vers le Seigneur, fais-lui confiance, et lui, il agira.
+06 Il fera lever comme le jour ta justice, et ton droit comme le plein midi.
+07 Repose-toi sur le Seigneur et compte sur lui. Ne t'indigne pas devant celui qui réussit, devant l'homme qui use d'intrigues.
+08 Laisse ta colère, calme ta fièvre, ne t'indigne pas : il n'en viendrait que du mal ;
+09 les méchants seront déracinés, mais qui espère le Seigneur possédera la terre.
+10 Encore un peu de temps : plus d'impie ; tu pénètres chez lui : il n'y est plus.
+11 Les doux posséderont la terre et jouiront d'une abondante paix.
+12 L'impie peut intriguer contre le juste et grincer des dents contre lui,
+13 le Seigneur se moque du méchant car il voit son jour qui arrive.
+14 L'impie a tiré son épée, il a tendu son arc pour abattre le pauvre et le faible, pour tuer l'homme droit.
+15 Mais l'épée lui entrera dans le coeur, et son arc se brisera.
+16 Pour le juste, avoir peu de biens vaut mieux que la fortune des impies.
+17 Car le bras de l'impie sera brisé, mais le Seigneur soutient les justes.
+18 Il connaît les jours de l'homme intègre qui recevra un héritage impérissable.
+19 Pas de honte pour lui aux mauvais jours ; aux temps de famine, il sera rassasié.
+20 Mais oui, les impies disparaîtront comme la parure des prés ; c'en est fini des ennemis du Seigneur : ils s'en vont en fumée.
+21 L'impie emprunte et ne rend pas ; le juste a pitié : il donne.
+22 Ceux qu'il bénit posséderont la terre, ceux qu'il maudit seront déracinés.
+23 Quand le Seigneur conduit les pas de l'homme, ils sont fermes et sa marche lui plaît.
+24 S'il trébuche, il ne tombe pas car le Seigneur le soutient de sa main.
+25 Jamais, de ma jeunesse à mes vieux jours, je n'ai vu le juste abandonné ni ses enfants mendier leur pain.
+26 Chaque jour il a pitié, il prête ; ses descendants seront bénis.
+27 Évite le mal, fais ce qui est bien, et tu auras une habitation pour toujours,
+28 car le Seigneur aime le bon droit, il n'abandonne pas ses amis. Ceux-là seront préservés à jamais, les descendants de l'impie seront déracinés.
+29 Les justes posséderont la terre et toujours l'habiteront.
+30 Les lèvres du juste redisent la sagesse et sa bouche énonce le droit.
+31 La loi de son Dieu est dans son coeur ; il va, sans craindre les faux pas.
+32 Les impies guettent le juste, ils cherchent à le faire mourir.
+33 Mais le Seigneur ne saurait l'abandonner ni le laisser condamner par ses juges.
+34 Espère le Seigneur, et garde son chemin : il t'élèvera jusqu'à posséder la terre ; tu verras les impies déracinés.
+35 J'ai vu l'impie dans sa puissance se déployer comme un cèdre vigoureux.
+36 Il a passé, voici qu'il n'est plus ; je l'ai cherché, il est introuvable.
+37 Considère l'homme droit, vois l'homme intègre : un avenir est promis aux pacifiques.
+38 Les pécheurs seront tous déracinés, et l'avenir des impies, anéanti.
+39 Le Seigneur est le salut pour les justes, leur abri au temps de la détresse.
+40 Le Seigneur les aide et les délivre, il les délivre de l'impie, il les sauve, car ils cherchent en lui leur refuge.`,
+		},
+		{
+			title: 'Psaume 37',
+			content: `02 Seigneur, corrige-moi sans colère et reprends-moi sans violence.
+03 Tes flèches m'ont frappé, ta main s'est abattue sur moi.
+04 Rien n'est sain dans ma chair sous ta fureur, rien d'intact en mes os depuis ma faute.
+05 Oui, mes péchés me submergent, leur poids trop pesant m'écrase.
+06 Mes plaies sont puanteur et pourriture : c'est là le prix de ma folie.
+07 Accablé, prostré, à bout de forces, tout le jour j'avance dans le noir.
+08 La fièvre m'envahit jusqu'aux moelles, plus rien n'est sain dans ma chair.
+09 Brisé, écrasé, à bout de forces, mon coeur gronde et rugit.
+10 Seigneur, tout mon désir est devant toi, et rien de ma plainte ne t'échappe.
+11 Le coeur me bat, ma force m'abandonne, et même la lumière de mes yeux.
+12 Amis et compagnons se tiennent à distance, et mes proches, à l'écart de mon mal.
+13 Ceux qui veulent ma perte me talonnent, ces gens qui cherchent mon malheur ; ils prononcent des paroles maléfiques, tout le jour ils ruminent leur traîtrise.
+14 Moi, comme un sourd, je n'entends rien, comme un muet, je n'ouvre pas la bouche,
+15 pareil à celui qui n'entend pas, qui n'a pas de réplique à la bouche.
+16 C'est toi que j'espère, Seigneur : Seigneur mon Dieu, toi, tu répondras.
+17 J'ai dit : « Qu'ils ne triomphent pas, ceux qui rient de moi quand je trébuche ! »
+18 Et maintenant, je suis près de tomber, ma douleur est toujours devant moi.
+19 Oui, j'avoue mon péché, je m'effraie de ma faute.
+20 Mes ennemis sont forts et vigoureux, ils sont nombreux à m'en vouloir injustement.
+21 Ils me rendent le mal pour le bien ; quand je cherche le bien, ils m'accusent.
+22 Ne m'abandonne jamais, Seigneur, mon Dieu, ne sois pas loin de moi.
+23 Viens vite à mon aide, Seigneur, mon salut !`,
+		},
+		{
+			title: 'Psaume 38',
+			content: `02 J'ai dit : « Je garderai mon chemin sans laisser ma langue s'égarer ; je garderai un bâillon sur ma bouche, tant que l'impie se tiendra devant moi. »
+03 Je suis resté muet, silencieux ; je me taisais, mais sans profit. * Mon tourment s'exaspérait,
+04 mon coeur brûlait en moi. Quand j'y pensais, je m'enflammais, et j'ai laissé parler ma langue.
+05 Seigneur, fais-moi connaître ma fin, quel est le nombre de mes jours : je connaîtrai combien je suis fragile.
+06 Vois le peu de jours que tu m'accordes : ma durée n'est rien devant toi. L'homme ici-bas n'est qu'un souffle ;
+07 il va, il vient, il n'est qu'une image. Rien qu'un souffle, tous ses tracas ; il amasse, mais qui recueillera ?
+08 Maintenant, que puis-je attendre, Seigneur ? Elle est en toi, mon espérance.
+09 Délivre-moi de tous mes péchés, épargne-moi les injures des fous.
+10 Je me suis tu, je n'ouvre pas la bouche, car c'est toi qui es à l'oeuvre.
+11 Éloigne de moi tes coups : je succombe sous ta main qui me frappe.
+12 Tu redresses l'homme en corrigeant sa faute, + tu ronges comme un ver son désir ; * l'homme n'est qu'un souffle.
+13 Entends ma prière, Seigneur, écoute mon cri ; ne reste pas sourd à mes pleurs. Je ne suis qu'un hôte chez toi, un passant, comme tous mes pères.
+14 Détourne de moi tes yeux, que je respire avant que je m'en aille et ne sois plus.`,
+		},
+		{
+			title: 'Psaume 39',
+			content: `02 D'un grand espoir j'espérais le Seigneur : * il s'est penché vers moi pour entendre mon cri.
+03 Il m'a tiré de l'horreur du gouffre, de la vase et de la boue ; * il m'a fait reprendre pied sur le roc, il a raffermi mes pas.
+04 Dans ma bouche il a mis un chant nouveau, une louange à notre Dieu. * Beaucoup d'hommes verront, ils craindront, ils auront foi dans le Seigneur.
+05 Heureux est l'homme qui met sa foi dans le Seigneur * et ne va pas du côté des violents, dans le parti des traîtres.
+06 Tu as fait pour nous tant de choses, toi, Seigneur mon Dieu ! * Tant de projets et de merveilles : non, tu n'as point d'égal ! Je les dis, je les redis encore ; * mais leur nombre est trop grand !
+07 Tu ne voulais ni offrande ni sacrifice, tu as ouvert mes oreilles ; * tu ne demandais ni holocauste ni victime,
+08 alors j'ai dit : « Voici, je viens. « Dans le livre, est écrit pour moi
+09 ce que tu veux que je fasse. * Mon Dieu, voilà ce que j'aime : ta loi me tient aux entrailles. »
+10 J'annonce la justice dans la grande assemblée ; * vois, je ne retiens pas mes lèvres, Seigneur, tu le sais.
+11 Je n'ai pas enfoui ta justice au fond de mon coeur, + je n'ai pas caché ta fidélité, ton salut ; * j'ai dit ton amour et ta vérité à la grande assemblée.
+12 Toi, Seigneur, ne retiens pas loin de moi ta tendresse ; * que ton amour et ta vérité sans cesse me gardent !
+13 Les malheurs m'ont assailli : * leur nombre m'échappe ! Mes péchés m'ont accablé : ils m'enlèvent la vue ! * Plus nombreux que les cheveux de ma tête, ils me font perdre coeur.
+14 Daigne, Seigneur, me délivrer ; Seigneur, viens vite à mon secours ! *
+15 [Qu'ils soient tous humiliés, déshonorés, ceux qui s'en prennent à ma vie ! Qu'ils reculent, couverts de honte, ceux qui cherchent mon malheur ; *
+16 que l'humiliation les écrase, ceux qui me disent : « C'est bien fait ! »]
+17 Mais tu seras l'allégresse et la joie de tous ceux qui te cherchent ; * toujours ils rediront : « Le Seigneur est grand ! » ceux qui aiment ton salut.
+18 Je suis pauvre et malheureux, mais le Seigneur pense à moi. * Tu es mon secours, mon libérateur : mon Dieu, ne tarde pas !`,
+		},
+		{
+			title: 'Psaume 40',
+			content: `02 Heureux qui pense au pauvre et au faible : le Seigneur le sauve au jour du malheur !
+03 Il le protège et le garde en vie, heureux sur la terre. Seigneur, ne le livre pas à la merci de l'ennemi !
+04 Le Seigneur le soutient sur son lit de souffrance : si malade qu'il soit, tu le relèves.
+05 J'avais dit : « Pitié pour moi, Seigneur, guéris-moi, car j'ai péché contre toi ! »
+06 Mes ennemis me condamnent déjà : « Quand sera-t-il mort ? son nom, effacé ? »
+07 Si quelqu'un vient me voir, ses propos sont vides ; il emplit son coeur de pensées méchantes, il sort, et dans la rue il parle.
+08 Unis contre moi, mes ennemis murmurent, à mon sujet, ils présagent le pire :
+09 « C'est un mal pernicieux qui le ronge ; le voilà couché, il ne pourra plus se lever. »
+10 Même l'ami, qui avait ma confiance et partageait mon pain, m'a frappé du talon.
+11 Mais toi, Seigneur, prends pitié de moi ; relève-moi, je leur rendrai ce qu'ils méritent.
+12 Oui, je saurai que tu m'aimes si mes ennemis ne chantent pas victoire.
+13 Dans mon innocence tu m'as soutenu et rétabli pour toujours devant ta face.
+14 Béni soit le Seigneur, Dieu d'Israël, * depuis toujours et pour toujours ! Amen ! Amen !`,
+		},
+		{
+			title: 'Psaume 41',
+			content: `02 Comme un cerf altéré cherche l'eau vive, * ainsi mon âme te cherche toi, mon Dieu.
+03 Mon âme a soif de Dieu, le Dieu vivant ; * quand pourrai-je m'avancer, paraître face à Dieu ?
+04 Je n'ai d'autre pain que mes larmes, le jour, la nuit, * moi qui chaque jour entends dire : « Où est-il ton Dieu ? »
+05 Je me souviens, et mon âme déborde : * en ce temps-là, je franchissais les portails ! Je conduisais vers la maison de mon Dieu la multitude en fête, * parmi les cris de joie et les actions de grâce.
+06 R / Pourquoi te désoler, ô mon âme, et gémir sur moi ? * Espère en Dieu ! De nouveau je rendrai grâce : il est mon sauveur et mon Dieu !
+07 Si mon âme se désole, je me souviens de toi, * depuis les terres du Jourdain et de l'Hermon, depuis mon humble montagne.
+08 L'abîme appelant l'abîme à la voix de tes cataractes, * la masse de tes flots et de tes vagues a passé sur moi.
+09 Au long du jour, le Seigneur m'envoie son amour ; * et la nuit, son chant est avec moi, prière au Dieu de ma vie.
+10 Je dirai à Dieu, mon rocher : « Pourquoi m'oublies-tu ? * Pourquoi vais-je assombri, pressé par l'ennemi ? »
+11 Outragé par mes adversaires, je suis meurtri jusqu'aux os, * moi qui chaque jour entends dire : « Où est-il ton Dieu ? »
+12 R / Pourquoi te désoler, ô mon âme, et gémir sur moi ? * Espère en Dieu ! De nouveau je rendrai grâce : il est mon sauveur et mon Dieu !`,
+		},
+		{
+			title: 'Psaume 42',
+			content: `01 Rends-moi justice, ô mon Dieu, défends ma cause contre un peuple sans foi ; * de l'homme qui ruse et trahit, libère-moi.
+02 C'est toi, Dieu, ma forteresse : pourquoi me rejeter ? * Pourquoi vais-je assombri, pressé par l'ennemi ?
+03 Envoie ta lumière et ta vérité : qu'elles guident mes pas * et me conduisent à ta montagne sainte, jusqu'en ta demeure.
+04 J'avancerai jusqu'à l'autel de Dieu, vers Dieu qui est toute ma joie ; * je te rendrai grâce avec ma harpe, Dieu, mon Dieu !
+05 R / Pourquoi te désoler, ô mon âme, et gémir sur moi ? * Espère en Dieu ! De nouveau je rendrai grâce : il est mon sauveur et mon Dieu !`,
+		},
+		{
+			title: 'Psaume 43',
+			content: `02 Dieu, nous avons entendu dire, + et nos pères nous ont raconté, * quelle action tu accomplis de leur temps, aux jours d'autrefois.
+03 Toi, par ta main, tu as dépossédé les nations, + et ils purent s'implanter ; * et tu as malmené des peuplades, et ils purent s'étendre.
+04 Ce n'était pas leur épée qui possédait le pays, + ni leur bras qui les rendait vainqueurs, * mais ta droite et ton bras, et la lumière de ta face, car tu les aimais.
+05 Toi, Dieu, tu es mon roi, * tu décides des victoires de Jacob :
+06 avec toi, nous battions nos ennemis ; par ton nom, nous écrasions nos adversaires.
+07 Ce n'est pas sur mon arme que je compte, ni sur mon épée, pour la victoire.
+08 Tu nous as donné de vaincre l'adversaire, tu as couvert notre ennemi de honte.
+09 Dieu était notre louange, tout le jour : sans cesse nous rendions grâce à ton nom.
+10 Maintenant, tu nous humilies, tu nous rejettes, tu ne sors plus avec nos armées.
+11 Tu nous fais plier devant l'adversaire, et nos ennemis emportent le butin.
+12 Tu nous traites en bétail de boucherie, tu nous disperses parmi les nations.
+13 Tu vends ton peuple à vil prix, sans que tu gagnes à ce marché.
+14 Tu nous exposes aux sarcasmes des voisins, aux rires, aux moqueries de l'entourage.
+15 Tu fais de nous la fable des nations ; les étrangers haussent les épaules.
+16 Tout le jour, ma déchéance est devant moi, la honte couvre mon visage,
+17 sous les sarcasmes et les cris de blasphème, sous les yeux de l'ennemi qui se venge.
+18 Tout cela est venu sur nous sans que nous t'ayons oublié : nous n'avions pas trahi ton alliance.
+19 Notre coeur ne s'était pas détourné et nos pieds n'avaient pas quitté ton chemin
+20 quand tu nous poussais au milieu des chacals et nous couvrais de l'ombre de la mort.
+21 Si nous avions oublié le nom de notre Dieu, tendu les mains vers un dieu étranger,
+22 Dieu ne l'eût-il pas découvert, lui qui connaît le fond des coeurs ?
+23 C'est pour toi qu'on nous massacre sans arrêt, qu'on nous traite en bétail d'abattoir.
+24 Réveille-toi ! Pourquoi dors-tu, Seigneur ? Lève-toi ! Ne nous rejette pas pour toujours.
+25 Pourquoi détourner ta face, oublier notre malheur, notre misère ?
+26 Oui, nous mordons la poussière, notre ventre colle à la terre.
+27 Debout ! Viens à notre aide ! Rachète-nous, au nom de ton amour.`,
+		},
+		{
+			title: 'Psaume 44',
+			content: `02 D'heureuses paroles jaillissent de mon coeur quand je dis mes poèmes pour le roi d'une langue aussi vive que la plume du scribe !
+03 Tu es beau, comme aucun des enfants de l'homme, la grâce est répandue sur tes lèvres : oui, Dieu te bénit pour toujours.
+04 Guerrier valeureux, porte l'épée de noblesse et d'honneur !
+05 Ton honneur, c'est de courir au combat pour la justice, la clémence et la vérité.
+06 Ta main jettera la stupeur, les flèches qui déchirent ; sous tes coups, les peuples s'abattront, les ennemis du roi, frappés en plein coeur.
+07 Ton trône est divin, un trône éternel ; ton sceptre royal est sceptre de droiture :
+08 tu aimes la justice, tu réprouves le mal. Oui, Dieu, ton Dieu t'a consacré d'une onction de joie, comme aucun de tes semblables ;
+09 la myrrhe et l'aloès parfument ton vêtement. Des palais d'ivoire, la musique t'enchante.
+10 Parmi tes bien-aimées sont des filles de roi ; à ta droite, la préférée, sous les ors d'Ophir.
+11 Écoute, ma fille, regarde et tends l'oreille ; oublie ton peuple et la maison de ton père :
+12 le roi sera séduit par ta beauté. Il est ton Seigneur : prosterne-toi devant lui.
+13 Alors, fille de Tyr, les plus riches du peuple, chargés de présents, quêteront ton sourire.
+14 Fille de roi, elle est là, dans sa gloire, vêtue d'étoffes d'or ;
+15 on la conduit, toute parée, vers le roi. Des jeunes filles, ses compagnes, lui font cortège ;
+16 on les conduit parmi les chants de fête : elles entrent au palais du roi.
+17 A la place de tes pères se lèveront tes fils ; sur toute la terre tu feras d'eux des princes.
+18 Je ferai vivre ton nom pour les âges des âges : que les peuples te rendent grâce, toujours, à jamais !`,
+		},
+		{
+			title: 'Psaume 45',
+			content: `02 Dieu est pour nous refuge et force, secours dans la détresse, toujours offert.
+03 Nous serons sans crainte si la terre est secouée, si les montagnes s'effondrent au creux de la mer ;
+04 ses flots peuvent mugir et s'enfler, les montagnes, trembler dans la tempête :[R/] [Il est avec nous, le Seigneur de l'univers ; citadelle pour nous, le Dieu de Jacob !]
+05 Le Fleuve, ses bras réjouissent la ville de Dieu, la plus sainte des demeures du Très-Haut.
+06 Dieu s'y tient : elle est inébranlable ; quand renaît le matin, Dieu la secourt.
+07 Des peuples mugissent, des règnes s'effondrent ; quand sa voix retentit, la terre se défait.
+08 R/ Il est avec nous, le Seigneur de l'univers ; citadelle pour nous, le Dieu de Jacob !
+09 Venez et voyez les actes du Seigneur, comme il couvre de ruines la terre.
+10 Il détruit la guerre jusqu'au bout du monde, il casse les arcs, brise les lances, incendie les chars :
+11 « Arrêtez ! Sachez que je suis Dieu. Je domine les nations, je domine la terre. »
+12 R/ Il est avec nous, le Seigneur de l'univers ; citadelle pour nous, le Dieu de Jacob !`,
+		},
+		{
+			title: 'Psaume 46',
+			content: `02 Tous les peuples, battez des mains, acclamez Dieu par vos cris de joie !
+03 Car le Seigneur est le Très-Haut, le redoutable, le grand roi sur toute la terre,
+04 celui qui nous soumet des nations, qui tient des peuples sous nos pieds ;
+05 il choisit pour nous l'héritage, fierté de Jacob, son bien-aimé.
+06 Dieu s'élève parmi les ovations, le Seigneur, aux éclats du cor.
+07 Sonnez pour notre Dieu, sonnez, sonnez pour notre roi, sonnez !
+08 Car Dieu est le roi de la terre : que vos musiques l'annoncent !
+09 Il règne, Dieu, sur les païens, Dieu est assis sur son trône sacré.
+10 Les chefs des peuples se sont rassemblés : c'est le peuple du Dieu d'Abraham. Les princes de la terre sont à Dieu qui s'élève au-dessus de tous.`,
+		},
+		{
+			title: 'Psaume 47',
+			content: `02 Il est grand, le Seigneur, hautement loué, + dans la ville de notre Dieu, *
+03 sa sainte montagne, altière et belle, joie de toute la terre. La montagne de Sion, c'est le pôle du monde, la cité du grand roi ; *
+04 Dieu se révèle, en ses palais, vraie citadelle.
+05 Voici que des rois s'étaient ligués, ils avançaient tous ensemble ; *
+06 ils ont vu, et soudain stupéfaits, pris de panique, ils ont fui.
+07 Et voilà qu'un tremblement les saisit : douleurs de femme qui accouche ; *
+08 un vent qui souffle du désert a brisé les vaisseaux de Tarsis.
+09 Nous l'avions entendu, nous l'avons vu dans la ville du Seigneur, Dieu de l'univers, * dans la ville de Dieu, notre Dieu, qui l'affermira pour toujours.
+10 Dieu, nous revivons ton amour au milieu de ton temple. *
+11 Ta louange, comme ton nom, couvre l'étendue de la terre. Ta main droite qui donne la victoire
+12 réjouit la montagne de Sion ; * les villes de Juda exultent devant tes jugements.
+13 Longez les remparts de Sion, comptez ses tours ; *
+14 que vos coeurs s'éprennent de ses murs : contemplez ses palais. Et vous direz aux âges qui viendront :
+15 « Ce Dieu est notre Dieu, * pour toujours et à jamais, notre guide pour les siècles. »`,
+		},
+		{
+			title: 'Psaume 48',
+			content: `02 Écoutez ceci, tous les peuples, entendez bien, habitants de l'univers,
+03 gens illustres, gens obscurs, riches et pauvres, tous ensemble.
+04 Ma bouche dira des paroles de sagesse, les propos clairvoyants de mon coeur ;
+05 l'oreille attentive aux proverbes, j'exposerai sur la cithare mon énigme.
+06 Pourquoi craindre aux jours de malheur ces fourbes qui me talonnent pour m'encercler,
+07 ceux qui s'appuient sur leur fortune et se vantent de leurs grandes richesses ?
+08 Nul ne peut racheter son frère ni payer à Dieu sa rançon :
+09 aussi cher qu'il puisse payer, toute vie doit finir.
+10 Peut-on vivre indéfiniment sans jamais voir la fosse ?
+11 Vous voyez les sages mourir : comme le fou et l'insensé ils périssent, laissant à d'autres leur fortune.
+12 Ils croyaient leur maison éternelle, + leur demeure établie pour les siècles ; sur des terres ils avaient mis leur nom.
+13 R/ L'homme comblé ne dure pas : il ressemble au bétail qu'on abat.
+14 Tel est le destin des insensés et l'avenir de qui aime les entendre :
+15 troupeau parqué pour les enfers et que la mort mène paître. A l'aurore, ils feront place au juste ; dans la mort, s'effaceront leurs visages : pour eux, plus de palais !
+16 Mais Dieu rachètera ma vie aux griffes de la mort : c'est lui qui me prendra.
+17 Ne crains pas l'homme qui s'enrichit, qui accroît le luxe de sa maison :
+18 aux enfers il n'emporte rien ; sa gloire ne descend pas avec lui.
+19 De son vivant, il s'est béni lui-même : « On t'applaudit car tout va bien pour toi ! »
+20 Mais il rejoint la lignée de ses ancêtres qui ne verront jamais plus la lumière.
+21 R / L'homme comblé qui n'est pas clairvoyant ressemble au bétail qu'on abat.`,
+		},
+		{
+			title: 'Psaume 49',
+			content: `01 Le Dieu des dieux, le Seigneur, parle et convoque la terre * du soleil levant jusqu'au soleil couchant.
+02 De Sion, belle entre toutes, Dieu resplendit. *
+03 Qu'il vienne, notre Dieu, qu'il rompe son silence ! Devant lui, un feu qui dévore ; autour de lui, éclate un ouragan.
+04 Il convoque les hauteurs des cieux et la terre au jugement de son peuple :
+05 « Assemblez, devant moi, mes fidèles, eux qui scellent d'un sacrifice mon alliance. »
+06 Et les cieux proclament sa justice : oui, le juge c'est Dieu !
+07 « Écoute, mon peuple, je parle ; + Israël, je te prends à témoin. * Moi, Dieu, je suis ton Dieu !
+08 « Je ne t'accuse pas pour tes sacrifices ; tes holocaustes sont toujours devant moi.
+09 Je ne prendrai pas un seul taureau de ton domaine, pas un bélier de tes enclos.
+10 « Tout le gibier des forêts m'appartient et le bétail des hauts pâturages.
+11 Je connais tous les oiseaux des montagnes ; les bêtes des champs sont à moi.
+12 « Si j'ai faim, irai-je te le dire ? Le monde et sa richesse m'appartiennent.
+13 Vais-je manger la chair des taureaux et boire le sang des béliers ?
+14 « Offre à Dieu le sacrifice d'action de grâce, accomplis tes voeux envers le Très-Haut.
+15 Invoque-moi au jour de détresse : je te délivrerai, et tu me rendras gloire. »
+16 Mais à l'impie, Dieu déclare : + « Qu'as-tu à réciter mes lois, * à garder mon alliance à la bouche,
+17 toi qui n'aimes pas les reproches et rejettes loin de toi mes paroles ?
+18 « Si tu vois un voleur, tu fraternises, tu es chez toi parmi les adultères ;
+19 tu livres ta bouche au mal, ta langue trame des mensonges.
+20 « Tu t'assieds, tu diffames ton frère, tu flétris le fils de ta mère.
+21 Voilà ce que tu fais ; garderai-je le silence ? « Penses-tu que je suis comme toi ? Je mets cela sous tes yeux, et je t'accuse.
+22 Comprenez donc, vous qui oubliez Dieu : sinon je frappe, et pas de recours !
+23 « Qui offre le sacrifice d'action de grâce, celui-là me rend gloire : sur le chemin qu'il aura pris, je lui ferai voir le salut de Dieu. »`,
+		},
+		{
+			title: 'Psaume 50',
+			content: `03 Pitié pour moi, mon Dieu, dans ton amour, selon ta grande miséricorde, efface mon péché.
+04 Lave-moi tout entier de ma faute, purifie-moi de mon offense.
+05 Oui, je connais mon péché, ma faute est toujours devant moi.
+06 Contre toi, et toi seul, j'ai péché, ce qui est mal à tes yeux, je l'ai fait. Ainsi, tu peux parler et montrer ta justice, être juge et montrer ta victoire.
+07 Moi, je suis né dans la faute, j'étais pécheur dès le sein de ma mère.
+08 Mais tu veux au fond de moi la vérité ; dans le secret, tu m'apprends la sagesse.
+09 Purifie-moi avec l'hysope, et je serai pur ; lave-moi et je serai blanc, plus que la neige.
+10 Fais que j'entende les chants et la fête : ils danseront, les os que tu broyais.
+11 Détourne ta face de mes fautes, enlève tous mes péchés.
+12 Crée en moi un coeur pur, ô mon Dieu, renouvelle et raffermis au fond de moi mon esprit.
+13 Ne me chasse pas loin de ta face, ne me reprends pas ton esprit saint.
+14 Rends-moi la joie d'être sauvé ; que l'esprit généreux me soutienne.
+15 Aux pécheurs, j'enseignerai tes chemins ; vers toi, reviendront les égarés.
+16 Libère-moi du sang versé, Dieu, mon Dieu sauveur, et ma langue acclamera ta justice.
+17 Seigneur, ouvre mes lèvres, et ma bouche annoncera ta louange.
+18 Si j'offre un sacrifice, tu n'en veux pas, tu n'acceptes pas d'holocauste.
+19 Le sacrifice qui plaît à Dieu, c'est un esprit brisé ; tu ne repousses pas, ô mon Dieu, un coeur brisé et broyé.
+20 Accorde à Sion le bonheur, relève les murs de Jérusalem.
+21 Alors tu accepteras de justes sacrifices, oblations et holocaustes ; alors on offrira des taureaux sur ton autel.`,
+		},
+		{
+			title: 'Psaume 51',
+			content: `03 Pourquoi te glorifier du mal, toi, l'homme fort ? * Chaque jour, Dieu est fidèle.
+04 De ta langue affilée comme un rasoir, tu prépares le crime, * fourbe que tu es !
+05 Tu aimes le mal plus que le bien, et plus que la vérité, le mensonge ; *
+06 tu aimes les paroles qui tuent, langue perverse.
+07 Mais Dieu va te ruiner pour toujours, t'écraser, t'arracher de ta demeure, * t'extirper de la terre des vivants.
+08 Les justes verront, ils craindront, ils riront de toi : +
+09 « Le voilà donc cet homme qui n'a pas mis sa force en Dieu ! * Il comptait sur ses grandes richesses, il se faisait fort de son crime ! »
+10 Pour moi, comme un bel olivier dans la maison de Dieu, * je compte sur la fidélité de mon Dieu, sans fin, à jamais !
+11 Sans fin, je veux te rendre grâce, car tu as agi. * J'espère en ton nom devant ceux qui t'aiment : oui, il est bon !`,
+		},
+		{
+			title: 'Psaume 52',
+			content: `02 Dans son coeur, le fou déclare : « Pas de Dieu ! » * Tout est corrompu, abominable, pas un homme de bien !
+03 Des cieux, le Seigneur se penche vers les fils d'Adam * pour voir s'il en est un de sensé,un qui cherche Dieu.
+04 Tous, ils sont dévoyés ; tous ensemble, pervertis : * pas un homme de bien, pas même un seul !
+05 N'ont-ils donc pas compris, ces gens qui font le mal ? + Quand ils mangent leur pain, ils mangent mon peuple. * Dieu, jamais ils ne l'invoquent !
+06 Et voilà qu'ils se sont mis à trembler, à trembler sans raison. * Oui, Dieu a dispersé les os de tes assiégeants ; tu peux en rire : Dieu les rejette.
+07 Qui fera venir de Sion la délivrance d'Israël ? + Quand le Seigneur ramènera les déportés de son peuple, * quelle fête en Jacob, en Israël, quelle joie !`,
+		},
+		{
+			title: 'Psaume 53',
+			content: `03 Par ton nom, Dieu, sauve-moi, par ta puissance rends-moi justice ;
+04 Dieu, entends ma prière, écoute les paroles de ma bouche.
+05 Des étrangers se sont levés contre moi, + des puissants cherchent ma perte : ils n'ont pas souci de Dieu.
+06 Mais voici que Dieu vient à mon aide, le Seigneur est mon appui entre tous.
+07 [Que le mal retombe sur ceux qui me guettent ; par ta vérité, Seigneur, détruis-les.]
+08 De grand coeur, je t'offrirai le sacrifice, je rendrai grâce à ton nom, car il est bon !
+09 Oui, il m'a délivré de toute angoisse : j'ai vu mes ennemis défaits.`,
+		},
+		{
+			title: 'Psaume 54',
+			content: `02 Mon Dieu, écoute ma prière, n'écarte pas ma demande. *
+03 Exauce-moi, je t'en prie, réponds-moi ; inquiet, je me plains.
+04 Je suis troublé par les cris de l'ennemi et les injures des méchants ; * ils me chargent de crimes, pleins de rage, ils m'accusent.
+05 Mon coeur se tord en moi, la peur de la mort tombe sur moi ; *
+06 crainte et tremblement me pénètrent, un frisson me saisit.
+07 Alors, j'ai dit : « Qui me donnera des ailes de colombe ? + Je volerais en lieu sûr ; *
+08 loin, très loin, je m'enfuirais pour chercher asile au désert. »
+09 J'ai hâte d'avoir un abri contre ce grand vent de tempête ! *
+10 Divise-les, Seigneur, mets la confusion dans leur langage ! Car je vois dans la ville discorde et violence : *
+11 de jour et de nuit, elles tournent en haut de ses remparts. Au-dedans, crimes et malheurs ;
+12 au-dedans, c'est la ruine : * fraude et brutalité ne quittent plus ses rues.
+13 Si l'insulte me venait d'un ennemi, je pourrais l'endurer ; * si mon rival s'élevait contre moi, je pourrais me dérober.
+14 Mais toi, un homme de mon rang, mon familier, mon intime ! *
+15 Que notre entente était bonne, quand nous allions d'un même pas dans la maison de Dieu !
+16 [Que la mort les surprenne, qu'ils descendent vivants dans l'abîme, * car le mal habite leurs demeures, il est au milieu d'eux.]
+17 Pour moi, je crie vers Dieu ; le Seigneur me sauvera. *
+18 Le soir et le matin et à midi, je me plains, je suis inquiet. Et Dieu a entendu ma voix,
+19 il m'apporte la paix. * Il me délivre dans le combat que je menais ; ils étaient une foule autour de moi.
+20 Que Dieu entende et qu'il réponde, lui qui règne dès l'origine, * à ceux-là qui ne changent pas, et ne craignent pas Dieu.
+21 Un traître a porté la main sur ses amis, profané son alliance : +
+22 il montre un visage séduisant, mais son coeur fait la guerre ; * sa parole est plus suave qu'un parfum, mais elle est un poignard.
+23 Décharge ton fardeau sur le Seigneur : il prendra soin de toi. * Jamais il ne permettra que le juste s'écroule.
+24 Et toi, Dieu, tu les précipites au fond de la tombe, + ces hommes qui tuent et qui mentent. * Ils s'en iront dans la force de l'âge ; moi, je m'appuie sur toi !`,
+		},
+		{
+			title: 'Psaume 55',
+			content: `02 Pitié, mon Dieu ! Des hommes s'acharnent contre moi ; tout le jour, ils me combattent, ils me harcèlent.
+03 Ils s'acharnent, ils me guettent tout le jour ; mais là-haut, une armée combat pour moi.
+04 Le jour où j'ai peur, je prends appui sur toi.
+05 R/ Sur Dieu dont j'exalte la parole, sur Dieu, je prends appui : plus rien ne me fait peur ! Que peuvent sur moi des êtres de chair ?
+06 Tout le jour, leurs paroles me blessent, ils ne pensent qu'à me faire du mal ;
+07 à l'affût, ils épient, ils surveillent mes pas ; comme s'ils voulaient ma mort.
+08 [Vont-ils échapper malgré leurs crimes ? Que ta colère, mon Dieu, abatte les nations !]
+09 Toi qui comptes mes pas vagabonds, recueille en tes outres mes larmes ; (cela n'est-il pas dans ton livre ?)
+10 Le jour où j'appellerai, mes ennemis reculeront ; je le sais, Dieu est pour moi.
+11 R / Sur Dieu dont j'exalte la parole, le Seigneur dont j'exalte la parole, *
+12 sur Dieu, je prends appui : plus rien ne me fait peur ! * Que peuvent sur moi des humains ?
+13 Mon Dieu, je tiendrai ma promesse, je t'offrirai des sacrifices d'action de grâce ;
+14 car tu m'as délivré de la mort et tu préserves mes pieds de la chute, pour que je marche à la face de Dieu dans la lumière des vivants.`,
+		},
+		{
+			title: 'Psaume 56',
+			content: `02 Pitié, mon Dieu, pitié pour moi ! En toi je cherche refuge, un refuge à l'ombre de tes ailes, aussi longtemps que dure le malheur.
+03 Je crie vers Dieu, le Très-Haut, vers Dieu qui fera tout pour moi.
+04 Du ciel, qu'il m'envoie le salut : (mon adversaire a blasphémé !). Que Dieu envoie son amour et sa vérité !
+05 Je suis au milieu de lions et gisant parmi des bêtes féroces ; ils ont pour langue une arme tranchante, pour dents, des lances et des flèches.
+06 R / Dieu, lève-toi sur les cieux : que ta gloire domine la terre !
+07 Ils ont tendu un filet sous mes pas : j'allais succomber. * Ils ont creusé un trou devant moi,ils y sont tombés.
+08 Mon coeur est prêt, mon Dieu, + mon coeur est prêt ! * Je veux chanter, jouer des hymnes !
+09 Éveille-toi, ma gloire ! + Éveillez-vous, harpe, cithare, * que j'éveille l'aurore !
+10 Je te rendrai grâce parmi les peuples, Seigneur, et jouerai mes hymnes en tous pays.
+11 Ton amour est plus grand que les cieux, ta vérité, plus haute que les nues.
+12 R / Dieu, lève-toi sur les cieux : que ta gloire domine la terre !`,
+		},
+		{
+			title: 'Psaume 57',
+			content: `02 Vraiment, vous bâillonnez la justice, vous qui jugez ! Est-ce le droit que vous suivez, fils des hommes ?
+03 Mais non, dans vos coeurs vous commettez le crime ; sur la terre vos mains font régner la violence.
+04 Les méchants sont dévoyés dès le sein maternel, menteurs, égarés depuis leur naissance ;
+05 ils ont du venin, un venin de vipère, ils se bouchent les oreilles, comme des serpents
+06 qui refusent d'écouter la voix de l'enchanteur, du charmeur le plus habile aux charmes.
+07 Dieu, brise leurs dents et leur mâchoire, Seigneur, casse les crocs de ces lions :
+08 Qu'ils s'en aillent comme les eaux qui se perdent ! Que Dieu les transperce, et qu'ils en périssent,
+09 comme la limace qui glisse en fondant, ou l'avorton qui ne voit pas le soleil !
+10 Plus vite qu'un feu de ronces ne lèche la marmite, que le feu de ta colère les emporte !
+11 Joie pour le juste de voir la vengeance, de laver ses pieds dans le sang de l'impie !
+12 Et l'homme dira : « Oui, le juste porte du fruit ; oui, il existe un Dieu pour juger sur la terre. »`,
+		},
+		{
+			title: 'Psaume 58',
+			content: `02 Délivre-moi de mes ennemis, mon Dieu ; de mes agresseurs, protège-moi.
+03 Délivre-moi des hommes criminels ; des meurtriers, sauve-moi.
+04 Voici qu'on me prépare une embuscade : des puissants se jettent sur moi.
+05 Je n'ai commis ni faute, ni péché, ni le mal, Seigneur, pourtant ils accourent et s'installent. Réveille-toi ! Viens à moi, regarde,
+06 Seigneur, Dieu de l'univers, Dieu d'Israël : [lève-toi et punis tous ces païens, sans pitié pour tous ces traîtres de malheur !
+07 R / Le soir, ils reviennent : * comme des chiens, ils grondent, ils cernent la ville.
+08 Les voici, l'écume à la bouche, l'épée aux lèvres : « Qui donc entendrait ? »
+09 Mais toi, Seigneur, tu t'en amuses, tu te ris de tous ces païens.]
+10 Auprès de toi, ma forteresse, je veille ; [R] oui, mon rempart, c'est Dieu !
+11 Le Dieu de mon amour vient à moi : avec lui je défie mes adversaires.
+12 [Ne les supprime pas, Seigneur, de peur que mon peuple n'oublie ! Que ta puissance les terrasse et les disperse, Seigneur, notre bouclier !
+13 Ils pèchent dès qu'ils ouvrent la bouche ; + qu'ils soient pris à leur orgueil puisqu'ils mentent et qu'ils maudissent !
+14 Dans ta colère, détruis-les ; détruis-les, qu'ils disparaissent ! Alors on saura que Dieu règne en Jacob et sur l'étendue de la terre.
+15 R / Le soir, ils reviennent : * comme des chiens, ils grondent, ils cernent la ville.
+16 Ils vont en quête d'une proie, * affamés, hurlant dans la nuit.]
+17 Et moi, je chanterai ta force, au matin j'acclamerai ton amour. Tu as été pour moi un rempart, un refuge au temps de ma détresse.
+18 Je te fêterai, toi, ma forteresse : [R] oui, mon rempart, c'est Dieu, le Dieu de mon amour.`,
+		},
+		{
+			title: 'Psaume 59',
+			content: `03 Dieu, tu nous as rejetés, brisés ; tu étais en colère, reviens-nous !
+04 Tu as secoué, disloqué le pays ; répare ses brèches : il s'effondre.
+05 Tu mets à dure épreuve ton peuple, tu nous fais boire un vin de vertige.
+06 Tu as donné un étendard à tes fidèles, était-ce pour qu'ils fuient devant l'arc ?
+07 Que tes bien-aimés soient libérés ; sauve-les par ta droite, réponds-nous !
+08 Dans le sanctuaire, Dieu a parlé : + « Je triomphe ! Je partage Sichem, je divise la vallée de Soukkôt.
+09 « A moi Galaad, à moi Manassé ! + Éphraïm est le casque de ma tête, Juda, mon bâton de commandement.
+10 « Moab est le bassin où je me lave ; + sur Édom, je pose le talon. Crieras-tu victoire sur moi, Philistie ? »
+11 Qui me conduira dans la Ville-forte, qui me mènera jusqu'en Édom,
+12 sinon toi, Dieu, qui nous rejettes et ne sors plus avec nos armées ?
+13 Porte-nous secours dans l'épreuve : néant, le salut qui vient des hommes !
+14 Avec Dieu nous ferons des prouesses, et lui piétinera nos oppresseurs !`,
+		},
+		{
+			title: 'Psaume 60',
+			content: `02 Dieu, entends ma plainte, exauce ma prière ; *
+03 des terres lointaines je t'appelle quand le coeur me manque. Jusqu'au rocher trop loin de moi tu me conduiras, *
+04 car tu es pour moi un refuge, un bastion, face à l'ennemi.
+05 Je veux être chez toi pour toujours, me réfugier à l'abri de tes ailes.
+06 Oui, mon Dieu, tu exauces mon voeu, tu fais largesse à ceux qui craignent ton nom.
+07 Accorde au roi des jours et des jours : que ses années deviennent des siècles !
+08 Qu'il trône à jamais devant la face de Dieu ! Assigne à sa garde Amour et Vérité.
+09 Alors, je chanterai sans cesse ton nom, j'accomplirai mon voeu jour après jour.`,
+		},
+		{
+			title: 'Psaume 61',
+			content: `02 Je n'ai de repos qu'en Dieu seul, mon salut vient de lui.
+03 R / Lui seul est mon rocher, mon salut, ma citadelle : je suis inébranlable.
+04 Combien de temps tomberez-vous sur un homme pour l'abattre, vous tous, * comme un mur qui penche, une clôture qui croule ?
+05 Détruire mon honneur est leur seule pensée : + ils se plaisent à mentir. * Des lèvres, ils bénissent ; au fond d'eux-mêmes, ils maudissent.
+06 Je n'ai mon repos qu'en Dieu seul ; oui, mon espoir vient de lui.
+07 R / Lui seul est mon rocher, mon salut, ma citadelle : je reste inébranlable.
+08 Mon salut et ma gloire se trouvent près de Dieu. * Chez Dieu, mon refuge, mon rocher imprenable !
+09 Comptez sur lui en tous temps, vous, le peuple. * Devant lui épanchez votre coeur : Dieu est pour nous un refuge.
+10 L'homme n'est qu'un souffle, + les fils des hommes, un mensonge : * sur un plateau de balance, tous ensemble, ils seraient moins qu'un souffle.
+11 N'allez pas compter sur la fraude et n'aspirez pas au profit ; * si vous amassez des richesses, n'y mettez pas votre coeur.
+12 Dieu a dit une chose, deux choses que j'ai entendues. + Ceci : que la force est à Dieu ;
+13 à toi, Seigneur, la grâce ! * Et ceci : tu rends à chaque homme selon ce qu'il fait.`,
+		},
+		{
+			title: 'Psaume 62',
+			content: `02 Dieu, tu es mon Dieu, je te cherche dès l'aube : mon âme a soif de toi ; après toi languit ma chair, terre aride, altérée, sans eau.
+03 Je t'ai contemplé au sanctuaire, j'ai vu ta force et ta gloire.
+04 Ton amour vaut mieux que la vie : tu seras la louange de mes lèvres !
+05 Toute ma vie je vais te bénir, lever les mains en invoquant ton nom.
+06 Comme par un festin je serai rassasié ; la joie sur les lèvres, je dirai ta louange.
+07 Dans la nuit, je me souviens de toi et je reste des heures à te parler.
+08 Oui, tu es venu à mon secours : je crie de joie à l'ombre de tes ailes.
+09 Mon âme s'attache à toi, ta main droite me soutient.
+10 [Mais ceux qui pourchassent mon âme, qu'ils descendent aux profondeurs de la terre,
+11 qu'on les passe au fil de l'épée, qu'ils deviennent la pâture des loups !
+12 Et le roi se réjouira de son Dieu. Qui jure par lui en sera glorifié, tandis que l'homme de mensonge aura la bouche close !]`,
+		},
+		{
+			title: 'Psaume 63',
+			content: `02 Écoute, ô mon Dieu, le cri de ma plainte ; face à l'ennemi redoutable, protège ma vie.
+03 Garde-moi du complot des méchants, à l'abri de cette meute criminelle.
+04 Ils affûtent leur langue comme une épée, ils ajustent leur flèche, parole empoisonnée,
+05 pour tirer en cachette sur l'innocent ; ils tirent soudain, sans rien craindre.
+06 Ils se forgent des formules maléfiques, + ils dissimulent avec soin leurs pièges ; ils disent : « Qui les verra ? »
+07 Ils machinent leur crime : + Notre machination est parfaite ; le coeur de chacun demeure impénétrable !
+08 Mais c'est Dieu qui leur tire une flèche, + soudain, ils en ressentent la blessure,
+09 ils sont les victimes de leur langue. Tous ceux qui les voient hochent la tête ;
+10 tout homme est saisi de crainte : il proclame ce que Dieu a fait, il comprend ses actions.
+11 Le juste trouvera dans le Seigneur joie et refuge, et tous les hommes au coeur droit, leur louange.`,
+		},
+		{
+			title: 'Psaume 64',
+			content: `02 Il est beau de te louer, Dieu, dans Sion, * de tenir ses promesses envers toi
+03 qui écoutes la prière. Jusqu'à toi vient toute chair
+04 avec son poids de péché ; * nos fautes ont dominé sur nous : toi, tu les pardonnes.
+05 Heureux ton invité, ton élu : il habite ta demeure ! * Les biens de ta maison nous rassasient, les dons sacrés de ton temple !
+06 Ta justice nous répond par des prodiges, Dieu notre sauveur, * espoir des horizons de la terre et des rives lointaines.
+07 Sa force enracine les montagnes, il s'entoure de puissance ; *
+08 il apaise le vacarme des mers, le vacarme de leurs flots et la rumeur des peuples.
+09 Les habitants des bouts du monde sont pris d'effroi à la vue de tes signes ; * aux portes du levant et du couchant tu fais jaillir des cris de joie.
+10 Tu visites la terre et tu l'abreuves, tu la combles de richesses ; * les ruisseaux de Dieu regorgent d'eau : tu prépares les moissons. Ainsi, tu prépares la terre,
+11 tu arroses les sillons ; * tu aplanis le sol, tu le détrempes sous les pluies, tu bénis les semailles.
+12 Tu couronnes une année de bienfaits ; * sur ton passage, ruisselle l'abondance.
+13 Au désert, les pâturages ruissellent, * les collines débordent d'allégresse.
+14 Les herbages se parent de troupeaux + et les plaines se couvrent de blé. * Tout exulte et chante !`,
+		},
+		{
+			title: 'Psaume 65',
+			content: `01 Acclamez Dieu, toute la terre ; +
+02 fêtez la gloire de son nom, glorifiez-le en célébrant sa louange.
+03 Dites à Dieu : « Que tes actions sont redoutables ! En présence de ta force, tes ennemis s'inclinent.
+04 Toute la terre se prosterne devant toi, elle chante pour toi, elle chante pour ton nom. »
+05 Venez et voyez les hauts faits de Dieu, ses exploits redoutables pour les fils des hommes.
+06 Il changea la mer en terre ferme : ils passèrent le fleuve à pied sec. De là, cette joie qu'il nous donne.
+07 Il règne à jamais par sa puissance. Ses yeux observent les nations : que les rebelles courbent la tête !
+08 Peuples, bénissez notre Dieu ! Faites retentir sa louange,
+09 car il rend la vie à notre âme, il a gardé nos pieds de la chute.
+10 C'est toi, Dieu, qui nous as éprouvés, affinés comme on affine un métal ;
+11 tu nous as conduits dans un piège, tu as serré un étau sur nos reins.
+12 Tu as mis des mortels à notre tête ; + nous sommes entrés dans l'eau et le feu, tu nous as fait sortir vers l'abondance.
+13 Je viens dans ta maison avec des holocaustes, je tiendrai mes promesses envers toi,
+14 les promesses qui m'ouvrirent les lèvres, que ma bouche a prononcées dans ma détresse.
+15 Je t'offrirai de beaux holocaustes + avec le fumet des béliers ; je prépare des boeufs et des chevreaux.
+16 Venez, écoutez, vous tous qui craignez Dieu : je vous dirai ce qu'il a fait pour mon âme ;
+17 quand je poussai vers lui mon cri, ma bouche faisait déjà son éloge.
+18 Si mon coeur avait regardé vers le mal, le Seigneur n'aurait pas écouté.
+19 Et pourtant, Dieu a écouté, il entend le cri de ma prière.
+20 Béni soit Dieu + qui n'a pas écarté ma prière, ni détourné de moi son amour !`,
+		},
+		{
+			title: 'Psaume 66',
+			content: `02 Que Dieu nous prenne en grâce et nous bénisse, que son visage s'illumine pour nous ;
+03 et ton chemin sera connu sur la terre, ton salut, parmi toutes les nations.
+04 R / Que les peuples, Dieu, te rendent grâce ; qu'ils te rendent grâce tous ensemble !
+05 Que les nations chantent leur joie, car tu gouvernes le monde avec justice ; tu gouvernes les peuples avec droiture, sur la terre, tu conduis les nations.
+06 R / Que les peuples, Dieu, te rendent grâce ; qu'ils te rendent grâce tous ensemble !
+07 La terre a donné son fruit ; Dieu, notre Dieu, nous bénit.
+08 Que Dieu nous bénisse, et que la terre tout entière l'adore !`,
+		},
+		{
+			title: 'Psaume 67',
+			content: `02 Dieu se lève et ses ennemis se dispersent, ses adversaires fuient devant sa face.
+03 Comme on dissipe une fumée, tu les dissipes ; + comme on voit fondre la cire en face du feu, les impies disparaissent devant la face de Dieu.
+04 Mais les justes sont en fête, ils exultent ; devant la face de Dieu ils dansent de joie.
+05 Chantez pour Dieu, jouez pour son nom, + frayez la route à celui qui chevauche les nuées. Son nom est Le Seigneur ; dansez devant sa face.
+06 Père des orphelins, défenseur des veuves, tel est Dieu dans sa sainte demeure.
+07 A l'isolé, Dieu accorde une maison ; + aux captifs, il rend la liberté ; mais les rebelles vont habiter les lieux arides.
+08 Dieu, quand tu sortis en avant de ton peuple, quand tu marchas dans le désert, la terre trembla ;
+09 les cieux mêmes fondirent + devant la face de Dieu, le Dieu du Sinaï, devant la face de Dieu, le Dieu d'Israël.
+10 Tu répandais sur ton héritage une pluie généreuse, et quand il défaillait, toi, tu le soutenais.
+11 Sur les lieux où campait ton troupeau, tu le soutenais, Dieu qui es bon pour le pauvre.
+12 Le Seigneur prononce un oracle, une armée de messagères le répand :
+13 « Rois en déroute, armées en déroute ! On reçoit en partage les trésors du pays.
+14 « Resterez-vous au repos derrière vos murs + quand les ailes de la Colombe se couvrent d'argent, et son plumage, de flammes d'or,
+15 quand le Puissant, là-bas, pulvérise des rois et qu'il neige au Mont-Sombre ? »
+16 Mont de Basan, divine montagne, mont de Basan, fière montagne !
+17 Pourquoi jalouser, fière montagne, + la montagne que Dieu s'est choisie pour demeure ? Là, le Seigneur habitera jusqu'à la fin.
+18 Les chars de Dieu sont des milliers de myriades ; au milieu, le Seigneur ; au sanctuaire, le Sinaï.
+19 Tu es monté sur la hauteur, capturant des captifs, + recevant un tribut, même de rebelles, pour avoir une demeure, Seigneur notre Dieu.
+20 Que le Seigneur soit béni ! Jour après jour, ce Dieu nous accorde la victoire.
+21 Le Dieu qui est le nôtre est le Dieu des victoires, et les portes de la mort sont à Dieu, le Seigneur.
+22 A qui le hait, Dieu fracasse la tête ; à qui vit dans le crime, il défonce le crâne.
+23 Le Seigneur a dit : « Je les ramène de Basan, je les ramène des abîmes de la mer,
+24 afin que tu enfonces ton pied dans leur sang, que la langue de tes chiens ait sa pâture d'ennemis. »
+25 Dieu, on a vu ton cortège, le cortège de mon Dieu, de mon roi dans le Temple :
+26 en tête les chantres, les musiciens derrière, parmi les jeunes filles frappant le tambourin.
+27 Rassemblez-vous, bénissez Dieu ; aux sources d'Israël, il y a le Seigneur !
+28 Voici Benjamin, le plus jeune, ouvrant la marche, + les princes de Juda et leur suite, les princes de Zabulon, les princes de Nephtali.
+29 Ton Dieu l'a commandé : « Sois fort ! » Montre ta force, Dieu, quand tu agis pour nous !
+30 De ton palais, qui domine Jérusalem, on voit des rois t'apporter leurs présents.
+31 Menace la Bête des marais, la bande de fauves, la meute des peuples : qu'ils se prosternent avec leurs pièces d'argent ; désunis les peuples qui aiment la guerre.
+32 De l'Égypte arriveront des étoffes somptueuses ; l'Éthiopie viendra vers Dieu les mains pleines.
+33 Royaumes de la terre, chantez pour Dieu, jouez pour le Seigneur,*
+34 celui qui chevauche au plus haut des cieux, les cieux antiques. Voici qu'il élève la voix, une voix puissante ;
+35 rendez la puissance à Dieu. Sur Israël, sa splendeur ! Dans la nuée, sa puissance !
+36 Redoutable est Dieu dans son temple saint, le Dieu d'Israël ; * c'est lui qui donne à son peuple force et puissance. Béni soit Dieu !`,
+		},
+		{
+			title: 'Psaume 68',
+			content: `02 Sauve-moi, mon Dieu : les eaux montent jusqu'à ma gorge !
+03 J'enfonce dans la vase du gouffre, rien qui me retienne ; * je descends dans l'abîme des eaux, le flot m'engloutit.
+04 Je m'épuise à crier, ma gorge brûle.* Mes yeux se sont usés d'attendre mon Dieu.
+05 Plus abondants que les cheveux de ma tête, ceux qui m'en veulent sans raison ; * ils sont nombreux, mes détracteurs, à me haïr injustement. Moi qui n'ai rien volé, que devrai-je rendre ? *
+06 Dieu, tu connais ma folie, mes fautes sont à nu devant toi.
+07 Qu'ils n'aient pas honte pour moi, ceux qui t'espèrent, Seigneur, Dieu de l'univers ;* qu'ils ne rougissent pas de moi, ceux qui te cherchent, Dieu d'Israël !
+08 C'est pour toi que j'endure l'insulte, que la honte me couvre le visage :
+09 je suis un étranger pour mes frères, un inconnu pour les fils de ma mère.
+10 L'amour de ta maison m'a perdu ; on t'insulte, et l'insulte retombe sur moi.
+11 Si je pleure et m'impose un jeûne, je reçois des insultes ;
+12 si je revêts un habit de pénitence, je deviens la fable des gens :
+13 on parle de moi sur les places, les buveurs de vin me chansonnent.
+14 Et moi, je te prie, Seigneur : c'est l'heure de ta grâce ; * dans ton grand amour, Dieu, réponds-moi, par ta vérité sauve-moi.
+15 Tire-moi de la boue, sinon je m'enfonce : * que j'échappe à ceux qui me haïssent, à l'abîme des eaux.
+16 Que les flots ne me submergent pas, que le gouffre ne m'avale, * que la gueule du puits ne se ferme pas sur moi.
+17 Réponds-moi, Seigneur, car il est bon, ton amour ; * dans ta grande tendresse, regarde-moi.
+18 Ne cache pas ton visage à ton serviteur ; je suffoque : vite, réponds-moi. *
+19 Sois proche de moi, rachète-moi, paie ma rançon à l'ennemi.
+20 Toi, tu le sais, on m'insulte : je suis bafoué, déshonoré ; * tous mes oppresseurs sont là, devant toi.
+21 L'insulte m'a broyé le coeur, le mal est incurable ; * j'espérais un secours, mais en vain, des consolateurs, je n'en ai pas trouvé.
+22 A mon pain, ils ont mêlé du poison ; quand j'avais soif, ils m'ont donné du vinaigre.
+23 [Que leur table devienne un piège, un guet-apens pour leurs convives !
+24 Que leurs yeux aveuglés ne voient plus, qu'à tout instant les reins leur manquent !
+25 Déverse sur eux ta fureur, que le feu de ta colère les saisisse,
+26 que leur camp devienne un désert, que nul n'habite sous leurs tentes !
+27 Celui que tu frappais, ils le pourchassent en comptant les coups qu'il reçoit.
+28 Charge-les, faute sur faute ; qu'ils n'aient pas d'accès à ta justice.
+29 Qu'ils soient rayés du livre de vie, retranchés du nombre des justes.]
+30 Et moi, humilié, meurtri, que ton salut, Dieu, me redresse.
+31 Et je louerai le nom de Dieu par un cantique, je vais le magnifier, lui rendre grâce.
+32 Cela plaît au Seigneur plus qu'un taureau, plus qu'une bête ayant cornes et sabots.
+33 Les pauvres l'ont vu, ils sont en fête : « Vie et joie, à vous qui cherchez Dieu ! »
+34 Car le Seigneur écoute les humbles, il n'oublie pas les siens emprisonnés.
+35 Que le ciel et la terre le célèbrent, les mers et tout leur peuplement !
+36 Car Dieu viendra sauver Sion et rebâtir les villes de Juda. Il en fera une habitation, un héritage : *
+37 patrimoine pour les descendants de ses serviteurs, demeure pour ceux qui aiment son nom.`,
+		},
+		{
+			title: 'Psaume 69',
+			content: `02 Mon Dieu, viens me délivrer ; Seigneur, viens vite à mon secours ! *
+03 Qu'ils soient humiliés, déshonorés, ceux qui s'en prennent à ma vie ! Qu'ils reculent, couverts de honte, ceux qui cherchent mon malheur ; *
+04 que l'humiliation les écrase, ceux qui me disent : « C'est bien fait ! »
+05 Mais tu seras l'allégresse et la joie de tous ceux qui te cherchent ; * toujours ils rediront : « Dieu est grand ! » ceux qui aiment ton salut.
+06 Je suis pauvre et malheureux, mon Dieu, viens vite ! * Tu es mon secours, mon libérateur : Seigneur, ne tarde pas !`,
+		},
+		{
+			title: 'Psaume 70',
+			content: `01 En toi, Seigneur, j'ai mon refuge : garde-moi d'être humilié pour toujours.
+02 Dans ta justice, défends-moi, libère-moi, tends l'oreille vers moi, et sauve-moi.
+03 Sois le rocher qui m'accueille, toujours accessible ; * tu as résolu de me sauver : ma forteresse et mon roc, c'est toi !
+04 Mon Dieu, libère-moi des mains de l'impie, des prises du fourbe et du violent.
+05 Seigneur mon Dieu, tu es mon espérance, mon appui dès ma jeunesse.
+06 Toi, mon soutien dès avant ma naissance, + tu m'as choisi dès le ventre de ma mère ; tu seras ma louange toujours !
+07 Pour beaucoup, je fus comme un prodige ; tu as été mon secours et ma force.
+08 Je n'avais que ta louange à la bouche, tout le jour, ta splendeur.
+09 Ne me rejette pas maintenant que j'ai vieilli ; * alors que décline ma vigueur, ne m'abandonne pas.
+10 Mes ennemis parlent contre moi, ils me surveillent et se concertent.
+11 Ils disent : « Dieu l'abandonne ! Traquez-le, empoignez-le, il n'a pas de défenseur ! »
+12 Dieu, ne sois pas loin de moi ; mon Dieu, viens vite à mon secours !
+13 Qu'ils soient humiliés, anéantis, ceux qui se dressent contre moi ; * qu'ils soient couverts de honte et d'infamie, ceux qui veulent mon malheur !
+14 Et moi qui ne cesse d'espérer, j'ajoute encore à ta louange.
+15 Ma bouche annonce tout le jour + tes actes de justice et de salut ; (je n'en connais pas le nombre).
+16 Je revivrai les exploits du Seigneur en rappelant que ta justice est la seule.
+17 Mon Dieu, tu m'as instruit dès ma jeunesse, jusqu'à présent, j'ai proclamé tes merveilles.
+18 Aux jours de la vieillesse et des cheveux blancs, ne m'abandonne pas, ô mon Dieu ; et je dirai aux hommes de ce temps ta puissance, à tous ceux qui viendront, tes exploits.
+19 Si haute est ta justice, mon Dieu, + toi qui as fait de grandes choses : Dieu, qui donc est comme toi ?
+20 Toi qui m'as fait voir tant de maux et de détresses, tu me feras vivre à nouveau, à nouveau tu me tireras des abîmes de la terre, *
+21 tu m'élèveras et me grandiras, tu reviendras me consoler.
+22 Et moi, je te rendrai grâce sur la harpe pour ta vérité, ô mon Dieu ! * Je jouerai pour toi de ma cithare, Saint d'Israël !
+23 Joie sur mes lèvres qui chantent pour toi, et dans mon âme que tu as rachetée !
+24 Alors, tout au long du jour, ma langue redira ta justice ; * c'est la honte, c'est l'infamie pour ceux qui veulent mon malheur.`,
+		},
+		{
+			title: 'Psaume 71',
+			content: `01 Dieu, donne au roi tes pouvoirs, à ce fils de roi ta justice.
+02 Qu'il gouverne ton peuple avec justice, qu'il fasse droit aux malheureux !
+03 Montagnes, portez au peuple la paix, collines, portez-lui la justice !
+04 Qu'il fasse droit aux malheureux de son peuple, qu'il sauve les pauvres gens, qu'il écrase l'oppresseur !
+05 Qu'il dure sous le soleil et la lune de génération en génération !
+06 Qu'il descende comme la pluie sur les regains, une pluie qui pénètre la terre.
+07 En ces jours-là, fleurira la justice, grande paix jusqu'à la fin des lunes !
+08 Qu'il domine de la mer à la mer, et du Fleuve jusqu'au bout de la terre !
+09 Des peuplades s'inclineront devant lui, ses ennemis lècheront la poussière.
+10 Les rois de Tarsis et des Iles apporteront des présents. Les rois de Saba et de Seba feront leur offrande.
+11 Tous les rois se prosterneront devant lui, tous les pays le serviront.
+12 Il délivrera le pauvre qui appelle et le malheureux sans recours.
+13 Il aura souci du faible et du pauvre, du pauvre dont il sauve la vie.
+14 Il les rachète à l'oppression, à la violence ; leur sang est d'un grand prix à ses yeux.
+15 Qu'il vive ! On lui donnera l'or de Saba. * On priera sans relâche pour lui ; tous les jours, on le bénira.
+16 Que la terre jusqu'au sommet des montagnes soit un champ de blé : et ses épis onduleront comme la forêt du Liban ! Que la ville devienne florissante comme l'herbe sur la terre !
+17 Que son nom dure toujours ; sous le soleil, que subsiste son nom ! En lui, que soient bénies toutes les familles de la terre ; que tous les pays le disent bienheureux !
+18 Béni soit le Seigneur, le Dieu d'Israël, lui seul fait des merveilles !
+19 Béni soit à jamais son nom glorieux, toute la terre soit remplie de sa gloire ! Amen ! Amen !`,
+		},
+		{
+			title: 'Psaume 72',
+			content: `01 Vraiment, Dieu est bon pour Israël, pour les hommes au coeur pur.
+02 Un rien, et je perdais pied, un peu plus, et je faisais un faux pas ;
+03 car j'étais jaloux des superbes, je voyais le succès des impies.
+04 Jusqu'à leur mort, ils ne manquent de rien, ils jouissent d'une santé parfaite ;
+05 ils échappent aux souffrances des hommes, aux coups qui frappent les mortels.
+06 Ainsi, l'orgueil est leur collier, la violence, l'habit qui les couvre ;
+07 leurs yeux qui brillent de bien-être trahissent les envies de leur coeur.
+08 Ils ricanent, ils prônent le mal, de très haut, ils prônent la force ;
+09 leur bouche accapare le ciel, et leur langue parcourt la terre.
+10 Ainsi, le peuple se détourne vers la source d'une telle abondance.
+11 Ils disent : « Comment Dieu saurait-il ? le Très-Haut, que peut-il savoir ? »
+12 Voyez comme sont les impies : tranquilles, ils amassent des fortunes.
+13 Vraiment, c'est en vain que j'ai gardé mon coeur pur, lavé mes mains en signe d'innocence !
+14 Me voici frappé chaque jour, châtié dès le matin.
+15 Si j'avais dit : « Je vais parler comme eux », j'aurais trahi la race de tes fils.
+16 Longtemps, j'ai cherché à savoir, je me suis donné de la peine.
+17 Mais quand j'entrai dans la demeure de Dieu, je compris quel serait leur avenir.
+18 Vraiment, tu les as mis sur la pente : déjà tu les entraînes vers la ruine.
+19 Comment vont-ils soudain au désastre, anéantis, achevés par la terreur ?
+20 A ton réveil, Seigneur, tu chasses leur image, comme un songe au sortir du sommeil.
+21 Oui, mon coeur s'aigrissait, j'avais les reins transpercés.
+22 Moi, stupide, comme une bête, je ne savais pas, mais j'étais avec toi.
+23 Moi, je suis toujours avec toi, avec toi qui as saisi ma main droite.
+24 Tu me conduis selon tes desseins ; puis tu me prendras dans la gloire.
+25 Qui donc est pour moi dans le ciel si je n'ai, même avec toi, aucune joie sur la terre ?
+26 Ma chair et mon coeur sont usés : ma part, le roc de mon coeur, c'est Dieu pour toujours.
+27 Qui s'éloigne de toi périra : tu détruis ceux qui te délaissent.
+28 Pour moi, il est bon d'être proche de Dieu ; j'ai pris refuge auprès de mon Dieu pour annoncer les oeuvres du Seigneur aux portes de Sion.`,
+		},
+		{
+			title: 'Psaume 73',
+			content: `01 Pourquoi, Dieu, nous rejeter sans fin ? Pourquoi cette colère sur les brebis de ton troupeau ?
+02 Rappelle-toi la communauté que tu acquis dès l'origine, + la tribu que tu revendiquas pour héritage, la montagne de Sion où tu fis ta demeure.
+03 Dirige tes pas vers ces ruines sans fin, l'ennemi dans le sanctuaire a tout saccagé ;
+04 dans le lieu de tes assemblées, l'adversaire a rugi et là, il a planté ses insignes.
+05 On les a vus brandir la cognée, comme en pleine forêt, *
+06 quand ils brisaient les portails à coups de masse et de hache.
+07 Ils ont livré au feu ton sanctuaire, profané et rasé la demeure de ton nom.
+08 Ils ont dit : « Allons ! Détruisons tout ! » Ils ont brûlé dans le pays les lieux d'assemblées saintes.
+09 Nos signes, nul ne les voit ; il n'y a plus de prophètes ! * Et pour combien de temps ? Nul d'entre nous ne le sait !
+10 Dieu, combien de temps blasphémera l'adversaire ? L'ennemi en finira-t-il de mépriser ton nom ?
+11 Pourquoi retenir ta main, cacher la force de ton bras ?
+12 Pourtant, Dieu, mon roi dès l'origine, vainqueur des combats sur la face de la terre,
+13 c'est toi qui fendis la mer par ta puissance, qui fracassas les têtes des dragons sur les eaux ;
+14 toi qui écrasas la tête de Léviathan pour nourrir les monstres marins ;
+15 toi qui ouvris les torrents et les sources, toi qui mis à sec des fleuves intarissables.
+16 A toi le jour, à toi la nuit, toi qui ajustas le soleil et les astres !
+17 C'est toi qui fixas les bords de la terre ; l'hiver et l'été, c'est toi qui les formas.
+18 Rappelle-toi : l'ennemi a méprisé ton nom, un peuple de fous a blasphémé le Seigneur.
+19 Ne laisse pas la Bête égorger ta Tourterelle, n'oublie pas sans fin la vie de tes pauvres.
+20 Regarde vers l'Alliance : la guerre est partout ; on se cache dans les cavernes du pays.
+21 Que l'opprimé échappe à la honte, que le pauvre et le malheureux chantent ton nom !
+22 Lève-toi, Dieu, défends ta cause ! Rappelle-toi ces fous qui blasphèment tout le jour.
+23 N'oublie pas le vacarme que font tes ennemis, la clameur de l'ennemi, qui monte sans fin.`,
+		},
+		{
+			title: 'Psaume 74',
+			content: `02 A toi, Dieu, nous rendons grâce ; + nous rendons grâce, et ton nom est proche : on proclame tes merveilles !
+03 « Oui, au moment que j'ai fixé, moi, je jugerai avec droiture.
+04 Que s'effondrent la terre et ses habitants : moi seul en ai posé les colonnes !
+05 « Aux arrogants, je dis : Plus d'arrogance ! et aux impies : Ne levez pas votre front !
+06 Ne levez pas votre front contre le ciel, ne parlez pas en le prenant de haut ! »
+07 Ce n'est pas du levant ni du couchant, ni du désert, que vient le relèvement.
+08 Non, c'est Dieu qui jugera : il abaisse les uns, les autres il les relève.
+09 Le Seigneur tient en main une coupe où fermente un vin capiteux ; il le verse, et tous les impies de la terre le boiront jusqu'à la lie.
+10 Et moi, j'annoncerai toujours dans mes hymnes au Dieu de Jacob : +
+11 « Je briserai le front des impies, * et le front du juste s'élèvera ! »`,
+		},
+		{
+			title: 'Psaume 75',
+			content: `02 Dieu s'est fait connaître en Juda ; en Israël, son nom est grand.
+03 A Salem il a fixé sa tente, et sa demeure à Sion.
+04 Ici, il a brisé les traits de l'arc, l'épée, le bouclier et la guerre.
+05 Magnifique, toi, tu resplendis au-dessus d'une montagne de butin.
+06 Les voici dépouillés, ces guerriers, endormis, tous ces braves aux mains inertes.
+07 Sous ta menace, Dieu de Jacob, le char et le cheval se sont figés.
+08 Toi, tu es le redoutable ! Qui tiendra sous les coups de ta fureur ?
+09 Des cieux, tu prononces le verdict ; la terre a peur et se tait
+10 quand Dieu se lève pour juger, pour sauver tous les humbles de la terre.
+11 La colère des hommes te rend gloire quand les survivants te font cortège.
+12 Faites des voeux et tenez vos promesses au Seigneur votre Dieu ; vous qui l'entourez, portez votre offrande au redoutable.
+13 Il éteint le souffle des princes, lui, redoutable aux rois de la terre !`,
+		},
+		{
+			title: 'Psaume 76',
+			content: `02 Vers Dieu, je crie mon appel ! Je crie vers Dieu : qu'il m'entende !
+03 Au jour de la détresse, je cherche le Seigneur ; + la nuit, je tends les mains sans relâche, mon âme refuse le réconfort.
+04 Je me souviens de Dieu, je me plains ;je médite et mon esprit défaille.
+05 Tu refuses à mes yeux le sommeil ; je me trouble, incapable de parler.
+06 Je pense aux jours d'autrefois, aux années de jadis ;
+07 la nuit, je me souviens de mon chant, je médite en mon coeur, et mon esprit s'interroge.
+08 Le Seigneur ne fera-t-il que rejeter, ne sera-t-il jamais plus favorable ?
+09 Son amour a-t-il donc disparu ? S'est-elle éteinte, d'âge en âge, la parole ?
+10 Dieu oublierait-il d'avoir pitié, dans sa colère a-t-il fermé ses entrailles ?
+11 J'ai dit : « Une chose me fait mal, la droite du Très-Haut a changé. »
+12 Je me souviens des exploits du Seigneur, je rappelle ta merveille de jadis ;
+13 je me redis tous tes hauts faits, sur tes exploits je médite.
+14 Dieu, la sainteté est ton chemin ! Quel Dieu est grand comme Dieu ?
+15 Tu es le Dieu qui accomplis la merveille, qui fais connaître chez les peuples ta force :
+16 tu rachetas ton peuple avec puissance, les descendants de Jacob et de Joseph.
+17 Les eaux, en te voyant, Seigneur, + les eaux, en te voyant, tremblèrent, l'abîme lui-même a frémi.
+18 Les nuages déversèrent leurs eaux, + les nuées donnèrent de la voix, la foudre frappait de toute part.
+19 Au roulement de ta voix qui tonnait, + tes éclairs illuminèrent le monde, la terre s'agita et frémit.
+20 Par la mer passait ton chemin, + tes sentiers, par les eaux profondes ; et nul n'en connaît la trace.
+21 Tu as conduit comme un troupeau ton peuple par la main de Moïse et d'Aaron.`,
+		},
+		{
+			title: 'Psaume 77',
+			content: `01 Écoute ma loi, ô mon peuple, tends l'oreille aux paroles de ma bouche.
+02 J'ouvrirai la bouche pour une parabole, je publierai ce qui fut caché dès l'origine.
+03 Nous avons entendu et nous savons ce que nos pères nous ont raconté ;
+04 nous le redirons à l'âge qui vient, sans rien cacher à nos descendants : les titres de gloire du Seigneur, sa puissance et les merveilles qu'il a faites.
+05 Il fixa une règle en Jacob, il établit en Israël une loi, loi qui ordonnait à nos pères d'enseigner ces choses à leur fils,
+06 pour que l'âge suivant les connaisse, et leur descendance à venir. Qu'ils se lèvent et les racontent à leurs fils
+07 pour qu'ils placent en Dieu leur espoir et n'oublient pas les exploits du Seigneur mais observent ses commandements.
+08 Qu'ils ne soient pas, comme leurs pères, une génération indocile et rebelle, génération de coeurs inconstants et d'esprits infidèles à Dieu.
+09 Les fils d'Éphraïm, archers d'élite, se sont enfuis, le jour du combat :
+10 ils n'ont pas gardé l'alliance de Dieu, ils refusaient de suivre sa loi ;
+11 ils avaient oublié ses exploits, les merveilles dont ils furent les témoins.
+12 Devant leurs pères il accomplit un miracle en Égypte, au pays de Tanis :
+13 il fend la mer, il les fait passer, dressant les eaux comme une digue ;
+14 le jour, il les conduit par la nuée, et la nuit, par la lumière d'un feu.
+15 Il fend le rocher du désert, les désaltère aux eaux profondes ;
+16 de la roche, il tire des ruisseaux qu'il fait dévaler comme un fleuve.
+17 Mais ils péchaient encore contre lui, dans les lieux arides ils bravaient le Très-Haut ;
+18 ils tentaient le Seigneur dans leurs coeurs, ils réclamèrent de manger à leur faim.
+19 Ils s'en prennent à Dieu et demandent : « Dieu peut-il apprêter une table au désert ?
+20 Sans doute, il a frappé le rocher : l'eau a jailli, elle coule à flots ! Mais pourra-t-il nous donner du pain et procurer de la viande à son peuple ? »
+21 Alors le Seigneur entendit et s'emporta, il s'enflamma de fureur contre Jacob, * sa colère monta contre Israël.
+22 car ils n'avaient pas foi en Dieu, ils ne croyaient pas qu'il les sauverait.
+23 Il commande aux nuées là-haut, il ouvre les écluses du ciel :
+24 pour les nourrir il fait pleuvoir la manne, il leur donne le froment du ciel ;
+25 chacun se nourrit du pain des Forts, il les pourvoit de vivres à satiété.
+26 Dans le ciel, il pousse le vent d'est et lance le grand vent du midi.
+27 Sur eux il fait pleuvoir une nuée d'oiseaux, autant de viande que de sable au bord des mers.
+28 Elle s'abat au milieu de leur camp tout autour de leurs demeures.
+29 Ils mangent, ils sont rassasiés, Dieu contentait leur envie.
+30 Mais leur envie n'était pas satisfaite, ils avaient encore la bouche pleine, *
+31 quand s'éleva la colère de Dieu : il frappe les plus vaillants d'entre eux et terrasse la jeunesse d'Israël.
+32 Et pourtant ils péchaient encore, ils n'avaient pas foi en ses merveilles.
+33 D'un souffle il achève leurs jours, et leurs années en un moment.
+34 Quand Dieu les frappait, ils le cherchaient, ils revenaient et se tournaient vers lui :
+35 ils se souvenaient que Dieu est leur rocher, et le Dieu Très-Haut, leur rédempteur.
+36 Mais de leur bouche ils le trompaient, de leur langue ils lui mentaient.
+37 Leur coeur n'était pas constant envers lui ; ils n'étaient pas fidèles à son alliance.
+38 Et lui, miséricordieux, au lieu de détruire, il pardonnait ; maintes fois, il retint sa colère au lieu de réveiller sa violence.
+39 Il se rappelait : ils ne sont que chair, un souffle qui s'en va sans retour.
+40 Que de fois au désert ils l'ont bravé, offensé dans les solitudes !
+41 De nouveau ils tentaient Dieu, ils attristaient le Saint d'Israël.
+42 Ils avaient oublié ce jour où sa main les sauva de l'adversaire.
+43 Par ses signes il frappa l'Égypte, et le pays de Tanis par ses prodiges.
+44 Il transforme en sang l'eau des fleuves et les ruisseaux, pour qu'ils ne boivent pas.
+45 Il leur envoie une vermine qui les ronge, des grenouilles qui infestent tout.
+46 Il livre les récoltes aux sauterelles et le fruit de leur travail aux insectes.
+47 Il ravage leurs vignes par les grêlons et leurs figuiers par le gel.
+48 Il abandonne le bétail à la grêle et les troupeaux à la foudre.
+49 Il lâche sur eux le feu de sa colère, indignation, fureur, effroi, * il envoie des anges de malheur.
+50 Il ouvre la route à sa colère, il abandonne leur âme à la mort, * et livre leur vie à la peste.
+51 Il frappe tous les fils aînés de l'Égypte, sous les tentes de Cham, la fleur de sa race.
+52 Tel un berger, il conduit son peuple, il pousse au désert son troupeau.
+53 Il les guide et les défend, il les rassure ; leurs ennemis sont engloutis par la mer.
+54 Il les fait entrer dans son domaine sacré, la montagne acquise par sa main.
+55 Il chasse des nations devant eux, il délimite leurs parts d'héritage * et il installe sous leurs tentes les tribus d'Israël.
+56 Mais ils bravaient, ils tentaient le Dieu Très-Haut, ils refusaient d'observer ses lois ;
+57 ils déviaient comme leurs pères, ils désertaient, trahissaient comme un arc infidèle.
+58 Leurs hauts lieux le provoquaient, leurs idoles excitaient sa jalousie.
+59 Dieu a entendu, il s'emporte, il écarte tout à fait Israël ;
+60 il quitte la demeure de Silo, la tente qu'il avait dressée chez les hommes ;
+61 il laisse capturer sa gloire, et sa puissance par des mains ennemies.
+62 Il livre son peuple à l'épée, contre son héritage, il s'emporte :
+63 le feu a dévoré les jeunes gens, les jeunes filles n'ont pas connu la joie des noces ;
+64 les prêtres sont tombés sous l'épée, les veuves n'ont pas chanté leur lamentation.
+65 Le Seigneur, tel un dormeur qui s'éveille, tel un guerrier que le vin ragaillardit,
+66 frappe l'ennemi à revers et le livre pour toujours à la honte.
+67 Il écarte la maison de Joseph, ne choisit pas la tribu d'Éphraïm.
+68 Il choisit la tribu de Juda, la montagne de Sion, qu'il aime.
+69 Il a bâti comme le ciel son temple ; comme la terre, il l'a fondé pour toujours.
+70 Il choisit David son serviteur ; il le prend dans les parcs à moutons ;
+71 il l'appelle à quitter ses brebis * pour en faire le berger de Jacob, son peuple, d'Israël, son héritage.
+72 Berger au coeur intègre, sa main prudente les conduit.`,
+		},
+		{
+			title: 'Psaume 78',
+			content: `01 Dieu, les païens ont envahi ton domaine ; + ils ont souillé ton temple sacré et mis Jérusalem en ruines.
+02 Ils ont livré les cadavres de tes serviteurs en pâture aux rapaces du ciel * et la chair de tes fidèles, aux bêtes de la terre ;
+03 ils ont versé le sang comme l'eau aux alentours de Jérusalem : les morts restaient sans sépulture.
+04 Nous sommes la risée des voisins, la fable et le jouet de l'entourage.
+05 Combien de temps, Seigneur, durera ta colère et brûlera le feu de ta jalousie ?
+06 [Déverse ta fureur sur les païens qui ne t'ont pas reconnu, sur les royaumes qui n'invoquent pas ton nom,
+07 car ils ont dévoré Jacob et ravagé son territoire.]
+08 Ne retiens pas contre nous les péchés de nos ancêtres : + que nous vienne bientôt ta tendresse, car nous sommes à bout de force !
+09 Aide-nous, Dieu notre Sauveur, pour la gloire de ton nom ! * Délivre-nous, efface nos fautes, pour la cause de ton nom !
+10 Pourquoi laisser dire aux païens : « Où donc est leur Dieu ? » Que les païens, sous nos yeux, le reconnaissent : il sera vengé, le sang versé de tes serviteurs.
+11 Que monte en ta présence la plainte du captif ! Ton bras est fort : épargne ceux qui doivent mourir.
+12 [Rends à nos voisins, sept fois, en plein coeur, l'outrage qu'ils t'ont fait, Seigneur Dieu.]
+13 Et nous, ton peuple, le troupeau que tu conduis, + sans fin nous pourrons te rendre grâce et d'âge en âge proclamer ta louange.`,
+		},
+		{
+			title: 'Psaume 79',
+			content: `02 Berger d'Israël, écoute, toi qui conduis Joseph, ton troupeau : resplendis au-dessus des Kéroubim,
+03 devant Éphraïm, Benjamin, Manassé ! Réveille ta vaillance et viens nous sauver.
+04 R / Dieu, fais-nous revenir ; * que ton visage s'éclaire et nous serons sauvés !
+05 Seigneur, Dieu de l'univers, * vas-tu longtemps encore opposer ta colère aux prières de ton peuple,
+06 le nourrir du pain de ses larmes, l'abreuver de larmes sans mesure ?
+07 Tu fais de nous la cible des voisins : nos ennemis ont vraiment de quoi rire !
+08 R / Dieu, fais-nous revenir ; * que ton visage s'éclaire et nous serons sauvés !
+09 La vigne que tu as prise à l'Égypte, tu la replantes en chassant des nations.
+10 Tu déblaies le sol devant elle, tu l'enracines pour qu'elle emplisse le pays.
+11 Son ombre couvrait les montagnes, et son feuillage, les cèdres géants ;
+12 elle étendait ses sarments jusqu'à la mer, et ses rejets, jusqu'au Fleuve.
+13 Pourquoi as-tu percé sa clôture ? Tous les passants y grappillent en chemin ;
+14 le sanglier des forêts la ravage et les bêtes des champs la broutent.
+15 [R / ] Dieu de l'univers reviens ! Du haut des cieux, regarde et vois : visite cette vigne, protège-la,
+16 celle qu'a plantée ta main puissante, le rejeton qui te doit sa force.
+17 La voici détruite, incendiée ; que ton visage les menace, ils périront !
+18 Que ta main soutienne ton protégé, le fils de l'homme qui te doit sa force.
+19 Jamais plus nous n'irons loin de toi : fais-nous vivre et invoquer ton nom !
+20 R /Seigneur, Dieu de l'univers, fais-nous revenir ; * que ton visage s'éclaire, et nous serons sauvés.`,
+		},
+		{
+			title: 'Psaume 80',
+			content: `02 Criez de joie pour Dieu, notre force, acclamez le Dieu de Jacob.
+03 Jouez, musiques, frappez le tambourin, la harpe et la cithare mélodieuse.
+04 Sonnez du cor pour le mois nouveau, quand revient le jour de notre fête.
+05 C'est là, pour Israël, une règle, une ordonnance du Dieu de Jacob ;
+06 Il en fit, pour Joseph, une loi quand il marcha contre la terre d'Égypte. J'entends des mots qui m'étaient inconnus : +
+07 « J'ai ôté le poids qui chargeait ses épaules ; ses mains ont déposé le fardeau.
+08 « Quand tu criais sous l'oppression, je t'ai sauvé ; + je répondais, caché dans l'orage, je t'éprouvais près des eaux de Mériba.
+09 « Écoute, je t'adjure, ô mon peuple ; vas-tu m'écouter, Israël ?
+10 Tu n'auras pas chez toi d'autres dieux, tu ne serviras aucun dieu étranger.
+11 « C'est moi, le Seigneur ton Dieu, + qui t'ai fait monter de la terre d'Égypte ! Ouvre ta bouche, moi, je l'emplirai.
+12 « Mais mon peuple n'a pas écouté ma voix, Israël n'a pas voulu de moi.
+13 Je l'ai livré à son coeur endurci : qu'il aille et suive ses vues !
+14 « Ah ! Si mon peuple m'écoutait, Israël, s'il allait sur mes chemins !
+15 Aussitôt j'humilierais ses ennemis, contre ses oppresseurs je tournerais ma main.
+16 « Mes adversaires s'abaisseraient devant lui ; tel serait leur sort à jamais !
+17 Je le nourrirais de la fleur du froment, je te rassasierais avec le miel du rocher ! »`,
+		},
+		{
+			title: 'Psaume 81',
+			content: `01 Dans l'assemblée divine, Dieu préside ; entouré des dieux, il juge.
+02 « Combien de temps jugerez-vous sans justice, soutiendrez-vous la cause des impies ?
+03 « Rendez justice au faible, à l'orphelin ; faites droit à l'indigent, au malheureux.
+04 « Libérez le faible et le pauvre, arrachez-les aux mains des impies. »
+05 Mais non, sans savoir, sans comprendre, + ils vont au milieu des ténèbres : les fondements de la terre en sont ébranlés.
+06 « Je l'ai dit : Vous êtes des dieux, des fils du Très-Haut, vous tous !
+07 « Pourtant, vous mourrez comme des hommes, comme les princes, tous, vous tomberez ! »
+08 Lève-toi, Dieu, juge la terre, car toutes les nations t'appartiennent.`,
+		},
+		{
+			title: 'Psaume 82',
+			content: `02 Dieu, ne garde pas le silence, ne sois pas immobile et muet.
+03 Vois tes ennemis qui grondent, tes adversaires qui lèvent la tête.
+04 Contre ton peuple, ils trament un complot, ils intriguent contre les tiens.
+05 Ils disent : « Venez ! retranchons-les des nations : que soit oublié le nom d'Israël ! »
+06 Oui, tous ensemble ils intriguent ; ils ont fait alliance contre toi,
+07 ceux d'Édom et d'Ismaël, ceux de Moab et d'Agar ;
+08 Guébal, Ammon, Amalec, la Philistie, avec les gens de Tyr ;
+09 même Assour s'est joint à eux pour appuyer les fils de Loth.
+10 Traite-les comme tu fis de Madian, de Sissera et Yabin au torrent de Qissôn :
+11 ils ont été anéantis à Enn-Dor, ils ont servi de fumier pour la terre.
+12 Supprime leurs chefs comme Oreb et Zéèb, tous leurs princes, comme Zéba et Salmuna,
+13 eux qui disaient : « A nous, à nous le domaine de Dieu ! »
+14 Dieu, rends-les pareils au brin de paille, à la graine qui tourbillonne dans le vent.
+15 Comme un feu dévore la forêt, comme une flamme embrase les montagnes, *
+16 oui, poursuis-les de tes ouragans, et que tes orages les épouvantent !
+17 Que leur front soit marqué d'infamie, et qu'ils cherchent ton nom, Seigneur !
+18 Frappés pour toujours d'épouvante et de honte, qu'ils périssent, déshonorés !
+19 Et qu'ils le sachent : + toi seul, tu as pour nom Le Seigneur, le Très-Haut sur toute la terre !`,
+		},
+		{
+			title: 'Psaume 83',
+			content: `02 De quel amour sont aimées tes demeures, Seigneur, Dieu de l'univers !
+03 Mon âme s'épuise à désirer les parvis du Seigneur ; * mon coeur et ma chair sont un cri vers le Dieu vivant !
+04 L'oiseau lui-même s'est trouvé une maison, et l'hirondelle, un nid pour abriter sa couvée : tes autels, Seigneur de l'univers, mon Roi et mon Dieu !
+05 Heureux les habitants de ta maison : ils pourront te chanter encore !
+06 Heureux les hommes dont tu es la force : des chemins s'ouvrent dans leur coeur !
+07 Quand ils traversent la vallée de la soif, ils la changent en source ; * de quelles bénédictions la revêtent les pluies de printemps !
+08 Ils vont de hauteur en hauteur, ils se présentent devant Dieu à Sion.
+09 Seigneur, Dieu de l'univers, entends ma prière ; écoute, Dieu de Jacob.
+10 Dieu, vois notre bouclier, regarde le visage de ton messie.
+11 Oui, un jour dans tes parvis en vaut plus que mille. J'ai choisi de me tenir sur le seuil, dans la maison de mon Dieu, * plutôt que d'habiter parmi les infidèles.
+12 Le Seigneur Dieu est un soleil, il est un bouclier ; * le Seigneur donne la grâce, il donne la gloire. Jamais il ne refuse le bonheur à ceux qui vont sans reproche.
+13 Seigneur, Dieu de l'univers, heureux qui espère en toi !`,
+		},
+		{
+			title: 'Psaume 84',
+			content: `02 Tu as aimé, Seigneur, cette terre, tu as fait revenir les déportés de Jacob ;
+03 tu as ôté le péché de ton peuple, tu as couvert toute sa faute ;
+04 tu as mis fin à toutes tes colères, tu es revenu de ta grande fureur.
+05 Fais-nous revenir, Dieu, notre salut, oublie ton ressentiment contre nous.
+06 Seras-tu toujours irrité contre nous, maintiendras-tu ta colère d'âge en âge ?
+07 N'est-ce pas toi qui reviendras nous faire vivre et qui seras la joie de ton peuple ?
+08 Fais-nous voir, Seigneur, ton amour, et donne-nous ton salut.
+09 J'écoute : que dira le Seigneur Dieu ? + Ce qu'il dit, c'est la paix pour son peuple et ses fidèles ; * qu'ils ne reviennent jamais à leur folie !
+10 Son salut est proche de ceux qui le craignent, et la gloire habitera notre terre.
+11 Amour et vérité se rencontrent, justice et paix s'embrassent ;
+12 la vérité germera de la terre et du ciel se penchera la justice.
+13 Le Seigneur donnera ses bienfaits, et notre terre donnera son fruit.
+14 La justice marchera devant lui, et ses pas traceront le chemin.`,
+		},
+		{
+			title: 'Psaume 85',
+			content: `01 Écoute, Seigneur, réponds-moi, car je suis pauvre et malheureux.
+02 Veille sur moi qui suis fidèle, ô mon Dieu, sauve ton serviteur qui s'appuie sur toi.
+03 Prends pitié de moi, Seigneur, toi que j'appelle chaque jour.
+04 Seigneur, réjouis ton serviteur : vers toi, j'élève mon âme !
+05 Toi qui es bon et qui pardonnes, plein d'amour pour tous ceux qui t'appellent,
+06 écoute ma prière, Seigneur, entends ma voix qui te supplie.
+07 Je t'appelle au jour de ma détresse, et toi, Seigneur, tu me réponds.
+08 Aucun parmi les dieux n'est comme toi, et rien n'égale tes oeuvres.
+09 Toutes les nations, que tu as faites, viendront se prosterner devant toi * et rendre gloire à ton nom, Seigneur,
+10 car tu es grand et tu fais des merveilles, toi, Dieu, le seul.
+11 Montre-moi ton chemin, Seigneur, + que je marche suivant ta vérité ; unifie mon coeur pour qu'il craigne ton nom.
+12 Je te rends grâce de tout mon coeur, Seigneur mon Dieu, toujours je rendrai gloire à ton nom ;
+13 il est grand, ton amour pour moi : tu m'as tiré de l'abîme des morts.
+14 Mon Dieu, des orgueilleux se lèvent contre moi, + des puissants se sont ligués pour me perdre : ils n'ont pas souci de toi.
+15 Toi, Seigneur, Dieu de tendresse et de pitié, * lent à la colère, plein d'amour et de vérité !
+16 Regarde vers moi, prends pitié de moi. Donne à ton serviteur ta force, et sauve le fils de ta servante.
+17 Accomplis un signe en ma faveur ; + alors mes ennemis, humiliés, * verront que toi, Seigneur, tu m'aides et me consoles.`,
+		},
+		{
+			title: 'Psaume 86',
+			content: `01 Elle est fondée sur les montagnes saintes. +
+02 Le Seigneur aime les portes de Sion * plus que toutes les demeures de Jacob.
+03 Pour ta gloire on parle de toi, ville de Dieu ! *
+04 « Je cite l'Égypte et Babylone entre celles qui me connaissent. » Voyez Tyr, la Philistie, l'Éthiopie : chacune est née là-bas. *
+05 Mais on appelle Sion : « Ma mère ! » car en elle, tout homme est né. C'est lui, le Très-Haut, qui la maintient. +
+06 Au registre des peuples, le Seigneur écrit : « Chacun est né là-bas. » *
+07 Tous ensemble ils dansent, et ils chantent : « En toi, toutes nos sources ! »`,
+		},
+		{
+			title: 'Psaume 87',
+			content: `02 Seigneur, mon Dieu et mon salut, dans cette nuit où je crie en ta présence,
+03 que ma prière parvienne jusqu'à toi, ouvre l'oreille à ma plainte.
+04 Car mon âme est rassasiée de malheur, ma vie est au bord de l'abîme ;
+05 on me voit déjà descendre à la fosse, je suis comme un homme fini.
+06 Ma place est parmi les morts, avec ceux que l'on a tués, enterrés, ceux dont tu n'as plus souvenir, qui sont exclus, et loin de ta main.
+07 Tu m'as mis au plus profond de la fosse, en des lieux engloutis, ténébreux ;
+08 le poids de ta colère m'écrase, tu déverses tes flots contre moi.
+09 Tu éloignes de moi mes amis, tu m'as rendu abominable pour eux ; enfermé, je n'ai pas d'issue :
+10 à force de souffrir, mes yeux s'éteignent. Je t'appelle, Seigneur, tout le jour, je tends les mains vers toi :
+11 fais-tu des miracles pour les morts ? leur ombre se dresse-t-elle pour t'acclamer ?
+12 Qui parlera de ton amour dans la tombe, de ta fidélité au royaume de la mort ?
+13 Connaît-on dans les ténèbres tes miracles, et ta justice, au pays de l'oubli ?
+14 Moi, je crie vers toi, Seigneur ; dès le matin, ma prière te cherche :
+15 pourquoi me rejeter, Seigneur, pourquoi me cacher ta face ?
+16 Malheureux, frappé à mort depuis l'enfance, je n'en peux plus d'endurer tes fléaux ;
+17 sur moi, ont déferlé tes orages : tes effrois m'ont réduit au silence.
+18 Ils me cernent comme l'eau tout le jour, ensemble ils se referment sur moi.
+19 Tu éloignes de moi amis et familiers ; ma compagne, c'est la ténèbre.`,
+		},
+		{
+			title: 'Psaume 88',
+			content: `02 L'amour du Seigneur, sans fin je le chante ; ta fidélité, je l'annonce d'âge en âge.
+03 Je le dis : C'est un amour bâti pour toujours ; ta fidélité est plus stable que les cieux.
+04 « Avec mon élu, j'ai fait une alliance, j'ai juré à David, mon serviteur :
+05 J'établirai ta dynastie pour toujours, je te bâtis un trône pour la suite des âges. »
+06 Que les cieux rendent grâce pour ta merveille, Seigneur, et l'assemblée des saints, pour ta fidélité.
+07 Qui donc, là-haut, est comparable au Seigneur ? Qui d'entre les dieux est semblable au Seigneur ?
+08 Parmi tous les saints, Dieu est redoutable, plus terrible que tous ceux qui l'environnent.
+09 Seigneur, Dieu de l'univers, qui est comme toi, Seigneur puissant que ta fidélité environne ?
+10 C'est toi qui maîtrises l'orgueil de la mer ; quand ses flots se soulèvent, c'est toi qui les apaises.
+11 C'est toi qui piétinas la dépouille de Rahab ; par la force de ton bras, tu dispersas tes ennemis.
+12 A toi, le ciel ! A toi aussi, la terre ! C'est toi qui fondas le monde et sa richesse !
+13 C'est toi qui créas le nord et le midi : le Tabor et l'Hermon, à ton nom, crient de joie.
+14 A toi, ce bras, et toute sa vaillance ! Puissante est ta main, sublime est ta droite !
+15 Justice et droit sont l'appui de ton trône. Amour et Vérité précèdent ta face.
+16 Heureux le peuple qui connaît l'ovation ! Seigneur, il marche à la lumière de ta face ;
+17 tout le jour, à ton nom il danse de joie, fier de ton juste pouvoir.
+18 Tu es sa force éclatante ; ta grâce accroît notre vigueur.
+19 Oui, notre roi est au Seigneur ; notre bouclier, au Dieu saint d'Israël.
+20 Autrefois, tu as parlé à tes amis, dans une vision tu leur as dit : « J'ai donné mon appui à un homme d'élite, j'ai choisi dans ce peuple un jeune homme.
+21 « J'ai trouvé David, mon serviteur, je l'ai sacré avec mon huile sainte ;
+22 et ma main sera pour toujours avec lui, mon bras fortifiera son courage.
+23 « L'ennemi ne pourra le surprendre, le traître ne pourra le renverser ;
+24 j'écraserai devant lui ses adversaires et je frapperai ses agresseurs.
+25 « Mon amour et ma fidélité sont avec lui, mon nom accroît sa vigueur ;
+26 j'étendrai son pouvoir sur la mer et sa domination jusqu'aux fleuves.
+27 « Il me dira : Tu es mon Père, mon Dieu, mon roc et mon salut !
+28 Et moi, j'en ferai mon fils aîné, le plus grand des rois de la terre !
+29 « Sans fin je lui garderai mon amour, mon alliance avec lui sera fidèle ;
+30 je fonderai sa dynastie pour toujours, son trône aussi durable que les cieux.
+31 « Si ses fils abandonnent ma loi et ne suivent pas mes volontés,
+32 s'ils osent violer mes préceptes et ne gardent pas mes commandements,
+33 « je punirai leur faute en les frappant, et je châtierai leur révolte,
+34 mais sans lui retirer mon amour, ni démentir ma fidélité.
+35 « Jamais je ne violerai mon alliance, ne changerai un mot de mes paroles.
+36 je l'ai juré une fois sur ma sainteté ; non, je ne mentirai pas à David !
+37 « Sa dynastie sans fin subsistera et son trône, comme le soleil en ma présence,
+38 comme la lune établie pour toujours, fidèle témoin là-haut ! »
+39 Pourtant tu l'as méprisé, rejeté ; tu t'es emporté contre ton messie.
+40 Tu as brisé l'alliance avec ton serviteur, jeté à terre et profané sa couronne.
+41 Tu as percé toutes ses murailles, tu as démantelé ses forteresses ;
+42 tous les passants du chemin l'ont pillé : le voilà outragé par ses voisins.
+43 Tu as accru le pouvoir de l'adversaire, tu as mis en joie tous ses ennemis ;
+44 tu as émoussé le tranchant de son épée, tu ne l'as pas épaulé dans le combat.
+45 Tu as mis fin à sa splendeur, jeté à terre son trône ;
+46 tu as écourté le temps de sa jeunesse et déversé sur lui la honte.
+47 Combien de temps, Seigneur, resteras-tu caché, laisseras-tu flamber le feu de ta colère ?
+48 Rappelle-toi le peu que dure ma vie, pour quel néant tu as créé chacun des hommes !
+49 Qui donc peut vivre et ne pas voir la mort ? Qui s'arracherait à l'emprise des enfers ?
+50 Où donc, Seigneur, est ton premier amour, celui que tu jurais à David sur ta foi ?
+51 Rappelle-toi, Seigneur, tes serviteurs outragés, tous ces peuples dont j'ai reçu la charge.
+52 Oui, tes ennemis ont outragé, Seigneur, poursuivi de leurs outrages ton messie.
+53 Béni soit le Seigneur pour toujours ! Amen ! Amen !`,
+		},
+		{
+			title: 'Psaume 89',
+			content: `01 D'âge en âge, Seigneur, tu as été notre refuge.
+02 Avant que naissent les montagnes, + que tu enfantes la terre et le monde, * de toujours à toujours, toi, tu es Dieu.
+03 Tu fais retourner l'homme à la poussière ; tu as dit : « Retournez, fils d'Adam ! »
+04 A tes yeux, mille ans sont comme hier, c'est un jour qui s'en va, une heure dans la nuit.
+05 Tu les as balayés : ce n'est qu'un songe ; dès le matin, c'est une herbe changeante :
+06 elle fleurit le matin, elle change ; le soir, elle est fanée, desséchée.
+07 Nous voici anéantis par ta colère ; ta fureur nous épouvante :
+08 tu étales nos fautes devant toi, nos secrets à la lumière de ta face.
+09 Sous tes fureurs tous nos jours s'enfuient, nos années s'évanouissent dans un souffle.
+10 Le nombre de nos années ? soixante-dix, quatre-vingts pour les plus vigoureux ! Leur plus grand nombre n'est que peine et misère ; elles s'enfuient, nous nous envolons.
+11 Qui comprendra la force de ta colère ? Qui peut t'adorer dans tes fureurs ?
+12 Apprends-nous la vraie mesure de nos jours : que nos coeurs pénètrent la sagesse.
+13 Reviens, Seigneur, pourquoi tarder ? Ravise-toi par égard pour tes serviteurs.
+14 Rassasie-nous de ton amour au matin, que nous passions nos jours dans la joie et les chants.
+15 Rends-nous en joies tes jours de châtiment et les années où nous connaissions le malheur.
+16 Fais connaître ton oeuvre à tes serviteurs et ta splendeur à leurs fils.
+17 Que vienne sur nous la douceur du Seigneur notre Dieu ! Consolide pour nous l'ouvrage de nos mains ; oui, consolide l'ouvrage de nos mains.`,
+		},
+		{
+			title: 'Psaume 90',
+			content: `01 Quand je me tiens sous l'abri du Très-Haut et repose à l'ombre du Puissant,
+02 je dis au Seigneur : « Mon refuge, mon rempart, mon Dieu, dont je suis sûr ! »
+03 C'est lui qui te sauve des filets du chasseur et de la peste maléfique ; *
+04 il te couvre et te protège. Tu trouves sous son aile un refuge : sa fidélité est une armure, un bouclier.
+05 Tu ne craindras ni les terreurs de la nuit, ni la flèche qui vole au grand jour,
+06 ni la peste qui rôde dans le noir, ni le fléau qui frappe à midi.
+07 Qu'il en tombe mille à tes côtés, + qu'il en tombe dix mille à ta droite, * toi, tu restes hors d'atteinte.
+08 Il suffit que tu ouvres les yeux, tu verras le salaire du méchant.
+09 Oui, le Seigneur est ton refuge ; tu as fait du Très-Haut ta forteresse.
+10 Le malheur ne pourra te toucher, ni le danger, approcher de ta demeure :
+11 il donne mission à ses anges de te garder sur tous tes chemins.
+12 Ils te porteront sur leurs mains pour que ton pied ne heurte les pierres ;
+13 tu marcheras sur la vipère et le scorpion, tu écraseras le lion et le Dragon.
+14 « Puisqu'il s'attache à moi, je le délivre ; je le défends, car il connaît mon nom.
+15 Il m'appelle, et moi, je lui réponds ; je suis avec lui dans son épreuve. « Je veux le libérer, le glorifier ; +
+16 de longs jours, je veux le rassasier, * et je ferai qu'il voie mon salut. »`,
+		},
+		{
+			title: 'Psaume 91',
+			content: `02 Qu'il est bon de rendre grâce au Seigneur, de chanter pour ton nom, Dieu Très-Haut,
+03 d'annoncer dès le matin ton amour, ta fidélité, au long des nuits,
+04 sur la lyre à dix cordes et sur la harpe, sur un murmure de cithare.
+05 Tes oeuvres me comblent de joie ; devant l'ouvrage de tes mains, je m'écrie :
+06 « Que tes oeuvres sont grandes, Seigneur ! Combien sont profondes tes pensées ! »
+07 L'homme borné ne le sait pas, l'insensé ne peut le comprendre :
+08 les impies croissent comme l'herbe, * ils fleurissent, ceux qui font le mal, mais pour disparaître à tout jamais.
+09 Toi, qui habites là-haut, tu es pour toujours le Seigneur.
+10 Vois tes ennemis, Seigneur, vois tes ennemis qui périssent, * et la déroute de ceux qui font le mal.
+11 Tu me donnes la fougue du taureau, tu me baignes d'huile nouvelle ;
+12 j'ai vu, j'ai repéré mes espions, j'entends ceux qui viennent m'attaquer.
+13 Le juste grandira comme un palmier, il poussera comme un cèdre du Liban ;
+14 planté dans les parvis du Seigneur, il grandira dans la maison de notre Dieu.
+15 Vieillissant, il fructifie encore, il garde sa sève et sa verdeur
+16 pour annoncer : « Le Seigneur est droit ! Pas de ruse en Dieu, mon rocher ! »`,
+		},
+		{
+			title: 'Psaume 92',
+			content: `01 Le Seigneur est roi ; il s'est vêtu de magnificence, le Seigneur a revêtu sa force. Et la terre tient bon, inébranlable ;
+02 dès l'origine ton trône tient bon, depuis toujours, tu es.
+03 Les flots s'élèvent, Seigneur, les flots élèvent leur voix, les flots élèvent leur fracas.
+04 Plus que la voix des eaux profondes, des vagues superbes de la mer, superbe est le Seigneur dans les hauteurs.
+05 Tes volontés sont vraiment immuables : la sainteté emplit ta maison, Seigneur, pour la suite des temps.`,
+		},
+		{
+			title: 'Psaume 93',
+			content: `01 Dieu qui fais justice, Seigneur, Dieu qui fais justice, parais !
+02 Lève-toi, juge de la terre ; aux orgueilleux, rends ce qu'ils méritent.
+03 Combien de temps les impies, Seigneur, combien de temps vont-ils triompher ?
+04 Ils parlent haut, ils profèrent l'insolence, ils se vantent, tous ces malfaisants.
+05 C'est ton peuple, Seigneur, qu'ils piétinent, et ton domaine qu'ils écrasent ;
+06 ils massacrent la veuve et l'étranger, ils assassinent l'orphelin.
+07 Ils disent : « Le Seigneur ne voit pas, le Dieu de Jacob ne sait pas ! »
+08 Sachez-le, esprits vraiment stupides ; insensés, comprendrez-vous un jour ?
+09 Lui qui forma l'oreille, il n'entendrait pas ? + il a façonné l'oeil, et il ne verrait pas ?
+10 il a puni des peuples et ne châtierait plus ? Lui qui donne aux hommes la connaissance, +
+11 il connaît les pensées de l'homme, et qu'elles sont du vent !
+12 Heureux l'homme que tu châties, Seigneur, celui que tu enseignes par ta loi,
+13 pour le garder en paix aux jours de malheur, tandis que se creuse la fosse de l'impie.
+14 Car le Seigneur ne délaisse pas son peuple, il n'abandonne pas son domaine :
+15 on jugera de nouveau selon la justice ; tous les hommes droits applaudiront.
+16 Qui se lèvera pour me défendre des méchants ? Qui m'assistera face aux criminels ?
+17 Si le Seigneur ne m'avait secouru, j'allais habiter le silence.
+18 Quand je dis : « Mon pied trébuche ! » ton amour, Seigneur, me soutient.
+19 Quand d'innombrables soucis m'envahissent, tu me réconfortes et me consoles.
+20 Es-tu l'allié d'un pouvoir corrompu qui engendre la misère au mépris des lois ?
+21 On s'attaque à la vie de l'innocent, le juste que l'on tue est déclaré coupable.
+22 Mais le Seigneur était ma forteresse, et Dieu, le rocher de mon refuge.
+23 Il retourne sur eux leur méfait : pour leur malice, qu'il les réduise au silence, qu'il les réduise au silence, le Seigneur notre Dieu.`,
+		},
+		{
+			title: 'Psaume 94',
+			content: `01 Venez, crions de joie pour le Seigneur, acclamons notre Rocher, notre salut !
+02 Allons jusqu'à lui en rendant grâce, par nos hymnes de fête acclamons-le !
+03 Oui, le grand Dieu, c'est le Seigneur, le grand roi au-dessus de tous les dieux :
+04 il tient en main les profondeurs de la terre, et les sommets des montagnes sont à lui ;
+05 à lui la mer, c'est lui qui l'a faite, et les terres, car ses mains les ont pétries.
+06 Entrez, inclinez-vous, prosternez-vous, adorons le Seigneur qui nous a faits.
+07 Oui, il est notre Dieu ; + nous sommes le peuple qu'il conduit, le troupeau guidé par sa main. Aujourd'hui écouterez-vous sa parole ? +
+08 « Ne fermez pas votre coeur comme au désert, comme au jour de tentation et de défi,
+09 où vos pères m'ont tenté et provoqué, et pourtant ils avaient vu mon exploit.
+10 « Quarante ans leur génération m'a déçu, + et j'ai dit : Ce peuple a le coeur égaré, il n'a pas connu mes chemins.
+11 Dans ma colère, j'en ai fait le serment : Jamais ils n'entreront dans mon repos. »`,
+		},
+		{
+			title: 'Psaume 95',
+			content: `01 Chantez au Seigneur un chant nouveau, chantez au Seigneur, terre entière,
+02 chantez au Seigneur et bénissez son nom ! De jour en jour, proclamez son salut,
+03 racontez à tous les peuples sa gloire, à toutes les nations ses merveilles !
+04 Il est grand, le Seigneur, hautement loué, redoutable au-dessus de tous les dieux :
+05 néant, tous les dieux des nations ! Lui, le Seigneur, a fait les cieux :
+06 devant lui, splendeur et majesté, dans son sanctuaire, puissance et beauté.
+07 Rendez au Seigneur, familles des peuples, rendez au Seigneur la gloire et la puissance,
+08 rendez au Seigneur la gloire de son nom. Apportez votre offrande, entrez dans ses parvis,
+09 adorez le Seigneur, éblouissant de sainteté : tremblez devant lui, terre entière.
+10 Allez dire aux nations : « Le Seigneur est roi ! » Le monde, inébranlable, tient bon. Il gouverne les peuples avec droiture.
+11 Joie au ciel ! Exulte la terre ! Les masses de la mer mugissent,
+12 la campagne tout entière est en fête. Les arbres des forêts dansent de joie
+13 devant la face du Seigneur, car il vient, car il vient pour juger la terre. Il jugera le monde avec justice, * et les peuples selon sa vérité !`,
+		},
+		{
+			title: 'Psaume 96',
+			content: `01 Le Seigneur est roi ! Exulte la terre ! Joie pour les îles sans nombre !
+02 Ténèbre et nuée l'entourent, justice et droit sont l'appui de son trône.
+03 Devant lui s'avance un feu qui consume alentour ses ennemis.
+04 Quand ses éclairs illuminèrent le monde, la terre le vit et s'affola ;
+05 les montagnes fondaient comme cire devant le Seigneur, devant le Maître de toute la terre.
+06 Les cieux ont proclamé sa justice, et tous les peuples ont vu sa gloire.
+07 Honte aux serviteurs d'idoles qui se vantent de vanités ! A genoux devant lui, tous les dieux !
+08 Pour Sion qui entend, grande joie ! Les villes de Juda exultent devant tes jugements, Seigneur !
+09 Tu es, Seigneur, le Très-Haut sur toute la terre : * tu domines de haut tous les dieux.
+10 Haïssez le mal, vous qui aimez le Seigneur, + car il garde la vie de ses fidèles * et les arrache aux mains des impies.
+11 Une lumière est semée pour le juste, et pour le coeur simple, une joie.
+12 Que le Seigneur soit votre joie, hommes justes ; rendez grâce en rappelant son nom très saint.`,
+		},
+		{
+			title: 'Psaume 97',
+			content: `01 Chantez au Seigneur un chant nouveau, car il a fait des merveilles ; par son bras très saint, par sa main puissante, il s'est assuré la victoire.
+02 Le Seigneur a fait connaître sa victoire et révélé sa justice aux nations ;
+03 il s'est rappelé sa fidélité, son amour, en faveur de la maison d'Israël ; la terre tout entière a vu la victoire de notre Dieu.
+04 Acclamez le Seigneur, terre entière, sonnez, chantez, jouez ;
+05 jouez pour le Seigneur sur la cithare, sur la cithare et tous les instruments ;
+06 au son de la trompette et du cor, acclamez votre roi, le Seigneur !
+07 Que résonnent la mer et sa richesse, le monde et tous ses habitants ;
+08 que les fleuves battent des mains, que les montagnes chantent leur joie,
+09 à la face du Seigneur, car il vient pour gouverner la terre, * pour gouverner le monde avec justice et les peuples avec droiture !`,
+		},
+		{
+			title: 'Psaume 98',
+			content: `01 Le Seigneur est roi : les peuples s'agitent. Il trône au-dessus des Kéroubim : la terre tremble.
+02 En Sion le Seigneur est grand : c'est lui qui domine tous les peuples.
+03 Ils proclament ton nom, grand et redoutable,R / car il est saint !
+04 Il est fort, le roi qui aime la justice. + C'est toi, l'auteur du droit, toi qui assures en Jacob la justice et la droiture.
+05 Exaltez le Seigneur notre Dieu, + prosternez-vous au pied de son trône,R / car il est saint !
+06 Moïse et le prêtre Aaron, Samuel, le Suppliant, + tous, ils suppliaient le Seigneur, et lui leur répondait.
+07 Dans la colonne de nuée, il parlait avec eux ; ils ont gardé ses volontés, les lois qu'il leur donna.
+08 Seigneur notre Dieu, tu leur as répondu : + avec eux, tu restais un Dieu patient, mais tu les punissais pour leurs fautes.
+09 Exaltez le Seigneur notre Dieu, + prosternez-vous devant sa sainte montagne,R / car il est saint, le Seigneur notre Dieu.`,
+		},
+		{
+			title: 'Psaume 99',
+			content: `01 Acclamez le Seigneur, terre entière,
+02 servez le Seigneur dans l'allégresse, venez à lui avec des chants de joie !
+03 Reconnaissez que le Seigneur est Dieu : il nous a faits, et nous sommes à lui, nous, son peuple, son troupeau.
+04 Venez dans sa maison lui rendre grâce, dans sa demeure chanter ses louanges ; rendez-lui grâce et bénissez son nom !
+05 Oui, le Seigneur est bon, éternel est son amour, sa fidélité demeure d'âge en âge.`,
+		},
+		{
+			title: 'Psaume 100',
+			content: `01 Je chanterai justice et bonté : * à toi mes hymnes, Seigneur !
+02 J'irai par le chemin le plus parfait ; * quand viendras-tu jusqu'à moi ? Je marcherai d'un cœur parfait avec ceux de ma maison ; *
+03 je n'aurai pas même un regard pour les pratiques démoniaques. Je haïrai l'action du traître qui n'aura sur moi nulle prise ; *
+04 loin de moi, le coeur tortueux ! Le méchant, je ne veux pas le connaître.
+05 Qui dénigre en secret son prochain, je le réduirai au silence ; * le regard hautain, le coeur ambitieux, je ne peux les tolérer.
+06 Mes yeux distinguent les hommes sûrs du pays : ils siégeront à mes côtés ; * qui se conduira parfaitement celui-là me servira.
+07 Pas de siège, parmi ceux de ma maison, pour qui se livre à la fraude ; * impossible à qui profère le mensonge de tenir sous mon regard.
+08 Chaque matin, je réduirai au silence tous les coupables du pays, * pour extirper de la ville du Seigneur tous les auteurs de crimes.`,
+		},
+		{
+			title: 'Psaume 101',
+			content: `02 Seigneur, entends ma prière : que mon cri parvienne jusqu'à toi !
+03 Ne me cache pas ton visage le jour où je suis en détresse ! Le jour où j'appelle, écoute-moi ; viens vite, réponds-moi !
+04 Mes jours s'en vont en fumée, mes os comme un brasier sont en feu ;
+05 mon coeur se dessèche comme l'herbe fauchée, j'oublie de manger mon pain ;
+06 à force de crier ma plainte, ma peau colle à mes os.
+07 Je ressemble au corbeau du désert, je suis pareil à la hulotte des ruines :
+08 je veille la nuit, comme un oiseau solitaire sur un toit.
+09 Le jour, mes ennemis m'outragent ; dans leur rage contre moi, ils me maudissent.
+10 La cendre est le pain que je mange, je mêle à ma boisson mes larmes.
+11 Dans ton indignation, dans ta colère, tu m'as saisi et rejeté :
+12 l'ombre gagne sur mes jours, et moi, je me dessèche comme l'herbe.
+13 Mais toi, Seigneur, tu es là pour toujours ; d'âge en âge on fera mémoire de toi.
+14 Toi, tu montreras ta tendresse pour Sion ; il est temps de la prendre en pitié : l'heure est venue.
+15 Tes serviteurs ont pitié de ses ruines, ils aiment jusqu'à sa poussière.
+16 Les nations craindront le nom du Seigneur, et tous les rois de la terre, sa gloire :
+17 quand le Seigneur rebâtira Sion, quand il apparaîtra dans sa gloire,
+18 il se tournera vers la prière du spolié, il n'aura pas méprisé sa prière.
+19 Que cela soit écrit pour l'âge à venir, et le peuple à nouveau créé chantera son Dieu :
+20 « Des hauteurs, son sanctuaire, le Seigneur s'est penché ; du ciel, il regarde la terre
+21 pour entendre la plainte des captifs et libérer ceux qui devaient mourir. »
+22 On publiera dans Sion le nom du Seigneur et sa louange dans tout Jérusalem,
+23 au rassemblement des royaumes et des peuples qui viendront servir le Seigneur.
+24 Il a brisé ma force en chemin, réduit le nombre de mes jours.
+25 Et j'ai dit : « Mon Dieu, ne me prends pas au milieu de mes jours ! » Tes années recouvrent tous les temps : +
+26 autrefois tu as fondé la terre ; le ciel est l'ouvrage de tes mains.
+27 Ils passent, mais toi, tu demeures : + ils s'usent comme un habit, l'un et l'autre ; tu les remplaces comme un vêtement.
+28 Toi, tu es le même ; tes années ne finissent pas.
+29 Les fils de tes serviteurs trouveront un séjour, et devant toi se maintiendra leur descendance.`,
+		},
+		{
+			title: 'Psaume 102',
+			content: `01 Bénis le Seigneur, ô mon âme, bénis son nom très saint, tout mon être !
+02 Bénis le Seigneur, ô mon âme, n'oublie aucun de ses bienfaits !
+03 Car il pardonne toutes tes offenses et te guérit de toute maladie ;
+04 il réclame ta vie à la tombe et te couronne d'amour et de tendresse ;
+05 il comble de biens tes vieux jours : tu renouvelles, comme l'aigle, ta jeunesse.
+06 Le Seigneur fait œuvre de justice, il défend le droit des opprimés.
+07 Il révèle ses desseins à Moïse, aux enfants d'Israël ses hauts faits.
+08 Le Seigneur est tendresse et pitié, lent à la colère et plein d'amour ;
+09 il n'est pas pour toujours en procès, ne maintient pas sans fin ses reproches ;
+10 il n'agit pas envers nous selon nos fautes, ne nous rend pas selon nos offenses.
+11 Comme le ciel domine la terre, fort est son amour pour qui le craint ;
+12 aussi loin qu'est l'orient de l'occident, il met loin de nous nos péchés ;
+13 comme la tendresse du père pour ses fils, la tendresse du Seigneur pour qui le craint !
+14 Il sait de quoi nous sommes pétris, il se souvient que nous sommes poussière.
+15 L'homme ! ses jours sont comme l'herbe ; comme la fleur des champs, il fleurit :
+16 dès que souffle le vent, il n'est plus, même la place où il était l'ignore.
+17 Mais l'amour du Seigneur, sur ceux qui le craignent, est de toujours à toujours, * et sa justice pour les enfants de leurs enfants,
+18 pour ceux qui gardent son alliance et se souviennent d'accomplir ses volontés.
+19 Le Seigneur a son trône dans les cieux : sa royauté s'étend sur l'univers.
+20 Messagers du Seigneur, bénissez-le, invincibles porteurs de ses ordres, * attentifs au son de sa parole !
+21 Bénissez-le, armées du Seigneur, serviteurs qui exécutez ses désirs !
+22 Toutes les œuvres du Seigneur, bénissez-le, sur toute l'étendue de son empire ! Bénis le Seigneur, ô mon âme !`,
+		},
+		{
+			title: 'Psaume 103',
+			content: `01 Bénis le Seigneur, ô mon âme ; Seigneur mon Dieu, tu es si grand ! Revêtu de magnificence,
+02 tu as pour manteau la lumière ! Comme une tenture, tu déploies les cieux,
+03 tu élèves dans leurs eaux tes demeures ; des nuées, tu te fais un char, tu t'avances sur les ailes du vent ;
+04 tu prends les vents pour messagers, pour serviteurs, les flammes des éclairs.
+05 Tu as donné son assise à la terre : qu'elle reste inébranlable au cours des temps.
+06 Tu l'as vêtue de l'abîme des mers : les eaux couvraient même les montagnes ;
+07 à ta menace, elles prennent la fuite, effrayées par le tonnerre de ta voix.
+08 Elles passent les montagnes, se ruent dans les vallées vers le lieu que tu leur as préparé.
+09 Tu leur imposes la limite à ne pas franchir : qu'elles ne reviennent jamais couvrir la terre.
+10 Dans les ravins tu fais jaillir des sources et l'eau chemine aux creux des montagnes ;
+11 elle abreuve les bêtes des champs : l'âne sauvage y calme sa soif ;
+12 les oiseaux séjournent près d'elle : dans le feuillage on entend leurs cris.
+13 De tes demeures tu abreuves les montagnes, et la terre se rassasie du fruit de tes oeuvres ;
+14 tu fais pousser les prairies pour les troupeaux, et les champs pour l'homme qui travaille. De la terre il tire son pain :
+15 le vin qui réjouit le coeur de l'homme, l'huile qui adoucit son visage, et le pain qui fortifie le coeur de l'homme.
+16 Les arbres du Seigneur se rassasient, les cèdres qu'il a plantés au Liban ;
+17 c'est là que vient nicher le passereau, et la cigogne a sa maison dans les cyprès ;
+18 aux chamois, les hautes montagnes, aux marmottes, l'abri des rochers.
+19 Tu fis la lune qui marque les temps et le soleil qui connaît l'heure de son coucher.
+20 Tu fais descendre les ténèbres, la nuit vient : les animaux dans la forêt s'éveillent ;
+21 le lionceau rugit vers sa proie, il réclame à Dieu sa nourriture.
+22 Quand paraît le soleil, ils se retirent : chacun gagne son repaire.
+23 L'homme sort pour son ouvrage, pour son travail, jusqu'au soir.
+24 Quelle profusion dans tes oeuvres, Seigneur ! + Tout cela, ta sagesse l'a fait ; * la terre s'emplit de tes biens.
+25 Voici l'immensité de la mer, son grouillement innombrable d'animaux grands et petits,
+26 ses bateaux qui voyagent, et Léviathan que tu fis pour qu'il serve à tes jeux.
+27 Tous, ils comptent sur toi pour recevoir leur nourriture au temps voulu.
+28 Tu donnes : eux, ils ramassent ; tu ouvres la main : ils sont comblés.
+29 Tu caches ton visage : ils s'épouvantent ; tu reprends leur souffle, ils expirent et retournent à leur poussière.
+30 Tu envoies ton souffle : ils sont créés ; tu renouvelles la face de la terre.
+31 Gloire au Seigneur à tout jamais ! Que Dieu se réjouisse en ses oeuvres !
+32 Il regarde la terre : elle tremble ; il touche les montagnes : elles brûlent.
+33 Je veux chanter au Seigneur tant que je vis ; je veux jouer pour mon Dieu tant que je dure.
+34 Que mon poème lui soit agréable ; moi, je me réjouis dans le Seigneur.
+35 Que les pécheurs disparaissent de la terre ! Que les impies n'existent plus ! Bénis le Seigneur, ô mon âme !`,
+		},
+		{
+			title: 'Psaume 104',
+			content: `01 Rendez grâce au Seigneur, proclamez son nom, annoncez parmi les peuples ses hauts faits ;
+02 chantez et jouez pour lui, redites sans fin ses merveilles ;
+03 glorifiez-vous de son nom très saint : joie pour les coeurs qui cherchent Dieu !
+04 Cherchez le Seigneur et sa puissance, recherchez sans trêve sa face ;
+05 souvenez-vous des merveilles qu'il a faites, de ses prodiges, des jugements qu'il prononça,
+06 vous, la race d'Abraham son serviteur, les fils de Jacob, qu'il a choisis.
+07 Le Seigneur, c'est lui notre Dieu : ses jugements font loi pour l'univers.
+08 Il s'est toujours souvenu de son alliance, parole édictée pour mille générations :
+09 promesse faite à Abraham, garantie par serment à Isaac,
+10 érigée en loi avec Jacob, alliance éternelle pour Israël.
+11 Il a dit : « Je vous donne le pays de Canaan, ce sera votre part d'héritage. »
+12 En ces temps-là, on pouvait les compter : c'était une poignée d'immigrants ;
+13 ils allaient de nation en nation, d'un royaume vers un autre royaume.
+14 Mais Dieu ne souffrait pas qu'on les opprime ; à cause d'eux, il châtiait des rois :
+15 « Ne touchez pas à qui m'est consacré, ne maltraitez pas mes prophètes ! »
+16 Il appela sur le pays la famine, le privant de toute ressource.
+17 Mais devant eux il envoya un homme, Joseph, qui fut vendu comme esclave.
+18 On lui met aux pieds des entraves, on lui passe des fers au cou ;
+19 il souffrait pour la parole du Seigneur, jusqu'au jour où s'accomplit sa prédiction.
+20 Le roi ordonne qu'il soit relâché, le maître des peuples, qu'il soit libéré.
+21 Il fait de lui le chef de sa maison, le maître de tous ses biens,
+22 pour que les princes lui soient soumis, et qu'il apprenne la sagesse aux anciens.
+23 Alors Israël entre en Égypte, Jacob émigre au pays de Cham.
+24 Dieu rend son peuple nombreux et plus puissant que tous ses adversaires ;
+25 ceux-là, il les fait se raviser, haïr son peuple et tromper ses serviteurs.
+26 Mais il envoie son serviteur, Moïse, avec un homme de son choix, Aaron,
+27 pour annoncer des signes prodigieux, des miracles au pays de Cham.
+28 Il envoie les ténèbres, tout devient ténèbres : nul ne résiste à sa parole ;
+29 il change les eaux en sang et fait périr les poissons.
+30 Des grenouilles envahissent le pays jusque dans les chambres du roi.
+31 Il parle, et la vermine arrive : des moustiques, sur toute la contrée.
+32 Au lieu de la pluie, il donne la grêle, des éclairs qui incendient les champs ;
+33 il frappe les vignes et les figuiers, il brise les arbres du pays.
+34 Il parle, et les sauterelles arrivent, des insectes en nombre infini
+35 qui mangent toute l'herbe du pays, qui mangent le fruit de leur sol.
+36 Il frappe les fils aînés du pays, toute la fleur de la race ;
+37 il fait sortir les siens chargés d'argent et d'or ; pas un n'a flanché dans leurs tribus !
+38 Et l'Égypte se réjouit de leur départ, car ils l'avaient terrorisée.
+39 Il étend une nuée pour les couvrir ; la nuit, un feu les éclaire.
+40 A leur demande, il fait passer des cailles, il les rassasie du pain venu des cieux ;
+41 il ouvre le rocher : l'eau jaillit, un fleuve coule au désert.
+42 Il s'est ainsi souvenu de la parole sacrée et d'Abraham, son serviteur ;
+43 il a fait sortir en grande fête son peuple, ses élus, avec des cris de joie !
+44 Il leur a donné les terres des nations, en héritage, le travail des peuples,
+45 pourvu qu'ils gardent ses volontés et qu'ils observent ses lois. Alléluia !`,
+		},
+		{
+			title: 'Psaume 105',
+			content: `01 Alléluia ! Rendez grâce au Seigneur : Il est bon ! Éternel est son amour !
+02 Qui dira les hauts faits du Seigneur, qui célébrera ses louanges ?
+03 Heureux qui pratique la justice, qui observe le droit en tout temps !
+04 Souviens-toi de moi, Seigneur, dans ta bienveillance pour ton peuple ; toi qui le sauves, visite-moi :
+05 que je voie le bonheur de tes élus ; que j'aie part à la joie de ton peuple, à la fierté de ton héritage.
+06 Avec nos pères, nous avons péché, nous avons failli et renié.
+07 En Égypte, nos pères ont méconnu tes miracles, oublié l'abondance de tes grâces et résisté au bord de la mer Rouge.
+08 Mais à cause de son nom, il les sauva, pour que soit reconnue sa puissance.
+09 Il menace la mer Rouge, elle sèche ; il les mène à travers les eaux comme au désert.
+10 Il les sauve des mains de l'oppresseur, il les rachète aux mains de l'ennemi.
+11 Et les eaux recouvrent leurs adversaires : pas un d'entre eux n'en réchappe.
+12 Alors ils croient à sa parole, ils chantent sa louange.
+13 Ils s'empressent d'oublier ce qu'il a fait, sans attendre de connaître ses desseins.
+14 Ils se livrent à leur convoitise dans le désert ; là, ils mettent Dieu à l'épreuve :
+15 et Dieu leur donne ce qu'ils ont réclamé, mais ils trouvent ses dons dérisoires.
+16 Dans le camp ils sont jaloux de Moïse et d'Aaron, le prêtre du Seigneur.
+17 La terre s'ouvre : elle avale Datan, elle recouvre la bande d'Abiron ;
+18 un feu détruit cette bande, les flammes dévorent ces méchants.
+19 A l'Horeb ils fabriquent un veau, ils adorent un objet en métal :
+20 ils échangeaient ce qui était leur gloire pour l'image d'un taureau, d'un ruminant.
+21 Ils oublient le Dieu qui les sauve, qui a fait des prodiges en Égypte,
+22 des miracles au pays de Cham, des actions terrifiantes sur la mer Rouge.
+23 Dieu a décidé de les détruire. C'est alors que Moïse, son élu, surgit sur la brèche, devant lui, pour empêcher que sa fureur les extermine.
+24 Ils dédaignent une terre savoureuse, ne voulant pas croire à sa parole ;
+25 ils récriminent sous leurs tentes sans écouter la voix du Seigneur.
+26 Dieu lève la main contre eux, jurant de les perdre au désert,
+27 de perdre leurs descendants chez les païens, de les éparpiller sur la terre.
+28 Ils se donnent au Baal de Pégor, ils communient aux repas des morts ;
+29 ils irritent Dieu par toutes ces pratiques : un désastre s'abat sur eux.
+30 Mais Pinhas s'est levé en vengeur, et le désastre s'arrête :
+31 son action est tenue pour juste d'âge en âge et pour toujours.
+32 Ils provoquent Dieu aux eaux de Mériba, ils amènent le malheur sur Moïse ;
+33 comme ils résistaient à son esprit, ses lèvres ont parlé à la légère.
+34 Refusant de supprimer les peuples que le Seigneur leur avait désignés,
+35 ils vont se mêler aux païens, ils apprennent leur manière d'agir.
+36 Alors ils servent leurs idoles, et pour eux c'est un piège :
+37 ils offrent leurs fils et leurs filles en sacrifice aux démons.
+38 Ils versent le sang innocent, le sang de leurs fils et de leurs filles qu'ils sacrifient aux idoles de Canaan, et la terre en est profanée.
+39 De telles pratiques les souillent ; ils se prostituent par de telles actions.
+40 Et le Seigneur prend feu contre son peuple : ses héritiers lui font horreur ;
+41 il les livre aux mains des païens : leurs ennemis deviennent leurs maîtres ;
+42 ils sont opprimés par l'adversaire : sa main s'appesantit sur eux.
+43 Tant de fois délivrés par Dieu, ils s'obstinent dans leur idée, * ils s'enfoncent dans leur faute.
+44 Et lui regarde leur détresse quand il entend leurs cris.
+45 Il se souvient de son alliance avec eux ; dans son amour fidèle, il se ravise :
+46 il leur donna de trouver grâce devant ceux qui les tenaient captifs.
+47 Sauve-nous, Seigneur notre Dieu, rassemble-nous du milieu des païens, que nous rendions grâce à ton saint nom, fiers de chanter ta louange !
+48 Béni soit le Seigneur, le Dieu d'Israël, depuis toujours et pour la suite des temps ! Et tout le peuple dira : Amen ! Amen !`,
+		},
+		{
+			title: 'Psaume 106',
+			content: `00 Alléluia !
+01 Rendez grâce au Seigneur : Il est bon ! Éternel est son amour !
+02 Ils le diront, les rachetés du Seigneur, qu'il racheta de la main de l'oppresseur,
+03 qu'il rassembla de tous les pays, du nord et du midi, du levant et du couchant.
+04 Certains erraient dans le désert sur des chemins perdus, sans trouver de ville où s'établir :
+05 ils souffraient la faim et la soif, ils sentaient leur âme défaillir.
+06 R/1Dans leur angoisse, ils ont crié vers le Seigneur, et lui les a tirés de la détresse :
+07 il les conduit sur le bon chemin, les mène vers une ville où s'établir.
+08 R/2Qu'ils rendent grâce au Seigneur de son amour, de ses merveilles pour les hommes :
+09 car il étanche leur soif, il comble de biens les affamés !
+10 Certains gisaient dans les ténèbres mortelles, captifs de la misère et des fers :
+11 ils avaient bravé les ordres de Dieu et méprisé les desseins du Très-Haut ;
+12 soumis par lui à des travaux accablants, ils succombaient, et nul ne les aidait.
+13 R/1Dans leur angoisse, ils ont crié vers le Seigneur, et lui les a tirés de la détresse :
+14 il les délivre des ténèbres mortelles, il fait tomber leurs chaînes.
+15 R/2Qu'ils rendent grâce au Seigneur de son amour, de ses merveilles pour les hommes :
+16 car il brise les portes de bronze, il casse les barres de fer !
+17 Certains, égarés par leur péché, ployaient sous le poids de leurs fautes :
+18 ils avaient toute nourriture en dégoût, ils touchaient aux portes de la mort.
+19 R/1Dans leur angoisse, ils ont crié vers le Seigneur, et lui les a tirés de la détresse :
+20 il envoie sa parole, il les guérit, il arrache leur vie à la fosse.
+21 R/2Qu'ils rendent grâce au Seigneur de son amour, de ses merveilles pour les hommes ;
+22 qu"ils offrent des sacrifices d"action de grâce à pleine voix qu'ils proclament ses oeuvres !
+23 Certains, embarqués sur des navires, occupés à leur travail en haute mer,
+24 ont vu les oeuvres du Seigneur et ses merveilles parmi les océans.
+25 Il parle, et provoque la tempête, un vent qui soulève les vagues :
+26 portés jusqu'au ciel, retombant aux abîmes, ils étaient malades à rendre l'âme ;
+27 ils tournoyaient, titubaient comme des ivrognes : leur sagesse était engloutie.
+28 R/1Dans leur angoisse, ils ont crié vers le Seigneur, et lui les a tirés de la détresse,
+29 réduisant la tempête au silence, faisant taire les vagues.
+30 Ils se réjouissent de les voir s'apaiser, d'être conduits au port qu'ils désiraient.
+31 R/2Qu'ils rendent grâce au Seigneur de son amour, de ses merveilles pour les hommes ;
+32 qu'ils l'exaltent à l'assemblée du peuple et le chantent parmi les anciens !
+33 C'est lui qui change les fleuves en désert, les sources d'eau en pays de la soif,
+34 en salines une terre généreuse quand ses habitants se pervertissent.
+35 C'est lui qui change le désert en étang, les terres arides en source d'eau ;
+36 là, il établit les affamés pour y fonder une ville où s'établir.
+37 Ils ensemencent des champs et plantent des vignes : ils en récoltent les fruits.
+38 Dieu les bénit et leur nombre s'accroît, il ne laisse pas diminuer leur bétail.
+39 Puis, ils déclinent, ils dépérissent, écrasés de maux et de peines.
+40 Dieu livre au mépris les puissants, il les égare dans un chaos sans chemin.
+41 Mais il relève le pauvre de sa misère ; il rend prospères familles et troupeaux.
+42 Les justes voient, ils sont en fête ; et l'injustice ferme sa bouche.
+43 Qui veut être sage retiendra ces choses : il y reconnaîtra l'amour du Seigneur.`,
+		},
+		{
+			title: 'Psaume 107',
+			content: `02 Mon coeur est prêt, mon Dieu, + je veux chanter, jouer des hymnes :ô ma gloire !
+03 Éveillez-vous, harpe, cithare, que j'éveille l'aurore !
+04 Je te rendrai grâce parmi les peuples, Seigneur, et jouerai mes hymnes en tous pays.
+05 Ton amour est plus grand que les cieux, ta vérité, plus haute que les nues.
+06 Dieu, lève-toi sur les cieux : que ta gloire domine la terre !
+07 Que tes bien-aimés soient libérés, sauve-les par ta droite : réponds-nous !
+08 Dans le sanctuaire, Dieu a parlé : + « Je triomphe ! Je partage Sichem, je divise la vallée de Soukkôt.
+09 « A moi Galaad, à moi Manassé ! + Éphraïm est le casque de ma tête, Juda, mon bâton de commandement.
+10 « Moab est le bassin où je me lave ; + sur Édom, je pose le talon, sur la Philistie, je crie victoire ! »
+11 Qui me conduira dans la Ville-forte, qui me mènera jusqu'en Édom,
+12 sinon toi, Dieu qui nous rejettes et ne sors plus avec nos armées ?
+13 Porte-nous secours dans l'épreuve : néant, le salut qui vient des hommes !
+14 Avec Dieu nous ferons des prouesses, et lui piétinera nos oppresseurs !`,
+		},
+		{
+			title: 'Psaume 108',
+			content: `01 Dieu de ma louange, sors de ton silence !
+02 La bouche de l'impie, la bouche du fourbe, s'ouvrent contre moi : * ils parlent de moi pour dire des mensonges ;
+03 ils me cernent de propos haineux, ils m'attaquent sans raison.
+04 Pour prix de mon amitié, ils m'accusent, moi qui ne suis que prière.
+05 Ils me rendent le mal pour le bien, ils paient mon amitié de leur haine.
+06 « Chargeons un impie de l'attaquer : qu'un accusateur se tienne à sa droite.
+07 A son procès, qu'on le déclare impie, que sa prière soit comptée comme une faute.
+08 « Que les jours de sa vie soient écourtés, qu'un autre prenne sa charge.
+09 Que ses fils deviennent orphelins, que sa femme soit veuve.
+10 « Qu'ils soient errants, vagabonds, ses fils, qu'ils mendient, expulsés de leurs ruines.
+11 Qu'un usurier saisisse tout son bien, que d'autres s'emparent du fruit de son travail.
+12 « Que nul ne lui reste fidèle, que nul n'ait pitié de ses orphelins.
+13 Que soit retranchée sa descendance, que son nom s'efface avec ses enfants.
+14 « Qu'on rappelle au Seigneur les fautes de ses pères, que les péchés de sa mère ne soient pas effacés.
+15 Que le Seigneur garde cela devant ses yeux, et retranche de la terre leur mémoire ! »
+16 Ainsi, celui qui m'accuse oublie d'être fidèle : * il persécute un pauvre, un malheureux, un homme blessé à mort.
+17 Puisqu'il aime la malédiction, qu'elle entre en lui ; * il refuse la bénédiction, qu'elle s'éloigne de lui !
+18 Il a revêtu comme un manteau la malédiction, * qu'elle entre en lui comme de l'eau, comme de l'huile dans ses os !
+19 Qu'elle soit l'étoffe qui l'habille, la ceinture qui ne le quitte plus !
+20 C'est ainsi que le Seigneur paiera mes accusateurs, ceux qui profèrent le mal contre moi.
+21 Mais toi, Seigneur Dieu, agis pour moi à cause de ton nom. * Ton amour est fidèle : délivre-moi.
+22 Vois, je suis pauvre et malheureux ; au fond de moi, mon coeur est blessé.
+23 Je m'en vais comme le jour qui décline, comme l'insecte qu'on chasse.
+24 J'ai tant jeûné que mes genoux se dérobent, je suis amaigri, décharné.
+25 Et moi, on me tourne en dérision, ceux qui me voient hochent la tête.
+26 Aide-moi, Seigneur mon Dieu : sauve-moi par ton amour !
+27 Ils connaîtront que là est ta main, que toi, Seigneur, tu agis.
+28 Ils maudissent, toi, tu bénis, * ils se sont dressés, ils sont humiliés : ton serviteur est dans la joie.
+29 Qu'ils soient couverts d'infamie, mes accusateurs, et revêtus du manteau de la honte !
+30 A pleine voix, je rendrai grâce au Seigneur, je le louerai parmi la multitude,
+31 car il se tient à la droite du pauvre pour le sauver de ceux qui le condamnent.`,
+		},
+		{
+			title: 'Psaume 109',
+			content: `01 Oracle du Seigneur à mon seigneur : « Siège à ma droite, * et je ferai de tes ennemis le marchepied de ton trône. »
+02 De Sion, le Seigneur te présente le sceptre de ta force : * « Domine jusqu'au coeur de l'ennemi. »
+03 Le jour où paraît ta puissance, tu es prince, éblouissant de sainteté : * « Comme la rosée qui naît de l'aurore, je t'ai engendré. »
+04 Le Seigneur l'a juré dans un serment irrévocable : * « Tu es prêtre à jamais selon l'ordre du roi Melkisédek. »
+05 A ta droite se tient le Seigneur : * il brise les rois au jour de sa colère.
+06 [Il juge les nations : les cadavres s'entassent ; * il brise les chefs, loin sur la terre.]
+07 Au torrent il s'abreuve en chemin, * c'est pourquoi il redresse la tête.`,
+		},
+		{
+			title: 'Psaume 110',
+			content: `01 Alléluia ! De tout coeur je rendrai grâce au Seigneur dans l'assemblée, parmi les justes.
+02 Grandes sont les oeuvres du Seigneur ; tous ceux qui les aiment s'en instruisent.
+03 Noblesse et beauté dans ses actions : à jamais se maintiendra sa justice.
+04 De ses merveilles il a laissé un mémorial ; le Seigneur est tendresse et pitié.
+05 il a donné des vivres à ses fidèles, gardant toujours mémoire de son alliance.
+06 Il a montré sa force à son peuple, lui donnant le domaine des nations.
+07 Justesse et sûreté, les oeuvres de ses mains, sécurité, toutes ses lois,
+08 établies pour toujours et à jamais, accomplies avec droiture et sûreté !
+09 Il apporte la délivrance à son peuple ; + son alliance est promulguée pour toujours : saint et redoutable est son nom.
+10 La sagesse commence avec la crainte du Seigneur. + Qui accomplit sa volonté en est éclairé. A jamais se maintiendra sa louange.`,
+		},
+		{
+			title: 'Psaume 111',
+			content: `01 Alléluia ! Heureux qui craint le Seigneur, qui aime entièrement sa volonté !
+02 Sa lignée sera puissante sur la terre ; la race des justes est bénie.
+03 Les richesses affluent dans sa maison : à jamais se maintiendra sa justice.
+04 Lumière des coeurs droits, il s'est levé dans les ténèbres, homme de justice, de tendresse et de pitié.
+05 L'homme de bien a pitié, il partage ; il mène ses affaires avec droiture.
+06 Cet homme jamais ne tombera ; toujours on fera mémoire du juste.
+07 Il ne craint pas l'annonce d'un malheur : le coeur ferme, il s'appuie sur le Seigneur.
+08 Son coeur est confiant, il ne craint pas : il verra ce que valaient ses oppresseurs.
+09 A pleines mains, il donne au pauvre ; + à jamais se maintiendra sa justice, sa puissance grandira, et sa gloire !
+10 L'impie le voit et s'irrite ; + il grince des dents et se détruit. L'ambition des impies se perdra.`,
+		},
+		{
+			title: 'Psaume 112',
+			content: `01 Alléluia ! Louez, serviteurs du Seigneur, louez le nom du Seigneur !
+02 Béni soit le nom du Seigneur, maintenant et pour les siècles des siècles !
+03 Du levant au couchant du soleil, loué soit le nom du Seigneur !
+04 Le Seigneur domine tous les peuples, sa gloire domine les cieux.
+05 Qui est semblable au Seigneur notre Dieu ? Lui, il siège là-haut.
+06 Mais il abaisse son regard vers le ciel et vers la terre.
+07 De la poussière il relève le faible, il retire le pauvre de la cendre
+08 pour qu'il siège parmi les princes, parmi les princes de son peuple.
+09 Il installe en sa maison la femme stérile, heureuse mère au milieu de ses fils.`,
+		},
+		{
+			title: 'Psaume 113A',
+			content: `01 Quand Israël sortit d'Égypte, et Jacob, de chez un peuple étranger,
+02 Juda fut pour Dieu un sanctuaire, Israël devint son domaine.
+03 La mer voit et s'enfuit, le Jourdain retourne en arrière.
+04 Comme des béliers, bondissent les montagnes, et les collines, comme des agneaux.
+05 Qu'as-tu, mer, à t'enfuir, Jourdain, à retourner en arrière ?
+06 Montagnes, pourquoi bondir comme des béliers, collines, comme des agneaux ?
+07 Tremble, terre, devant le Maître, devant la face du Dieu de Jacob,
+08 lui qui change le rocher en source et la pierre en fontaine !`,
+		},
+		{
+			title: 'Psaume 113B',
+			content: `01 Non pas à nous, Seigneur, non pas à nous, mais à ton nom, donne la gloire, pour ton amour et ta vérité.
+02 Pourquoi les païens diraient-ils : « Où donc est leur Dieu ? »
+03 Notre Dieu, il est au ciel ; tout ce qu'il veut, il le fait.
+04 Leurs idoles : or et argent, ouvrages de mains humaines.
+05 Elles ont une bouche et ne parlent pas, des yeux et ne voient pas,
+06 des oreilles et n'entendent pas, des narines et ne sentent pas.
+07 Leurs mains ne peuvent toucher, + leurs pieds ne peuvent marcher, pas un son ne sort de leur gosier !
+08 Qu'ils deviennent comme elles, tous ceux qui les font, ceux qui mettent leur foi en elles.
+09 Israël, mets ta foi dans le Seigneur : le secours, le bouclier, c'est lui !
+10 Famille d'Aaron, mets ta foi dans le Seigneur : le secours, le bouclier, c'est lui !
+11 Vous qui le craignez, ayez foi dans le Seigneur : le secours, le bouclier, c'est lui !
+12 Le Seigneur se souvient de nous : il bénira ! * Il bénira la famille d'Israël, il bénira la famille d'Aaron ; *
+13 il bénira tous ceux qui craignent le Seigneur, du plus grand au plus petit.
+14 Que le Seigneur multiplie ses bienfaits pour vous et vos enfants !
+15 Soyez bénis par le Seigneur qui a fait le ciel et la terre !
+16 Le ciel, c'est le ciel du Seigneur ; aux hommes, il a donné la terre.
+17 Les morts ne louent pas le Seigneur, ni ceux qui descendent au silence.
+18 Nous, les vivants, bénissons le Seigneur, maintenant et pour les siècles des siècles !`,
+		},
+		{
+			title: 'Psaume 114',
+			content: `01 J'aime le Seigneur : il entend le cri de ma prière ;
+02 il incline vers moi son oreille : toute ma vie, je l'invoquerai.
+03 J'étais pris dans les filets de la mort, retenu dans les liens de l'abîme, * j'éprouvais la tristesse et l'angoisse ;
+04 j'ai invoqué le nom du Seigneur : « Seigneur, je t'en prie, délivre-moi ! »
+05 Le Seigneur est justice et pitié, notre Dieu est tendresse.
+06 Le Seigneur défend les petits : j'étais faible, il m'a sauvé.
+07 Retrouve ton repos, mon âme, car le Seigneur t'a fait du bien.
+08 Il a sauvé mon âme de la mort, * gardé mes yeux des larmes et mes pieds du faux pas.
+09 Je marcherai en présence du Seigneur sur la terre des vivants.`,
+		},
+		{
+			title: 'Psaume 115',
+			content: `10 Je crois, et je parlerai, moi qui ai beaucoup souffert,
+11 moi qui ai dit dans mon trouble : « L'homme n'est que mensonge. »
+12 Comment rendrai-je au Seigneur tout le bien qu'il m'a fait ?
+13 J'élèverai la coupe du salut, j'invoquerai le nom du Seigneur.
+14 Je tiendrai mes promesses au Seigneur, oui, devant tout son peuple !
+15 Il en coûte au Seigneur de voir mourir les siens !
+16 Ne suis-je pas, Seigneur, ton serviteur, ton serviteur, le fils de ta servante, * moi, dont tu brisas les chaînes ?
+17 Je t'offrirai le sacrifice d'action de grâce, j'invoquerai le nom du Seigneur.
+18 Je tiendrai mes promesses au Seigneur, oui, devant tout son peuple,
+19 à l'entrée de la maison du Seigneur, au milieu de Jérusalem !`,
+		},
+		{
+			title: 'Psaume 116',
+			content: `01 Louez le Seigneur, tous les peuples ; fêtez-le, tous les pays !
+02 Son amour envers nous s'est montré le plus fort ; éternelle est la fidélité du Seigneur !`,
+		},
+		{
+			title: 'Psaume 117',
+			content: `00 Alléluia
+01 Rendez grâce au Seigneur : Il est bon ! * Éternel est son amour !
+02 Oui, que le dise Israël : Éternel est son amour ! +
+03 Que le dise la maison d'Aaron : Éternel est son amour ! *
+04 Qu'ils le disent, ceux qui craignent le Seigneur : Éternel est son amour !
+05 Dans mon angoisse j'ai crié vers le Seigneur, et lui m'a exaucé, mis au large.
+06 Le Seigneur est pour moi, je ne crains pas ; que pourrait un homme contre moi ?
+07 Le Seigneur est avec moi pour me défendre, et moi, je braverai mes ennemis.
+08 Mieux vaut s'appuyer sur le Seigneur que de compter sur les hommes ; *
+09 mieux vaut s'appuyer sur le Seigneur que de compter sur les puissants !
+10 Toutes les nations m'ont encerclé : au nom du Seigneur, je les détruis !
+11 Elles m'ont cerné, encerclé : au nom du Seigneur, je les détruis !
+12 Elles m'ont cerné comme des guêpes : + (- ce n'était qu'un feu de ronces -) * au nom du Seigneur, je les détruis !
+13 On m'a poussé, bousculé pour m'abattre ; mais le Seigneur m'a défendu.
+14 Ma force et mon chant, c'est le Seigneur ; il est pour moi le salut.
+15 Clameurs de joie et de victoire * sous les tentes des justes : « Le bras du Seigneur est fort,
+16 le bras du Seigneur se lève, * le bras du Seigneur est fort ! »
+17 Non, je ne mourrai pas, je vivrai pour annoncer les actions du Seigneur :
+18 il m'a frappé, le Seigneur, il m'a frappé, mais sans me livrer à la mort.
+19 Ouvrez-moi les portes de justice : j'entrerai, je rendrai grâce au Seigneur.
+20 « C'est ici la porte du Seigneur : qu'ils entrent, les justes ! »
+21 Je te rends grâce car tu m'as exaucé : tu es pour moi le salut.
+22 La pierre qu'ont rejetée les bâtisseurs est devenue la pierre d'angle :
+23 c'est là l'oeuvre du Seigneur, la merveille devant nos yeux.
+24 Voici le jour que fit le Seigneur, qu'il soit pour nous jour de fête et de joie !
+25 Donne, Seigneur, donne le salut ! Donne, Seigneur, donne la victoire !
+26 Béni soit au nom du Seigneur celui qui vient ! * De la maison du Seigneur, nous vous bénissons !
+27 Dieu, le Seigneur, nous illumine. Rameaux en main, formez vos cortèges jusqu'auprès de l'autel.
+28 Tu es mon Dieu, je te rends grâce, * mon Dieu, je t'exalte !
+29 Rendez grâce au Seigneur : Il est bon ! Éternel est son amour ! `,
+		},
+		{
+			title: 'Psaume 118',
+			content: `01 Heureux les hommes intègres dans leurs voies qui marchent suivant la loi du Seigneur !
+02 Heureux ceux qui gardent ses exigences, ils le cherchent de tout coeur !
+03 Jamais ils ne commettent d'injustice, ils marchent dans ses voies.
+04 Toi, tu promulgues des préceptes à observer entièrement.
+05 Puissent mes voies s'affermir à observer tes commandements !
+06 Ainsi je ne serai pas humilié quand je contemple tes volontés.
+07 D'un coeur droit, je pourrai te rendre grâce, instruit de tes justes décisions.
+08 Tes commandements, je les observe : ne m'abandonne pas entièrement.
+09 Comment, jeune, garder pur son chemin ? En observant ta parole.
+10 De tout mon coeur, je te cherche ; garde-moi de fuir tes volontés.
+11 Dans mon coeur, je conserve tes promesses pour ne pas faillir envers toi.
+12 Toi, Seigneur, tu es béni : apprends-moi tes commandements.
+13 Je fais repasser sur mes lèvres chaque décision de ta bouche.
+14 Je trouve dans la voie de tes exigences plus de joie que dans toutes les richesses.
+15 Je veux méditer sur tes préceptes et contempler tes voies.
+16 Je trouve en tes commandements mon plaisir, je n'oublie pas ta parole.
+17 Sois bon pour ton serviteur, et je vivrai, j'observerai ta parole.
+18 Ouvre mes yeux, que je contemple les merveilles de ta loi.
+19 Je suis un étranger sur la terre ; ne me cache pas tes volontés.
+20 Mon âme a brûlé de désir en tout temps pour tes décisions.
+21 Tu menaces les orgueilleux, les maudits, ceux qui fuient tes volontés.
+22 Épargne-moi l'insulte et le mépris : je garde tes exigences.
+23 Lorsque des grands accusent ton serviteur, je médite sur tes ordres.
+24 Je trouve mon plaisir en tes exigences : ce sont elles qui me conseillent.
+25 Mon âme est collée à la poussière ; fais-moi vivre selon ta parole.
+26 J'énumère mes voies : tu me réponds ; apprends-moi tes commandements.
+27 Montre-moi la voie de tes préceptes, que je médite sur tes merveilles.
+28 La tristesse m'arrache des larmes : relève-moi selon ta parole.
+29 Détourne-moi de la voie du mensonge, fais-moi la grâce de ta loi.
+30 J'ai choisi la voie de la fidélité, je m'ajuste à tes décisions.
+31 Je me tiens collé à tes exigences ; Seigneur, garde-moi d'être humilié.
+32 Je cours dans la voie de tes volontés, car tu mets au large mon coeur.
+33 Enseigne-moi, Seigneur, le chemin de tes ordres ; à les garder, j'aurai ma récompense.
+34 Montre-moi comment garder ta loi, que je l'observe de tout coeur.
+35 Guide-moi sur la voie de tes volontés, là, je me plais.
+36 Incline mon coeur vers tes exigences, non pas vers le profit.
+37 Détourne mes yeux des idoles : que tes chemins me fassent vivre.
+38 Pour ton serviteur accomplis ta promesse qui nous fera t'adorer.
+39 Détourne l'insulte qui m'effraie ; tes décisions sont bienfaisantes.
+40 Vois, j'ai désiré tes préceptes : par ta justice fais-moi vivre.
+41 Que vienne à moi, Seigneur, ton amour, et ton salut, selon ta promesse.
+42 J'aurai pour qui m'insulte une réponse, car je m'appuie sur ta parole.
+43 N'ôte pas de ma bouche la parole de vérité, car j'espère tes décisions.
+44 J'observerai sans relâche ta loi, toujours et à jamais.
+45 Je marcherai librement, car je cherche tes préceptes.
+46 Devant les rois je parlerai de tes exigences et ne serai pas humilié.
+47 Je trouve mon plaisir en tes volontés, oui, vraiment, je les aime.
+48 Je tends les mains vers tes volontés, je les aime, je médite sur tes ordres.
+49 Rappelle-toi ta parole à ton serviteur, celle dont tu fis mon espoir.
+50 Elle est ma consolation dans mon épreuve : ta promesse me fait vivre.
+51 Des orgueilleux m'ont accablé de railleries, je n'ai pas dévié de ta loi.
+52 Je me rappelle tes décisions d'autrefois : voilà ma consolation, Seigneur.
+53 Face aux impies, la fureur me prend, car ils abandonnent ta loi.
+54 J'ai fait de tes commandements mon cantique dans ma demeure d'étranger.
+55 La nuit, je me rappelle ton nom pour observer ta loi.
+56 Ce qui me revient, Seigneur, c'est de garder tes préceptes.VIII - Je n'oublie pas ta loi
+57 Mon partage, Seigneur, je l'ai dit, c'est d'observer tes paroles.
+58 De tout mon coeur, je quête ton regard : pitié pour moi selon tes promesses.
+59 J'examine la voie que j'ai prise : mes pas me ramènent à tes exigences.
+60 Je me hâte, et ne tarde pas, d'observer tes volontés.
+61 Les pièges de l'impie m'environnent, je n'oublie pas ta loi.
+
+62 Au milieu de la nuit, je me lève et te rends grâce pour tes justes décisions.
+63 Je suis lié à tous ceux qui te craignent et qui observent tes préceptes.
+64 Ton amour, Seigneur, emplit la terre ; apprends-moi tes commandements.IX - J'ai souffert pour mon bien
+65 Tu fais le bonheur de ton serviteur, Seigneur, selon ta parole.
+66 Apprends-moi à bien saisir, à bien juger : je me fie à tes volontés.
+67 Avant d'avoir souffert, je m'égarais ; maintenant, j'observe tes ordres.
+68 Toi, tu es bon, tu fais du bien : apprends-moi tes commandements.
+
+69 Des orgueilleux m'ont couvert de calomnies : de tout coeur, je garde tes préceptes.
+70 Leur coeur, alourdi, s'est fermé ; moi, je prends plaisir à ta loi.
+71 C'est pour mon bien que j'ai souffert, ainsi, ai-je appris tes commandements.
+72 Mon bonheur, c'est la loi de ta bouche, plus qu'un monceau d'or ou d'argent.
+73 Tes mains m'ont façonné, affermi ; éclaire-moi, que j'apprenne tes volontés.
+74 A me voir, ceux qui te craignent se réjouissent, car j'espère en ta parole.
+75 Seigneur, je le sais, tes décisions sont justes ; tu es fidèle quand tu m'éprouves.
+76 Que j'aie pour consolation ton amour selon tes promesses à ton serviteur !
+77 Que vienne à moi ta tendresse, et je vivrai : ta loi fait mon plaisir.
+78 Honte aux orgueilleux qui m'accablent de mensonges ; moi, je médite sur tes préceptes.
+79 Qu'ils se tournent vers moi, ceux qui te craignent, ceux qui connaissent tes exigences.
+80 Que j'aie par tes commandements le coeur intègre : alors je ne serai pas humilié.
+81 Usé par l'attente du salut, j'espère encore ta parole.
+82 L'oeil usé d'attendre tes promesses, j'ai dit : « Quand vas-tu me consoler ? »
+83 Devenu comme une outre durcie par la fumée, je n'oublie pas tes commandements.
+84 Combien de jours ton serviteur vivra-t-il ? quand jugeras-tu mes persécuteurs ?
+85 Des orgueilleux ont creusé pour moi une fosse au mépris de ta loi.
+86 Tous tes ordres ne sont que fidélité ; mensonge, mes poursuivants : aide-moi !
+87 Ils ont failli m'user, me mettre à terre : je n'ai pas abandonné tes préceptes.
+88 Fais-moi vivre selon ton amour : j'observerai les décrets de ta bouche.
+89 Pour toujours, ta parole, Seigneur, se dresse dans les cieux.
+90 Ta fidélité demeure d'âge en âge, la terre que tu fixas tient bon.
+91 Jusqu'à ce jour, le monde tient par tes décisions : toute chose est ta servante.
+92 Si je n'avais mon plaisir dans ta loi, je périrais de misère.
+93 Jamais je n'oublierai tes préceptes : par eux tu me fais vivre.
+94 Je suis à toi : sauve-moi, car je cherche tes préceptes.
+95 Des impies escomptent ma perte : moi, je réfléchis à tes exigences.
+96 De toute perfection, j'ai vu la limite ; tes volontés sont d'une ampleur infinie.
+97 De quel amour j'aime ta loi : tout le jour je la médite !
+98 Je surpasse en habileté mes ennemis, car je fais miennes pour toujours tes volontés.
+99 Je surpasse en sagesse tous mes maîtres, car je médite tes exigences.
+100 Je surpasse en intelligence les anciens, car je garde tes préceptes.
+101 Des chemins du mal, je détourne mes pas, afin d'observer ta parole.
+102 De tes décisions, je ne veux pas m'écarter, car c'est toi qui m'enseignes.
+103 Qu'elle est douce à mon palais ta promesse : le miel a moins de saveur dans ma bouche !
+104 Tes préceptes m'ont donné l'intelligence : je hais tout chemin de mensonge.
+105 Ta parole est la lumière de mes pas, la lampe de ma route.
+106 Je l'ai juré, je tiendrai mon serment, j'observerai tes justes décisions.
+107 J'ai vraiment trop souffert, Seigneur ; fais-moi vivre selon ta parole.
+108 Accepte en offrande ma prière, Seigneur : apprends-moi tes décisions.
+109 A tout instant j'expose ma vie : je n'oublie rien de ta loi.
+110 Des impies me tendent un piège : je ne dévie pas de tes préceptes.
+111 Tes exigences resteront mon héritage, la joie de mon coeur.
+112 Mon coeur incline à pratiquer tes commandements : c'est à jamais ma récompense.
+113 Je hais les coeurs partagés ; j'aime ta loi.
+114 Toi, mon abri, mon bouclier ! j'espère en ta parole.
+115 Écartez-vous de moi, méchants : je garderai les volontés de mon Dieu.
+116 Que ta promesse me soutienne, et je vivrai : ne déçois pas mon attente.
+117 Sois mon appui : je serai sauvé ; j'ai toujours tes commandements devant les yeux.
+118 Tu rejettes ceux qui fuient tes commandements : leur ruse les égare.
+119 Tu mets au rebut tous les impies de la terre ; c'est pourquoi j'aime tes exigences.
+120 Ma chair tremble de peur devant toi : tes décisions m'inspirent la crainte.
+121 J'ai agi selon le droit et la justice : ne me livre pas à mes bourreaux.
+122 Assure le bonheur de ton serviteur : que les orgueilleux ne me tourmentent plus !
+123 Mes yeux se sont usés à guetter le salut et les promesses de ta justice.
+124 Agis pour ton serviteur selon ton amour, apprends-moi tes commandements.
+125 Je suis ton serviteur, éclaire-moi : je connaîtrai tes exigences.
+126 Seigneur, il est temps que tu agisses : on a violé ta loi.
+127 Aussi j'aime tes volontés, plus que l'or le plus précieux.
+128 Je me règle sur chacun de tes préceptes, je hais tout chemin de mensonge.
+129 Quelle merveille, tes exigences, aussi mon âme les garde !
+130 Déchiffrer ta parole illumine et les simples comprennent.
+131 La bouche grande ouverte, j'aspire, assoiffé de tes volontés.
+132 Aie pitié de moi, regarde-moi : tu le fais pour qui aime ton nom.
+133 Que ta promesse assure mes pas : qu'aucun mal ne triomphe de moi !
+134 Rachète-moi de l'oppression des hommes, que j'observe tes préceptes.
+135 Pour ton serviteur que ton visage s'illumine : apprends-moi tes commandements.
+136 Mes yeux ruissellent de larmes car on n'observe pas ta loi.
+137 Toi, tu es juste, Seigneur, tu es droit dans tes décisions.
+138 Tu promulgues tes exigences avec justice, avec entière fidélité.
+139 Quand mes oppresseurs oublient ta parole, une ardeur me consume.
+140 Ta promesse tout entière est pure, elle est aimée de ton serviteur.
+141 Moi, le chétif, le méprisé, je n'oublie pas tes préceptes.
+142 Justice éternelle est ta justice, et vérité, ta loi.
+143 La détresse et l'angoisse m'ont saisi ; je trouve en tes volontés mon plaisir.
+144 Justice éternelle, tes exigences ; éclaire-moi, et je vivrai.
+145 J'appelle de tout mon coeur : réponds-moi ; je garderai tes commandements.
+146 Je t'appelle, Seigneur, sauve-moi ; j'observerai tes exigences.
+147 Je devance l'aurore et j'implore : j'espère en ta parole.
+148 Mes yeux devancent la fin de la nuit pour méditer sur ta promesse.
+149 Dans ton amour, Seigneur, écoute ma voix : selon tes décisions fais-moi vivre !
+150 Ceux qui poursuivent le mal s'approchent, ils s'éloignent de ta loi.
+151 Toi, Seigneur, tu es proche, tout dans tes ordres est vérité.
+152 Depuis longtemps je le sais : tu as fondé pour toujours tes exigences.
+153 Vois ma misère : délivre-moi ; je n'oublie pas ta loi.
+154 Soutiens ma cause : défends-moi, en ta promesse fais-moi vivre !
+155 Le salut s'éloigne des impies qui ne cherchent pas tes commandements.
+156 Seigneur, ta tendresse est sans mesure : selon ta décision fais-moi vivre !
+157 Ils sont nombreux mes persécuteurs, mes oppresseurs ; je ne dévie pas de tes exigences.
+158 J'ai vu les renégats : ils me répugnent, car ils ignorent ta promesse.
+159 Vois combien j'aime tes préceptes, Seigneur, fais-moi vivre selon ton amour !
+160 Le fondement de ta parole est vérité ; éternelles sont tes justes décisions.
+161 Des grands me persécutent sans raison ; mon coeur ne craint que ta parole.
+162 Tel celui qui trouve un grand butin, je me réjouis de tes promesses.
+163 Je hais, je déteste le mensonge ; ta loi, je l'aime.
+164 Sept fois chaque jour, je te loue pour tes justes décisions.
+165 Grande est la paix de qui aime ta loi ; jamais il ne trébuche.
+166 Seigneur, j'attends de toi le salut : j'accomplis tes volontés.
+167 Tes exigences, mon âme les observe : oui, vraiment, je les aime.
+168 J'observe tes exigences et tes préceptes : toutes mes voies sont devant toi.
+169 Que mon cri parvienne devant toi, éclaire-moi selon ta parole, Seigneur.
+170 Que ma prière arrive jusqu'à toi ; délivre-moi selon ta promesse.
+171 Que chante sur mes lèvres ta louange, car tu m'apprends tes commandements.
+172 Que ma langue redise tes promesses, car tout est justice en tes volontés.
+173 Que ta main vienne à mon aide, car j'ai choisi tes préceptes.
+174 J'ai le désir de ton salut, Seigneur : ta loi fait mon plaisir.
+175 Que je vive et que mon âme te loue ! Tes décisions me soient en aide !
+176 Je m'égare, brebis perdue : * viens chercher ton serviteur. Je n'oublie pas tes volontés.`,
+		},
+		{
+			title: 'Psaume 119',
+			content: `01 Dans ma détresse, j'ai crié vers le Seigneur, et lui m'a répondu. *
+02 Seigneur, délivre-moi de la langue perfide, de la bouche qui ment.
+03 Que t'infliger, ô langue perfide, et qu'ajouter encore ? *
+04 La flèche meurtrière du guerrier, et la braise des genêts.
+05 Malheur à moi : je dois vivre en exil * et camper dans un désert !
+06 Trop longtemps, j'ai vécu parmi ces gens qui haïssent la paix.*
+07 Je ne veux que la paix, mais quand je parle ils cherchent la guerre.`,
+		},
+		{
+			title: 'Psaume 120',
+			content: `01 Je lève les yeux vers les montagnes : d'où le secours me viendra-t-il ?
+02 Le secours me viendra du Seigneur qui a fait le ciel et la terre.
+03 Qu'il empêche ton pied de glisser, qu'il ne dorme pas, ton gardien.
+04 Non, il ne dort pas, ne sommeille pas, le gardien d'Israël.
+05 Le Seigneur, ton gardien, le Seigneur, ton ombrage, se tient près de toi.
+06 Le soleil, pendant le jour, ne pourra te frapper, ni la lune, durant la nuit.
+07 Le Seigneur te gardera de tout mal, il gardera ta vie.
+08 Le Seigneur te gardera, au départ et au retour, maintenant, à jamais.`,
+		},
+		{
+			title: 'Psaume 121',
+			content: `01 Quelle joie quand on m'a dit : « Nous irons à la maison du Seigneur ! »
+02 Maintenant notre marche prend fin devant tes portes, Jérusalem !
+03 Jérusalem, te voici dans tes murs : ville où tout ensemble ne fait qu'un!
+04 C'est là que montent les tribus, les tribus du Seigneur, * là qu'Israël doit rendre grâce au nom du Seigneur.
+05 C'est là le siège du droit, * le siège de la maison de David.
+06 Appelez le bonheur sur Jérusalem : « Paix à ceux qui t'aiment !
+07 Que la paix règne dans tes murs, le bonheur dans tes palais ! »
+08 A cause de mes frères et de mes proches, je dirai : « Paix sur toi ! »
+09 A cause de la maison du Seigneur notre Dieu, je désire ton bien.`,
+		},
+		{
+			title: 'Psaume 122',
+			content: `01 Vers toi j'ai les yeux levés, vers toi qui es au ciel.
+02 Comme les yeux de l'esclave vers la main de son maître, + comme les yeux de la servante vers la main de sa maîtresse, * nos yeux, levés vers le Seigneur notre Dieu, attendent sa pitié.
+03 Pitié pour nous, Seigneur, pitié pour nous : notre âme est rassasiée de mépris.
+04 C'en est trop, nous sommes rassasiés * du rire des satisfaits, du mépris des orgueilleux !`,
+		},
+		{
+			title: 'Psaume 123',
+			content: `01 Sans le Seigneur qui était pour nous, - qu'Israël le redise - +
+02 sans le Seigneur qui était pour nous quand des hommes nous assaillirent, *
+03 alors ils nous avalaient tout vivants, dans le feu de leur colère.
+04 Alors le flot passait sur nous, le torrent nous submergeait ; *
+05 alors nous étions submergés par les flots en furie.
+06 Béni soit le Seigneur * qui n'a pas fait de nous la proie de leurs dents !
+07 Comme un oiseau, nous avons échappé au filet du chasseur ; * le filet s'est rompu : nous avons échappé.
+08 Notre secours est le nom du Seigneur * qui a fait le ciel et la terre.`,
+		},
+		{
+			title: 'Psaume 124',
+			content: `01 Qui s'appuie sur le Seigneur ressemble au mont Sion : * il est inébranlable, il demeure à jamais.
+02 Jérusalem, des montagnes l'entourent ; * ainsi le Seigneur : il entoure son peuple maintenant et toujours.
+03 Jamais le sceptre de l'impie ne pèsera sur la part des justes, * de peur que la main des justes ne se tende vers l'idole.
+04 Sois bon pour qui est bon, Seigneur, pour l'homme au coeur droit. *
+05 Mais ceux qui rusent et qui trahissent, que le Seigneur les rejette avec les méchants !
+Paix sur Israël !`,
+		},
+		{
+			title: 'Psaume 125',
+			content: `01 Quand le Seigneur ramena les captifs à Sion,* nous étions comme en rêve !
+02 Alors notre bouche était pleine de rires, nous poussions des cris de joie ; + alors on disait parmi les nations : « Quelles merveilles fait pour eux le Seigneur ! » *
+03 Quelles merveilles le Seigneur fit pour nous : nous étions en grande fête !
+04 Ramène, Seigneur, nos captifs, comme les torrents au désert.
+05 Qui sème dans les larmes moissonne dans la joie : +
+06 il s'en va, il s'en va en pleurant, il jette la semence ; * il s'en vient, il s'en vient dans la joie, il rapporte les gerbes.`,
+		},
+		{
+			title: 'Psaume 126',
+			content: `01 Si le Seigneur ne bâtit la maison, les bâtisseurs travaillent en vain ; * si le Seigneur ne garde la ville, c'est en vain que veillent les gardes.
+02 En vain tu devances le jour, tu retardes le moment de ton repos, + tu manges un pain de douleur : * Dieu comble son bien-aimé quand il dort.
+03 Des fils, voilà ce que donne le Seigneur, des enfants, la récompense qu'il accorde ; *
+04 comme des flèches aux mains d'un guerrier, ainsi les fils de la jeunesse.
+05 Heureux l'homme vaillant qui a garni son carquois de telles armes ! * S'ils affrontent leurs ennemis sur la place, ils ne seront pas humiliés.`,
+		},
+		{
+			title: 'Psaume 127',
+			content: `01 Heureux qui craint le Seigneur et marche selon ses voies !
+02 Tu te nourriras du travail de tes mains : Heureux es-tu ! A toi, le bonheur !
+03 Ta femme sera dans ta maison comme une vigne généreuse, et tes fils, autour de la table, comme des plants d'olivier.
+04 Voilà comment sera béni l'homme qui craint le Seigneur.
+05 De Sion, que le Seigneur te bénisse ! Tu verras le bonheur de Jérusalem tous les jours de ta vie,
+06 et tu verras les fils de tes fils. Paix sur Israël !`,
+		},
+		{
+			title: 'Psaume 128',
+			content: `01 Que de mal ils m'ont fait dès ma jeunesse, - à Israël de le dire - *
+02 que de mal ils m'ont fait dès ma jeunesse : ils ne m'ont pas soumis !
+03 Sur mon dos, des laboureurs ont labouré et creusé leurs sillons ; *
+04 mais le Seigneur, le juste, a brisé l'attelage des impies.
+05 Qu'ils soient tous humiliés, rejetés, les ennemis de Sion ! *
+06 Qu'ils deviennent comme l'herbe des toits, aussitôt desséchée !
+07 Les moissonneurs n'ent font pas une poignée, ni les lieurs une gerbe, *
+08 et les passants ne peuvent leur dire : « La bénédiction du Seigneur soit sur vous ! » Au nom du Seigneur, nous vous bénissons.`,
+		},
+		{
+			title: 'Psaume 129',
+			content: `01 Des profondeurs je crie vers toi, Seigneur,
+02 Seigneur, écoute mon appel ! * Que ton oreille se fasse attentive au cri de ma prière !
+03 Si tu retiens les fautes, Seigneur Seigneur, qui subsistera ? *
+04 Mais près de toi se trouve le pardon pour que l'homme te craigne.
+05 J'espère le Seigneur de toute mon âme ; * je l'espère, et j'attends sa parole.
+06 Mon âme attend le Seigneur plus qu'un veilleur ne guette l'aurore. * Plus qu'un veilleur ne guette l'aurore,
+07 attends le Seigneur, Israël. Oui, près du Seigneur, est l'amour ; près de lui, abonde le rachat. *
+08 C'est lui qui rachètera Israël de toutes ses fautes.`,
+		},
+		{
+			title: 'Psaume 130',
+			content: `01 Seigneur, je n'ai pas le coeur fier ni le regard ambitieux ; * je ne poursuis ni grands desseins, ni merveilles qui me dépassent.
+02 Non, mais je tiens mon âme égale et silencieuse ; * mon âme est en moi comme un enfant, comme un petit enfant contre sa mère.
+03 Attends le Seigneur, Israël, * maintenant et à jamais.`,
+		},
+		{
+			title: 'Psaume 131',
+			content: `01 Souviens-toi, Seigneur, de David et de sa grande soumission
+02 quand il fit au Seigneur un serment, une promesse au Puissant de Jacob :
+03 « Jamais je n'entrerai sous ma tente, et jamais ne m'étendrai sur mon lit,
+04 j'interdirai tout sommeil à mes yeux et tout répit à mes paupières,
+05 avant d'avoir trouvé un lieu pour le Seigneur, une demeure pour le Puissant de Jacob. »
+06 Voici qu'on nous l'annonce à Éphrata, nous l'avons trouvée près de Yagar.
+07 Entrons dans la demeure de Dieu, prosternons-nous aux pieds de son trône.
+08 Monte, Seigneur, vers le lieu de ton repos, toi, et l'arche de ta force !
+09 Que tes prêtres soient vêtus de justice, que tes fidèles crient de joie !
+10 Pour l'amour de David, ton serviteur, ne repousse pas la face de ton messie.
+11 Le Seigneur l'a juré à David, et jamais il ne reprendra sa parole : « C'est un homme issu de toi que je placerai sur ton trône.
+12 « Si tes fils gardent mon alliance, les volontés que je leur fais connaître, leurs fils, eux aussi, à tout jamais, siègeront sur le trône dressé pour toi. »
+13 Car le Seigneur a fait choix de Sion ; elle est le séjour qu'il désire :
+14 « Voilà mon repos à tout jamais, c'est le séjour que j'avais désiré.
+15 « Je bénirai, je bénirai ses récoltes pour rassasier de pain ses pauvres.
+16 Je vêtirai de gloire ses prêtres, et ses fidèles crieront, crieront de joie.
+17 « Là, je ferai germer la force de David ; pour mon messie, j'ai allumé une lampe.
+18 Je vêtirai ses ennemis de honte, mais, sur lui, la couronne fleurira. »`,
+		},
+		{
+			title: 'Psaume 132',
+			content: `01 Oui, il est bon, il est doux pour des frères * de vivre ensemble et d'être unis !
+02 On dirait un baume précieux, un parfum sur la tête, + qui descend sur la barbe, la barbe d'Aaron, * qui descend sur le bord de son vêtement.
+03 On dirait la rosée de l'Hermon * qui descend sur les collines de Sion. C'est là que le Seigneur envoie la bénédiction, * la vie pour toujours.`,
+		},
+		{
+			title: 'Psaume 133',
+			content: `01 Vous tous, bénissez le Seigneur, vous qui servez le Seigneur, qui veillez dans la maison du Seigneur au long des nuits.
+02 Levez les mains vers le sanctuaire, et bénissez le Seigneur.
+03 Que le Seigneur te bénisse de Sion, lui qui a fait le ciel et la terre !`,
+		},
+		{
+			title: 'Psaume 134',
+			content: `01 Alléluia ! Louez le nom du Seigneur, louez-le, serviteurs du Seigneur
+02 qui veillez dans la maison du Seigneur, dans les parvis de la maison de notre Dieu.
+03 Louez la bonté du Seigneur, célébrez la douceur de son nom.
+04 C'est Jacob que le Seigneur a choisi, Israël dont il a fait son bien.
+05 Je le sais, le Seigneur est grand : notre Maître est plus grand que tous les dieux.
+06 Tout ce que veut le Seigneur, il le fait au ciel et sur la terre, dans les mers et jusqu'au fond des abîmes.
+07 De l'horizon, il fait monter les nuages ; + il lance des éclairs, et la pluie ruisselle ; * il libère le vent qu'il tenait en réserve.
+08 Il a frappé les aînés de l'Égypte, les premiers-nés de l'homme et du bétail.
+09 Il envoya des signes et des prodiges, chez toi, terre d'Égypte, sur Pharaon et tous ses serviteurs.
+10 Il a frappé des nations en grand nombre et fait périr des rois valeureux :
+11 (Séhon, le roi des Amorites, Og, le roi de Basan, et tous les royaumes de Canaan ; )
+12 il a donné leur pays en héritage, en héritage à Israël, son peuple.
+13 Pour toujours, Seigneur, ton nom ! D'âge en âge, Seigneur, ton mémorial !
+14 Car le Seigneur rend justice à son peuple : par égard pour ses serviteurs, il se reprend.
+15 Les idoles des nations : or et argent, ouvrage de mains humaines.
+16 Elles ont une bouche et ne parlent pas, des yeux et ne voient pas.
+17 Leurs oreilles n'entendent pas, et dans leur bouche, pas le moindre souffle.
+18 Qu'ils deviennent comme elles, tous ceux qui les font, ceux qui mettent leur foi en elles.
+19 Maison d'Israël, bénis le Seigneur, maison d'Aaron, bénis le Seigneur,
+20 maison de Lévi, bénis le Seigneur, et vous qui le craignez, bénissez le Seigneur !
+21 Béni soit le Seigneur depuis Sion, lui qui habite Jérusalem !`,
+		},
+		{
+			title: 'Psaume 135',
+			content: `01 Rendez grâce au Seigneur : il est bon, éternel est son amour !
+02 Rendez grâce au Dieu des dieux, éternel est son amour !
+03 Rendez grâce au Seigneur des seigneurs, éternel est son amour !
+04 Lui seul a fait de grandes merveilles, éternel est son amour !
+05 lui qui fit les cieux avec sagesse, éternel est son amour !
+06 qui affermit la terre sur les eaux, éternel est son amour !
+07 Lui qui a fait les grands luminaires, éternel est son amour !
+08 le soleil qui règne sur le jour, éternel est son amour !
+09 la lune et les étoiles, sur la nuit, éternel est son amour !
+10 Lui qui frappa les Égyptiens dans leurs aînés, éternel est son amour !
+11 et fit sortir Israël de leur pays, éternel est son amour !
+12 d'une main forte et d'un bras vigoureux, éternel est son amour !
+13 Lui qui fendit la mer Rouge en deux parts, éternel est son amour !
+14 et fit passer Israël en son milieu, éternel est son amour !
+15 y rejetant Pharaon et ses armées, éternel est son amour !
+16 Lui qui mena son peuple au désert, éternel est son amour !
+17 qui frappa des princes fameux, éternel est son amour !
+18 et fit périr des rois redoutables, éternel est son amour !
+19 Séhon, le roi des Amorites, éternel est son amour !
+20 et Og, le roi de Basan, éternel est son amour !
+21 pour donner leur pays en héritage, éternel est son amour !
+22 en héritage à Israël, son serviteur, éternel est son amour !
+23 Il se souvient de nous, les humiliés, éternel est son amour !
+24 il nous tira de la main des oppresseurs, éternel est son amour !
+25 A toute chair, il donne le pain, éternel est son amour !
+26 Rendez grâce au Dieu du ciel, éternel est son amour !`,
+		},
+		{
+			title: 'Psaume 136',
+			content: `01 Au bord des fleuves de Babylone nous étions assis et nous pleurions, + nous souvenant de Sion ; *
+02 aux saules des alentours nous avions pendu nos harpes.
+03 C'est là que nos vainqueurs nous demandèrent des chansons, + et nos bourreaux, des airs joyeux : * « Chantez-nous, disaient-ils, quelque chant de Sion. »
+04 Comment chanterions-nous un chant du Seigneur + sur une terre étrangère ? *
+05 Si je t'oublie, Jérusalem, que ma main droite m'oublie !
+06 Je veux que ma langue s'attache à mon palais + si je perds ton souvenir, * si je n'élève Jérusalem, au sommet de ma joie.
+07 [Souviens-toi, Seigneur, des fils du pays d'Édom, + et de ce jour à Jérusalem * où ils criaient : « Détruisez-la, détruisez-la de fond en comble ! »
+08 O Babylone misérable, + heureux qui te revaudra les maux que tu nous valus ; *
+09 heureux qui saisira tes enfants, pour les briser contre le roc !]`,
+		},
+		{
+			title: 'Psaume 137',
+			content: `01 De tout mon coeur, Seigneur, je te rends grâce : tu as entendu les paroles de ma bouche. Je te chante en présence des anges,
+02 vers ton temple sacré, je me prosterne. Je rends grâce à ton nom pour ton amour et ta vérité, car tu élèves, au-dessus de tout, ton nom et ta parole.
+03 Le jour où tu répondis à mon appel, tu fis grandir en mon âme la force.
+04 Tous les rois de la terre te rendent grâce quand ils entendent les paroles de ta bouche.
+05 Ils chantent les chemins du Seigneur : « Qu'elle est grande, la gloire du Seigneur ! »
+06 Si haut que soit le Seigneur, il voit le plus humble ; de loin, il reconnaît l'orgueilleux.
+07 Si je marche au milieu des angoisses, tu me fais vivre, ta main s'abat sur mes ennemis en colère. Ta droite me rend vainqueur.
+08 Le Seigneur fait tout pour moi ! Seigneur, éternel est ton amour : n'arrête pas l'oeuvre de tes mains.`,
+		},
+		{
+			title: 'Psaume 138',
+			content: `01 Tu me scrutes, Seigneur, et tu sais ! +
+02 Tu sais quand je m'assois, quand je me lève ; de très loin, tu pénètres mes pensées.
+03 Que je marche ou me repose, tu le vois, tous mes chemins te sont familiers.
+04 Avant qu'un mot ne parvienne à mes lèvres, déjà, Seigneur, tu le sais.
+05 Tu me devances et me poursuis, tu m'enserres, tu as mis la main sur moi.
+06 Savoir prodigieux qui me dépasse, hauteur que je ne puis atteindre !
+07 Où donc aller, loin de ton souffle ? où m'enfuir, loin de ta face ?
+08 Je gravis les cieux : tu es là ; je descends chez les morts : te voici.
+09 Je prends les ailes de l'aurore et me pose au-delà des mers :
+10 même là, ta main me conduit, ta main droite me saisit.
+11 J'avais dit : « Les ténèbres m'écrasent ! » mais la nuit devient lumière autour de moi.
+12 Même la ténèbre pour toi n'est pas ténèbre, et la nuit comme le jour est lumière !
+13 C'est toi qui as créé mes reins, qui m'as tissé dans le sein de ma mère.
+14 Je reconnais devant toi le prodige, l'être étonnant que je suis : * étonnantes sont tes oeuvres toute mon âme le sait.
+15 Mes os n'étaient pas cachés pour toi * quand j'étais façonné dans le secret, modelé aux entrailles de la terre.
+16 J'étais encore inachevé, tu me voyais ; * sur ton livre, tous mes jours étaient inscrits, recensés avant qu'un seul ne soit !
+17 Que tes pensées sont pour moi difficiles, Dieu, que leur somme est imposante !
+18 Je les compte : plus nombreuses que le sable ! Je m'éveille : je suis encore avec toi.
+19 [Dieu, si tu exterminais l'impie ! Hommes de sang, éloignez-vous de moi !
+20 Tes adversaires profanent ton nom : ils le prononcent pour détruire.
+21 Comment ne pas haïr tes ennemis, Seigneur, ne pas avoir en dégoût tes assaillants ?
+22 Je les hais d'une haine
+parfaite, je les tiens pour mes propres ennemis.]
+23 Scrute-moi, mon Dieu, tu sauras
+ma pensée  éprouve-moi, tu connaîtras mon coeur.
+24 Vois si je prends le chemin
+des idoles, et conduis-moi sur le chemin
+d'éternité `,
+		},
+		{
+			title: 'Psaume 139',
+			content: `02 Délivre-moi, Seigneur, de l'homme mauvais, contre l'homme violent, défends-moi,
+03 contre ceux qui préméditent le mal et tout le jour entretiennent la guerre,
+04 qui dardent leur langue de vipère, leur langue chargée de venin.
+05 Garde-moi, Seigneur, de la main des impies, contre l'homme violent, défends-moi, contre ceux qui méditent ma chute,
+06 les arrogants qui m'ont tendu des pièges ; sur mon passage ils ont mis un filet, ils ont dressé contre moi des embûches.
+07 Je dis au Seigneur : « Mon Dieu, c'est toi ! » Seigneur, entends le cri de ma prière.
+08 Tu es la force qui me sauve, Maître, Seigneur ; au jour du combat, tu protèges ma tête.
+09 Ne cède pas, Seigneur, au désir des impies, ne permets pas que leurs intrigues réussissent !
+10 [Sur la tête de ceux qui m'encerclent, que retombe le poids de leurs injures !
+11 Que des braises pleuvent sur eux ! Qu'ils soient jetés à la fosse et jamais ne se relèvent !
+12 L'insulteur ne tiendra pas sur la terre : le violent, le mauvais, sera traqué à mort.]
+13 Je le sais, le Seigneur rendra justice au malheureux, il fera droit au pauvre.
+14 Oui, les justes rendront grâce à ton nom, les hommes droits siégeront en ta présence.`,
+		},
+		{
+			title: 'Psaume 140',
+			content: `01 Seigneur, je t'appelle : accours vers moi ! Écoute mon appel quand je crie vers toi !
+02 Que ma prière devant toi s'élève comme un encens, et mes mains, comme l'offrande du soir.
+03 Mets une garde à mes lèvres, Seigneur, veille au seuil de ma bouche.
+04 Ne laisse pas mon coeur pencher vers le mal ni devenir complice des hommes malfaisants. Jamais je ne goûterai leurs plaisirs :
+05 que le juste me reprenne et me corrige avec bonté. Que leurs parfums, ni leurs poisons, ne touchent ma tête ! Ils font du mal : je me tiens en prière.
+06 Voici leurs juges précipités contre le roc, eux qui prenaient plaisir à m'entendre dire :
+07 « Comme un sol qu'on retourne et défonce, nos os sont dispersés à la gueule des enfers ! »
+08 Je regarde vers toi, Seigneur, mon Maître ; tu es mon refuge : épargne ma vie !
+09 Garde-moi du filet qui m'est tendu, des embûches qu'ont dressées les malfaisants.
+10 [Les impies tomberont dans leur piège ; seul, moi, je passerai.]`,
+		},
+		{
+			title: 'Psaume 141',
+			content: `02 A pleine voix, je crie vers le Seigneur ! A pleine voix, je supplie le Seigneur !
+03 Je répands devant lui ma plainte, devant lui, je dis ma détresse.
+04 Lorsque le souffle me manque, toi, tu sais mon chemin. * Sur le sentier où j'avance, un piège m'est tendu.
+05 Regarde à mes côtés, et vois : personne qui me connaisse ! * Pour moi, il n'est plus de refuge : personne qui pense à moi !
+06 J'ai crié vers toi, Seigneur ! * J'ai dit : « Tu es mon abri, ma part, sur la terre des vivants. »
+07 Sois attentif à mes appels : je suis réduit à rien ; * délivre-moi de ceux qui me poursuivent : ils sont plus forts que moi.
+08 Tire-moi de la prison où je suis, que je rende grâce à ton nom. * Autour de moi, les justes feront cercle pour le bien que tu m'as fait.`,
+		},
+		{
+			title: 'Psaume 142',
+			content: `01 Seigneur, entends ma prière ; + dans ta justice écoute mes appels, * dans ta fidélité réponds-moi.
+02 N'entre pas en jugement avec ton serviteur : aucun vivant n'est juste devant toi.
+03 L'ennemi cherche ma perte, il foule au sol ma vie ; il me fait habiter les ténèbres avec les morts de jadis.
+04 Le souffle en moi s'épuise, mon coeur au fond de moi s'épouvante.
+05 Je me souviens des jours d'autrefois, je me redis toutes tes actions, * sur l'oeuvre de tes mains je médite.
+06 Je tends les mains vers toi, me voici devant toi comme une terre assoiffée.
+07 Vite, réponds-moi, Seigneur : je suis à bout de souffle ! Ne me cache pas ton visage : je serais de ceux qui tombent dans la fosse.
+08 Fais que j'entende au matin ton amour, car je compte sur toi. Montre-moi le chemin que je dois prendre : vers toi, j'élève mon âme !
+09 Délivre-moi de mes ennemis, Seigneur : j'ai un abri auprès de toi.
+10 Apprends-moi à faire ta volonté, car tu es mon Dieu. Ton souffle est bienfaisant : qu'il me guide en un pays de plaines.
+11 Pour l'honneur de ton nom, Seigneur, fais-moi vivre ; à cause de ta justice, tire-moi de la détresse.
+12 [A cause de ton amour, tu détruiras mes ennemis ; tu feras périr mes adversaires, car je suis ton serviteur.]`,
+		},
+		{
+			title: 'Psaume 143',
+			content: `01 Béni soit le Seigneur, mon rocher ! + Il exerce mes mains pour le combat, * il m'entraîne à la bataille.
+02 Il est mon allié, ma forteresse, ma citadelle, celui qui me libère ; il est le bouclier qui m'abrite, il me donne pouvoir sur mon peuple.
+03 Qu'est-ce que l'homme, pour que tu le connaisses, Seigneur, le fils d'un homme, pour que tu comptes avec lui ?
+04 L'homme est semblable à un souffle, ses jours sont une ombre qui passe.
+05 Seigneur, incline les cieux et descends ; touche les montagnes : qu'elles brûlent !
+06 Décoche des éclairs de tous côtés, tire des flèches et répands la terreur.
+07 Des hauteurs, tends-moi la main, délivre-moi, * sauve-moi du gouffre des eaux, de l'emprise d'un peuple étranger :
+08 il dit des paroles mensongères, sa main est une main parjure.
+09 Pour toi, je chanterai un chant nouveau, pour toi, je jouerai sur la harpe à dix cordes,
+10 pour toi qui donnes aux rois la victoire et sauves de l'épée meurtrière David, ton serviteur.
+11 Délivre-moi, sauve-moi de l'emprise d'un peuple étranger : il dit des paroles mensongères, sa main est une main parjure.
+12 Que nos fils soient pareils à des plants bien venus dès leur jeune âge ; * nos filles, pareilles à des colonnes sculptées pour un palais !
+13 Nos greniers, remplis, débordants, regorgeront de biens ; * les troupeaux, par milliers, par myriades, empliront nos campagnes !
+14 Nos vassaux nous resteront soumis, plus de défaites ; * plus de brèches dans nos murs, plus d'alertes sur nos places !
+15 Heureux le peuple ainsi comblé ! Heureux le peuple qui a pour Dieu « Le Seigneur » !`,
+		},
+		{
+			title: 'Psaume 144',
+			content: `01 Je t'exalterai, mon Dieu, mon Roi, je bénirai ton nom toujours et à jamais !
+02 Chaque jour je te bénirai, je louerai ton nom toujours et à jamais.
+03 Il est grand, le Seigneur, hautement loué ; à sa grandeur, il n'est pas de limite.
+04 D'âge en âge, on vantera tes oeuvres, on proclamera tes exploits.
+05 Je redirai le récit de tes merveilles, ton éclat, ta gloire et ta splendeur.
+06 On dira ta force redoutable ; je raconterai ta grandeur.
+07 On rappellera tes immenses bontés ; tous acclameront ta justice.
+08 Le Seigneur est tendresse et pitié, lent à la colère et plein d'amour ;
+09 la bonté du Seigneur est pour tous, sa tendresse, pour toutes ses oeuvres.
+10 Que tes oeuvres, Seigneur, te rendent grâce et que tes fidèles te bénissent !
+11 Ils diront la gloire de ton règne, ils parleront de tes exploits,
+12 annonçant aux hommes tes exploits, la gloire et l'éclat de ton règne :
+13 ton règne, un règne éternel, ton empire, pour les âges des âges. Le Seigneur est vrai en tout ce qu'il dit, fidèle en tout ce qu'il fait.
+14 Le Seigneur soutient tous ceux qui tombent, il redresse tous les accablés.
+15 Les yeux sur toi, tous, ils espèrent : tu leur donnes la nourriture au temps voulu ;
+16 tu ouvres ta main : tu rassasies avec bonté tout ce qui vit.
+17 Le Seigneur est juste en toutes ses voies, fidèle en tout ce qu'il fait.
+18 Il est proche de ceux qui l'invoquent, de tous ceux qui l'invoquent en vérité.
+19 Il répond au désir de ceux qui le craignent ; il écoute leur cri : il les sauve.
+20 Le Seigneur gardera tous ceux qui l'aiment, mais il détruira tous les impies.
+21 Que ma bouche proclame les louanges du Seigneur ! * Son nom très saint, que toute chair le bénisse toujours et à jamais !`,
+		},
+		{
+			title: 'Psaume 145',
+			content: `01 Alléluia ! Chante, ô mon âme, la louange du Seigneur ! +
+02 Je veux louer le Seigneur tant que je vis, * chanter mes hymnes pour mon Dieu tant que je dure.
+03 Ne comptez pas sur les puissants, des fils d'homme qui ne peuvent sauver !
+04 Leur souffle s'en va : ils retournent à la terre ; et ce jour-là, périssent leurs projets.
+05 Heureux qui s'appuie sur le Dieu de Jacob, qui met son espoir dans le Seigneur son Dieu,
+06 lui qui a fait le ciel et la terre et la mer et tout ce qu'ils renferment ! Il garde à jamais sa fidélité,
+07 il fait justice aux opprimés ; aux affamés, il donne le pain ; le Seigneur délie les enchaînés.
+08 Le Seigneur ouvre les yeux des aveugles, le Seigneur redresse les accablés, le Seigneur aime les justes,
+09 le Seigneur protège l'étranger. Il soutient la veuve et l'orphelin, il égare les pas du méchant.
+10 D'âge en âge, le Seigneur régnera : ton Dieu, ô Sion, pour toujours !`,
+		},
+		{
+			title: 'Psaume 146',
+			content: `01 Alléluia ! Il est bon de fêter notre Dieu, il est beau de chanter sa louange !
+02 Le Seigneur rebâtit Jérusalem, il rassemble les déportés d'Israël ;
+03 il guérit les coeurs brisés et soigne leurs blessures.
+04 Il compte le nombre des étoiles, il donne à chacune un nom ;
+05 il est grand, il est fort, notre Maître : nul n'a mesuré son intelligence.
+06 Le Seigneur élève les humbles et rabaisse jusqu'à terre les impies.
+07 Entonnez pour le Seigneur l'action de grâce, jouez pour notre Dieu sur la cithare !
+08 Il couvre le ciel de nuages, il prépare la pluie pour la terre ; il fait germer l'herbe sur les montagnes et les plantes pour l'usage des hommes ;
+09 il donne leur pâture aux troupeaux, aux petits du corbeau qui la réclament.
+10 La force des chevaux n'est pas ce qu'il aime, ni la vigueur des guerriers, ce qui lui plaît ;
+11 mais le Seigneur se plaît avec ceux qui le craignent, avec ceux qui espèrent son amour.`,
+		},
+		{
+			title: 'Psaume 147',
+			content: `12 Glorifie le Seigneur, Jérusalem ! Célèbre ton Dieu, ô Sion !
+13 Il a consolidé les barres de tes portes, dans tes murs il a béni tes enfants ;
+14 il fait régner la paix à tes frontières, et d'un pain de froment te rassasie.
+15 Il envoie sa parole sur la terre : rapide, son verbe la parcourt.
+16 Il étale une toison de neige, il sème une poussière de givre.
+17 Il jette à poignées des glaçons ; devant ce froid, qui pourrait tenir ?
+18 Il envoie sa parole : survient le dégel ; il répand son souffle : les eaux coulent.
+19 Il révèle sa parole à Jacob, ses volontés et ses lois à Israël.
+20 Pas un peuple qu'il ait ainsi traité ; nul autre n'a connu ses volontés. Alléluia !`,
+		},
+		{
+			title: 'Psaume 148',
+			content: `01 Alléluia ! Louez le Seigneur du haut des cieux, louez-le dans les hauteurs.
+02 Vous, tous ses anges, louez-le, louez-le, tous les univers.
+03 Louez-le, soleil et lune, louez-le, tous les astres de lumière ;
+04 vous, cieux des cieux, louez-le, et les eaux des hauteurs des cieux.
+05 R/ Qu'ils louent le nom du Seigneur : sur son ordre ils furent créés ;
+06 c'est lui qui les posa pour toujours sous une loi qui ne passera pas.
+07 Louez le Seigneur depuis la terre, monstres marins, tous les abîmes ;
+08 feu et grêle, neige et brouillard, vent d'ouragan qui accomplis sa parole ; les arbres des vergers, tous les cèdres ;
+09 Les montagnes et toutes les collines,
+10 les bêtes sauvages et tous les troupeaux, le reptile et l'oiseau qui vole ;
+11 les rois de la terre et tous les peuples, les princes et tous les juges de la terre ;
+12 tous les jeunes gens et jeunes filles, les vieillards comme les enfants.
+13 R/Qu'ils louent le nom du Seigneur, le seul au-dessus de tout nom ; sur le ciel et sur la terre, sa splendeur :
+14 il accroît la vigueur de son peuple. Louange de tous ses fidèles, des fils d'Israël, le peuple de ses proches ! Alléluia !`,
+		},
+		{
+			title: 'Psaume 149',
+			content: `01 Alléluia ! Chantez au Seigneur un chant nouveau, louez-le dans l'assemblée de ses fidèles !
+02 En Israël, joie pour son créateur ; dans Sion, allégresse pour son Roi !
+03 Dansez à la louange de son nom, jouez pour lui, tambourins et cithares !
+04 Car le Seigneur aime son peuple, il donne aux humbles l'éclat de la victoire.
+05 Que les fidèles exultent, glorieux, criant leur joie à l'heure du triomphe.
+06 Qu'ils proclament les éloges de Dieu, tenant en main l'épée à deux tranchants.
+07 Tirer vengeance des nations, infliger aux peuples un châtiment,
+08 charger de chaînes les rois, jeter les princes dans les fers,
+09 leurs appliquer la sentence écrite, c'est la fierté de ses fidèles. Alléluia !`,
+		},
+		{
+			title: 'Psaume 150',
+			content: `01 Alléluia ! Louez Dieu dans son temple saint, louez-le au ciel de sa puissance ;
+02 louez-le pour ses actions éclatantes, louez-le selon sa grandeur !
+03 Louez-le en sonnant du cor, louez-le sur la harpe et la cithare ;
+04 louez-le par les cordes et les flûtes, louez-le par la danse et le tambour !
+05 Louez-le par les cymbales sonores, louez-le par les cymbales triomphantes !
+06 Et que tout être vivant chante louange au Seigneur ! Alléluia !`,
+		},
+	],
+};
+
+const books = [book0, book1, book2];
 
 module.exports = {books};
