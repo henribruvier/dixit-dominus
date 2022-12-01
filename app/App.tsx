@@ -1,6 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {NavigationContainer} from '@react-navigation/native';
 import {
+	Button,
 	createTheme,
 	Dialog,
 	ThemeProvider,
@@ -261,12 +262,15 @@ export default function App() {
 						/>
 						<MyStack />
 						<Dialog
+							onBackdropPress={() =>
+								setShowModalAllowNotifications(() => false)
+							}
 							isVisible={showModalAllowNotifications}
 							overlayStyle={{backgroundColor: 'white'}}
 						>
-							<Dialog.Title title='Pour utiliser cette application vous devez autoriser les notifications' />
+							<Dialog.Title title='Pour utiliser cette application il est conseillé autoriser les notifications' />
 
-							<View className='py-4'>
+							<View className='py-4 flex gap-2 w-full'>
 								<ButtonApp
 									onPress={() => {
 										Linking.openURL('app-settings:');
@@ -274,6 +278,19 @@ export default function App() {
 								>
 									Ouvir les paramètres
 								</ButtonApp>
+								<Button
+									onPress={() => setShowModalAllowNotifications(() => false)}
+									buttonStyle={{
+										backgroundColor: '#94a3b8',
+										borderColor: 'balck',
+										borderWidth: 2,
+										borderRadius: 30,
+										paddingHorizontal: 20,
+										width: '100%',
+									}}
+								>
+									Fermer
+								</Button>
 							</View>
 						</Dialog>
 					</ColorScheme>

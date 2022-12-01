@@ -2,7 +2,7 @@
 	"expo": {
 		"name": "Dixit Dominus",
 		"slug": "dixit-dominus",
-		"version": "1.1.7",
+		"version": "1.1.9",
 		"owner": "bruvios",
 		"orientation": "portrait",
 		"icon": "./assets/icon.png",
@@ -27,7 +27,7 @@
 				"foregroundImage": "./assets/adaptive-icon.png",
 				"backgroundColor": "#173052"
 			},
-			"versionCode": 7,
+			"versionCode": 9,
 			"package": "com.bruvios.dixitdominus"
 		},
 		"web": {
